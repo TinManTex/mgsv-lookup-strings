@@ -11,7 +11,7 @@ It mostly uses CityHash with seeds.
 The main ones so far are
 StrCode32 - used in lua, langIds, and in GZ as part of the file name hashing??
 PathFileNameCode64 - Used in file name hashing, most commonly seen in output from GzsTool/QarTool. (The name is my(tinmantex) choosing, since I don't know actual the function name)
-PathFileNameCode32 - some variant of the above, with a uint32 return to fit in luas number reperesentation, used in a limited fashion in lua.
+PathFileNameCode32 - some variant of the above, with a uint32 return to fit in luas number representation, used in a limited fashion in lua.
 
 In most cases we (modders) are only presented with the hashes themselves, and working with just hashes is not ideal in terms of identifying something in a human way so we want to recover the original strings.
 
@@ -23,14 +23,14 @@ Main goals:
 Creating a definitive set of hashes for a given set of data.
 Creating a dictionary of original that matches just those hashes.
 
-While there are several dictionary projects for different tools, the processes and workflows haven't been documented so have presented dificulty as different members have contributed over time, some have stopped contributing, and the data sets have increased from patches.
+While there are several dictionary projects for different tools, the processes and workflows haven't been documented so have presented difficulty as different members have contributed over time, some have stopped contributing, and the data sets have increased from patches.
 
-So another preferred goal would be to provide enough information of workflows, tools and input data be repeatable, and hopefully achive the goals quicker if later research or patches increase the set of data.
+So another preferred goal would be to provide enough information of workflows, tools and input data be repeatable, and hopefully achieve the goals quicker if later research or patches increase the set of data.
 
-Up in the air: Hash lists and dictionaries should probably be limited to the specfic game (Tpp/GZ/MGO/Whatever) for performance and to mitigate hash collision.
+Up in the air: Hash lists and dictionaries should probably be limited to the specific game (Tpp/GZ/MGO/Whatever) for performance and to mitigate hash collision.
 This is more an issue for StrCode32 (with it's uint32 hash it will cause more collisions that a uint64 output hash), and also where strings aren't likely to overlap with TPP. In the case of archives/filenames it's possible many assets will be brought over from GZ and MGO so it might be better to have combined dictionary? The current dictionary also has PT strings in it which would probably be better to shift to it's own dictionary.
 
-Tools standization, ideally tools that use hashes should document the hash function used, have an option to output hashes from processed files and allow to specify which string dictionary to use.
+Tools standardization, ideally tools that use hashes should document the hash function used, have an option to output hashes from processed files and allow to specify which string dictionary to use.
 
 
 Gathering hashes:
@@ -46,7 +46,7 @@ https://github.com/TinManTex/mgsv-lookup-strings
 Gathering:
 Using tinmantex fork of LangTool https://github.com/TinManTex/FoxEngine.TranslationTool/ with the -d switch will append all hashes of an lng/2 file to langIdHashes.txt in the working folder.
 Workflow:
-Make sure all lng files are accessable: 
+Make sure all lng files are accessible: 
 Extract all qar .dats
 Extract all fpk/ds.
 
@@ -67,7 +67,7 @@ If it's easier than adding hash output to GzsTool a tool should be created to au
 
 As GzsTool does not output the file name hashes on it's entries if it finds a string match from it's dictionary you will have to run GzsTool on all files with an empty qar_dictionary.
 
-QAR Tool will output hashes to it's archive.inf files reguardless.
+QAR Tool will output hashes to it's archive.inf files regardless.
 
 All target archive metadata files should be processed to gather the hashes.
 GzsTool uses xml so could be recovered by reading that, but it would probably be faster to just targeted string scrape 'Key='
@@ -76,7 +76,7 @@ QAR tool inf files, for each line, if find '|', hash is string before '|'
 
 Creating a test dictionary:
 ---------------------------
-Can either be a kitchen sink approach of whever strings you can find or generate, or something more targeted from any currently known strings for that set of data. 
+Can either be a kitchen sink approach of whatever strings you can find or generate, or something more targeted from any currently known strings for that set of data. 
 This falls into string scraping, and brute-force or dictionary-attack methods.
 
 langIds:
@@ -111,14 +111,14 @@ _matchedHashes and _matchedStrings are output in paired order, so for a given li
 <strings>_HashStringMatches.txt - hash string pairs, useful as a manual human lookup or identifying the file names for files that were extracted prior to the name being found.
 
 <strings>_HashStringsCollisions.txt - hash strings pairs, input strings that resolved to the same input hash. 
-If you can clearly determin which string is correct then add it to the validated dictionary and remove it from input strings for this set of hashes. If you can't decide which string is correct it's probably better to just remove them all from the input strings for the hash set.
+If you can clearly determine which string is correct then add it to the validated dictionary and remove it from input strings for this set of hashes. If you can't decide which string is correct it's probably better to just remove them all from the input strings for the hash set.
 
 
 Ok lets run some data through this.
 
 Setup:
 Grab https://github.com/TinManTex/mgsv-lookup-strings
-Beyond a collection of scraped strings usefule for creating test dictionaries it has hashes and existing dictionaries for tools.
+Beyond a collection of scraped strings useful for creating test dictionaries it has hashes and existing dictionaries for tools.
 
 I'll be focusing on langIds for LangTool
 
@@ -126,7 +126,7 @@ LangTool\Hashes\ - has hashes output from tinmantex LangTool fork using the -Exp
 
 LangTool\Dictionaries\ - has the current lang dictionary project lang_dictionary
 
-Other scattered output from hashwrangler which will get replaced if you follow the process.
+Other scattered output from HashWrangler which will get replaced if you follow the process.
 
 For example I will be testing 
 LangTool\Hashes\langIdHashesTpp-1.0.11.0.txt - As of writing the current set of Tpp langId hashes.
@@ -166,8 +166,8 @@ One string for each hash needs to be chosen for the dictionary, but which is cor
 First we'll run LangTool with our new langIdHashesTpp-1.0.11.0_matchedStrings.txt as this will have removed the colliding strings.
 With the tinmantex fork we can specify the dictionary with the -Dictionary <strings path> option.
 
-After thats completed a find-in-files using a text editor for the hashes with collisions.
-The first langId hash 1424049156 fortunately finds itself sandwitched between other found langIds
+After that’s completed a find-in-files using a text editor for the hashes with collisions.
+The first langId hash 1424049156 fortunately finds itself sandwiched between other found langIds
 
 <Entry LangId="cassette_002" Color="1" Value="TRACK" />
 <Entry Key="1424049156" Color="1" Value="CASSETTE" />
@@ -210,4 +210,4 @@ Great, 0 collisions, 0 unmatched strings, we still have 5413 unmatched hashes to
 
 For now I copy off lang_dictionary_validate_matchedStrings.txt (as this will have sorted the three resolved collision strings I added) to lang_dictionary.txt to act as the default dictionary for LangTool.
 
-Future runs can be done by pointing the HashWranglers dictionary arg to a folder instead of a specfic file, and copying the current validated dictionary there along with dictionaries of new strings to test.
+Future runs can be done by pointing the HashWranglers dictionary arg to a folder instead of a specific file, and copying the current validated dictionary there along with dictionaries of new strings to test.
