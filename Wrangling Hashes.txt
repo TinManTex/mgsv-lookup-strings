@@ -44,7 +44,7 @@ Repository:
 https://github.com/TinManTex/mgsv-lookup-strings
 
 Gathering:
-Using tinmantex fork of LangTool https://github.com/TinManTex/FoxEngine.TranslationTool/ with the -d switch will append all hashes of an lng/2 file to langIdHashes.txt in the working folder.
+Using tinmantex fork of LangTool https://github.com/TinManTex/FoxEngine.TranslationTool/ with the -OutputHashes switch will append all hashes of an lng/2 file to langIdHashes.txt in the working folder.
 Workflow:
 Make sure all lng files are accessible: 
 Extract all qar .dats
@@ -52,7 +52,7 @@ Extract all fpk/ds.
 
 Delete any existing langIdHashes.txt
 
-Run LangTool on each lng/2 with the -d switch
+Run LangTool on each lng/2 with the -OutputHashes switch
 
 Use some process to cull the list to unique hashes and sort. TODO: post uniquify
 
