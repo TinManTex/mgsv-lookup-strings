@@ -1,0 +1,2 @@
+D:\GitHub\HashWrangler\HashWrangler\bin\Debug\HashWrangler.exe "D:\Projects\MGS\!ToolOutput\HashWrangling\LangTool\Hashes\langIdHashesTpp-1.0.11.0.txt" "D:\Projects\MGS\!ToolOutput\HashWrangling\LangTool\Dictionaries\MGSV-Lang-Dictionary-Project-2017-08-10\lang_dictionary.txt" -HashFunction StrCode32
+pause
