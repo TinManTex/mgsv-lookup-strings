@@ -1,0 +1,2 @@
+D:\GitHub\HashWrangler\HashWrangler\bin\Debug\HashWrangler.exe "D:\GitHub\mgsv-lookup-strings\GzsTool\Hashes\PathCode64Gz_unique.txt" "D:\GitHub\mgsv-lookup-strings\GzsTool\Dictionaries\GZTest\PathCode64Gz_matchedStrings_resolvedCollisions.txt" -HashFunction PathCode64Gz
+pause

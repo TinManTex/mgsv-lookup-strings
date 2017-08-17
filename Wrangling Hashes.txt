@@ -11,7 +11,9 @@ It mostly uses CityHash with seeds.
 The main ones so far are
 StrCode32 - used in lua, langIds, and in GZ as part of the file name hashing??
 PathFileNameCode64 - Used in file name hashing, most commonly seen in output from GzsTool/QarTool. (The name is my(tinmantex) choosing, since I don't know actual the function name)
-PathFileNameCode32 - some variant of the above, with a uint32 return to fit in luas number representation, used in a limited fashion in lua.
+PathFileNameCode32 - some variant of the above, with a uint32 return to fit in luas number representation, used in a limited fashion in lua. Actual function code not verified.
+PathCode64 - another variant, hash of just path and file name, without the extension. Used in GzsTool/QarTool dictionary.
+PathCode64Gz - as above, but for GZ.
 
 In most cases we (modders) are only presented with the hashes themselves, and working with just hashes is not ideal in terms of identifying something in a human way so we want to recover the original strings.
 
@@ -44,7 +46,7 @@ Repository:
 https://github.com/TinManTex/mgsv-lookup-strings
 
 Gathering:
-Using tinmantex fork of LangTool https://github.com/TinManTex/FoxEngine.TranslationTool/ with the -OutputHashes switch will append all hashes of an lng/2 file to langIdHashes.txt in the working folder.
+Using this fork of LangTool https://github.com/TinManTex/FoxEngine.TranslationTool/ with the -OutputHashes option will append all hashes of an lng/2 file to langIdHashes.txt in the working folder.
 Workflow:
 Make sure all lng files are accessible: 
 Extract all qar .dats
@@ -52,7 +54,7 @@ Extract all fpk/ds.
 
 Delete any existing langIdHashes.txt
 
-Run LangTool on each lng/2 with the -OutputHashes switch
+Run LangTool on each lng/2 with the -OutputHashes option
 
 Use some process to cull the list to unique hashes and sort. TODO: post uniquify
 
@@ -61,17 +63,13 @@ Repository:
 The https://github.com/emoose/MGSV-QAR-Dictionary-Project has reference hashes, however they are currently not updated to 1.0.11.0, and there's no information of emooses workflow to create them.
 
 Gathering:
-Ideally GzsTool should have an option to output hashes as it processes archives.
-As that is not the case one method is to recover from the archive metadata created by GzsTool or QAR Tool/FPK Tool.
-If it's easier than adding hash output to GzsTool a tool should be created to automate the following workflow step.
+Tpp: Using this fork of GzsTool https://github.com/TinManTex/GzsTool with the -OutputHashes option will output the hashes for the qar file to <filename>_pathHashes.txt
 
-As GzsTool does not output the file name hashes on it's entries if it finds a string match from it's dictionary you will have to run GzsTool on all files with an empty qar_dictionary.
-
-QAR Tool will output hashes to it's archive.inf files regardless.
-
-All target archive metadata files should be processed to gather the hashes.
-GzsTool uses xml so could be recovered by reading that, but it would probably be faster to just targeted string scrape 'Key='
-QAR tool inf files, for each line, if find '|', hash is string before '|'
+GZ: The fork doesn't support GZ as GzsTools last version that supported GZ is 0.2. So have to fall back to grabbing from the archive metadata .xml files.
+Clear GzsTool 0.2 dictionary so it outputs pathcode names.
+Run on the GZ .gz0s.
+Iterate the .xml files and grab from FilePath= , strip the file extension.
+Altenatively iterate the extracted files and grab their filenames without extension.
 
 
 Creating a test dictionary:
@@ -110,8 +108,9 @@ _matchedHashes and _matchedStrings are output in paired order, so for a given li
 
 <strings>_HashStringMatches.txt - hash string pairs, useful as a manual human lookup or identifying the file names for files that were extracted prior to the name being found.
 
-<strings>_HashStringsCollisions.txt - hash strings pairs, input strings that resolved to the same input hash. 
+<strings>_HashStringsCollisions.txt - hash strings pairs, input strings that resolved to the same input hash.
 If you can clearly determine which string is correct then add it to the validated dictionary and remove it from input strings for this set of hashes. If you can't decide which string is correct it's probably better to just remove them all from the input strings for the hash set.
+GOTCHA: PathCode64 strings with extension collide with the same string without a collision. PathCode64/GzsTool dictionaries are for paths without extensions.
 
 
 Ok lets run some data through this.
@@ -211,3 +210,50 @@ Great, 0 collisions, 0 unmatched strings, we still have 5413 unmatched hashes to
 For now I copy off lang_dictionary_validate_matchedStrings.txt (as this will have sorted the three resolved collision strings I added) to lang_dictionary.txt to act as the default dictionary for LangTool.
 
 Future runs can be done by pointing the HashWranglers dictionary arg to a folder instead of a specific file, and copying the current validated dictionary there along with dictionaries of new strings to test.
+
+GzsTool workflow:
+
+Hashes update:
+GzsTool -OutputHashes for current version qar archives GameData\MGS\hashgrab\tpp_pc_<version>
+RoboCopy to mgsv-lookup-strings\GzsTool\Hashes\tpp_pc_<version>
+Uniquify Hashes\tpp_pc_<version> - Merges and sorts to one file.
+Copy tpp_pc_<version>_combined to Hashes\PathCode64
+Uniquify-Combine Hashes PathCode64 - merges all PathCode64 hashes to one
+Uniquify-Combine Hashes PathCode64Gz  (even though it's just one file, for )
+Note: Dont ever want to merge PathCode64 and PathCode64Gz hashes since they are created from different hashing functions.
+
+Dict tests:
+HashWrangle -HashFunction PathCode64 with whatever dicts/new strings you got to test.
+Rename output if you're going to use the same dictionary again
+
+Repeat with PathCode64Gz
+
+Merge both PathCode64_matchedStrings / Gz_matched
+This is release dictionary.
+
+
+Unresolved Issues/stuff that would be good to do:
+
+GzsTools broke off support for Ground Zeroes at 0.2, ideally it should be brought back to the current version of GzsTool
+Dictionary will have to be split, internally at least, if not at file leve, since it uses a different hashing function from TPP.
+
+For GZ there is also the strange case of .6.ftexs, which isn't in the extensions list, and doesn't seem to have an index for, but matches if you give it a dict entry.
+by default with /Assets/tpp/effect/vfx_pic/explosion/fx_expanm06_ks_alp_clp in dict
+<Entry FilePath="/Assets/tpp/effect/vfx_pic/explosion/fx_expanm06_ks_alp_clp.5.ftexs" />
+<Entry Hash="196289966432593" FilePath="b28651b8e151" />
+<Entry FilePath="/Assets/tpp/effect/vfx_pic/explosion/fx_expanm06_ks_alp_clp.ftex" />
+Adding /Assets/tpp/effect/vfx_pic/explosion/fx_expanm06_ks_alp_clp.6.ftexs
+<Entry FilePath="/Assets/tpp/effect/vfx_pic/explosion/fx_expanm06_ks_alp_clp.5.ftexs" />
+<Entry FilePath="/Assets/tpp/effect/vfx_pic/explosion/fx_expanm06_ks_alp_clp.6.ftexs" />
+<Entry FilePath="/Assets/tpp/effect/vfx_pic/explosion/fx_expanm06_ks_alp_clp.ftex" />
+
+SubpTool should be updated with -OutputHashes option and a dictionary.
+MtarTool should be updated with -OutputHashes option
+
+FoxTool fox_dictionary and GzsTool fpk_dictionary might need to be looked into.
+
+HashWrangler:
+Better stats output/per file like qar-dictionary-project
+
+LangTool:
+Change to output to each file rather than append one? Would allow finer grained stats.

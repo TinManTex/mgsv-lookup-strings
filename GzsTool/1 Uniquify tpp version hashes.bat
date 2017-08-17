@@ -1,0 +1,1 @@
+D:\Projects\MGS\Tools\Uniquify\Uniquify\bin\Debug\Uniquify.exe "D:\GitHub\mgsv-lookup-strings\GzsTool\Hashes\tpp_pc_1.0.11.0"

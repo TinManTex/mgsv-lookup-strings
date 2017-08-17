@@ -1,0 +1,2 @@
+D:\GitHub\HashWrangler\HashWrangler\bin\Debug\HashWrangler.exe "D:\GitHub\mgsv-lookup-strings\GzsTool\Hashes\PathCode64_unique.txt" "D:\GitHub\mgsv-lookup-strings\GzsTool\Dictionaries\KitchenSink" -HashFunction PathCode64
+pause
