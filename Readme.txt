@@ -1,5 +1,5 @@
-Various lookup strings mostly unfiltered string scrapes from exe,fox2 etc.
-Used in InfLookup for various debug print purposes to attempt to match StrCode32 hashes.
-Heavily used in the by debugMessages option.
+A collection of validated dictionaries for recovering strings for hashed values in MGSV tools.
+Also includes said hashes and collections of strings for testing hashes.
 
-HashWrangling stuff (see Wrangling Hashes .txt)
+Dictionaries - In <tool name> folders, see the Info.txt for info specific to that dictionary.
+Strings - Various lookup strings mostly unfiltered string scrapes from exe,fox2 etc. Used to test various hashes.

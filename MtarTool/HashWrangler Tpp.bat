@@ -1,2 +1,2 @@
-D:\GitHub\HashWrangler\HashWrangler\bin\Debug\HashWrangler.exe "D:\GitHub\mgsv-lookup-strings\MtarTool\Hashes\tpp_pc_1.0.11_unique.txt" "D:\GitHub\mgsv-lookup-strings\MtarTool\Dictionaries\KitchenSink" -HashFunction PathCode64
+D:\GitHub\HashWrangler\HashWrangler\bin\Debug\HashWrangler.exe "D:\GitHub\mgsv-lookup-strings\MtarTool\Hashes\tpp_1.0.11.0" "D:\GitHub\mgsv-lookup-strings\MtarTool\Dictionaries\mtar_dictionary-test" -HashFunction PathCode64
 pause

@@ -1,0 +1,18 @@
+MtarTool
+mtar_dictionary.txt - Default dictionary
+PathCode64,PathCode64Gz of qar archive files.
+Default dictionary is combined Tpp,Mgo,Gz dictionary.
+
+mtar_dictionary_HashStringMatches.txt - useful for figuring out what the discovered string was when you have only the hash (you have a file from older dictionary).
+
+Tpp Stats:
+unmatchedHashes    [6989/7381] - 94.68906%
+matchedHashes      [ 392/7381] - 5.310934%
+
+Mgo Stats:
+unmatchedHashes    [3193/3283] - 97.25861%
+matchedHashes      [  90/3283] - 2.741395%
+
+Gz Stats:
+unmatchedHashes    [3820/3904] - 97.84836%
+matchedHashes      [  84/3904] - 2.151639%
