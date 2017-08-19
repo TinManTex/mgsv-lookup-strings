@@ -58,7 +58,7 @@ Run LangTool on each lng/2 with the -OutputHashes option
 
 Use some process to cull the list to unique hashes and sort. TODO: post uniquify
 
-FileName hashes:
+Qar PathCode64 hashes:
 Repository:
 The https://github.com/emoose/MGSV-QAR-Dictionary-Project has reference hashes, however they are currently not updated to 1.0.11.0, and there's no information of emooses workflow to create them.
 
@@ -70,6 +70,13 @@ Clear GzsTool 0.2 dictionary so it outputs pathcode names.
 Run on the GZ .gz0s.
 Iterate the .xml files and grab from FilePath= , strip the file extension.
 Altenatively iterate the extracted files and grab their filenames without extension.
+
+Mtar PathCode64 hashes:
+Repository:
+Does not have a dictionary project, hashes are however in https://github.com/TinManTex/mgsv-lookup-strings 
+
+Gathering:
+Using this fork of MtarTool https://github.com/TinManTex/MtarTool with the -OutputHashes option will output the hashes for the qar file to <filename>_pathHashes.txt
 
 
 Creating a test dictionary:
@@ -231,6 +238,12 @@ Repeat with PathCode64Gz
 Merge both PathCode64_matchedStrings / Gz_matched
 This is release dictionary.
 
+Stats:
+Run HashWrangler on each file in Hashes\tpp_pc_<version> and collect the stats output.
+
+MtarTool workflow:
+Using fork https://github.com/TinManTex/MtarTool which adds -OutputHashes
+Workflow much the same as GzsTool
 
 Unresolved Issues/stuff that would be good to do:
 
@@ -248,7 +261,9 @@ Adding /Assets/tpp/effect/vfx_pic/explosion/fx_expanm06_ks_alp_clp.6.ftexs
 <Entry FilePath="/Assets/tpp/effect/vfx_pic/explosion/fx_expanm06_ks_alp_clp.ftex" />
 
 SubpTool should be updated with -OutputHashes option and a dictionary.
-MtarTool should be updated with -OutputHashes option
+
+MtarTool:
+While fork does have -OutputHashes, it outputs all pathhashes in pathcode64 (hash & 0x3FFFFFFFFFFFF), not pathcode64gz. However many hashes get hits with pathcode64gz. I'm probably just don't have an understanding what's happening.
 
 FoxTool fox_dictionary and GzsTool fpk_dictionary might need to be looked into.
 
