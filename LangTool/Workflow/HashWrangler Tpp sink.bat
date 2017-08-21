@@ -1,2 +1,0 @@
-D:\GitHub\HashWrangler\HashWrangler\bin\Debug\HashWrangler.exe "D:\GitHub\mgsv-lookup-strings\LangTool\Hashes\Combined" "D:\GitHub\mgsv-lookup-strings\LangTool\Dictionaries\KitchenSink" -HashFunction StrCode32
-pause

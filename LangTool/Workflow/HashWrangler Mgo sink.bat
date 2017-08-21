@@ -1,2 +1,0 @@
-D:\GitHub\HashWrangler\HashWrangler\bin\Debug\HashWrangler.exe "D:\Projects\MGS\!ToolOutput\HashWrangling\LangTool\Hashes\langIdHashesMgo-1.1.2.4.txt" "D:\Projects\MGS\!ToolOutput\HashWrangling\LangTool\Dictionaries\KitchenSink" -HashFunction StrCode32
-pause

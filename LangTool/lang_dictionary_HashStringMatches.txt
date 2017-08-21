@@ -269,6 +269,7 @@
    1887727130 ability_1110
    2490356443 ability_1111
    1430504590 ability_1112
+    163133020 ability_1113
     297299936 ability_analyzer_a
    4120181888 ability_analyzer_d
    2422870576 ability_analyzer_spp
@@ -2603,6 +2604,30 @@
    2208712934 info_st_19160
     771589581 info_st_19161
     233450527 info_st_19162
+   1746949482 info_st_19163
+   1751952494 info_st_19164
+   2807178624 info_st_19165
+   1157891996 info_st_19166
+    851516349 info_st_19167
+    630930853 info_st_19168
+    277627279 info_st_19169
+    750709731 info_st_19170
+     51142639 info_st_19171
+   3059636623 info_st_19172
+   1473743590 info_st_19173
+    805017545 info_st_19174
+    213918665 info_st_19175
+    262743270 info_st_19176
+   1591405357 info_st_19177
+   1298555644 info_st_19178
+   1244942763 info_st_19179
+   3307021064 info_st_19180
+   4074661672 info_st_19181
+     38080163 info_st_19182
+   3152126114 info_st_19183
+   3100708981 info_st_19184
+   2239620235 info_st_19185
+   1701980731 info_st_19186
    2746012965 info_st_37001
    3121216545 info_st_37002
      22203523 info_st_43000
@@ -4582,6 +4607,7 @@
    2566092269 mbhelp_name_096_6
    1089117013 mbhelp_name_097
    3188405846 mbhelp_name_098
+    464582802 mbhelp_name_098_2
     461067449 mbhelp_name_098_2_new
     603457956 mbhelp_name_098_new
    1398712959 mbhelp_name_100
@@ -5050,10 +5076,29 @@
      81151819 mbtutorial_title
    3288229831 mgo_announce_buddy_link_end
    2830908315 mgo_announce_buddy_link_start
+   2683969491 mgo_announce_dom_commA
+   1818841292 mgo_announce_dom_commA_enemy
+   2199949810 mgo_announce_dom_commB
+   1296153656 mgo_announce_dom_commB_enemy
+   3562354686 mgo_announce_dom_commC
+   1697845610 mgo_announce_dom_commC_enemy
+   3954585093 mgo_announce_generic_enemy
+   2517678507 mgo_announce_generic_lead
     638518305 mgo_announce_generic_liquid_win
+    983060984 mgo_announce_generic_mission
    1419499248 mgo_announce_generic_one_min
    3776525454 mgo_announce_generic_round_end
    4240755694 mgo_announce_generic_solid_win
+   4076846343 mgo_announce_SAB_missile_destroy
+   2907343767 mgo_announce_TDM_bounty
+   1736272536 mgo_announce_TS_alone
+    515288049 mgo_announce_TS_caution
+    199212442 mgo_announce_TS_discA_dropped
+   2374630576 mgo_announce_TS_discA_taken
+   2371717928 mgo_announce_TS_discB_dropped
+   2254993398 mgo_announce_TS_discB_taken
+    760037571 mgo_announce_TS_enemy
+     13376269 mgo_announce_TS_half
    4279134957 mgo_btn_delete
    2394709064 mgo_btn_exit
     967024977 mgo_btn_select
@@ -5296,6 +5341,13 @@
    2802532740 mgo_opt_ub_10107
    2777166711 mgo_opt_ub_40144
    3777861868 mgo_opt_ub_50103
+   3331680060 mgo_spawn_point_comm_a
+   2895088755 mgo_spawn_point_comm_b
+   2008801465 mgo_spawn_point_comm_c
+   2286821510 mgo_spawn_point_general_1
+   2806726724 mgo_spawn_point_general_2
+   3142748073 mgo_spawn_point_general_3
+   4281741137 mgo_spawn_point_general_4
    3787398092 mgo_stats01
    3927281762 mgo_stats02
    2481286248 mgo_stats03
@@ -5430,6 +5482,8 @@
    1440431856 mgo_ui_obj_bounty_timeup_winbyscore
    2964958696 mgo_ui_obj_bounty_timeup_winbyticket
    1765895508 mgo_ui_obj_comm_system
+   1890253934 mgo_ui_obj_commdefend
+   4102941145 mgo_ui_obj_discdefend
    1892752402 mgo_ui_obj_DOM_Attack
     353428949 mgo_ui_obj_DOM_Defend
    1833240995 mgo_ui_obj_fultoned_missile
@@ -5454,8 +5508,25 @@
     878577107 mgo_ui_obj_TS_Attack_Dead
     168139876 mgo_ui_obj_TS_Attack_Win
    2144548022 mgo_ui_obj_TS_Defend_Dead
+    932491045 mgo_ui_obj_TS_ObjReset
+    874669476 mgo_UI_respawn_buddy
+   1000106684 mgo_UI_respawn_hq
    2703888230 mgo_ui_roundstart_END
     237204708 mgo_ui_roundstart_WIN
+    108400386 mgo_ui_ruleticker_bounty_capture
+   3469796475 mgo_ui_ruleticker_com_capture
+    165452192 mgo_ui_ruleticker_com_neutral
+   3803472386 mgo_ui_ruleticker_disc_pickup
+    320178713 mgo_ui_ruleticker_disc_steal
+   2581591075 mgo_ui_ruleticker_fulton_save
+   3844486495 mgo_ui_ruleticker_intel_inter
+   1442987039 mgo_ui_ruleticker_interrogation
+    904309547 mgo_ui_ruleticker_mark
+   4148597072 mgo_ui_ruleticker_missile_damage
+    611567542 mgo_ui_ruleticker_missile_destroy
+   2434478839 mgo_ui_ruleticker_missile_ful
+   3910763768 mgo_ui_ruleticker_purple_heart
+   1288132144 mgo_ui_ruleticker_terminal_hack
    2258085201 mgo_unlock_ascension
    2463925783 mgo_unlock_ascension2
     916609144 mgo_unlock_ascension3
@@ -6617,6 +6688,30 @@
     247373928 name_st_19160
    2875260464 name_st_19161
    1696964130 name_st_19162
+   3267061206 name_st_19163
+    972920312 name_st_19164
+   1036953389 name_st_19165
+   4035390869 name_st_19166
+   2111736207 name_st_19167
+   2337853498 name_st_19168
+   1472910641 name_st_19169
+   2462560707 name_st_19170
+   3317661144 name_st_19171
+   2629958770 name_st_19172
+   2114431902 name_st_19173
+   1803398696 name_st_19174
+    146182057 name_st_19175
+   3288950276 name_st_19176
+   3892575325 name_st_19177
+   2245345547 name_st_19178
+   1885324177 name_st_19179
+   3843588214 name_st_19180
+   3481152029 name_st_19181
+   1467533731 name_st_19182
+   2708816007 name_st_19183
+   3691968907 name_st_19184
+    384950856 name_st_19185
+    242085432 name_st_19186
    4288462572 name_st_37001
    3544889887 name_st_37002
    3446454407 name_st_43000
@@ -8587,6 +8682,7 @@
     534738941 prts_sk_6043
    2867855726 prts_sk_7010
    3800767326 prts_sk_7020
+   2407247551 ranking_evnt_term
    3972844365 real_wp_1000
     317590494 real_wp_1010
    2288591154 real_wp_1020
@@ -8814,6 +8910,7 @@
    2591112135 save_file_name_display
     984776565 save_subtitle_name
    3089652734 save_title_name
+   2533101723 Seq_Game_WaitCreatingBlendTexture1
     134900900 server_resource
    2359764284 Shield+
    4275652189 Skill_AntiMarking_1
@@ -10984,6 +11081,7 @@
    3784150389 tutorial_order_buddy
    3748274761 tutorial_order_child
    2089520876 tutorial_party_menu
+    871059321 tutorial_party_menu_xone
    4072456444 tutorial_pause
     587039403 tutorial_pipe
     132925072 tutorial_play_cover
