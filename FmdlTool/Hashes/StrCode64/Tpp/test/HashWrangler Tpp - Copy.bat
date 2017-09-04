@@ -1,0 +1,2 @@
+D:\GitHub\HashWrangler\HashWrangler\bin\Debug\HashWrangler.exe "D:\GitHub\mgsv-lookup-strings\FmdlTool\Hashes\StrCode64\Tpp\test\afgh_ambx001.fmdl_unknownHashes.txt" "D:\GitHub\mgsv-lookup-strings\FmdlTool\Hashes\StrCode64\Tpp\test\dict" -HashFunction StrCode64
+pause
