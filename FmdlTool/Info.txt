@@ -1,0 +1,25 @@
+FmdlTool / Fmdl Studio
+fmdl_dictionary.txt - Default dictionary
+Tpp format fmdls have two hash tables
+nameHashes - StrCode64
+textureHashes - PathCode64
+
+Hashes output from FmdlTool fork https://github.com/TinManTex/FmdlTool using -OutputHashes option
+
+Default fmdl_dictionary is combined Tpp/Mgo
+qar_dictionary can be used for texture dictionary, though I have gathered hashes and compiled dictionaries for analysis sake named texture_dictionary
+
+fmdl_dictionary_HashStringMatches.txt - useful for figuring out what the discovered string was when you have only the hash (you have a file from older dictionary).
+
+FmdlTool\Hashes\StrCode64\Tpp\
+\All folder The full nameHash table dumps of fmdls.
+All_unique.txt - the combined/sorted/unqified of All
+bone,materials,meshGroup,texureType,unknown - individual output of specific hashes, though currently they dont tally with all.
+
+Stats Tpp:
+unmatchedHashes    [31102/33544] - 92.72001%
+matchedHashes      [ 2442/33544] - 7.279991%
+
+Stats Mgo:
+unmatchedHashes    [10955/12468] - 87.86493%
+matchedHashes      [ 1513/12468] - 12.13507%

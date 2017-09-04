@@ -1,0 +1,2 @@
+D:\GitHub\HashWrangler\HashWrangler\bin\Debug\HashWrangler.exe "D:\GitHub\mgsv-lookup-strings\FmdlTool\Hashes\PathCode64\Mgo" "D:\GitHub\mgsv-lookup-strings\FmdlTool\Dictionaries\texture_dictionary-test" -HashFunction PathCode64
+pause
