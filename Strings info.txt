@@ -5,3 +5,7 @@ IHStringsFox2Scrape* - *.fox2.xml string scrape, broken into different files eas
 IHStringsGameObjectNames -from fox2 scrape of just dataList
 IHStringsLua - from lua string scrape
 IHStringsManual - manualy guessed
+mgsvtppstrings,mgsvmgostrings - from sysinternals Strings.exe on the exes 
+qar_dictionary_words, *_words - generated using nonmgsvlua\wordify.lua
+fmdlStrings_unique - from fmdltool fork with -outputshashes on GZ format fmdls, output of all fmdls, merged.
+gzFmdlTexturePaths,gzFmdlTexturePaths-noexts - generated from gz fmdl strings using ReconstructGZPaths
