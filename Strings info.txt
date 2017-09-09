@@ -9,3 +9,4 @@ mgsvtppstrings,mgsvmgostrings - from sysinternals Strings.exe on the exes
 qar_dictionary_words, *_words - generated using nonmgsvlua\wordify.lua
 fmdlStrings_unique - from fmdltool fork with -outputshashes on GZ format fmdls, output of all fmdls, merged.
 gzFmdlTexturePaths,gzFmdlTexturePaths-noexts - generated from gz fmdl strings using ReconstructGZPaths
+scrape* - scrape of .xml files from FoxTool using scrapelangid.exe (needs a rename lol)

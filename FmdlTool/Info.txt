@@ -16,10 +16,13 @@ FmdlTool\Hashes\StrCode64\Tpp\
 All_unique.txt - the combined/sorted/unqified of All
 bone,materials,meshGroup,texureType,unknown - individual output of specific hashes, though currently they dont tally with all.
 
+FmdlTool\Dictionaries\ 
+bone,materials,meshGroup,texureType,unknown - matches of different sub types, not currently up to date but useful to get an idea of what the strings are.
+
 Stats Tpp:
-unmatchedHashes    [31102/33544] - 92.72001%
-matchedHashes      [ 2442/33544] - 7.279991%
+unmatchedHashes    [30591/33544] - 91.19664%
+matchedHashes      [ 2953/33544] - 8.803363%
 
 Stats Mgo:
-unmatchedHashes    [10955/12468] - 87.86493%
-matchedHashes      [ 1513/12468] - 12.13507%
+unmatchedHashes    [10876/12468] - 87.23131%
+matchedHashes      [ 1592/12468] - 12.76869%
