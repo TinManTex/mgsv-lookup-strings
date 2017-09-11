@@ -1,0 +1,34 @@
+LbaTool
+
+Lba files have two (or more?) hash types
+
+lba_dictionary.txt - StrCode32 - for locatorNames
+dataset_dictionary.txt - PathFileNameCode32 - dataSet / .fox2 paths
+
+Hashes output from LbaTool fork https://github.com/TinManTex/LbaTool using -OutputHashes option
+
+Default fmdl_dictionary is combined Tpp/Mgo
+
+locatorNames Tpp:
+unmatchedHashes    [3971/4632] - 85.72971%
+matchedHashes      [ 661/4632] - 14.27029%
+
+locatornNames Mgo:
+unmatchedHashes    [1262/1319] - 95.67855%
+matchedHashes      [  57/1319] - 4.321456%
+
+locatorNames Gz:
+unmatchedHashes    [273/274] - 99.63503%
+matchedHashes      [  1/274] - 0.3649635%
+
+dataSet Tpp:
+unmatchedHashes    [  0/196] - 0%
+matchedHashes      [196/196] - 100%
+
+dataset Mgo:
+unmatchedHashes    [ 1/54] - 1.851852% --tex what's the missing fox2 name?
+matchedHashes      [53/54] - 98.14815%
+
+dataset Gz:
+unmatchedHashes    [273/273] - 100% --tex TODO: do I have GZ fox2 names in strings?
+matchedHashes      [  0/273] - 0%
