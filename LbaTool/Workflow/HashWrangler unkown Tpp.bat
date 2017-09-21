@@ -1,2 +1,0 @@
-D:\GitHub\HashWrangler\HashWrangler\bin\Debug\HashWrangler.exe "D:\GitHub\mgsv-lookup-strings\LbaTool\Hashes\Tpp\unknown" "D:\GitHub\mgsv-lookup-strings\LbaTool\Dictionaries\dataset_dictionary-test" -HashFunction pathfilenamecode32
-pause
