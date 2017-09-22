@@ -20,9 +20,14 @@ FmdlTool\Dictionaries\
 bone,materials,meshGroup,texureType,unknown - matches of different sub types, not currently up to date but useful to get an idea of what the strings are.
 
 Stats Tpp:
-unmatchedHashes    [29883/33544] - 89.08598%
-matchedHashes      [ 3661/33544] - 10.91402%
+unmatchedHashes    [29280/33544] - 87.28834%
+matchedHashes      [ 4264/33544] - 12.71166%
 
 Stats Mgo:
-unmatchedHashes    [10630/12468] - 85.25826%
-matchedHashes      [ 1838/12468] - 14.74174%
+unmatchedHashes    [10307/12468] - 82.66763%
+matchedHashes      [ 2161/12468] - 17.33237%
+
+Finding strings:
+Name hashes:
+Theres a lot of object names that can either be derived from parts of paths/file name or parts of fox2 names.
+Should also try object names with MESH_ prefix and SKL_<nnn> prefix (SKL bones are better to run through dictionary attack though with object names as words) 
