@@ -1,2 +1,2 @@
-D:\GitHub\HashWrangler\HashWrangler\bin\Debug\HashWrangler.exe "D:\GitHub\mgsv-lookup-strings\RouteTool\Hashes\Tpp\routeNames.txt" "D:\GitHub\mgsv-lookup-strings\RouteTool\Dictionaries" -HashFunction StrCode32
+D:\GitHub\HashWrangler\HashWrangler\bin\Debug\HashWrangler.exe "D:\GitHub\mgsv-lookup-strings\RouteTool\Hashes\Tpp\routeNames" "D:\GitHub\mgsv-lookup-strings\RouteTool\Dictionaries\route_name_dictionary-tpp" -HashFunction StrCode32
 pause
