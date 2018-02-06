@@ -2,8 +2,8 @@ RouteTool
 route_name_dictionary.txt
 StrCode32 of route names
 
-route_event_messages_dictionary.txt
-StrCode32 of SendMessage event param
+route_event_parameter_dictionary.txt
+StrCode32 of event params, likely to contain false collision matches/not completely validated.
 
 route_event_name_dictionary.txt
 StrCode32 of route event names
@@ -14,13 +14,13 @@ route_dictionary_HashStringMatches.txt - useful for figuring out what the discov
 RouteTool? outputs hashes
 
 Route event name Stats:
-unmatchedHashes    [ 84/117] - 71.79488%
-matchedHashes      [ 32/117] - 27.35043%
+unmatchedHashes    [ 30/117] - 25.64103%
+matchedHashes      [ 87/117] - 74.35898%
 
 Route name Stats:
 unmatchedHashes    [ 9906/31879] - 31.07375%
 matchedHashes      [21973/31879] - 68.92625%
 
-Route event message Stats:
-unmatchedHashes    [ 61/538] - 11.33829%
-matchedHashes      [476/538] - 88.47584%
+Route event param Stats:
+Ignore the total count, since not all params are Str32
+matchedHashes      [   836/104995] - 0.7962283%
