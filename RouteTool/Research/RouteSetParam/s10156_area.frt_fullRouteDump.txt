@@ -1,0 +1,5638 @@
+rt_villageEast_d_0003
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event3:RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+rts_Reinforce_caution_0003
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event3:CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 3239641327 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 2355429615 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 1282736367 0 0 0 0 0 0 0 0 
+Event3:CautionStandIdle 1 2227437807 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 1315242223 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+
+92550062
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 1013711027 0 0 0 0 [route]"rt_villageEast_d_0000_no_watchtower_sub" "IsGimmickBroken" 2496863726 0 
+Event3:RelaxedIdleAct 1 4181787523 0 0 0 0 496717012 0 0 0 
+Event4:RelaxedStandIdle 769 675088433 [route]3471834957 "" "" "" 0 0 0 0 
+
+lz_drp_ruinsNorth_S0000|rt_drp_ruinsNorth_S_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:Normal 0 0 0 0 0 0 1024 0 55 5 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 266 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node21:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node22:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node23:
+Edge:  CautionStandIdle 1 3239641327 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node24:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node25:
+Edge:  CautionStandIdle 1 2355429615 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node26:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node27:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:728879063 0 0 0 0 0 0 0 0 0 0 
+Event2:DropPoint 1 1143210043 0 0 0 0 0 0 0 0 
+Node28:
+Edge:  CautionStandIdle 1 2227437807 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node29:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node30:
+Edge:  CautionStandIdle 1 1315242223 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node31:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+
+rt_fieldEast_r_0001
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3257991647 0 0 0 0 496717012 0 0 0 
+
+rt_fieldEast_lin_W
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1586558229 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1586558229 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1586558229 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1586558229 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1586558229 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1586558229 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1586558229 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1586558229 0 0 0 
+
+rt_villageEast_c_0003
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 2932408799 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 376963551 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 1180893543 0 0 0 0 0 0 0 0 
+
+rt_villageEast_d_0004
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1935606719 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1393296558 0 0 0 0 496717012 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 4093052318 0 0 0 0 496717012 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+lz_ruinsNorth_S0000|rt_rtn_ruinsNorth_S_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 5 0 0 0 
+Node18:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node21:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node22:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node23:
+Edge:  CautionStandIdle 1 3239641327 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node24:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node25:
+Edge:  CautionStandIdle 1 2355429615 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node26:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node27:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node28:
+Edge:  CautionStandIdle 1 1282736367 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node29:
+Edge:  CautionStandIdle 1 2227437807 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node30:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node31:
+Edge:  CautionStandIdle 1 1315242223 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node32:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node33:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+
+rts_Ruins_0008
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 3302031659 1152812144 1135062220 1153123418 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 2189754667 1152802004 1135098891 1153052410 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3226140971 0 0 0 0 3641544758 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 1274609963 1152890726 1135100468 1153057184 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 1074200875 1152952493 1135091066 1153079910 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1618215151 0 0 0 0 496717012 0 0 0 
+Event3:3777183860 257 940704043 1153068864 1135027323 1153092107 0 0 0 0 0 
+Node10:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 672399659 0 0 0 0 496717012 0 0 0 
+Node11:
+Edge:  CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 523895083 1153126286 1134949723 1153167808 0 0 0 0 0 
+Node12:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 3394568491 1152951999 1134856631 1153185901 0 0 0 0 0 
+Node14:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 4163436843 0 0 0 0 496717012 0 0 0 
+Node15:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 1112342827 1153117229 1134887390 1153188938 0 0 0 0 0 
+Node17:
+Edge:  CautionStandIdle 1 2227437807 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 1321271595 1153164140 1134991899 1153095786 0 0 0 0 0 
+
+rts_Ruins_0010
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 2131231019 1152619022 1135036844 1152872561 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 1680933163 1152703000 1135123633 1152946746 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2632057191 0 0 0 0 496717012 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 3275358507 1152576716 1134890454 1152970186 0 0 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 4139778347 1152649074 1134851271 1153086389 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 917504299 1152789709 1134843197 1153160627 0 0 0 0 0 
+Node10:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 1890779375 1152601835 1134950411 1152931473 0 0 0 0 0 
+Node13:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 1 2532835567 0 0 0 0 0 0 0 0 
+
+rts_Case_Found_B
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3339845871 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2913272047 0 0 0 0 3641544758 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3753181423 0 0 0 0 496717012 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleAim 257 1193738359 1152747135 1135115823 1152909574 0 0 0 0 0 
+Event3:SendMessage 1 1177813111 0 0 0 0 62276 "TapeFound" "" 0 
+
+rts_Ruins_0011
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 3635020135 1152413521 1134894076 1152829256 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 1534787943 1152517570 1135113420 1152662168 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3008823655 0 0 0 0 496717012 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 987038055 1152606309 1135285971 1152616267 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 372572519 0 0 0 0 3641544758 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 1 1077018983 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 2790654311 1152521669 1135067561 1152689532 0 0 0 0 0 
+
+rt_ruinsNorth_lin_N
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1567526596 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1567526596 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1567526596 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1567526596 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1567526596 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1567526596 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:3297759236 0 0 0 0 0 0 1567526596 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:3297759236 0 0 0 0 0 0 1567526596 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:3297759236 0 0 0 0 0 0 1567526596 0 0 0 
+
+rts_Ruins_d_0005
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1008337195 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 564855023 0 0 0 0 496717012 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 433324391 0 0 0 0 496717012 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1938948335 0 0 0 0 496717012 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1887240551 0 0 0 0 496717012 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 296485103 0 0 0 0 3641544758 0 0 0 
+Node10:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1556807919 0 0 0 0 496717012 0 0 0 
+Node11:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1661731115 0 0 0 0 496717012 0 0 0 
+Node12:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rt_fieldEast_n_0003
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3734045151 0 0 0 0 2277088634 0 0 0 
+Event3:RelaxedIdleAct 1 3734045151 0 0 0 0 2277088634 0 0 0 
+Event4:RelaxedIdleAct 1 3734045151 0 0 0 0 2277088634 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1651573215 0 0 0 0 2277088634 0 0 0 
+Event3:RelaxedIdleAct 1 1651573215 0 0 0 0 2277088634 0 0 0 
+Event4:RelaxedIdleAct 1 1651573215 0 0 0 0 2277088634 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+564778457
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 400 0 0 0 
+Event2:Wait 1 309788851 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 400 0 0 0 
+Event2:Wait 1 2457338035 0 0 0 0 0 0 0 0 
+
+rt_ruinsNorth_l_0001
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1548552062 0 0 0 0 2014502296 0 0 0 
+
+rt_fieldEast_r_0005
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 69796319 0 0 0 0 496717012 0 0 0 
+
+rt_villageEast_d_0007
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1529676974 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 4023977134 0 0 0 0 496717012 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+rt_villageEast_n_0001
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1174537390 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3832349870 0 0 0 0 2277088634 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedStandIdle 1 4206429358 0 0 0 0 0 0 0 0 
+
+rts_Ruins_caution_0004
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdleAim 769 3243115694 [route]1980199523 "" "" "" 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdleAim 769 3806069934 [route]564778457 "" "" "" 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rts_Ruins_d_0011
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 4099540142 0 0 0 0 496717012 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedStandIdle 769 177341614 [route]3788809716 "" "" "" 0 0 0 0 
+
+rt_fieldEast_l_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 4225108317 0 0 0 0 2014502296 0 0 0 
+
+rt_ruinsNorth_c_0001
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 3825533407 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 1429668319 0 0 0 0 0 0 0 0 
+Event3:CautionStandIdleSearch 1 2159084479 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 3508142559 0 0 0 0 0 0 0 0 
+
+lz_ruins_S0000|rt_apr_ruins_S_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node21:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node22:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node23:
+Edge:  CautionStandIdle 1 3239641327 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node24:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node25:
+Edge:  CautionStandIdle 1 2355429615 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node26:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node27:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+
+735661136
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 104595755 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 2050949419 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 2694906155 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+
+rt_fieldEast_d_0001
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 74187231 0 0 0 0 2277088634 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 848691679 0 0 0 0 2277088634 0 0 0 
+Event3:RelaxedIdleAct 1 848691679 0 0 0 0 2277088634 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3805938623 0 0 0 0 2014502296 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+rt_fieldEast_n_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 685375967 0 0 0 0 2277088634 0 0 0 
+Event3:RelaxedIdleAct 1 685375967 0 0 0 0 2277088634 0 0 0 
+Node2:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 80216543 0 0 0 0 2277088634 0 0 0 
+Event3:RelaxedIdleAct 1 80216543 0 0 0 0 2277088634 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+lz_ruinsNorth_S0000|rt_apr_ruinsNorth_S_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node21:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node22:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node23:
+Edge:  CautionStandIdle 1 3239641327 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node24:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node25:
+Edge:  CautionStandIdle 1 2355429615 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node26:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node27:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node28:
+Edge:  CautionStandIdle 1 1282736367 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node29:
+Edge:  CautionStandIdle 1 2227437807 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node30:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+
+rt_ruinsNorth_c_0004
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 3470852575 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 4140433887 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 1825571295 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  CautionStandIdle 1 3239641327 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node21:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node22:
+Edge:  CautionStandIdle 1 2355429615 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rt_anml_ruins_rat_01
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 3097362731 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Node6:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 1728250155 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3837133099 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+
+rt_ruinsNorth_n_0001
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3682928510 0 0 0 0 496717012 0 0 0 
+Event3:RelaxedIdleAct 1 3813278655 0 0 0 0 2277088634 0 0 0 
+
+rts_ruins_snp_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedRun 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdleAim 769 4252439227 [route]2472150294 "" "" "" 0 0 0 0 
+
+rt_fieldEast_n_0002
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1232536031 0 0 0 0 2277088634 0 0 0 
+Event3:RelaxedIdleAct 1 1232536031 0 0 0 0 2277088634 0 0 0 
+Node2:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 4183885694 0 0 0 0 2014502296 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 18416095 0 0 0 0 2277088634 0 0 0 
+Event3:RelaxedIdleAct 1 18416095 0 0 0 0 2277088634 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+rts_Ruins_d_0002
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 635371759 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2444361967 0 0 0 0 496717012 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 4103995631 0 0 0 0 3641544758 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2427060463 0 0 0 0 496717012 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3673555183 0 0 0 0 496717012 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2645885167 0 0 0 0 496717012 0 0 0 
+Node9:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1463288047 0 0 0 0 496717012 0 0 0 
+Node10:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 513868015 0 0 0 0 3641544758 0 0 0 
+Node12:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1374421231 0 0 0 0 496717012 0 0 0 
+
+947535058
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 414711987 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 2562261171 0 0 0 0 0 0 0 0 
+
+rts_Ruins_d_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3000762667 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 831717675 0 0 0 0 496717012 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 556204331 0 0 0 0 496717012 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 216334575 0 0 0 0 496717012 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 84803883 0 0 0 0 496717012 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3588292907 0 0 0 0 496717012 0 0 0 
+Node10:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3123249451 0 0 0 0 3641544758 0 0 0 
+Node11:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1985020203 0 0 0 0 496717012 0 0 0 
+Node12:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2895773995 0 0 0 0 496717012 0 0 0 
+Node14:
+Edge:  CautionStandIdle 1 3239641327 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 192676139 0 0 0 0 496717012 0 0 0 
+Node16:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1611202859 0 0 0 0 496717012 0 0 0 
+Node18:
+Edge:  CautionStandIdle 1 2227437807 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 68026607 0 0 0 0 496717012 0 0 0 
+Node20:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node21:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2252013867 0 0 0 0 496717012 0 0 0 
+Node22:
+Edge:  RelaxedIdleAct 1 4181787523 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node23:
+Edge:  RelaxedStandIdle 769 675088433 [route]3471834957 "" "" "" 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3984261419 0 0 0 0 496717012 0 0 0 
+
+rts_Case_Destroyed_A
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleAim 257 3874226265 1153125047 1135129603 1152852886 0 0 0 0 0 
+Event3:SendMessage 1 3913613371 0 0 0 0 52458 "MissionFail" "" 0 
+Event4:CautionStandFire 16777473 3893690847 1153125057 1135130177 1152852887 0 0 0 0 0 
+
+rt_villageEast_d_0006
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1314849247 0 0 0 0 496717012 0 0 0 
+Event3:RelaxedIdleAct 1 385876567 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 2280128991 0 0 0 0 496717012 0 0 0 
+
+1109884887
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 400 0 0 0 
+Event2:Wait 1 3645243571 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 400 0 0 0 
+Event2:Wait 1 1497694387 0 0 0 0 0 0 0 0 
+
+rt_villageEast_n_0000_no_watchtower_sub
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 4262527875 0 0 0 0 496717012 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 876413107 0 0 0 0 [route]3981989606 "IsNotGimmickBroken" 2496863726 0 
+Event3:RelaxedIdleAct 1 500892547 0 0 0 0 2277088634 0 0 0 
+
+rt_ruinsNorth_n_0002
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1458308031 0 0 0 0 2014502296 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 2299920863 0 0 0 0 496717012 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3174434686 0 0 0 0 2277088634 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+rt_ruinsNorth_lout_S
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:3297759236 0 0 0 0 0 0 1533565014 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:3297759236 0 0 0 0 0 0 1533565014 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:3297759236 0 0 0 0 0 0 1533565014 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1533565014 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1533565014 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1533565014 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1533565014 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1533565014 0 0 0 
+
+rt_fieldEast_s_0001
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3217098622 0 0 0 0 2014502296 0 0 0 
+
+rt_villageEast_l_0001
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3341158270 0 0 0 0 2014502296 0 0 0 
+
+rts_Ruins_d_0006
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1028391211 0 0 0 0 496717012 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3509780779 0 0 0 0 3641544758 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 226230571 0 0 0 0 3641544758 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3138257195 0 0 0 0 496717012 0 0 0 
+Node14:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3077898539 0 0 0 0 3641544758 0 0 0 
+
+rts_Final_Reinforce
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedRun 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:RelaxedRun 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedRun 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedRun 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedRun 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedRun 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedRun 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedRun 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedRun 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedRun 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedRun 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedRun 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedRun 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedRun 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedRun 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:RelaxedRun 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:RelaxedRun 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedRun 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Event1:RelaxedRun 0 0 0 0 0 0 0 0 0 0 
+Event2:SendMessage 1 1061159031 0 0 0 0 6170 "ReinforcementArrived" 0 0 
+
+rts_Ruins_caution_0010
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdleAim 769 27198638 [route]3765100133 "" "" "" 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1838285159 0 0 0 0 496717012 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdleAim 769 2937717934 [route]1499863991 "" "" "" 0 0 0 0 
+
+rt_villageEast_n_0002
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3618571438 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3422422190 0 0 0 0 2277088634 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+rts_Reinforce_caution_0001
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 3031564527 0 0 0 0 0 0 0 0 
+Event3:CautionStandIdle 1 992149743 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 1765540079 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 1212416239 0 0 0 0 0 0 0 0 
+Event3:CautionStandIdle 1 2188706031 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 205062383 0 0 0 0 0 0 0 0 
+Event3:CautionStandIdle 1 1039728879 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 3878355183 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+
+rt_villageEast_lin_W
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 3729300129 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 3729300129 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 3729300129 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 3729300129 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 3729300129 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 3729300129 0 0 0 
+
+1451405246
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 16777217 3683132775 0 0 0 0 2014502296 0 0 0 
+
+rt_villageEast_d_0001
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3740337926 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 2823553923 0 0 0 0 496717012 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 907019139 0 0 0 0 496717012 0 0 0 
+Node9:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 2912682883 0 0 0 0 496717012 0 0 0 
+Node13:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+1499863991
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 4155113651 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 2007564467 0 0 0 0 0 0 0 0 
+
+1519602882
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 646643891 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 2849898675 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 2205679795 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 3134193843 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 2880176307 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 1425670323 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 679477427 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 4193648819 0 0 0 0 0 0 0 0 
+
+rt_villageEast_c_0000_watchtower
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 1025376435 0 0 0 0 [route]3190823508 "IsGimmickBroken" 2496863726 0 
+Event3:CautionStandIdleSearch 769 932841821 [route]3806462393 "" "" "" 0 0 0 0 
+
+rt_villageEast_r_0001
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 901513695 0 0 0 0 496717012 0 0 0 
+
+1628434932
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 2707751091 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 1773928687 0 0 0 0 0 0 0 0 
+Event3:CautionStandIdle 1 342294767 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 741081267 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 786235631 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 75759795 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdle 1 172753375 0 0 0 0 0 0 0 0 
+Event3:SendMessage 1 133235167 0 0 0 0 3433 3633677245 "" 0 
+
+rt_fieldEast_c_0003
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 1559364063 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 2463498719 1149586868 1134790185 1155328050 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 3373466079 1149472229 1134827848 1155451744 0 0 0 0 0 
+Node9:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 4182245855 1149448989 1134763208 1155884611 0 0 0 0 0 
+Node13:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 731840991 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rts_Ruins_d_0007
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2373058859 0 0 0 0 3641544758 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 984678699 0 0 0 0 496717012 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3599171883 0 0 0 0 496717012 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3857187115 0 0 0 0 496717012 0 0 0 
+Node10:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 4036034859 0 0 0 0 496717012 0 0 0 
+Node11:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1981284651 0 0 0 0 496717012 0 0 0 
+Node12:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdle 1 2574123247 0 0 0 0 0 0 0 0 
+
+rt_ruinsNorth_r_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 2138178015 0 0 0 0 496717012 0 0 0 
+
+rt_fieldEast_r_0004
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3671589343 0 0 0 0 496717012 0 0 0 
+
+1776711460
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 4061600792 0 0 0 0 2014502296 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 1450770611 0 0 0 0 0 0 0 0 
+Event3:3777183860 257 1450770791 1152981321 1135672350 1152487159 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 1444741299 0 0 0 0 0 0 0 0 
+Event3:3777183860 257 1446576487 1153030870 1135645340 1152552280 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 1679425715 0 0 0 0 0 0 0 0 
+Event3:3777183860 257 1679491431 1153138378 1135616445 1152544168 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 655556787 0 0 0 0 0 0 0 0 
+Event3:3777183860 257 657260903 1153185490 1135542371 1152623898 0 0 0 0 0 
+Node7:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 2886074547 0 0 0 0 0 0 0 0 
+Event3:3777183860 257 2888302951 1153079022 1135430519 1152636817 0 0 0 0 0 
+Event4:CautionStandIdle 1 3452305527 0 0 0 0 0 0 0 0 
+Event5:3777183860 257 3452305767 1153082941 1135347114 1152685154 0 0 0 0 0 
+Node9:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 1221198003 0 0 0 0 0 0 0 0 
+Event3:3777183860 257 1221198183 1153248508 1135594990 1152575837 0 0 0 0 0 
+Node10:
+Edge:  CautionStandIdle 1 2355429615 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 2459828403 0 0 0 0 0 0 0 0 
+Event3:3777183860 257 2455961959 1153031941 1135686431 1152468032 0 0 0 0 0 
+Node11:
+Edge:  CautionStandIdle 1 1282736367 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 2867069107 0 0 0 0 0 0 0 0 
+Event3:3777183860 257 2863989095 1152907650 1135689866 1152493279 0 0 0 0 0 
+
+rt_fieldEast_d_0003
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3671523807 0 0 0 0 2277088634 0 0 0 
+Event3:RelaxedIdleAct 1 3671523807 0 0 0 0 2277088634 0 0 0 
+Event4:RelaxedIdleAct 1 3671523807 0 0 0 0 2277088634 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1495859679 0 0 0 0 496717012 0 0 0 
+Event3:RelaxedIdleAct 1 1495859679 0 0 0 0 496717012 0 0 0 
+Event4:RelaxedIdleAct 1 1495859679 0 0 0 0 496717012 0 0 0 
+Node13:
+Edge:  CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  CautionStandIdle 1 3239641327 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  CautionStandIdle 1 2355429615 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node21:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node22:
+Edge:  CautionStandIdle 1 1282736367 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node23:
+Edge:  CautionStandIdle 1 2227437807 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+rt_ruinsNorth_n_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1808467838 0 0 0 0 2277088634 0 0 0 
+Event3:RelaxedIdleAct 1 1808466879 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 4253353854 0 0 0 0 2014502296 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+rt_ruinsNorth_c_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 3727886206 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 3965518303 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 1324220895 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 3324510687 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rts_Ruins_d_0003
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:RelaxedWalk 256 0 1153024802 1135163724 1152831841 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 256 0 1152855423 1135163025 1152963839 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 256 0 1152738414 1135162203 1153018493 0 0 0 0 0 
+Event2:RelaxedStandIdle 769 3296265091 [route]947535058 "" "" "" 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 256 0 1152548888 1135154126 1152817964 0 0 0 0 0 
+Node6:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 321520515 0 0 0 0 496717012 0 0 0 
+Node10:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedStandIdle 1025 46073006 [route]3245269117 "" "" "" 0 0 0 0 
+
+rt_anml_ruins_rat_00
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 4257808683 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Node6:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 987889963 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Node10:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Node12:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Node13:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 3162833195 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Node15:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+
+rts_Reinforce_d_0003
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1314849247 0 0 0 0 496717012 0 0 0 
+Event3:RelaxedIdleAct 1 385876567 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 2280128991 0 0 0 0 496717012 0 0 0 
+
+rts_ruinsNorth_d_0004
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:RelaxedWalk 256 0 1153892330 1134668232 1149949116 0 0 0 0 0 
+Event2:RelaxedStandIdle 1 3891594414 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 256 0 1153892330 1134668232 1149949116 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 196150446 0 0 0 0 2277088634 0 0 0 
+
+rt_ruinsNorth_lout_N
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:3297759236 0 0 0 0 0 0 1567526596 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:3297759236 0 0 0 0 0 0 1567526596 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:3297759236 0 0 0 0 0 0 1567526596 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1567526596 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1567526596 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1567526596 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1567526596 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1567526596 0 0 0 
+
+1980199523
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 400 0 0 0 
+Event2:Wait 1 75301043 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 400 0 0 0 
+Event2:Wait 1 2222850227 0 0 0 0 0 0 0 0 
+
+rts_Ruins_0006
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3023831339 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 4283826475 1152919443 1135105835 1152804590 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 1531904299 1153006067 1135271528 1152669079 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1904476519 0 0 0 0 496717012 0 0 0 
+Node6:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 1568538923 1153059392 1135414170 1152635396 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 1425473835 1153160340 1135446102 1152644047 0 0 0 0 0 
+Node9:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 228524391 0 0 0 0 496717012 0 0 0 
+Node10:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 75301163 1152998719 1135145851 1152745552 0 0 0 0 0 
+Node14:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 4017815851 1152945656 1135116412 1152807486 0 0 0 0 0 
+Node15:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 2684485931 1152912363 1135267866 1152675754 0 0 0 0 0 
+Node16:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rt_fieldEast_c_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 729547231 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 480444895 1150081210 1134553816 1156105575 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 1339949535 1150434075 1134438251 1155628717 0 0 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rt_ruinsNorth_d_0001
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3484419007 0 0 0 0 496717012 0 0 0 
+Event3:RelaxedIdleAct 1 3842312062 0 0 0 0 2277088634 0 0 0 
+Event4:RelaxedIdleAct 1 3484222399 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3022522238 0 0 0 0 2014502296 0 0 0 
+Node6:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+rts_Ruins_0005
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 736166187 1153194921 1135195256 1152958033 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 695468331 1153163171 1135079577 1153024975 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 385024359 0 0 0 0 496717012 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 2475163947 1153068193 1135053640 1153005157 0 0 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 2633105707 1153009994 1135090078 1152914359 0 0 0 0 0 
+Node12:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 1422131499 1153079084 1135110437 1152893870 0 0 0 0 0 
+Node13:
+Edge:  CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1393623339 0 0 0 0 496717012 0 0 0 
+Node15:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 2795700523 1153068347 1135114259 1152884029 0 0 0 0 0 
+Node16:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rts_Ruins_d_0008
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3662086443 0 0 0 0 496717012 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2204565803 0 0 0 0 3641544758 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2834366763 0 0 0 0 496717012 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1063584043 0 0 0 0 496717012 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1576206635 0 0 0 0 496717012 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 145293611 0 0 0 0 496717012 0 0 0 
+Node9:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1310392619 0 0 0 0 496717012 0 0 0 
+
+lz_drp_ruins_S0000|rt_drp_ruins_S_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:Normal 0 0 0 0 0 0 1024 0 55 5 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:Normal 0 0 0 0 0 0 522 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node21:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node22:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node23:
+Edge:  CautionStandIdle 1 3239641327 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node24:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node25:
+Edge:  CautionStandIdle 1 2355429615 0 0 0 0 0 0 0 0 
+Event1:728879063 0 0 0 0 0 0 0 0 0 0 
+Event2:DropPoint 1 2222587963 0 0 0 0 0 0 0 0 
+Node26:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node27:
+Edge:  CautionStandIdle 1 1282736367 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node28:
+Edge:  CautionStandIdle 1 2227437807 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 5 0 0 0 
+Node29:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node30:
+Edge:  CautionStandIdle 1 1315242223 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node31:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+
+rts_Case_Destroyed_C
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleAim 257 1483866201 1152922755 1135136253 1152996759 0 0 0 0 0 
+Event3:SendMessage 1 1356922939 0 0 0 0 52458 "MissionFail" 0 0 
+Event4:CautionStandFire 16777473 1364656607 1152923068 1135135105 1152996592 0 0 0 0 0 
+
+rts_Ruins_0001
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 2939617519 1152703661 1135264149 1152676855 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3308978535 0 0 0 0 496717012 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 3871277295 1152647514 1135123892 1152753890 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 3199271151 1152570199 1135053194 1152813320 0 0 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 541917423 0 0 0 0 3641544758 0 0 0 
+Node10:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 1283195119 1152931408 1135122220 1152759160 0 0 0 0 0 
+Node11:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 4009033967 1152857864 1135125286 1152839961 0 0 0 0 0 
+Node12:
+Edge:  CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 3667067119 1152770152 1135124226 1152827563 0 0 0 0 0 
+Node14:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 2621636847 1152757363 1135140967 1152722850 0 0 0 0 0 
+Node15:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  CautionStandIdle 1 2355429615 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 1267532015 1152830987 1135233944 1152681628 0 0 0 0 0 
+
+rt_fieldEast_s_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3185444734 0 0 0 0 2014502296 0 0 0 
+
+rts_Ruins_d_0001
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 444596523 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 240124323 0 0 0 0 496717012 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3684303207 0 0 0 0 496717012 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2883977575 0 0 0 0 496717012 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3934650667 0 0 0 0 496717012 0 0 0 
+Node10:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1341063407 0 0 0 0 3641544758 0 0 0 
+Node12:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1260650855 0 0 0 0 496717012 0 0 0 
+Node13:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 4025155823 0 0 0 0 496717012 0 0 0 
+Node14:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  CautionStandIdle 1 3239641327 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3565420903 0 0 0 0 496717012 0 0 0 
+Node16:
+Edge:  CautionStandIdle 1 2355429615 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2746810607 0 0 0 0 496717012 0 0 0 
+Node17:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  CautionStandIdle 1 1282736367 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 987955559 0 0 0 0 496717012 0 0 0 
+Node19:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 784007407 0 0 0 0 496717012 0 0 0 
+Node20:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node21:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3753771247 0 0 0 0 496717012 0 0 0 
+Node22:
+Edge:  RelaxedIdleAct 1 4181787523 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node23:
+Edge:  RelaxedStandIdle 769 675088433 [route]3471834957 "" "" "" 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node24:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3529048423 0 0 0 0 496717012 0 0 0 
+Node25:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node26:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node27:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rts_Ruins_caution_0007
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1376452847 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 131596527 0 0 0 0 496717012 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 573767919 0 0 0 0 496717012 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2952069359 0 0 0 0 496717012 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2917007599 0 0 0 0 496717012 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rts_Ruins_d_0010
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 496107819 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 513343787 0 0 0 0 3641544758 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2396520747 0 0 0 0 496717012 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3623354667 0 0 0 0 496717012 0 0 0 
+Node6:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 128647467 0 0 0 0 3641544758 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2921267499 0 0 0 0 3641544758 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 59834667 0 0 0 0 496717012 0 0 0 
+
+rt_villageEast_l_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1447102334 0 0 0 0 2014502296 0 0 0 
+
+rt_anml_ruins_rat_02
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 1986789675 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 2544566571 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Walk 0 0 0 0 0 0 300 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:Walk 0 0 0 0 0 0 300 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Walk 0 0 0 0 0 0 300 0 0 0 
+Node10:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:Walk 0 0 0 0 0 0 300 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 3934191915 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+
+rts_Case_Found_A
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2752970991 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1011286255 0 0 0 0 496717012 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 928055415 0 0 0 0 3641544758 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleAim 257 3855482999 1153124920 1135130388 1152852889 0 0 0 0 0 
+Event3:SendMessage 1 3913613371 0 0 0 0 62276 "TapeFound" "" 0 
+
+2420311010
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 2684813611 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 598933803 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 4198564139 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1117454635 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Node11:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+
+rt_villageEast_s_0001
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 16777217 2668169086 0 0 0 0 911690047 0 0 0 
+
+2472150294
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 1103167607 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 4141809783 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 3788439731 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 2471952503 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 2032599159 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 1353187447 0 0 0 0 0 0 0 0 
+
+rt_villageEast_d_0002
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 2703230846 0 0 0 0 2277088634 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3200453437 0 0 0 0 496717012 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1803421566 0 0 0 0 2014502296 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+rt_villageEast_r_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3114729951 0 0 0 0 496717012 0 0 0 
+
+rt_ruinsNorth_lin_S
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1533565014 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1533565014 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1533565014 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1533565014 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:3297759236 0 0 0 0 0 0 1533565014 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:3297759236 0 0 0 0 0 0 1533565014 0 0 0 
+
+rts_Case_Destroyed_B
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdleAim 257 1148911705 1152746726 1135115789 1152909855 0 0 0 0 0 
+Event3:SendMessage 1 1111425083 0 0 0 0 52458 "MissionFail" 0 0 
+Event4:CautionSquatFire 16777473 1161101791 1152746673 1135115795 1152909810 0 0 0 0 0 
+
+rts_Ruins_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 2857697519 1153018999 1135196203 1152703243 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 2226192623 1153161893 1135300690 1152696268 0 0 0 0 0 
+Event3:3777183860 257 530514159 1153209490 1135290606 1152767364 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 409731311 1153176219 1135135879 1152831986 0 0 0 0 0 
+Node6:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 249495791 1153157075 1135143583 1152898495 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 1877344495 1153194684 1135186256 1152800518 0 0 0 0 0 
+Node10:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 287965423 1153201045 1135195014 1152910983 0 0 0 0 0 
+Node11:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 3281322223 1153068383 1135124726 1152873962 0 0 0 0 0 
+Node13:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 2543321327 1153079293 1135107733 1152778983 0 0 0 0 0 
+Node15:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1826750703 0 0 0 0 3641544758 0 0 0 
+
+rts_Ruins_0007
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 985202987 1153228010 1135000401 1153127788 0 0 0 0 0 
+Event3:CautionIdleAct 1 1942880555 0 0 0 0 496717012 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 2452029739 1153030150 1135067396 1152961794 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 3635085611 1152983908 1135094720 1153013420 0 0 0 0 0 
+Node6:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3603431783 0 0 0 0 496717012 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 4188274987 1152977343 1135082817 1153003605 0 0 0 0 0 
+Node9:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 4097704235 0 0 0 0 496717012 0 0 0 
+Node10:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 432406827 1153069885 1135021894 1153071339 0 0 0 0 0 
+
+rt_fieldEast_r_0002
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1213923807 0 0 0 0 496717012 0 0 0 
+
+rt_villageEast_c_0006
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 2889744863 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 2301559263 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 1376256479 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 4268949983 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rts_Ruins_0009
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 2273313007 1153274928 1135573041 1152658515 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 3982360815 1153227792 1135326309 1152831068 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3255763123 0 0 0 0 496717012 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 4286054639 1153259330 1135335736 1153056368 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 634978543 1153332617 1135465268 1152956100 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 2358640879 1153277624 1135530700 1152723031 0 0 0 0 0 
+Node11:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rt_villageEast_c_0007
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 999162215 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 2372665523 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+
+rt_anml_ruins_rat_03
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 965410935 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 1782645035 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Node12:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 3013673559 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 885719339 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  CautionStandIdle 1 3239641327 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+
+rts_Ruins_d_0004
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3601269035 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3661300011 0 0 0 0 496717012 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1433993515 0 0 0 0 496717012 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2618884395 0 0 0 0 3641544758 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3915579751 0 0 0 0 496717012 0 0 0 
+Node10:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 212795691 0 0 0 0 3641544758 0 0 0 
+Node12:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 346554667 0 0 0 0 3641544758 0 0 0 
+Node14:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  CautionStandIdle 1 3239641327 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 123732267 0 0 0 0 496717012 0 0 0 
+Node17:
+Edge:  CautionStandIdle 1 2355429615 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1675297067 0 0 0 0 496717012 0 0 0 
+
+rts_Ruins_d_0009
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3759538475 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1281294635 0 0 0 0 496717012 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1499136299 0 0 0 0 3641544758 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1415708851 0 0 0 0 3641544758 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 308347179 0 0 0 0 496717012 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 89325867 0 0 0 0 496717012 0 0 0 
+Node9:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3460038955 0 0 0 0 496717012 0 0 0 
+Node12:
+Edge:  CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 4057661739 0 0 0 0 496717012 0 0 0 
+
+rt_ruinsNorth_l_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3800500094 0 0 0 0 2014502296 0 0 0 
+
+rts_Ruins_0002
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 691667243 1152999298 1135070606 1153060087 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 2537226539 1152936717 1135103059 1152980538 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 3791978795 1152806743 1135087656 1153089316 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2724266283 0 0 0 0 496717012 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 1325596971 1152921162 1135115972 1152972626 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 4038852907 1152759892 1135090934 1153066952 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 3325493547 1152710926 1135130486 1152935714 0 0 0 0 0 
+Node9:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3510632807 0 0 0 0 496717012 0 0 0 
+Node12:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 2652504363 1152654922 1134949479 1153000861 0 0 0 0 0 
+Node14:
+Edge:  CautionStandIdle 1 3239641327 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3816423663 0 0 0 0 3641544758 0 0 0 
+Node15:
+Edge:  CautionStandIdle 1 2355429615 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 2102788395 1152788211 1135120694 1152932803 0 0 0 0 0 
+Node18:
+Edge:  CautionStandIdle 1 2227437807 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 1296695595 1152971076 1135096185 1153008491 0 0 0 0 0 
+
+rt_villageEast_c_0001
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 3131506987 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 1292239747 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 2653094367 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+
+rt_fieldEast_lout_W
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 221866079 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 221866079 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 221866079 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 221866079 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 221866079 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 221866079 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 221866079 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 221866079 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 221866079 0 0 0 
+Node10:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 221866079 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 221866079 0 0 0 
+Node12:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 221866079 0 0 0 
+
+rts_Ruins_caution_0003
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 790298983 0 0 0 0 496717012 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 371458227 0 0 0 0 3641544758 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdleAim 769 511771822 [route]1109884887 "" "" "" 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3049259367 0 0 0 0 496717012 0 0 0 
+
+rt_ruinsNorth_c_0003
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 3637773247 0 0 0 0 0 0 0 0 
+Event3:CautionStandIdleSearch 1 3875865535 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 2273575391 0 0 0 0 0 0 0 0 
+Event3:CautionStandIdleSearch 1 1869021663 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rts_Ruins_caution_0008
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3535798571 0 0 0 0 496717012 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3048669483 0 0 0 0 3641544758 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3760652587 0 0 0 0 496717012 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 256 0 1153127480 1134673888 1153688488 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 256 0 1153139287 1134722543 1153740337 0 0 0 0 0 
+Event2:CautionIdleAct 1 44106027 0 0 0 0 3641544758 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2786001195 0 0 0 0 496717012 0 0 0 
+Node10:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1823736107 0 0 0 0 496717012 0 0 0 
+Node12:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3217686827 0 0 0 0 496717012 0 0 0 
+
+2920991090
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3487958790 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3943957678 0 0 0 0 496717012 0 0 0 
+Event3:RelaxedIdleAct 1 545981614 0 0 0 0 496717012 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+
+lz_ruins_S0000|rt_rtn_ruins_S_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:Normal 0 0 0 0 0 0 1024 0 55 5 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:Normal 0 0 0 0 0 0 5 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node21:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node22:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node23:
+Edge:  CautionStandIdle 1 3239641327 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node24:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node25:
+Edge:  CautionStandIdle 1 2355429615 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node26:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node27:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node28:
+Edge:  CautionStandIdle 1 1282736367 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node29:
+Edge:  CautionStandIdle 1 2227437807 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+
+rts_Case_Found_C
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3893166319 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3678470383 0 0 0 0 3641544758 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3003515119 0 0 0 0 496717012 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleAim 257 1413021815 1152923135 1135134325 1152996315 0 0 0 0 0 
+Event3:SendMessage 1 1356922939 0 0 0 0 62276 "TapeFound" "" 0 
+
+2993094709
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3510239531 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 118423851 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 606077227 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2242249003 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3144417579 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2615083307 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+
+2998258406
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 586875059 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 2734424243 0 0 0 0 0 0 0 0 
+
+rts_Ruins_caution_0009
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1514733807 0 0 0 0 496717012 0 0 0 
+Event3:CautionIdleAct 1 619970799 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 4243718383 0 0 0 0 496717012 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 256 0 1153071990 1135290561 1152783263 0 0 0 0 0 
+Event2:CautionIdleAct 1 3748004079 0 0 0 0 496717012 0 0 0 
+Event3:CautionIdleAct 1 347734255 0 0 0 0 496717012 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 256 0 1152983934 1135209930 1152791600 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3584622831 0 0 0 0 496717012 0 0 0 
+Event3:CautionIdleAct 1 184353007 0 0 0 0 496717012 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3505979631 0 0 0 0 496717012 0 0 0 
+Node8:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 4023451887 0 0 0 0 496717012 0 0 0 
+Node10:
+Edge:  CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1823342831 0 0 0 0 496717012 0 0 0 
+Node11:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1211498735 0 0 0 0 496717012 0 0 0 
+Node12:
+Edge:  CautionStandIdle 1 3239641327 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 881459439 0 0 0 0 496717012 0 0 0 
+Node13:
+Edge:  CautionStandIdle 1 2355429615 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rt_fieldEast_n_0001
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1084031455 0 0 0 0 2277088634 0 0 0 
+Event3:RelaxedIdleAct 1 1084031455 0 0 0 0 2277088634 0 0 0 
+Event4:RelaxedIdleAct 1 1084031455 0 0 0 0 2277088634 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 2837645182 0 0 0 0 2014502296 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 37749215 0 0 0 0 496717012 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+rts_Ruins_caution_0011
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdle 769 149947566 [route]3368226656 "" "" "" 0 0 0 0 
+Event3:CautionSquatIdle 769 3814917294 [route]2998258406 "" "" "" 0 0 0 0 
+
+rts_Ruins_caution_0006
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2101870891 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 552927531 0 0 0 0 496717012 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3743088939 0 0 0 0 496717012 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3315532075 0 0 0 0 496717012 0 0 0 
+Node13:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2531852587 0 0 0 0 496717012 0 0 0 
+Node14:
+Edge:  CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 937623851 0 0 0 0 496717012 0 0 0 
+Node16:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  CautionStandIdle 1 3239641327 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1575813419 0 0 0 0 496717012 0 0 0 
+Node18:
+Edge:  CautionStandIdle 1 2355429615 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 323092779 0 0 0 0 496717012 0 0 0 
+Node20:
+Edge:  CautionStandIdle 1 1282736367 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node21:
+Edge:  CautionStandIdle 1 2227437807 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node22:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3095920939 0 0 0 0 3641544758 0 0 0 
+Node23:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3521315115 0 0 0 0 496717012 0 0 0 
+Node24:
+Edge:  SwitchRoute 1 1013711027 0 0 0 0 [route]"rt_villageEast_d_0000_no_watchtower_sub" "IsGimmickBroken" 2496863726 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 4064870699 0 0 0 0 496717012 0 0 0 
+Node25:
+Edge:  RelaxedStandIdle 769 675088433 [route]3471834957 "" "" "" 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node26:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 398524715 0 0 0 0 3641544758 0 0 0 
+Node27:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node28:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 666829099 0 0 0 0 496717012 0 0 0 
+Node29:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node30:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node31:
+Edge:  Normal 0 0 0 0 0 0 266 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node32:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rt_villageEast_n_0004
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 4086170798 0 0 0 0 2277088634 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1030292654 0 0 0 0 2277088634 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 2948203694 0 0 0 0 496717012 0 0 0 
+Node10:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+rt_ruinsNorth_c_0002
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 2374369759 0 0 0 0 0 0 0 0 
+Event3:CautionStandIdleSearch 1 2079195615 0 0 0 0 0 0 0 0 
+
+3190823508
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 899874995 0 0 0 0 [route]"rt_villageEast_c_0000_watchtower" "IsNotGimmickBroken" 2496863726 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 1697382579 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 760021951 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 3024027827 0 0 0 0 [route]"rt_villageEast_c_0000_watchtower" "IsNotGimmickBroken" 2496863726 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdle 1 3881501571 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdle 1 3481207683 0 0 0 0 0 0 0 0 
+
+rts_ruinsNorth_d_0003
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 565773486 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 686949550 0 0 0 0 496717012 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+rt_ruinsNorth_s_0001
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 2539456382 0 0 0 0 2014502296 0 0 0 
+
+rt_villageEast_c_0005
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 2528183231 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 3982557663 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 797967055 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+
+3225263876
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 400 0 0 0 
+Event2:Wait 1 441516211 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 400 0 0 0 
+Event2:Wait 1 2579038387 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 400 0 0 0 
+Event2:Wait 1 2935292083 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 400 0 0 0 
+Event2:Wait 1 848756915 0 0 0 0 0 0 0 0 
+
+3245269117
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 400 0 0 0 
+Event2:Wait 1 1166737587 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 400 0 0 0 
+Event2:Wait 1 3314286771 0 0 0 0 0 0 0 0 
+
+3255758921
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1991967619 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2481520939 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 4261871915 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 2322465067 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 224002347 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 3916759339 0 0 0 0 0 0 0 0 
+
+rt_villageEast_d_0005
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 4178248279 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 336527659 0 0 0 0 2277088634 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3488482179 0 0 0 0 496717012 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+
+rt_fieldEast_r_0003
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 32899551 0 0 0 0 496717012 0 0 0 
+
+rt_fieldEast_c_0001
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 360317407 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 2745958879 1149745848 1134717973 1155467693 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 1788805599 1149975338 1134726934 1155327038 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 1321075167 1150103554 1134676981 1155425921 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rt_ruinsNorth_d_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 2275214271 0 0 0 0 2277088634 0 0 0 
+Event3:RelaxedIdleAct 1 1865024447 0 0 0 0 496717012 0 0 0 
+
+3368226656
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 1159332019 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 3306881203 0 0 0 0 0 0 0 0 
+
+rts_Ruins_0003
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3514237287 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 1310785895 1152797956 1135121769 1152845603 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 576454955 1152894569 1135116048 1152933183 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1691877675 0 0 0 0 496717012 0 0 0 
+Node6:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 3640131883 1152810152 1135123071 1152924538 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 2415526247 1152768658 1135118032 1152842732 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 3178365287 1152680430 1135116957 1152877571 0 0 0 0 0 
+
+rt_villageEast_n_0003
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 2603484035 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1016791939 0 0 0 0 496717012 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3156608474 0 0 0 0 2014502296 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+rts_Reinforce_d_0001
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 16777217 3999343975 0 0 0 0 2014502296 0 0 0 
+
+rt_fieldEast_lout_B02
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleBackNormal 0 0 0 0 0 0 1091985494 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:VehicleBackNormal 0 0 0 0 0 0 1091985494 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:VehicleBackNormal 0 0 0 0 0 0 1091985494 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleBackNormal 0 0 0 0 0 0 1091985494 0 0 0 
+Event2:VehicleIdle 1 1662255163 0 0 0 0 0 0 0 0 
+
+rt_villageEast_n_0007
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1809908910 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 2222654638 0 0 0 0 496717012 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+rt_fieldEast_r_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1262682591 0 0 0 0 496717012 0 0 0 
+
+rt_fieldEast_d_0002
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1547960799 0 0 0 0 2277088634 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 2605122015 0 0 0 0 2277088634 0 0 0 
+Event3:RelaxedIdleAct 1 2438660575 0 0 0 0 496717012 0 0 0 
+Event4:RelaxedIdleAct 1 2605122015 0 0 0 0 2277088634 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 488178143 0 0 0 0 2277088634 0 0 0 
+Event3:RelaxedIdleAct 1 980484575 0 0 0 0 2277088634 0 0 0 
+Event4:RelaxedIdleAct 1 982319583 0 0 0 0 2277088634 0 0 0 
+
+3471834957
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 400 0 0 0 
+Event2:Wait 1 2037973171 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 400 0 0 0 
+Event2:Wait 1 125239475 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 400 0 0 0 
+Event2:Wait 1 4006412467 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 400 0 0 0 
+Event2:Wait 1 3685679283 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 400 0 0 0 
+Event2:Wait 1 1723269299 0 0 0 0 0 0 0 0 
+
+3483306962
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 4208001323 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 2385772723 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2639986987 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2419196203 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Node10:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Dash 0 0 0 0 0 0 300 0 0 0 
+Node11:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+
+rts_Ruins_0012
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 91619687 1153084859 1134680828 1153259177 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 3585933671 1152901008 1134759919 1153238172 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 2583101799 1152890660 1134661070 1153245647 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 2490106215 1152809974 1134623214 1153241994 0 0 0 0 0 
+Node6:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 1224933735 1153104131 1134876930 1153210816 0 0 0 0 0 
+
+rts_Reinforce_caution_0002
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 2878668979 0 0 0 0 0 0 0 0 
+Event3:CautionStandIdle 1 1637417139 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 1766523059 0 0 0 0 0 0 0 0 
+Event3:CautionStandIdle 1 779157683 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 950862003 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 4079550643 0 0 0 0 0 0 0 0 
+Event3:CautionStandIdle 1 709034163 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 50397363 0 0 0 0 0 0 0 0 
+Event3:CautionStandIdle 1 3128623283 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 3994550451 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 2521563315 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 3796762803 0 0 0 0 0 0 0 0 
+Event3:CautionStandIdle 1 2682323123 0 0 0 0 0 0 0 0 
+
+rt_villageEast_lin_E
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 2632164693 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 2632164693 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 2632164693 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 2632164693 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 2632164693 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 2632164693 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 2632164693 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:3297759236 0 0 0 0 0 0 2632164693 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:3297759236 0 0 0 0 0 0 2632164693 0 0 0 
+Node10:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:3297759236 0 0 0 0 0 0 2632164693 0 0 0 
+
+rt_fieldEast_l_0001
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 4177528702 0 0 0 0 2014502296 0 0 0 
+
+rt_villageEast_n_0005
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3487958790 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3943957379 0 0 0 0 496717012 0 0 0 
+Event3:RelaxedIdleAct 1 545981315 0 0 0 0 496717012 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+
+rt_fieldEast_lout_B01
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 63603457 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 63603457 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 63603457 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 63603457 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 63603457 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:3297759236 0 0 0 0 0 0 63603457 0 0 0 
+Event2:VehicleIdle 1 510394487 0 0 0 0 0 0 0 0 
+
+rts_Reinforce_d_0002
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 4178248279 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 336527659 0 0 0 0 2277088634 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3488482179 0 0 0 0 496717012 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+
+rt_villageEast_s_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 16777217 2668169086 0 0 0 0 911690047 0 0 0 
+
+rt_villageEast_c_0002
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 3215589855 0 0 0 0 0 0 0 0 
+Event3:CautionStandIdleSearch 1 2684355519 0 0 0 0 0 0 0 0 
+
+rt_villageEast_lout_E
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 2632164693 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 2632164693 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 2632164693 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 2632164693 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 2632164693 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 2632164693 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 2632164693 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 2632164693 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 2632164693 0 0 0 
+
+3765100133
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 948830387 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 3096379571 0 0 0 0 0 0 0 0 
+
+3788809716
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 1074659507 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 300 0 0 0 
+Event2:Wait 1 3222208691 0 0 0 0 0 0 0 0 
+
+3806462393
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 500 0 0 0 
+Event2:Wait 1 2177368543 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 500 0 0 0 
+Event2:Wait 1 264569311 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 500 0 0 0 
+Event2:Wait 1 4145742303 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 500 0 0 0 
+Event2:Wait 1 3825009119 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 500 0 0 0 
+Event2:Wait 1 1862599135 0 0 0 0 0 0 0 0 
+
+rt_fieldEast_r_0007
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1743061471 0 0 0 0 496717012 0 0 0 
+
+rt_villageEast_c_0004
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 2864841183 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 2358575583 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 4227727599 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+
+First_Car
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedRun 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1426569217 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:3487140098 0 0 0 0 0 0 1426569217 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:3487140098 0 0 0 0 0 0 1426569217 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:3487140098 0 0 0 0 0 0 1426569217 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:3487140098 0 0 0 0 0 0 1426569217 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:3487140098 0 0 0 0 0 0 1426569217 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:3487140098 0 0 0 0 0 0 1426569217 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:3487140098 0 0 0 0 0 0 1426569217 0 0 0 
+Node10:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:3487140098 0 0 0 0 0 0 1426569217 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:3487140098 0 0 0 0 0 0 1426569217 0 0 0 
+Node12:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 1426569217 0 0 0 
+Event2:SendMessage 1 1019019323 0 0 0 0 36308 "JoinRuins01" 0 0 
+Event3:SendMessage 1 1019019323 0 0 0 0 6170 "ReinforcementArrived" 0 0 
+Event4:VehicleIdle 1 1056768059 0 0 0 0 0 0 0 0 
+
+rt_fieldEast_d_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3924165087 0 0 0 0 2277088634 0 0 0 
+Event3:RelaxedIdleAct 1 3924165087 0 0 0 0 2277088634 0 0 0 
+Node2:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 4251321279 0 0 0 0 2014502296 0 0 0 
+Node12:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+3845286314
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 400 0 0 0 
+Event2:Wait 1 2037973171 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 400 0 0 0 
+Event2:Wait 1 125239475 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 400 0 0 0 
+Event2:Wait 1 4006412467 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 400 0 0 0 
+Event2:Wait 1 3685679283 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 400 0 0 0 
+Event2:Wait 1 1723269299 0 0 0 0 0 0 0 0 
+
+rts_Ruins_0004
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 1491140907 1152935061 1135120847 1152812495 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 3744268587 1152829880 1135096355 1152987393 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 331284779 1152912725 1135130380 1152966676 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1209336107 0 0 0 0 3641544758 0 0 0 
+Node6:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 1300889899 1153049326 1135108445 1152857380 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 2059731243 1153045951 1135110183 1152771580 0 0 0 0 0 
+Node9:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2531918123 0 0 0 0 496717012 0 0 0 
+Node11:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 3428057387 1152919891 1135121670 1152805893 0 0 0 0 0 
+Node12:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 811467051 1153062453 1135142722 1152863970 0 0 0 0 0 
+Node13:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 3773432107 1152921085 1135122302 1152934303 0 0 0 0 0 
+Node14:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  CautionStandIdle 1 2355429615 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3367502123 0 0 0 0 496717012 0 0 0 
+Node16:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:3777183860 257 202441003 1152913953 1135132231 1152961833 0 0 0 0 0 
+Node17:
+Edge:  CautionStandIdle 1 2227437807 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 134349099 0 0 0 0 496717012 0 0 0 
+
+rts_ruinsNorth_n_0003
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 565773486 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 686949550 0 0 0 0 496717012 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+rt_anml_ruins_rat_04
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3510239531 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 118423851 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 606077227 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2242249003 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3144417579 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2615083307 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+
+rt_villageEast_n_0006
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3200451459 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1249182894 0 0 0 0 496717012 0 0 0 
+
+rt_ruinsNorth_s_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 16777217 1705379710 0 0 0 0 911690047 0 0 0 
+
+3981989606
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 2803368115 0 0 0 0 [route]"rt_villageEast_n_0000_no_watchtower_sub" "IsGimmickBroken" 2496863726 0 
+Event3:RelaxedStandIdle 769 932844219 [route]3845286314 "" "" "" 0 0 0 0 
+Event4:RelaxedIdleAct 1 4153738115 0 0 0 0 496717012 0 0 0 
+
+rt_villageEast_lout_W
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:3297759236 0 0 0 0 0 0 3729300129 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:3297759236 0 0 0 0 0 0 3729300129 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:3297759236 0 0 0 0 0 0 3729300129 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 3729300129 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 3729300129 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 3729300129 0 0 0 
+
+Second_Car
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedRun 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:3297759236 0 0 0 0 0 0 2693387668 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 2693387668 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 2693387668 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:3487140098 0 0 0 0 0 0 2693387668 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:3487140098 0 0 0 0 0 0 2693387668 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:3487140098 0 0 0 0 0 0 2693387668 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:3487140098 0 0 0 0 0 0 2693387668 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:3487140098 0 0 0 0 0 0 2693387668 0 0 0 
+Node10:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:3487140098 0 0 0 0 0 0 2693387668 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:3487140098 0 0 0 0 0 0 2693387668 0 0 0 
+Node12:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:3487140098 0 0 0 0 0 0 2693387668 0 0 0 
+Node13:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:3487140098 0 0 0 0 0 0 2693387668 0 0 0 
+Node14:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:3487140098 0 0 0 0 0 0 2693387668 0 0 0 
+Node15:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:3487140098 0 0 0 0 0 0 2693387668 0 0 0 
+Node16:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:3487140098 0 0 0 0 0 0 2693387668 0 0 0 
+Node17:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:3487140098 0 0 0 0 0 0 2693387668 0 0 0 
+Node18:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:3487140098 0 0 0 0 0 0 2693387668 0 0 0 
+Node19:
+Edge:  CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Event1:3487140098 0 0 0 0 0 0 2693387668 0 0 0 
+Node20:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 2693387668 0 0 0 
+Event2:SendMessage 1 2390884411 0 0 0 0 6170 "ReinforcementArrived" 0 0 
+Event3:VehicleIdle 1 2502754363 0 0 0 0 0 0 0 0 
+
+rt_fieldEast_r_0006
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1228734943 0 0 0 0 496717012 0 0 0 
+
+rt_villageEast_d_0000_no_watchtower_sub
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 908722355 0 0 0 0 [route]92550062 "IsNotGimmickBroken" 2496863726 0 
+Event3:RelaxedIdleAct 1 479986623 0 0 0 0 2277088634 0 0 0 
+Event4:RelaxedStandIdle 1 775161726 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 3165126835 0 0 0 0 [route]92550062 "IsNotGimmickBroken" 2496863726 0 
+Event3:RelaxedIdleAct 1 4161864878 0 0 0 0 496717012 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+rts_ruinsNorth_n_0004
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1697579907 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 2820801411 0 0 0 0 496717012 0 0 0 
+
+rts_Ruins_caution_0005
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3215524079 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3757113583 0 0 0 0 496717012 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 1367081199 0 0 0 0 496717012 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 462618863 0 0 0 0 496717012 0 0 0 
+Node11:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2536440047 0 0 0 0 496717012 0 0 0 
+Node13:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2423718127 0 0 0 0 496717012 0 0 0 
+Node14:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3071082735 0 0 0 0 496717012 0 0 0 
+Node16:
+Edge:  CautionStandIdle 1 3239641327 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  CautionStandIdle 1 2355429615 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 4130144495 0 0 0 0 496717012 0 0 0 
+Node19:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  CautionStandIdle 1 1282736367 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 162660591 0 0 0 0 3641544758 0 0 0 
+Node21:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node22:
+Edge:  CautionStandIdle 1 1315242223 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3645243631 0 0 0 0 496717012 0 0 0 
+Node23:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node24:
+Edge:  SwitchRoute 1 1013711027 0 0 0 0 [route]"rt_villageEast_d_0000_no_watchtower_sub" "IsGimmickBroken" 2496863726 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node25:
+Edge:  RelaxedIdleAct 1 4181787523 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node26:
+Edge:  RelaxedStandIdle 769 675088433 [route]3471834957 "" "" "" 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3288203503 0 0 0 0 496717012 0 0 0 
+Node27:
+Edge:  Normal 0 0 0 0 0 0 1024 0 55 5 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 639172847 0 0 0 0 496717012 0 0 0 
+
+4181927402
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3200451459 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalkAct 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1249182894 0 0 0 0 496717012 0 0 0 
+
+rts_Ruins_d_0012
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3775201579 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2502492459 0 0 0 0 496717012 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 3463381291 0 0 0 0 496717012 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 2485256491 0 0 0 0 496717012 0 0 0 
+Node5:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionIdleAct 1 4068540715 0 0 0 0 496717012 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+4194170979
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 600 0 0 0 
+Event2:Wait 1 1448804531 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 600 0 0 0 
+Event2:Wait 1 3881435315 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 600 0 0 0 
+Event2:Wait 1 3748790451 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 600 0 0 0 
+Event2:Wait 1 1997275315 0 0 0 0 0 0 0 0 
+
+rts_ruins_snp_0001
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdleAim 769 3292662109 [route]1519602882 "" "" "" 0 0 0 0 
+Event3:CautionSquatIdleAim 769 1198 [route]3225263876 "" "" "" 0 0 0 0 
+
+rt_fieldEast_c_0002
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 1193477294 0 0 0 0 2277088634 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 107610591 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 3723952607 0 0 0 0 0 0 0 0 
+Event3:3777183860 257 3206611423 1149467571 1134704867 1155910991 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  CautionStandIdle 1 798884079 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  CautionStandIdle 1 3786866927 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  CautionStandIdle 1 488177903 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rt_ruinsNorth_d_0002
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 2327643071 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  RelaxedIdleAct 1 664470463 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3494118814 0 0 0 0 496717012 0 0 0 
+Node4:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  RelaxedIdleAct 1 2819246 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1982465918 0 0 0 0 2014502296 0 0 0 
+Node7:
+Edge:  RelaxedIdleAct 1 3734503903 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  RelaxedIdleAct 1 2765095391 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 2502754783 0 0 0 0 496717012 0 0 0 
+

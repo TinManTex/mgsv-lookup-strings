@@ -1,0 +1,79 @@
+rt_quest_d_0005
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 16777473 2372405118 3298188614 1137221090 3290878622 0 2014502296 0 0 0 
+
+rt_quest_d_0002
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdle 769 1990590943 [route]2370116483 "" "" "" 0 0 0 0 
+
+rt_quest_d_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdleAim 769 2270101983 [route]1158136688 "" "" "" 0 0 0 0 
+
+1158136688
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2049769711 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 1000 0 0 0 
+Event2:Wait 1 107151599 0 0 0 0 0 0 0 0 
+
+rt_quest_d_0006
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1229455839 0 0 0 0 496717012 0 0 0 
+Event3:RelaxedIdleAct 1 888340959 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  CautionSquatIdle 769 1990590943 [route]2370116483 "" "" "" 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionSquatIdleAim 769 2270101983 [route]1158136688 "" "" "" 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 4151312863 0 0 0 0 496717012 0 0 0 
+Event3:RelaxedIdleAct 1 3805020639 0 0 0 0 496717012 0 0 0 
+Node6:
+Edge:  Wait 1 107151599 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+2370116483
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3205103795 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1057554611 0 0 0 0 0 0 0 0 
+
+rt_quest_d_0004
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1323172559 0 0 0 0 496717012 0 0 0 
+Event3:RelaxedIdleAct 1 871104991 0 0 0 0 496717012 0 0 0 
+
+rt_quest_d_0001
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 109381022 0 0 0 0 496717012 0 0 0 
+Event3:RelaxedIdleAct 1 468910559 0 0 0 0 496717012 0 0 0 
+

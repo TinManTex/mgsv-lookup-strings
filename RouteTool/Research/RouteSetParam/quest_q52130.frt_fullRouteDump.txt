@@ -1,0 +1,148 @@
+rt_quest_d_0005
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdleAim 769 1985414079 [route]1570636889 "" "" "" 0 0 0 0 
+
+rt_heli_quest_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  CautionSquatIdleAim 769 1985414079 [route]1570636889 "" "" "" 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+
+rt_quest_d_0002
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 2626029018 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3421963199 0 0 0 0 496717012 0 0 0 
+
+rt_quest_d_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:3297759236 0 0 0 0 0 0 728838112 0 0 0 
+Event2:VehicleIdle 16777985 2379809247 [route]4106517606 "" "" "" 0 0 0 0 
+
+rt_quest_d_0007
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdleAim 769 4171826111 [route]3329521033 "" "" "" 0 0 0 0 
+
+1570636889
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2842755251 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 695206067 0 0 0 0 0 0 0 0 
+
+rt_quest_d_0006
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdleAim 769 1832387519 [route]2710470127 "" "" "" 0 0 0 0 
+
+rt_heli_quest_spawn
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  CautionSquatIdleAim 769 1985414079 [route]1570636889 "" "" "" 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Event2:SendMessage 1 1004142592 0 0 0 0 18529 "msg_questHeli_routeChange" "" 0 
+
+2710470127
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3196453043 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1048903859 0 0 0 0 0 0 0 0 
+
+rt_quest_d_0004
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 2418411869 0 0 0 0 496717012 0 0 0 
+Event3:RelaxedIdleAct 1 1769800159 0 0 0 0 496717012 0 0 0 
+
+3329521033
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1206911155 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3354460339 0 0 0 0 0 0 0 0 
+
+rt_quest_d_0003
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 4215605537 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3663135319 0 0 0 0 496717012 0 0 0 
+
+rt_quest_d_0001
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:3297759236 0 0 0 0 0 0 2975666643 0 0 0 
+Event2:VehicleIdle 16777985 949289439 [route]3692666916 "" "" "" 0 0 0 0 
+
+3692666916
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1818427571 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3965976755 0 0 0 0 0 0 0 0 
+
+4106517606
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3827630259 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1680081075 0 0 0 0 0 0 0 0 
+

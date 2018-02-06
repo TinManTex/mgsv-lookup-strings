@@ -1,0 +1,34 @@
+rt_quest_d_0002
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleAim 1025 3570598487 [route]2313465508 "" "" "" 0 0 0 0 
+
+rt_quest_d_0000
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdleAim 1025 3099725324 [route]2313465508 "" "" "" 0 0 0 0 
+
+2313465508
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2049769711 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 1000 0 0 0 
+Event2:Wait 1 107151599 0 0 0 0 0 0 0 0 
+
+rt_quest_d_0003
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdleAim 1025 1997275735 [route]2313465508 "" "" "" 0 0 0 0 
+
+rt_quest_d_0001
+Node1:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdleAim 1025 328204887 [route]2313465508 "" "" "" 0 0 0 0 
+

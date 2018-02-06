@@ -1,0 +1,169 @@
+rt_quest_d_0005
+Node1:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 1309343983 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 118227183 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 2449211631 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+
+rt_heli_quest_0000
+Node1:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  CautionStandIdleSearch 1 1309343983 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionStandIdleSearch 1 118227183 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+
+145500008
+Node1:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2049769711 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 2000 0 0 0 
+Event2:Wait 1 107151599 0 0 0 0 0 0 0 0 
+
+rt_quest_d_0002
+Node1:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdleAim 16777985 4219601375 [route]3950889815 "" "" "" 0 0 0 0 
+
+rt_quest_d_0000
+Node1:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdleAim 16777985 1223688671 [route]1809751061 "" "" "" 0 0 0 0 
+
+1384273105
+Node1:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2049769711 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 2000 0 0 0 
+Event2:Wait 1 107151599 0 0 0 0 0 0 0 0 
+
+1809751061
+Node1:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2049769711 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 2000 0 0 0 
+Event2:Wait 1 107151599 0 0 0 0 0 0 0 0 
+
+rt_quest_d_0004
+Node1:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:VehicleMoveNormal 0 0 0 0 0 0 728838112 0 0 0 
+Event2:VehicleIdle 16778241 1240859103 [route]145500008 "" "" "" 0 0 0 0 
+
+rt_quest_d_0003
+Node1:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  CautionStandIdleSearch 1 1309343983 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 4009296111 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionStandIdleSearch 1 118227183 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 958660847 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionStandIdleSearch 1 2449211631 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 2539258335 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  None 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+
+rt_quest_d_0001
+Node1:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdleAim 16777985 1255342559 [route]1384273105 "" "" "" 0 0 0 0 
+
+3950889815
+Node1:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3302490351 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 2000 0 0 0 
+Event2:Wait 1 1359806703 0 0 0 0 0 0 0 0 
+

@@ -1,0 +1,4208 @@
+10527653
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 173015219 0 0 0 0 0 0 0 0 
+
+rt_citadel_c_0027
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rt_citadel_d_0002
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+
+93151120
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1074725103 0 0 0 0 0 0 0 0 
+
+rt_citadel_d_0027
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 4187619807 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]524826923 "" "" "" 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 3849651254 [route]1496761636 "" "" "" 496717012 0 0 0 
+Node13:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  Wait 1 1074725103 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  RelaxedIdleAct 1 4187619807 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  RelaxedWalk 768 0 [route]524826923 "" "" "" 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node21:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node22:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]524826923 "" "" "" 0 0 0 0 
+
+rt_citadel_n_0021
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 3758162938 [route]1217572718 "" "" "" 2014502296 0 0 0 
+
+rt_citadel_n_0018_sub
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 479 0 0 0 0 [route]716215507 "CanUseSearchLight" 3889772556 0 
+Event3:RelaxedIdleAct 769 4223402883 [route]1871387123 "" "" "" 2277088634 0 0 0 
+
+rts_ptr_e_citadel_W_Return
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 1024 0 100 0 
+Node2:
+Edge:  Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 1024 0 100 0 
+Node3:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 1024 0 100 0 
+Node4:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 1024 0 100 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 1024 0 100 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 1024 0 100 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 1024 0 100 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 1024 0 100 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 1024 0 100 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 1024 0 100 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 1024 0 100 0 
+Node12:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 1024 0 100 0 
+Node13:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 1024 0 100 0 
+Event2:Hovering 16777217 212535046 0 0 0 0 0 0 0 0 
+
+rt_citadel_c_0023
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleAim 769 479 [route]2880231092 "" "" "" 0 0 0 0 
+
+rt_citadel_r_0005
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 4044489183 0 0 0 0 496717012 0 0 0 
+
+294146956
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 479 0 0 0 0 [route]"rt_citadel_c_0029" "CanUseSearchLight" 3889772556 0 
+Event3:CautionStandIdle 769 479 [route]3469359990 "" "" "" 0 0 0 0 
+
+316547487
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1074725103 0 0 0 0 0 0 0 0 
+
+rt_citadel_d_0007
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 4271374815 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]3851201422 "" "" "" 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]3851201422 "" "" "" 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]1782888185 "" "" "" 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]1782888185 "" "" "" 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]3279066457 "" "" "" 0 0 0 0 
+Event2:RelaxedIdleAct 769 414253535 [route]3279066457 "" "" "" 2277088634 0 0 0 
+Node13:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]3851201422 "" "" "" 0 0 0 0 
+Node14:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]3851201422 "" "" "" 0 0 0 0 
+Node15:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 4044161503 0 0 0 0 2277088634 0 0 0 
+Node16:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  RelaxedIdleAct 1 4187619807 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  RelaxedWalk 768 0 [route]524826923 "" "" "" 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node21:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node22:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]1782888185 "" "" "" 0 0 0 0 
+Node23:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]1782888185 "" "" "" 0 0 0 0 
+Node24:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node25:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node26:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node27:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node28:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+329850470
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2348876435 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 201327371 0 0 0 0 0 0 0 0 
+
+rt_citadel_r_0000
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3328639455 0 0 0 0 496717012 0 0 0 
+
+rt_citadel_d_0012
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 4008641291 [route]569000180 "" "" "" 2277088634 0 0 0 
+
+rt_citadel_d_0000
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 3901293263 [route]3193210138 "" "" "" 2277088634 0 0 0 
+Event3:RelaxedIdleAct 769 3865510367 [route]3193210138 "" "" "" 2277088634 0 0 0 
+
+423991415
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1074725103 0 0 0 0 0 0 0 0 
+
+rt_citadel_c_0011
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleAim 769 3597992715 [route]569000180 "" "" "" 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleAim 769 484115331 [route]1207568535 "" "" "" 0 0 0 0 
+
+461507207
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1074725103 0 0 0 0 0 0 0 0 
+
+462468188
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 479 0 0 0 0 [route]"rt_citadel_n_0008_sub" "CanNotUseSearchLight" 3352607979 0 
+Event3:UseSearchLight 769 4187619807 [route]3047885499 "" "" "" 0 0 0 0 
+
+rt_citadel_n_0010
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 2577007551 0 0 0 0 2277088634 0 0 0 
+
+523284985
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 173015219 0 0 0 0 0 0 0 0 
+
+524826923
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1074725103 0 0 0 0 0 0 0 0 
+
+rt_citadel_d_0025
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:WalkerGearRelaxedIdle 769 479 [route]1394937968 "" "" "" 0 0 0 0 
+
+rt_anml_citadel_rat_00
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  Wait 1 1074725103 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  RelaxedIdleAct 1 4187619807 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node21:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node22:
+Edge:  RelaxedWalk 768 0 [route]524826923 "" "" "" 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node23:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node24:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node25:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node26:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node27:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node28:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node29:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node30:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node31:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node32:
+Edge:  RelaxedIdleAct 769 3849651254 [route]1496761636 "" "" "" 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node33:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node34:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node35:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node36:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node37:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node38:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node39:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node40:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node41:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node42:
+Edge:  RelaxedWalk 768 0 [route]524826923 "" "" "" 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node43:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+
+544655129
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 173015219 0 0 0 0 0 0 0 0 
+
+553202326
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3187081455 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1039532211 0 0 0 0 0 0 0 0 
+
+569000180
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 173015219 0 0 0 0 0 0 0 0 
+
+584474114
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 173015219 0 0 0 0 0 0 0 0 
+
+rt_citadel_c_0032
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:WalkerGearCautionIdle 769 479 [route]1394937968 "" "" "" 0 0 0 0 
+
+611290038
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3686531551 0 0 0 0 2014502296 0 0 0 
+
+612758229
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2513699415 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 366150351 0 0 0 0 0 0 0 0 
+
+rt_citadel_c_0000
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 59 0 0 0 0 [route]3848590961 "CanNotUseSearchLight" 4200841492 0 
+Event3:UseSearchLight 769 3901293023 [route]2042153675 "" "" "" 0 0 0 0 
+
+616421174
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 173015219 0 0 0 0 0 0 0 0 
+
+rt_citadel_n_0002_sub
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 479 0 0 0 0 [route]1576307199 "CanUseSearchLight" 4200841492 0 
+Event3:RelaxedIdleAct 769 3614966239 [route]3193210138 "" "" "" 2277088634 0 0 0 
+
+rt_citadel_c_0001
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 479 0 0 0 0 [route]2901867489 "CanNotUseSearchLight" 3806605413 0 
+Event3:UseSearchLight 769 3650749135 [route]1229987170 "" "" "" 0 0 0 0 
+
+655366426
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1074725103 0 0 0 0 0 0 0 0 
+
+rt_citadel_c_0014
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 479 0 0 0 0 [route]2136966196 "CanNotUseSearchLight" 752847268 0 
+Event3:UseSearchLight 769 393675231 [route]3851201422 "" "" "" 0 0 0 0 
+
+rt_citadel_r_0008
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 4080271839 0 0 0 0 496717012 0 0 0 
+
+716215507
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 479 0 0 0 0 [route]"rt_citadel_n_0018_sub" "CanNotUseSearchLight" 3889772556 0 
+Event3:UseSearchLight 769 4223402463 [route]1871387123 "" "" "" 0 0 0 0 
+
+rt_citadel_n_0008_sub
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 479 0 0 0 0 [route]462468188 "CanUseSearchLight" 3352607979 0 
+Event3:RelaxedIdleAct 769 4116054855 [route]3047885499 "" "" "" 2277088634 0 0 0 
+
+lz_citadelSouth_S0000|rt_apr_citadelSouth_S_0000
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  Wait 1 1074725103 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  RelaxedIdleAct 1 4187619807 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node21:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node22:
+Edge:  RelaxedWalk 768 0 [route]524826923 "" "" "" 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node23:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node24:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node25:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node26:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node27:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node28:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node29:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node30:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node31:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node32:
+Edge:  RelaxedIdleAct 769 3849651254 [route]1496761636 "" "" "" 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node33:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node34:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node35:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node36:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node37:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node38:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node39:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node40:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node41:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+
+785486222
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 173015219 0 0 0 0 0 0 0 0 
+
+rt_citadel_snp_0000
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdleAim 769 3818783199 [route]1545868422 3847871391 3847871391 "" 0 0 0 0 
+
+793771060
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 479 0 0 0 0 [route]"rt_citadel_c_0012" "CanUseSearchLight" 304772018 0 
+Event3:CautionStandIdle 769 3650748895 [route]1782888185 "" "" "" 0 0 0 0 
+
+rt_anml_citadel_rat_02
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3188981939 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  Wait 1 1074725103 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  RelaxedIdleAct 1 4187619807 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node21:
+Edge:  RelaxedWalk 768 0 [route]524826923 "" "" "" 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node22:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node23:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node24:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node25:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node26:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node27:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node28:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node29:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node30:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node31:
+Edge:  RelaxedIdleAct 769 3849651254 [route]1496761636 "" "" "" 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node32:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node33:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node34:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node35:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node36:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+
+rt_citadel_r_0006
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 479 0 0 0 0 496717012 0 0 0 
+
+rt_citadel_c_0007
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 769 479 [route]785486222 "" "" "" 0 0 0 0 
+
+rt_citadel_s_0005
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 16777217 1037894111 0 0 0 0 911690047 0 0 0 
+
+1015530125
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 173015219 0 0 0 0 0 0 0 0 
+
+rt_citadel_d_0030
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 3770024655 [route]461507207 "" "" "" 496717012 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]423991415 "" "" "" 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 1034158919 [route]655366426 "" "" "" 2277088634 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  Wait 1 1074725103 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]423991415 "" "" "" 0 0 0 0 
+Node17:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  RelaxedIdleAct 1 4187619807 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+rt_citadel_c_0026
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 574816495 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 1012990431 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rt_citadel_c_0010
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rt_citadel_d_0024
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 4259185778 [route]3469359990 "" "" "" 2014502296 0 0 0 
+Event3:RelaxedIdleAct 769 839 [route]3469359990 "" "" "" 2277088634 0 0 0 
+
+1207568535
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 173015219 0 0 0 0 0 0 0 0 
+
+1209343209
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 2254897631 0 0 0 0 2014502296 0 0 0 
+
+1217572718
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1074725103 0 0 0 0 0 0 0 0 
+
+1229987170
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2348876135 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 201327071 0 0 0 0 0 0 0 0 
+
+rt_citadel_s_0008
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 16777217 1037894111 0 0 0 0 911690047 0 0 0 
+
+1271890879
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3187081695 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1039532451 0 0 0 0 0 0 0 0 
+
+rt_citadel_r_0009
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1073676767 0 0 0 0 496717012 0 0 0 
+
+rt_citadel_n_0007_sub
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 479 0 0 0 0 [route]2913920070 "CanUseSearchLight" 752847268 0 
+Event3:RelaxedIdleAct 769 715785031 [route]3036102714 "" "" "" 2277088634 0 0 0 
+
+1309754963
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 173015219 0 0 0 0 0 0 0 0 
+
+1319308037
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 4259185119 0 0 0 0 2014502296 0 0 0 
+
+rt_citadel_r_0002
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3793945055 0 0 0 0 496717012 0 0 0 
+
+1394937968
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1074725103 0 0 0 0 0 0 0 0 
+
+rt_citadel_d_0006
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:WalkerGearRelaxedIdle 769 3758162399 [route]1782888185 "" "" "" 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 768 0 [route]3036102714 "" "" "" 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 768 0 [route]3036102714 "" "" "" 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 768 0 [route]3036102714 "" "" "" 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:WalkerGearRelaxedIdle 1 2068054135 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  Wait 1 1074725103 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  RelaxedIdleAct 1 4187619807 0 0 0 0 496717012 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  RelaxedWalk 768 0 [route]524826923 "" "" "" 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node21:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+rt_citadel_c_0004
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 769 3722314207 [route]2887043531 "" "" "" 0 0 0 0 
+
+rt_citadel_d_0018
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 4223403182 [route]1271890879 "" "" "" 2277088634 0 0 0 
+
+1496761636
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1074725103 0 0 0 0 0 0 0 0 
+
+1523027379
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1074725103 0 0 0 0 0 0 0 0 
+
+1545868422
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2320564943 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 173015879 0 0 0 0 0 0 0 0 
+
+1553883178
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 4259185479 [route]616421174 "" "" "" 2277088634 0 0 0 
+
+1576307199
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 479 0 0 0 0 [route]"rt_citadel_n_0002_sub" "CanNotUseSearchLight" 4200841492 0 
+Event3:UseSearchLight 769 3865510367 [route]3193210138 "" "" "" 0 0 0 0 
+
+rt_citadel_c_0022
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rt_citadel_d_0003
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]2887043531 "" "" "" 0 0 0 0 
+Event2:RelaxedIdleAct 769 3292791563 [route]3508006446 "" "" "" 2277088634 0 0 0 
+Event3:RelaxedIdleAct 769 3978494431 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Node2:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]2887043531 "" "" "" 0 0 0 0 
+Event2:RelaxedIdleAct 769 362873551 [route]523284985 "" "" "" 2277088634 0 0 0 
+
+rt_citadel_n_0014
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 2827551619 [route]2216094745 "" "" "" 2277088634 0 0 0 
+
+rt_citadel_s_0001
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 16777217 1539047903 0 0 0 0 911690047 0 0 0 
+
+rt_citadel_n_0022
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3471836274 0 0 0 0 2277088634 0 0 0 
+Event3:RelaxedIdleAct 1 3901293203 0 0 0 0 2277088634 0 0 0 
+
+lz_citadelSouth_S0000|rt_rtn_citadelSouth_S_0000
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 1024 0 55 5 
+Node3:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  Wait 1 1074725103 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  RelaxedIdleAct 1 4187619807 0 0 0 0 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node21:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node22:
+Edge:  RelaxedWalk 768 0 [route]524826923 "" "" "" 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node23:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node24:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 5 0 0 0 
+Node25:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node26:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node27:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node28:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node29:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node30:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node31:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node32:
+Edge:  RelaxedIdleAct 769 3849651254 [route]1496761636 "" "" "" 496717012 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+
+rt_citadel_n_0013
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 608437123 [route]2427933327 "" "" "" 2277088634 0 0 0 
+Event3:RelaxedIdleAct 769 1037894351 [route]2427933327 "" "" "" 2277088634 0 0 0 
+
+rt_citadel_c_0030
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleAim 769 3614508446 [route]1217572718 "" "" "" 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleAim 769 464848646 [route]93151120 "" "" "" 0 0 0 0 
+
+rt_citadel_r_0011
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 4187619807 0 0 0 0 496717012 0 0 0 
+
+rt_citadel_n_0009
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 536806095 0 0 0 0 2277088634 0 0 0 
+
+1782888185
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2513699115 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 366149991 0 0 0 0 0 0 0 0 
+
+rt_citadel_d_0019
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 357892755 [route]2427933327 "" "" "" 2277088634 0 0 0 
+
+rt_citadel_n_0017
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 787218911 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]3149744702 "" "" "" 0 0 0 0 
+Node12:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 2088436191 0 0 0 0 496717012 0 0 0 
+Node14:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  Wait 1 1074725103 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]3149744702 "" "" "" 0 0 0 0 
+Node17:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  RelaxedIdleAct 1 4187619807 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  RelaxedWalk 768 0 [route]524826923 "" "" "" 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node21:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node22:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node23:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+rt_citadel_c_0019
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleAim 769 678232543 [route]2211269725 "" "" "" 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleAim 769 507904479 [route]3149744702 "" "" "" 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rt_citadel_r_0007
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 479 0 0 0 0 496717012 0 0 0 
+
+1826961381
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 479 0 0 0 0 [route]"rt_citadel_c_0013" "CanUseSearchLight" 3352607979 0 
+Event3:CautionStandIdle 769 4151837151 [route]3533558788 "" "" "" 0 0 0 0 
+
+1851414798
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3686531551 0 0 0 0 2014502296 0 0 0 
+
+1871387123
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3222274647 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1074725343 0 0 0 0 0 0 0 0 
+
+rt_citadel_d_0016
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 966394815 [route]2427933327 "" "" "" 2014502296 0 0 0 
+
+rt_citadel_s_0006
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 16777217 1037894111 0 0 0 0 911690047 0 0 0 
+
+rt_citadel_c_0034
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdleAim 16777985 393871839 [route]2042874265 "" "" "" 0 0 0 0 
+
+rt_citadel_s_0000
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 16777217 1539047903 0 0 0 0 911690047 0 0 0 
+
+rt_citadel_c_0024
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+2042153675
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2481258795 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 522191207 0 0 0 0 0 0 0 0 
+
+2042874265
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3241673003 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1020461355 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 87621931 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2344681591 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+
+rt_citadel_d_0035
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1055457999 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]4023185962 "" "" "" 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]4023185962 "" "" "" 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 334627595 [route]2339063748 "" "" "" 2277088634 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]4023185962 "" "" "" 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]4023185962 "" "" "" 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+rt_anml_citadel_rat_03
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+
+2136966196
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 479 0 0 0 0 [route]"rt_citadel_c_0014" "CanUseSearchLight" 752847268 0 
+Event3:CautionStandIdle 769 429457887 [route]3851201422 "" "" "" 0 0 0 0 
+
+2211269725
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1074725103 0 0 0 0 0 0 0 0 
+
+2216094745
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1074725103 0 0 0 0 0 0 0 0 
+
+rt_citadel_c_0008
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:WalkerGearCautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 768 0 [route]3851201422 "" "" "" 0 0 0 0 
+Node17:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 768 0 [route]3851201422 "" "" "" 0 0 0 0 
+Node18:
+Edge:  Wait 1 1074725103 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 768 0 [route]3851201422 "" "" "" 0 0 0 0 
+Node19:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 0 0 0 0 0 0 0 0 0 0 
+
+2273729162
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 1198 [route]1207568535 "" "" "" 2277088634 0 0 0 
+
+2300587611
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 715850207 0 0 0 0 2014502296 0 0 0 
+
+2330839856
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 143131403 0 0 0 0 2277088634 0 0 0 
+
+2339063748
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1074725103 0 0 0 0 0 0 0 0 
+
+rt_citadel_d_0010
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 3758162639 [route]1782888185 "" "" "" 2277088634 0 0 0 
+Event3:RelaxedIdleAct 769 4008707007 [route]1782888185 "" "" "" 496717012 0 0 0 
+
+2360277570
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 4039377135 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+
+rt_citadel_d_0034
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 3435987723 [route]2216094745 "" "" "" 2277088634 0 0 0 
+
+rt_anml_citadel_rat_04
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 920649907 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  Wait 1 1074725103 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  RelaxedIdleAct 1 4187619807 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node21:
+Edge:  RelaxedWalk 768 0 [route]524826923 "" "" "" 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node22:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node23:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node24:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node25:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node26:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node27:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node28:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node29:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node30:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node31:
+Edge:  RelaxedIdleAct 769 3849651254 [route]1496761636 "" "" "" 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node32:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node33:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node34:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node35:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node36:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node37:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node38:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node39:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node40:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node41:
+Edge:  RelaxedWalk 768 0 [route]524826923 "" "" "" 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node42:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node43:
+Edge:  RelaxedIdleAct 769 3758162938 [route]1217572718 "" "" "" 2014502296 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node44:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node45:
+Edge:  SwitchRoute 1 479 0 0 0 0 [route]716215507 "CanUseSearchLight" 3889772556 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node46:
+Edge:  RelaxedIdleAct 769 4223402883 [route]1871387123 "" "" "" 2277088634 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node47:
+Edge:  Normal 0 0 0 0 0 0 1024 0 100 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node48:
+Edge:  Normal 0 0 0 0 0 0 1024 0 100 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node49:
+Edge:  Normal 0 0 0 0 0 0 1024 0 100 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node50:
+Edge:  Normal 0 0 0 0 0 0 1024 0 100 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node51:
+Edge:  Normal 0 0 0 0 0 0 1024 0 100 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node52:
+Edge:  Normal 0 0 0 0 0 0 1024 0 100 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node53:
+Edge:  Normal 0 0 0 0 0 0 1024 0 100 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+
+rts_h_heli_skull_arrival
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 0 0 0 0 
+Event2:Hovering 1 2962096307 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 0 0 0 0 
+Event2:Hovering 16777217 3701801439 0 0 0 0 0 0 0 0 
+
+2417739803
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 479 0 0 0 0 [route]"rt_citadel_n_0011_sub" "CanNotUseSearchLight" 481435353 0 
+Event3:UseSearchLight 769 4151837151 [route]1271890879 "" "" "" 0 0 0 0 
+
+2427933327
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1074725103 0 0 0 0 0 0 0 0 
+
+rt_citadel_d_0028
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 3793945295 [route]1217572718 "" "" "" 2277088634 0 0 0 
+Event3:RelaxedIdleAct 769 839 [route]1217572718 "" "" "" 2277088634 0 0 0 
+
+rt_citadel_r_0001
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3367633375 0 0 0 0 496717012 0 0 0 
+
+rt_citadel_d_0029
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 1479017347 [route]655366426 "" "" "" 2277088634 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]3531976318 "" "" "" 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]1523027379 "" "" "" 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 533070543 0 0 0 0 2277088634 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]1523027379 "" "" "" 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]3531976318 "" "" "" 0 0 0 0 
+
+rts_ptr_e_citadel_W_0000
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 1024 0 20 0 
+Node2:
+Edge:  Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 1024 0 20 0 
+Node3:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 1024 0 20 0 
+Node4:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 1024 0 20 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 1024 0 20 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 1024 0 20 0 
+
+2545371644
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 2254897631 0 0 0 0 2014502296 0 0 0 
+
+rt_citadel_c_0015
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 3402629599 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 3124953447 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  Wait 1 1074725103 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  RelaxedIdleAct 1 4187619807 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  RelaxedWalk 768 0 [route]524826923 "" "" "" 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rt_citadel_c_0003
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 237109727 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 298779103 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  Wait 1 1074725103 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  RelaxedIdleAct 1 4187619807 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  RelaxedWalk 768 0 [route]524826923 "" "" "" 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node21:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node22:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node23:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node24:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node25:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node26:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node27:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node28:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node29:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rt_citadel_d_0015
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 3614966539 [route]2427933327 "" "" "" 2277088634 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+rt_citadel_r_0003
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3400204767 0 0 0 0 496717012 0 0 0 
+
+rt_citadel_d_0020
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 4223402763 [route]2880231092 "" "" "" 2014502296 0 0 0 
+
+rt_citadel_c_0005
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 769 410911199 [route]3979658803 "" "" "" 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rt_citadel_c_0002
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:WalkerGearCautionIdle 1 1508901343 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 768 0 [route]10527653 "" "" "" 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 768 0 [route]10527653 "" "" "" 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 768 0 [route]10527653 "" "" "" 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 768 0 [route]10527653 "" "" "" 0 0 0 0 
+Event2:WalkerGearCautionIdle 1 149291487 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 768 0 [route]10527653 "" "" "" 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 768 0 [route]10527653 "" "" "" 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 0 0 0 0 0 0 0 0 0 0 
+
+rt_citadel_d_0021
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:WalkerGearRelaxedIdle 1 4265214431 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+2721388973
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 479 0 0 0 0 [route]"rt_citadel_c_0028" "CanUseSearchLight" 481435353 0 
+Event3:CautionStandIdle 769 4151837151 [route]553202326 "" "" "" 0 0 0 0 
+
+rts_demo_citadelSouth_S_0000
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 522 0 0 0 
+Node3:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 522 0 0 0 
+Node4:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 522 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 1034 0 30 5 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Normal 0 0 0 0 0 0 1034 0 30 5 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:728879063 0 0 0 0 0 0 1034 0 25 3 
+Event2:DropPoint 1 964231227 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:None 0 0 0 0 0 0 0 0 0 0 
+
+2740535632
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 781386207 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 3816096163 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rt_citadel_s_0007
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 16777217 1002111455 0 0 0 0 911690047 0 0 0 
+
+rt_citadel_r_0010
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 644219359 0 0 0 0 496717012 0 0 0 
+
+rt_citadel_c_0017
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 3074884063 0 0 0 0 0 0 0 0 
+
+2880231092
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1074725103 0 0 0 0 0 0 0 0 
+
+rt_citadel_s_0002
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 16777217 4259185119 0 0 0 0 911690047 0 0 0 
+
+2887043531
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 173015219 0 0 0 0 0 0 0 0 
+
+rt_citadel_d_0026
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 715785330 [route]655366426 "" "" "" 2277088634 0 0 0 
+Event3:RelaxedIdleAct 769 35783854 [route]1496761636 "" "" "" 496717012 0 0 0 
+
+2890034638
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 1018 [route]553202326 "" "" "" 2277088634 0 0 0 
+
+2901867489
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 479 0 0 0 0 [route]"rt_citadel_c_0001" "CanUseSearchLight" 3806605413 0 
+Event3:CautionStandIdle 769 3650749255 [route]1229987170 "" "" "" 0 0 0 0 
+
+2913920070
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 479 0 0 0 0 [route]"rt_citadel_n_0007_sub" "CanNotUseSearchLight" 752847268 0 
+Event3:UseSearchLight 769 465240783 [route]3036102714 "" "" "" 0 0 0 0 
+
+rt_citadel_n_0012
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]316547487 "" "" "" 0 0 0 0 
+Node3:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  Wait 1 1074725103 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  RelaxedIdleAct 1 4187619807 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node21:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node22:
+Edge:  RelaxedWalk 768 0 [route]524826923 "" "" "" 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node23:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node24:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]4023185962 "" "" "" 0 0 0 0 
+
+rt_citadel_d_0023
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 3099919175 [route]461507207 "" "" "" 496717012 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]3149744702 "" "" "" 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 807666383 0 0 0 0 2277088634 0 0 0 
+Node12:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  Wait 1 1074725103 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  RelaxedIdleAct 1 4187619807 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 768 0 [route]3531976318 "" "" "" 0 0 0 0 
+Node19:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]3531976318 "" "" "" 0 0 0 0 
+Node20:
+Edge:  RelaxedWalk 768 0 [route]524826923 "" "" "" 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+rt_citadel_c_0009
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 769 98238943 [route]584474114 "" "" "" 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 1910374879 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  Wait 1 1074725103 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  RelaxedIdleAct 1 4187619807 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rt_citadel_d_0031
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 1078 [route]1207568535 "" "" "" 496717012 0 0 0 
+Event3:RelaxedIdleAct 769 1258 [route]1207568535 "" "" "" 2277088634 0 0 0 
+
+3016026004
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 715850207 0 0 0 0 2014502296 0 0 0 
+
+rt_citadel_n_0011_sub
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 479 0 0 0 0 [route]2417739803 "CanUseSearchLight" 481435353 0 
+Event3:RelaxedIdleAct 769 4151837451 [route]1271890879 "" "" "" 2277088634 0 0 0 
+
+3036102714
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3634168407 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1486619103 0 0 0 0 0 0 0 0 
+
+rt_citadel_s_0004
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 16777217 4259185119 0 0 0 0 911690047 0 0 0 
+
+3047885499
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3077243479 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 929694355 0 0 0 0 0 0 0 0 
+
+rt_citadel_r_0004
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3722314207 0 0 0 0 496717012 0 0 0 
+
+3072581122
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1074725103 0 0 0 0 0 0 0 0 
+
+3083675289
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 479 0 0 0 0 [route]"rt_citadel_n_0001_sub" "CanNotUseSearchLight" 3806605413 0 
+Event3:UseSearchLight 769 3722314207 [route]329850470 "" "" "" 0 0 0 0 
+
+rt_citadel_c_0018
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 995426783 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 771162591 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  Wait 1 1074725103 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  RelaxedIdleAct 1 4187619807 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  RelaxedWalk 768 0 [route]524826923 "" "" "" 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node21:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkAim 768 0 [route]3072581122 "" "" "" 0 0 0 0 
+Node22:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkAim 768 0 [route]3072581122 "" "" "" 0 0 0 0 
+
+3149744702
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1074725103 0 0 0 0 0 0 0 0 
+
+rt_citadel_c_0035
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleAim 769 1182269919 [route]1217572718 "" "" "" 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleAim 769 937296651 [route]655366426 "" "" "" 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 4063711 0 0 0 0 0 0 0 0 
+
+rt_citadel_c_0012
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 479 0 0 0 0 [route]793771060 "CanNotUseSearchLight" 304772018 0 
+Event3:UseSearchLight 769 3650748895 [route]1782888185 "" "" "" 0 0 0 0 
+
+3193210138
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2481259095 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 522191567 0 0 0 0 0 0 0 0 
+
+rt_citadel_s_0009
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 16777217 1073676767 0 0 0 0 911690047 0 0 0 
+
+rt_anml_citadel_rat_01
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  Wait 1 1074725103 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  RelaxedIdleAct 1 4187619807 0 0 0 0 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1097007283 0 0 0 0 0 0 0 0 
+Node21:
+Edge:  RelaxedWalk 768 0 [route]524826923 "" "" "" 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node22:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node23:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node24:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node25:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node26:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node27:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node28:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node29:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node30:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node31:
+Edge:  RelaxedIdleAct 769 3849651254 [route]1496761636 "" "" "" 496717012 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+
+rt_citadel_d_0009
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 4008640991 [route]544655129 "" "" "" 2277088634 0 0 0 
+Event3:RelaxedIdleAct 769 4187619807 [route]544655129 "" "" "" 2277088634 0 0 0 
+Node2:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3411149699 0 0 0 0 496717012 0 0 0 
+Node16:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  RelaxedIdleAct 1 4187619807 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  RelaxedWalk 768 0 [route]524826923 "" "" "" 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node21:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node22:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node23:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node24:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node25:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node26:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node27:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node28:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+rt_citadel_d_0008
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]3851201422 "" "" "" 0 0 0 0 
+Node2:
+Edge:  Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]1015530125 "" "" "" 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]1015530125 "" "" "" 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 985858527 0 0 0 0 496717012 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:RelaxedWalk 768 0 [route]1015530125 "" "" "" 0 0 0 0 
+Node14:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]1015530125 "" "" "" 0 0 0 0 
+Node15:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  Wait 1 1074725103 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]3851201422 "" "" "" 0 0 0 0 
+Node19:
+Edge:  RelaxedIdleAct 1 4187619807 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3045786079 0 0 0 0 496717012 0 0 0 
+Node20:
+Edge:  RelaxedWalk 768 0 [route]524826923 "" "" "" 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+3279066457
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 173015219 0 0 0 0 0 0 0 0 
+
+rt_citadel_n_0005
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 4187619807 [route]523284985 "" "" "" 2277088634 0 0 0 
+
+rt_citadel_d_0032
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 266207711 0 0 0 0 496717012 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]10527653 "" "" "" 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]10527653 "" "" "" 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]10527653 "" "" "" 0 0 0 0 
+Node12:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 3853386507 "" "" "" "" 2277088634 0 0 0 
+Node15:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  Wait 1 1074725103 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  RelaxedIdleAct 1 4187619807 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 768 0 [route]10527653 "" "" "" 0 0 0 0 
+Node19:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]10527653 "" "" "" 0 0 0 0 
+Node20:
+Edge:  RelaxedWalk 768 0 [route]524826923 "" "" "" 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]10527653 "" "" "" 0 0 0 0 
+Node21:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node22:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node23:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node24:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node25:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node26:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+3336443708
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3435987663 0 0 0 0 2014502296 0 0 0 
+Event3:RelaxedIdleAct 1 3614966719 0 0 0 0 496717012 0 0 0 
+
+3390162677
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 4259185119 0 0 0 0 2014502296 0 0 0 
+
+rt_citadel_n_0006_sub
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 479 0 0 0 0 [route]4115058116 "CanUseSearchLight" 304772018 0 
+Event3:RelaxedIdleAct 769 3507618271 [route]612758229 "" "" "" 2277088634 0 0 0 
+
+rt_citadel_c_0025
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 3453747439 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 105906595 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 3883532767 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rt_citadel_d_0011
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 107348927 [route]3533558788 "" "" "" 2014502296 0 0 0 
+Event3:RelaxedIdleAct 769 779 [route]3533558788 "" "" "" 2277088634 0 0 0 
+
+3469359990
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1074725103 0 0 0 0 0 0 0 0 
+
+rt_citadel_d_0017
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 143131403 [route]2339063748 "" "" "" 496717012 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  Wait 1 1074725103 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  RelaxedIdleAct 1 4187619807 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 916849479 0 0 0 0 496717012 0 0 0 
+Node21:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node22:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node23:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node24:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node25:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node26:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node27:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node28:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node29:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node30:
+Edge:  RelaxedIdleAct 769 3849651254 [route]1496761636 "" "" "" 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node31:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node32:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node33:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node34:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node35:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node36:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node37:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node38:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node39:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+3508006446
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2081816755 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 4179099827 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+
+rt_citadel_c_0013
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 479 0 0 0 0 [route]1826961381 "CanNotUseSearchLight" 3352607979 0 
+Event3:UseSearchLight 769 4223402463 [route]3533558788 "" "" "" 0 0 0 0 
+
+3531976318
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1074725103 0 0 0 0 0 0 0 0 
+
+3533558788
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3077243179 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 929694055 0 0 0 0 0 0 0 0 
+
+rt_citadel_d_0014
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:WalkerGearRelaxedIdle 769 3728409055 [route]10527653 "" "" "" 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:WalkerGearRelaxedIdle 769 4059365855 [route]2887043531 "" "" "" 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  Wait 1 1074725103 0 0 0 0 0 0 0 0 
+Event1:WalkerGearRelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+
+rt_citadel_d_0004
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 71566151 [route]3036102714 "" "" "" 2277088634 0 0 0 
+Event3:RelaxedIdleAct 769 143131343 [route]3036102714 "" "" "" 496717012 0 0 0 
+
+rt_citadel_d_0013
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 779 [route]785486222 "" "" "" 2014502296 0 0 0 
+Event3:RelaxedIdleAct 769 539 [route]785486222 "" "" "" 2277088634 0 0 0 
+
+rt_citadel_d_0033
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 1641742935 0 0 0 0 2277088634 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]316547487 "" "" "" 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 710148875 0 0 0 0 496717012 0 0 0 
+Node12:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  Wait 1 1074725103 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  RelaxedIdleAct 1 4187619807 0 0 0 0 496717012 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  RelaxedWalk 768 0 [route]524826923 "" "" "" 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]316547487 "" "" "" 0 0 0 0 
+
+3692409022
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 1 3972858575 0 0 0 0 2014502296 0 0 0 
+Event3:RelaxedIdleAct 1 1078 0 0 0 0 2277088634 0 0 0 
+
+rt_citadel_n_0000
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 3829728071 [route]2887043531 "" "" "" 2277088634 0 0 0 
+
+3760021961
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 3758097103 [route]1309754963 "" "" "" 2277088634 0 0 0 
+
+rt_citadel_d_0005
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 4044489423 [route]584474114 "" "" "" 2277088634 0 0 0 
+Event3:RelaxedIdleAct 769 3758162759 [route]584474114 "" "" "" 496717012 0 0 0 
+
+rt_citadel_s_0003
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 16777217 4259185119 0 0 0 0 911690047 0 0 0 
+
+3848590961
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 59 0 0 0 0 [route]"rt_citadel_c_0000" "CanUseSearchLight" 4200841492 0 
+Event3:CautionStandIdle 769 3901293263 [route]2042153675 "" "" "" 0 0 0 0 
+
+3851201422
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3634168107 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1486618803 0 0 0 0 0 0 0 0 
+
+rt_citadel_d_0022
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 429458247 [route]3149744702 "" "" "" 2277088634 0 0 0 
+
+rt_citadel_n_0001_sub
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 479 0 0 0 0 [route]3083675289 "CanUseSearchLight" 3806605413 0 
+Event3:RelaxedIdleAct 769 3722314207 [route]329850470 "" "" "" 2277088634 0 0 0 
+
+3979658803
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 173015219 0 0 0 0 0 0 0 0 
+
+rt_citadel_c_0016
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  Wait 1 1074725103 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node19:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node20:
+Edge:  RelaxedIdleAct 1 4187619807 0 0 0 0 496717012 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
+rts_citadel_snp_0000
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]2360277570 "" "" "" 0 0 0 0 
+Event2:CautionStandIdleAim 769 479 [route]2360277570 "" "" "" 0 0 0 0 
+
+4023185962
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:Move 0 0 0 0 0 0 0 0 0 0 
+Event2:Wait 1 1074725103 0 0 0 0 0 0 0 0 
+
+rt_citadel_c_0028
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 479 0 0 0 0 [route]2721388973 "CanNotUseSearchLight" 481435353 0 
+Event3:UseSearchLight 769 4151837151 [route]553202326 "" "" "" 0 0 0 0 
+
+rt_citadel_c_0031
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 4287627743 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdle 1 4264362463 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+
+rt_citadel_c_0021
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdleAim 1 2085683679 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdleAim 1 1710555615 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionSquatIdleAim 1 1136394719 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 4130996703 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 2246377951 0 0 0 0 0 0 0 0 
+
+rt_citadel_n_0020
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:RelaxedIdleAct 769 3257074503 [route]655366426 "" "" "" 2277088634 0 0 0 
+
+rt_citadel_c_0020
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:WalkerGearCautionIdle 1 2939617699 0 0 0 0 0 0 0 0 
+Event3:WalkerGearCautionIdle 1 1221525863 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 0 0 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:WalkerGearCautionIdle 1 178061791 0 0 0 0 0 0 0 0 
+Event3:WalkerGearCautionIdle 1 3220439219 0 0 0 0 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 768 0 [route]4023185962 "" "" "" 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:WalkerGearCautionWalk 768 0 [route]4023185962 "" "" "" 0 0 0 0 
+
+4115058116
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 479 0 0 0 0 [route]"rt_citadel_n_0006_sub" "CanNotUseSearchLight" 304772018 0 
+Event3:UseSearchLight 769 3507618271 [route]612758229 "" "" "" 0 0 0 0 
+
+rt_citadel_n_0016
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Wait 1 2320564403 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]2427933327 "" "" "" 0 0 0 0 
+Node4:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]2427933327 "" "" "" 0 0 0 0 
+Node5:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node6:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node7:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node8:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node9:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node10:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node11:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node12:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node13:
+Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node14:
+Edge:  RelaxedIdleAct 769 3722314567 [route]2887043531 "" "" "" 2277088634 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node15:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node16:
+Edge:  Wait 1 3222274347 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node17:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Node18:
+Edge:  Wait 1 1074725103 0 0 0 0 0 0 0 0 
+Event1:RelaxedWalk 768 0 [route]2427933327 "" "" "" 0 0 0 0 
+
+rt_citadel_c_0029
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Event2:SwitchRoute 1 479 0 0 0 0 [route]294146956 "CanNotUseSearchLight" 3889772556 0 
+Event3:UseSearchLight 769 479 [route]3469359990 "" "" "" 0 0 0 0 
+
+rt_citadel_c_0033
+Node1:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 50201055 0 0 0 0 0 0 0 0 
+Node2:
+Edge:  Move 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Node3:
+Edge:  Wait 1 173015219 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event2:CautionStandIdleSearch 1 4210557407 0 0 0 0 0 0 0 0 
+Node4:
+Edge:  CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+
