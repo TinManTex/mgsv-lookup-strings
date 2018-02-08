@@ -1,34 +1,34 @@
 rt_quest_d_0002
 Node1:
-Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:CautionStandIdleAim 16778241 3570598487 [route]4147020667 "" "" "" 0 0 0 0 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdleAim 16778241, 3570598487, [route]4147020667, "", "", "", 0, 0, 0, 0, 
 
 rt_quest_d_0000
 Node1:
-Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:CautionSquatIdleAim 16778241 3099721787 [route]4147020667 "" "" "" 0 0 0 0 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionSquatIdleAim 16778241, 3099721787, [route]4147020667, "", "", "", 0, 0, 0, 0, 
 
 rt_quest_d_0003
 Node1:
-Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:CautionSquatIdleAim 16778241 1997275735 [route]4147020667 "" "" "" 0 0 0 0 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionSquatIdleAim 16778241, 1997275735, [route]4147020667, "", "", "", 0, 0, 0, 0, 
 
 rt_quest_d_0001
 Node1:
-Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:CautionSquatIdleAim 16778241 328204347 [route]4147020667 "" "" "" 0 0 0 0 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionSquatIdleAim 16778241, 328204347, [route]4147020667, "", "", "", 0, 0, 0, 0, 
 
 4147020667
 Node1:
-Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:Move 0 0 0 0 0 0 0 0 0 0 
-Event2:Wait 1 2049769711 0 0 0 0 0 0 0 0 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, 2049769711, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:Move 0 0 0 0 0 0 1000 0 0 0 
-Event2:Wait 1 107151599 0 0 0 0 0 0 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Move 0, 0, 0, 0, 0, 0, 1000, 0, 0, 0, 
+Event2:Wait 1, 107151599, 0, 0, 0, 0, 0, 0, 0, 0, 
 

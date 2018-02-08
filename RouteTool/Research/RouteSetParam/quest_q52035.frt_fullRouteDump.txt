@@ -1,86 +1,86 @@
 rt_quest_d_0005
 Node1:
-Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:RelaxedIdleAct 1 2483487619 0 0 0 0 496717012 0 0 0 
-Event3:RelaxedIdleAct 1 2942566879 0 0 0 0 496717012 0 0 0 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 2483487619, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event3:RelaxedIdleAct 1, 2942566879, 0, 0, 0, 0, 496717012, 0, 0, 0, 
 
 rt_quest_d_0002
 Node1:
-Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:RelaxedIdleAct 1 1032323971 0 0 0 0 496717012 0 0 0 
-Event3:RelaxedIdleAct 1 666698207 0 0 0 0 496717012 0 0 0 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 1032323971, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event3:RelaxedIdleAct 1, 666698207, 0, 0, 0, 0, 496717012, 0, 0, 0, 
 Node2:
-Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  RelaxedIdleAct 1 1032323971 0 0 0 0 496717012 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  RelaxedIdleAct 1, 1032323971, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  RelaxedIdleAct 1 666698207 0 0 0 0 496717012 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:RelaxedIdleAct 1 3872260575 0 0 0 0 496717012 0 0 0 
-Event3:RelaxedIdleAct 1 3502571999 0 0 0 0 496717012 0 0 0 
+Edge:  RelaxedIdleAct 1, 666698207, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 3872260575, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event3:RelaxedIdleAct 1, 3502571999, 0, 0, 0, 0, 496717012, 0, 0, 0, 
 Node5:
-Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
-Edge:  RelaxedIdleAct 1 3872260575 0 0 0 0 496717012 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  RelaxedIdleAct 1, 3872260575, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 537873815
 Node1:
-Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:Move 0 0 0 0 0 0 0 0 0 0 
-Event2:Wait 1 2049769711 0 0 0 0 0 0 0 0 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, 2049769711, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedIdleAct 1 2942566879 0 0 0 0 496717012 0 0 0 
-Event1:Move 0 0 0 0 0 0 2000 0 0 0 
-Event2:Wait 1 107151599 0 0 0 0 0 0 0 0 
+Edge:  RelaxedIdleAct 1, 2942566879, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event1:Move 0, 0, 0, 0, 0, 0, 2000, 0, 0, 0, 
+Event2:Wait 1, 107151599, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rt_quest_d_0000
 Node1:
-Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:VehicleMoveNormal 0 0 0 0 0 0 728838112 0 0 0 
-Event2:VehicleIdle 16778241 1938359231 [route]3020517601 "" "" "" 0 0 0 0 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:VehicleMoveNormal 0, 0, 0, 0, 0, 0, 728838112, 0, 0, 0, 
+Event2:VehicleIdle 16778241, 1938359231, [route]3020517601, "", "", "", 0, 0, 0, 0, 
 
 3020517601
 Node1:
-Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:Move 0 0 0 0 0 0 0 0 0 0 
-Event2:Wait 1 2049769711 0 0 0 0 0 0 0 0 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, 2049769711, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedIdleAct 1 2942566879 0 0 0 0 496717012 0 0 0 
-Event1:Move 0 0 0 0 0 0 2000 0 0 0 
-Event2:Wait 1 107151599 0 0 0 0 0 0 0 0 
+Edge:  RelaxedIdleAct 1, 2942566879, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event1:Move 0, 0, 0, 0, 0, 0, 2000, 0, 0, 0, 
+Event2:Wait 1, 107151599, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rt_quest_d_0004
 Node1:
-Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:RelaxedIdleAct 1 1893466591 0 0 0 0 496717012 0 0 0 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 1893466591, 0, 0, 0, 0, 496717012, 0, 0, 0, 
 Node2:
-Edge:  RelaxedIdleAct 1 2942566879 0 0 0 0 496717012 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  RelaxedIdleAct 1, 2942566879, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:RelaxedIdleAct 1 451674591 0 0 0 0 496717012 0 0 0 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 451674591, 0, 0, 0, 0, 496717012, 0, 0, 0, 
 Node4:
-Edge:  RelaxedIdleAct 1 666698207 0 0 0 0 496717012 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  RelaxedIdleAct 1, 666698207, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rt_quest_d_0003
 Node1:
-Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:RelaxedIdleAct 1 3316384463 0 0 0 0 496717012 0 0 0 
-Event3:RelaxedIdleAct 1 3853451743 0 0 0 0 496717012 0 0 0 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 3316384463, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event3:RelaxedIdleAct 1, 3853451743, 0, 0, 0, 0, 496717012, 0, 0, 0, 
 
 rt_quest_d_0001
 Node1:
-Edge:  RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:CautionSquatIdleAim 16778241 2133853119 [route]537873815 "" "" "" 0 0 0 0 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionSquatIdleAim 16778241, 2133853119, [route]537873815, "", "", "", 0, 0, 0, 0, 
 

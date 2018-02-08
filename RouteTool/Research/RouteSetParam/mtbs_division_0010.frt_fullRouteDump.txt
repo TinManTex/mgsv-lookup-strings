@@ -1,350 +1,350 @@
 139353181
 Node1:
-Edge:  RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event2:RelaxedIdleAct 1 2505441759 0 0 0 0 2277088634 0 0 0 
-Event3:SendMessage 1 2505441759 0 0 0 0 1313 "FOBRouteChange" 0 0 
+Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 2505441759, 0, 0, 0, 0, 2277088634, 0, 0, 0, 
+Event3:SendMessage 1, 2505441759, 0, 0, 0, 0, 1313, "FOBRouteChange", 0, 0, 
 
 628058362
 Node1:
-Edge:  RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event2:RelaxedIdleAct 1 357892575 0 0 0 0 496717012 0 0 0 
-Event3:RelaxedIdleAct 1 1610613215 0 0 0 0 496717012 0 0 0 
+Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 357892575, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event3:RelaxedIdleAct 1, 1610613215, 0, 0, 0, 0, 496717012, 0, 0, 0, 
 
 1007766039
 Node1:
-Edge:  RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:CautionStandIdleSearch 1 1554317791 0 0 0 0 0 0 0 0 
+Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdleSearch 1, 1554317791, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  SendMessage 1 2505441759 0 0 0 0 1313 "FOBRouteChange" 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  SendMessage 1, 2505441759, 0, 0, 0, 0, 1313, "FOBRouteChange", 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  RelaxedIdleAct 1 357892575 0 0 0 0 496717012 0 0 0 
-Event1:CautionWalk 256 0 3249697493 1048576000 3233575080 0 0 0 0 0 
+Edge:  RelaxedIdleAct 1, 357892575, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event1:CautionWalk 256, 0, 3249697493, 1048576000, 3233575080, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  RelaxedIdleAct 1 1610613215 0 0 0 0 496717012 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  RelaxedIdleAct 1, 1610613215, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:CautionStandIdleSearch 1 1567752671 0 0 0 0 0 0 0 0 
-Event3:CautionStandIdleSearch 1 2717843935 0 0 0 0 0 0 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdleSearch 1, 1567752671, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event3:CautionStandIdleSearch 1, 2717843935, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node7:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node8:
-Edge:  CautionWalk 256 0 3249697493 1048576000 3233575080 0 0 0 0 0 
-Event1:CautionWalk 256 0 3251427195 1048576000 1093286293 0 0 0 0 0 
+Edge:  CautionWalk 256, 0, 3249697493, 1048576000, 3233575080, 0, 0, 0, 0, 0, 
+Event1:CautionWalk 256, 0, 3251427195, 1048576000, 1093286293, 0, 0, 0, 0, 0, 
 Node9:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node10:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:CautionStandIdleSearch 1 1284178399 0 0 0 0 0 0 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdleSearch 1, 1284178399, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 1024365648
 Node1:
-Edge:  RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event2:RelaxedIdleAct 1 667681247 0 0 0 0 2277088634 0 0 0 
+Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 667681247, 0, 0, 0, 0, 2277088634, 0, 0, 0, 
 Node2:
-Edge:  SendMessage 1 2505441759 0 0 0 0 1313 "FOBRouteChange" 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
+Edge:  SendMessage 1, 2505441759, 0, 0, 0, 0, 1313, "FOBRouteChange", 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
 Node3:
-Edge:  RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event2:RelaxedIdleAct 1 1610613215 0 0 0 0 2277088634 0 0 0 
-Event3:RelaxedIdleAct 1 2496528863 0 0 0 0 496717012 0 0 0 
+Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 1610613215, 0, 0, 0, 0, 2277088634, 0, 0, 0, 
+Event3:RelaxedIdleAct 1, 2496528863, 0, 0, 0, 0, 496717012, 0, 0, 0, 
 Node4:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
 Node5:
-Edge:  CautionStandIdleSearch 1 1554317791 0 0 0 0 0 0 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
+Edge:  CautionStandIdleSearch 1, 1554317791, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
 
 1266796159
 Node1:
-Edge:  RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:RelaxedIdleAct 257 2906720605 3258187776 0 3240099840 0 496717012 0 0 0 
-Event3:RelaxedIdleAct 257 3716286813 3257139200 0 1110441984 0 496717012 0 0 0 
-Event4:RelaxedIdleAct 257 107153757 3221225470 0 1113063424 0 496717012 0 0 0 
+Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:RelaxedIdleAct 257, 2906720605, 3258187776, 0, 3240099840, 0, 496717012, 0, 0, 0, 
+Event3:RelaxedIdleAct 257, 3716286813, 3257139200, 0, 1110441984, 0, 496717012, 0, 0, 0, 
+Event4:RelaxedIdleAct 257, 107153757, 3221225470, 0, 1113063424, 0, 496717012, 0, 0, 0, 
 Node2:
-Edge:  RelaxedIdleAct 1 357892575 0 0 0 0 496717012 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  RelaxedIdleAct 1, 357892575, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  RelaxedIdleAct 1 1610613215 0 0 0 0 496717012 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  RelaxedIdleAct 1, 1610613215, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  CautionStandIdleSearch 1 1554317791 0 0 0 0 0 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  CautionStandIdleSearch 1, 1554317791, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:RelaxedIdleAct 257 1567754589 1100480512 0 3254255616 0 496717012 0 0 0 
-Event3:RelaxedIdleAct 257 2717846452 3256352768 0 3257139200 0 496717012 0 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:RelaxedIdleAct 257, 1567754589, 1100480512, 0, 3254255616, 0, 496717012, 0, 0, 0, 
+Event3:RelaxedIdleAct 257, 2717846452, 3256352768, 0, 3257139200, 0, 496717012, 0, 0, 0, 
 Node7:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:RelaxedIdleAct 257 619776049 1106771968 0 1104150528 0 496717012 0 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:RelaxedIdleAct 257, 619776049, 1106771968, 0, 1104150528, 0, 496717012, 0, 0, 0, 
 Node8:
-Edge:  CautionStandIdleSearch 1 1567752671 0 0 0 0 0 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  CautionStandIdleSearch 1, 1567752671, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node9:
-Edge:  CautionStandIdleSearch 1 2717843935 0 0 0 0 0 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  CautionStandIdleSearch 1, 2717843935, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node10:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node11:
-Edge:  CautionWalk 256 0 3251427195 1048576000 1093286293 0 0 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  CautionWalk 256, 0, 3251427195, 1048576000, 1093286293, 0, 0, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 1804267026
 Node1:
-Edge:  RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:CautionStandIdleSearch 1 1554317791 0 0 0 0 0 0 0 0 
+Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdleSearch 1, 1554317791, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  SendMessage 1 2505441759 0 0 0 0 1313 "FOBRouteChange" 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  SendMessage 1, 2505441759, 0, 0, 0, 0, 1313, "FOBRouteChange", 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  RelaxedIdleAct 1 357892575 0 0 0 0 496717012 0 0 0 
-Event1:CautionWalk 256 0 3249697493 1048576000 3233575080 0 0 0 0 0 
+Edge:  RelaxedIdleAct 1, 357892575, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event1:CautionWalk 256, 0, 3249697493, 1048576000, 3233575080, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  RelaxedIdleAct 1 1610613215 0 0 0 0 496717012 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  RelaxedIdleAct 1, 1610613215, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:CautionStandIdleSearch 1 1567752671 0 0 0 0 0 0 0 0 
-Event3:CautionStandIdleSearch 1 2717843935 0 0 0 0 0 0 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdleSearch 1, 1567752671, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event3:CautionStandIdleSearch 1, 2717843935, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node7:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node8:
-Edge:  CautionWalk 256 0 3249697493 1048576000 3233575080 0 0 0 0 0 
-Event1:CautionWalk 256 0 3251427195 1048576000 1093286293 0 0 0 0 0 
+Edge:  CautionWalk 256, 0, 3249697493, 1048576000, 3233575080, 0, 0, 0, 0, 0, 
+Event1:CautionWalk 256, 0, 3251427195, 1048576000, 1093286293, 0, 0, 0, 0, 0, 
 Node9:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node10:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:CautionStandIdleSearch 1 1284178399 0 0 0 0 0 0 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdleSearch 1, 1284178399, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 1871690739
 Node1:
-Edge:  RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event2:RelaxedIdleAct 1 2749301215 0 0 0 0 496717012 0 0 0 
+Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 2749301215, 0, 0, 0, 0, 496717012, 0, 0, 0, 
 Node2:
-Edge:  SendMessage 1 2505441759 0 0 0 0 1313 "FOBRouteChange" 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event2:RelaxedIdleAct 1 4242014687 0 0 0 0 496717012 0 0 0 
-Event3:RelaxedIdleAct 1 2810380767 0 0 0 0 496717012 0 0 0 
+Edge:  SendMessage 1, 2505441759, 0, 0, 0, 0, 1313, "FOBRouteChange", 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 4242014687, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event3:RelaxedIdleAct 1, 2810380767, 0, 0, 0, 0, 496717012, 0, 0, 0, 
 Node3:
-Edge:  RelaxedIdleAct 1 1610613215 0 0 0 0 496717012 0 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event2:RelaxedIdleAct 1 1073742303 0 0 0 0 2277088634 0 0 0 
+Edge:  RelaxedIdleAct 1, 1610613215, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 1073742303, 0, 0, 0, 0, 2277088634, 0, 0, 0, 
 
 1901922251
 Node1:
-Edge:  RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
+Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
 Node2:
-Edge:  RelaxedIdleAct 1 2505441759 0 0 0 0 2277088634 0 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event2:RelaxedIdleAct 1 1610613215 0 0 0 0 2277088634 0 0 0 
-Event3:RelaxedIdleAct 1 2496528863 0 0 0 0 496717012 0 0 0 
+Edge:  RelaxedIdleAct 1, 2505441759, 0, 0, 0, 0, 2277088634, 0, 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 1610613215, 0, 0, 0, 0, 2277088634, 0, 0, 0, 
+Event3:RelaxedIdleAct 1, 2496528863, 0, 0, 0, 0, 496717012, 0, 0, 0, 
 Node3:
-Edge:  RelaxedIdleAct 1 357892575 0 0 0 0 496717012 0 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
+Edge:  RelaxedIdleAct 1, 357892575, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
 Node4:
-Edge:  RelaxedIdleAct 1 1610613215 0 0 0 0 496717012 0 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event2:RelaxedIdleAct 1 491258335 0 0 0 0 496717012 0 0 0 
-Event3:RelaxedIdleAct 1 3712549343 0 0 0 0 496717012 0 0 0 
-Event4:SendMessage 1 71238111 0 0 0 0 1313 "FOBRouteChange" 0 0 
+Edge:  RelaxedIdleAct 1, 1610613215, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 491258335, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event3:RelaxedIdleAct 1, 3712549343, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event4:SendMessage 1, 71238111, 0, 0, 0, 0, 1313, "FOBRouteChange", 0, 0, 
 
 1916184775
 Node1:
-Edge:  RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:CautionStandIdle 1 574620127 0 0 0 0 0 0 0 0 
+Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdle 1, 574620127, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 1977963033
 Node1:
-Edge:  RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:RelaxedIdleAct 257 2906720605 3258187776 0 3240099840 0 496717012 0 0 0 
-Event3:RelaxedIdleAct 257 3716286813 3257139200 0 1110441984 0 496717012 0 0 0 
-Event4:RelaxedIdleAct 257 107153757 3221225470 0 1113063424 0 496717012 0 0 0 
+Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:RelaxedIdleAct 257, 2906720605, 3258187776, 0, 3240099840, 0, 496717012, 0, 0, 0, 
+Event3:RelaxedIdleAct 257, 3716286813, 3257139200, 0, 1110441984, 0, 496717012, 0, 0, 0, 
+Event4:RelaxedIdleAct 257, 107153757, 3221225470, 0, 1113063424, 0, 496717012, 0, 0, 0, 
 Node2:
-Edge:  RelaxedIdleAct 1 357892575 0 0 0 0 496717012 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  RelaxedIdleAct 1, 357892575, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  RelaxedIdleAct 1 1610613215 0 0 0 0 496717012 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  RelaxedIdleAct 1, 1610613215, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  CautionStandIdleSearch 1 1554317791 0 0 0 0 0 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  CautionStandIdleSearch 1, 1554317791, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:RelaxedIdleAct 257 1567754589 1100480512 0 3254255616 0 496717012 0 0 0 
-Event3:RelaxedIdleAct 257 2717846452 3256352768 0 3257139200 0 496717012 0 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:RelaxedIdleAct 257, 1567754589, 1100480512, 0, 3254255616, 0, 496717012, 0, 0, 0, 
+Event3:RelaxedIdleAct 257, 2717846452, 3256352768, 0, 3257139200, 0, 496717012, 0, 0, 0, 
 Node7:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:RelaxedIdleAct 257 619776049 1106771968 0 1104150528 0 496717012 0 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:RelaxedIdleAct 257, 619776049, 1106771968, 0, 1104150528, 0, 496717012, 0, 0, 0, 
 Node8:
-Edge:  CautionStandIdleSearch 1 1567752671 0 0 0 0 0 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  CautionStandIdleSearch 1, 1567752671, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node9:
-Edge:  CautionStandIdleSearch 1 2717843935 0 0 0 0 0 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  CautionStandIdleSearch 1, 2717843935, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node10:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node11:
-Edge:  CautionWalk 256 0 3251427195 1048576000 1093286293 0 0 0 0 0 
-Event1:RelaxedWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  CautionWalk 256, 0, 3251427195, 1048576000, 1093286293, 0, 0, 0, 0, 0, 
+Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 2293084555
 Node1:
-Edge:  RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event2:RelaxedIdleAct 1 1741423071 0 0 0 0 2277088634 0 0 0 
-Event3:RelaxedIdleAct 1 302580191 0 0 0 0 496717012 0 0 0 
+Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 1741423071, 0, 0, 0, 0, 2277088634, 0, 0, 0, 
+Event3:RelaxedIdleAct 1, 302580191, 0, 0, 0, 0, 496717012, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
+Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
 Node3:
-Edge:  RelaxedIdleAct 1 357892575 0 0 0 0 496717012 0 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
+Edge:  RelaxedIdleAct 1, 357892575, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
 Node4:
-Edge:  RelaxedIdleAct 1 1610613215 0 0 0 0 496717012 0 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
+Edge:  RelaxedIdleAct 1, 1610613215, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
 Node5:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event2:RelaxedIdleAct 1 1610613215 0 0 0 0 2277088634 0 0 0 
-Event3:RelaxedIdleAct 1 2784231903 0 0 0 0 496717012 0 0 0 
-Event4:SendMessage 1 2068316639 0 0 0 0 1313 "FOBRouteChange" 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 1610613215, 0, 0, 0, 0, 2277088634, 0, 0, 0, 
+Event3:RelaxedIdleAct 1, 2784231903, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event4:SendMessage 1, 2068316639, 0, 0, 0, 0, 1313, "FOBRouteChange", 0, 0, 
 Node6:
-Edge:  CautionWalk 256 0 3249697493 1048576000 3233575080 0 0 0 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
+Edge:  CautionWalk 256, 0, 3249697493, 1048576000, 3233575080, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
 Node7:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
 Node8:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
 
 2746232693
 Node1:
-Edge:  RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 0 0 0 0 
-Event2:RelaxedIdleAct 1 574620127 0 0 0 0 2277088634 0 0 0 
-Event3:SendMessage 1 3400204767 0 0 0 0 1313 "FOBRouteChange" 0 0 
+Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 574620127, 0, 0, 0, 0, 2277088634, 0, 0, 0, 
+Event3:SendMessage 1, 3400204767, 0, 0, 0, 0, 1313, "FOBRouteChange", 0, 0, 
 
 3103071423
 Node1:
-Edge:  RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
-Event2:CautionStandIdleSearch 1 667681007 0 0 0 0 0 0 0 0 
+Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdleSearch 1, 667681007, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  SendMessage 1 2505441759 0 0 0 0 1313 "FOBRouteChange" 0 0 
-Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
-Event2:CautionStandIdleSearch 1 4092854511 0 0 0 0 0 0 0 0 
+Edge:  SendMessage 1, 2505441759, 0, 0, 0, 0, 1313, "FOBRouteChange", 0, 0, 
+Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdleSearch 1, 4092854511, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  RelaxedIdleAct 1 357892575 0 0 0 0 496717012 0 0 0 
-Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
-Event2:CautionStandIdleSearch 1 2657681647 0 0 0 0 0 0 0 0 
+Edge:  RelaxedIdleAct 1, 357892575, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdleSearch 1, 2657681647, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
-Event2:CautionStandIdleSearch 1 1789526255 0 0 0 0 0 0 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdleSearch 1, 1789526255, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:CautionWalkSearch 0 0 0 0 0 0 0 0 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 3341244409
 Node1:
-Edge:  RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event2:RelaxedIdleAct 257 2749301215 3251115720 918552576 3241078519 0 496717012 0 0 0 
+Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event2:RelaxedIdleAct 257, 2749301215, 3251115720, 918552576, 3241078519, 0, 496717012, 0, 0, 0, 
 Node2:
-Edge:  SendMessage 1 2505441759 0 0 0 0 1313 "FOBRouteChange" 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event2:RelaxedIdleAct 257 4242014687 3238593510 905969664 1106661453 0 496717012 0 0 0 
-Event3:RelaxedIdleAct 257 3466527199 3256028215 918552576 1101343836 0 496717012 0 0 0 
+Edge:  SendMessage 1, 2505441759, 0, 0, 0, 0, 1313, "FOBRouteChange", 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event2:RelaxedIdleAct 257, 4242014687, 3238593510, 905969664, 1106661453, 0, 496717012, 0, 0, 0, 
+Event3:RelaxedIdleAct 257, 3466527199, 3256028215, 918552576, 1101343836, 0, 496717012, 0, 0, 0, 
 Node3:
-Edge:  RelaxedIdleAct 1 1610613215 0 0 0 0 496717012 0 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event2:RelaxedIdleAct 257 1073742303 1093611838 918552576 1083313487 0 2277088634 0 0 0 
+Edge:  RelaxedIdleAct 1, 1610613215, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event2:RelaxedIdleAct 257, 1073742303, 1093611838, 918552576, 1083313487, 0, 2277088634, 0, 0, 0, 
 
 3643189551
 Node1:
-Edge:  RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event1:RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event2:RelaxedIdleAct 1 4116054495 0 0 0 0 2277088634 0 0 0 
-Event3:SendMessage 1 4116054495 0 0 0 0 1313 "FOBRouteChange" 0 0 
+Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 4116054495, 0, 0, 0, 0, 2277088634, 0, 0, 0, 
+Event3:SendMessage 1, 4116054495, 0, 0, 0, 0, 1313, "FOBRouteChange", 0, 0, 
 
 4062811427
 Node1:
-Edge:  RelaxedStandWalkAct 0 0 0 0 0 0 15 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:CautionSquatIdle 257 2906720605 3258187776 0 3240099840 0 0 0 0 0 
-Event3:CautionSquatIdle 257 3716286813 3257139200 0 1110441984 0 0 0 0 0 
-Event4:CautionSquatIdle 257 107153757 3221225470 0 1113063424 0 0 0 0 0 
+Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionSquatIdle 257, 2906720605, 3258187776, 0, 3240099840, 0, 0, 0, 0, 0, 
+Event3:CautionSquatIdle 257, 3716286813, 3257139200, 0, 1110441984, 0, 0, 0, 0, 0, 
+Event4:CautionSquatIdle 257, 107153757, 3221225470, 0, 1113063424, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedIdleAct 1 357892575 0 0 0 0 496717012 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  RelaxedIdleAct 1, 357892575, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  RelaxedIdleAct 1 1610613215 0 0 0 0 496717012 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  RelaxedIdleAct 1, 1610613215, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  CautionStandIdleSearch 1 1554317791 0 0 0 0 0 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  CautionStandIdleSearch 1, 1554317791, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:CautionSquatIdle 257 1567754589 1100480512 0 3254255616 0 0 0 0 0 
-Event3:CautionSquatIdle 257 2717846452 3256352768 0 3257139200 0 0 0 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionSquatIdle 257, 1567754589, 1100480512, 0, 3254255616, 0, 0, 0, 0, 0, 
+Event3:CautionSquatIdle 257, 2717846452, 3256352768, 0, 3257139200, 0, 0, 0, 0, 0, 
 Node7:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event2:CautionSquatIdle 257 619776049 1106771968 0 1104150528 0 0 0 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionSquatIdle 257, 619776049, 1106771968, 0, 1104150528, 0, 0, 0, 0, 0, 
 Node8:
-Edge:  CautionStandIdleSearch 1 1567752671 0 0 0 0 0 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  CautionStandIdleSearch 1, 1567752671, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node9:
-Edge:  CautionStandIdleSearch 1 2717843935 0 0 0 0 0 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  CautionStandIdleSearch 1, 2717843935, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node10:
-Edge:  CautionWalk 0 0 0 0 0 0 0 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node11:
-Edge:  CautionWalk 256 0 3251427195 1048576000 1093286293 0 0 0 0 0 
-Event1:CautionWalk 0 0 0 0 0 0 0 0 0 0 
+Edge:  CautionWalk 256, 0, 3251427195, 1048576000, 1093286293, 0, 0, 0, 0, 0, 
+Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
