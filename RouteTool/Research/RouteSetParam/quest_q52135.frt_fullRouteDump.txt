@@ -23,7 +23,7 @@ Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 Node8:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionStandIdleSearch 1, 2218000623, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdleSearch 1, 843400ef, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node9:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
@@ -39,7 +39,7 @@ Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 Node13:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionStandIdleSearch 1, 3303604463, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdleSearch 1, c4e900ef, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node14:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
@@ -70,7 +70,7 @@ Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 Node23:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionStandIdleSearch 1, 1530593519, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdleSearch 1, 5b3b00ef, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node24:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
@@ -107,7 +107,7 @@ Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 Node35:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionStandIdle 1, 4075094255, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdle 1, f2e500ef, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rt_heli_quest_0000
 Node1:
@@ -135,37 +135,37 @@ Node8:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node9:
-Edge:  CautionStandIdleSearch 1, 2218000623, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  CautionStandIdleSearch 1, 843400ef, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rt_quest_d_0002
 Node1:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionSquatIdleAim 16777985, 2706178527, [route]315946293, "", "", "", 0, 0, 0, 0, 
+Event2:CautionSquatIdleAim 1000301, a14d01df, [route]12d4f535, "", "", "", 0, 0, 0, 0, 
 
 315946293
 Node1:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Wait 1, 3302490351, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, c4d800ef, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Move 0, 0, 0, 0, 0, 0, 2000, 0, 0, 0, 
-Event2:Wait 1, 1359806703, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Move 0, 0, 0, 0, 0, 0, 7d0, 0, 0, 0, 
+Event2:Wait 1, 510d00ef, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rt_quest_d_0000
 Node1:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:VehicleMoveNormal 0, 0, 0, 0, 0, 0, 728838112, 0, 0, 0, 
-Event2:VehicleIdle 16777985, 1939669471, [route]3415306158, "", "", "", 0, 0, 0, 0, 
+Event1:VehicleMoveNormal 0, 0, 0, 0, 0, 0, 2b712fe0, 0, 0, 0, 
+Event2:VehicleIdle 1000301, 739d01df, [route]cb916fae, "", "", "", 0, 0, 0, 0, 
 
 rt_quest_d_0004
 Node1:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 193659359, 0, 0, 0, 0, 2277088634, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, 4289331679, 0, 0, 0, 0, 2277088634, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, b8b01df, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
+Event3:RelaxedIdleAct 1, ffaa01df, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
 Node2:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
@@ -175,10 +175,10 @@ Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 Node4:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 2297692639, 0, 0, 0, 0, 2277088634, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, 2306736607, 0, 0, 0, 0, 2277088634, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 88f401df, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
+Event3:RelaxedIdleAct 1, 897e01df, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
 Node5:
-Edge:  CautionStandIdleSearch 1, 2218000623, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  CautionStandIdleSearch 1, 843400ef, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
@@ -188,41 +188,41 @@ Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 Node1:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Wait 1, 800325811, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, 2fb400b3, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Wait 1, 2947874995, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, afb500b3, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rt_quest_d_0003
 Node1:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionSquatIdleAim 16777985, 292880863, [route]4068738117, "", "", "", 0, 0, 0, 0, 
+Event2:CautionSquatIdleAim 1000301, 117501df, [route]f2840445, "", "", "", 0, 0, 0, 0, 
 
 rt_quest_d_0001
 Node1:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionSquatIdleAim 16778241, 894632415, [route]3551666874, [route]3551666874, "", "", 0, 0, 0, 0, 
+Event2:CautionSquatIdleAim 1000401, 355301df, [route]d3b222ba, [route]d3b222ba, "", "", 0, 0, 0, 0, 
 
 3551666874
 Node1:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Wait 1, 2944336111, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, af7f00ef, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Move 0, 0, 0, 0, 0, 0, 2000, 0, 0, 0, 
-Event2:Wait 1, 1001980143, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Move 0, 0, 0, 0, 0, 0, 7d0, 0, 0, 0, 
+Event2:Wait 1, 3bb900ef, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 4068738117
 Node1:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Wait 1, 2049769711, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, 7a2d00ef, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Move 0, 0, 0, 0, 0, 0, 2000, 0, 0, 0, 
-Event2:Wait 1, 107151599, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Move 0, 0, 0, 0, 0, 0, 7d0, 0, 0, 0, 
+Event2:Wait 1, 66300ef, 0, 0, 0, 0, 0, 0, 0, 0, 
 

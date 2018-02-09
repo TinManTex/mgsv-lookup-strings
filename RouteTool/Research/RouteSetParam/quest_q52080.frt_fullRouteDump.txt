@@ -2,93 +2,93 @@ rt_quest_d_0005
 Node1:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionSquatIdleAim 769, 3297182655, [route]3576445086, "", "", "", 0, 0, 0, 0, 
+Event2:CautionSquatIdleAim 301, c48703bf, [route]d52c389e, "", "", "", 0, 0, 0, 0, 
 
 rt_quest_d_0002
 Node1:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 2969371343, 0, 0, 0, 0, 496717012, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, 2442790782, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, b0fd02cf, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Event3:RelaxedIdleAct 1, 919a077e, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 
 rt_quest_d_0000
 Node1:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:VehicleMoveSlow 0, 0, 0, 0, 0, 0, 728838112, 0, 0, 0, 
-Event2:VehicleIdle 16777985, 812450751, [route]2720184852, "", "", "", 0, 0, 0, 0, 
+Event1:VehicleMoveSlow 0, 0, 0, 0, 0, 0, 2b712fe0, 0, 0, 0, 
+Event2:VehicleIdle 1000301, 306d03bf, [route]a222ba14, "", "", "", 0, 0, 0, 0, 
 
 rt_quest_d_0007
 Node1:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionSquatIdleAim 769, 3378840511, [route]2500039594, "", "", "", 0, 0, 0, 0, 
+Event2:CautionSquatIdleAim 301, c96503bf, [route]950393aa, "", "", "", 0, 0, 0, 0, 
 
 rt_quest_d_0006
 Node1:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionSquatIdleAim 769, 3057320895, [route]3200889719, "", "", "", 0, 0, 0, 0, 
+Event2:CautionSquatIdleAim 301, b63b03bf, [route]bec9b377, "", "", "", 0, 0, 0, 0, 
 
 2500039594
 Node1:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Wait 1, 216465587, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, ce700b3, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Wait 1, 2364014771, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, 8ce800b3, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 2720184852
 Node1:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Wait 1, 1687224499, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, 649100b3, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Wait 1, 3834773683, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, e49200b3, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 3200889719
 Node1:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Wait 1, 4061528243, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, f21600b3, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Wait 1, 1913979059, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, 721500b3, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rt_quest_d_0003
 Node1:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 3883205087, 0, 0, 0, 0, 496717012, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, 3235840479, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, e77501df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Event3:RelaxedIdleAct 1, c0df01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 
 rt_quest_d_0001
 Node1:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 2629239503, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 9cb702cf, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 Node2:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  RelaxedIdleAct 1, 2969371343, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Edge:  RelaxedIdleAct 1, b0fd02cf, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 235274959, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, e0602cf, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 Node4:
-Edge:  VehicleMoveSlow 0, 0, 0, 0, 0, 0, 728838112, 0, 0, 0, 
+Edge:  VehicleMoveSlow 0, 0, 0, 0, 0, 0, 2b712fe0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 3576445086
 Node1:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Wait 1, 393395, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, 600b3, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Wait 1, 2147942579, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, 800700b3, 0, 0, 0, 0, 0, 0, 0, 0, 
 

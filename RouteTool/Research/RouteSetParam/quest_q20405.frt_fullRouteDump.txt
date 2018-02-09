@@ -2,13 +2,13 @@ rt_heli_quest_0000
 Node1:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Hovering 1, 2960392491, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Hovering 1, b074012b, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 1024, 0, 30, 3, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 1024, 0, 30, 3, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 1e, 3, 
+Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 1e, 3, 
 Node4:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
@@ -37,23 +37,23 @@ Node12:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node13:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 1024, 0, 50, 3, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 1024, 0, 50, 3, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 32, 3, 
+Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 32, 3, 
 
 rt_quest_c_0001
 Node1:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionRun 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionSquatIdleAim 769, 2684420575, [route]449994719, "", "", "", 0, 0, 0, 0, 
+Event2:CautionSquatIdleAim 301, a00101df, [route]1ad25fdf, "", "", "", 0, 0, 0, 0, 
 
 rt_quest_d_0002
 Node1:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 1150354606, 0, 0, 0, 0, 496717012, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, 1150354307, 0, 0, 0, 0, 2277088634, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 449104ae, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Event3:RelaxedIdleAct 1, 44910383, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
 Node2:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 1024, 0, 30, 3, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 1e, 3, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
@@ -61,8 +61,8 @@ Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 Node4:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 945423534, 0, 0, 0, 0, 2277088634, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, 945423834, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 385a04ae, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
+Event3:RelaxedIdleAct 1, 385a05da, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 Node5:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
@@ -74,56 +74,56 @@ Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 Node1:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Wait 1, 1257702275, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, 4af70383, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Wait 1, 3405251519, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, caf803bf, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rt_quest_d_0000
 Node1:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 3221293105, 0, 0, 0, 0, 496717012, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, 3221292206, 0, 0, 0, 0, 2277088634, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, c0010831, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Event3:RelaxedIdleAct 1, c00104ae, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
 Node2:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 1024, 0, 30, 3, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 1e, 3, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 1441662726, 0, 0, 0, 0, 2014502296, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 55ee0706, 0, 0, 0, 0, 7812dd98, 0, 0, 0, 
 
 1166417787
 Node1:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Wait 1, 177406251, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, a93012b, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Wait 1, 2324955495, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, 8a940167, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rt_quest_c_0002
 Node1:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  Hovering 1, 2960392491, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  Hovering 1, b074012b, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:3777183860 1, 1612448643, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:3777183860 1, 601c0383, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 1024, 0, 30, 3, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 1e, 3, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:3777183860 1, 864027583, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:3777183860 1, 338003bf, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:3777183860 1, 3783262987, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:3777183860 1, e180030b, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:3777183860 1, 980091839, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:3777183860 1, 3a6b03bf, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node7:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
@@ -132,68 +132,68 @@ rt_quest_c_0000
 Node1:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionIdleAct 1, 3350398426, 0, 0, 0, 0, 496717012, 0, 0, 0, 
+Event2:CautionIdleAct 1, c7b305da, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 Node2:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 1024, 0, 30, 3, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 1e, 3, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:3777183860 1, 1313276623, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:3777183860 1, 4e4702cf, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:3777183860 1, 2555511683, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:3777183860 1, 98520383, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:3777183860 1, 3981050755, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:3777183860 1, ed4a0383, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rt_quest_c_0003
 Node1:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:3777183860 1, 1051722926, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:3777183860 1, 3eb004ae, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:3777183860 1, 184877835, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:3777183860 1, b05030b, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:3777183860 1, 3192128387, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:3777183860 1, be440383, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:3777183860 1, 3196125903, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:3777183860 1, be8102cf, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node7:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:3777183860 1, 588186379, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:3777183860 1, 230f030b, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node8:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node9:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 1024, 0, 50, 3, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 32, 3, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rt_quest_d_0003
 Node1:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 4147448157, 0, 0, 0, 0, 496717012, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, 4107207974, 0, 0, 0, 0, 2277088634, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, f735095d, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Event3:RelaxedIdleAct 1, f4cf0526, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
 Node2:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 1024, 0, 30, 3, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 1e, 3, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
@@ -204,7 +204,7 @@ Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 Node5:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 3705014022, 0, 0, 0, 0, 2014502296, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, dcd60706, 0, 0, 0, 0, 7812dd98, 0, 0, 0, 
 Node6:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
@@ -219,11 +219,11 @@ rt_quest_d_0001
 Node1:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 769, 894764086, [route]1166417787, "", "", "", 2277088634, 0, 0, 0, 
-Event3:RelaxedIdleAct 769, 976946350, [route]1166417787, "", "", "", 496717012, 0, 0, 0, 
+Event2:RelaxedIdleAct 301, 35550436, [route]45861f7b, "", "", "", 87b99d7a, 0, 0, 0, 
+Event3:RelaxedIdleAct 301, 3a3b04ae, [route]45861f7b, "", "", "", 1d9b4cd4, 0, 0, 0, 
 Node2:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 1024, 0, 30, 3, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 1e, 3, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 769, 3124495534, [route]449994719, "", "", "", 2277088634, 0, 0, 0, 
-Event3:RelaxedIdleAct 769, 2587624502, [route]449994719, "", "", "", 496717012, 0, 0, 0, 
+Event2:RelaxedIdleAct 301, ba3c04ae, [route]1ad25fdf, "", "", "", 87b99d7a, 0, 0, 0, 
+Event3:RelaxedIdleAct 301, 9a3c0436, [route]1ad25fdf, "", "", "", 1d9b4cd4, 0, 0, 0, 
 
