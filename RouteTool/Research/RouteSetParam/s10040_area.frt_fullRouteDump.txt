@@ -7866,13 +7866,13 @@ Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 rts_GetHoneyBee_1003
 Node1:
 Edge:  Move 0, 0, 0, 0, 0, 0, 1000, 0, 0, 0, 
-Event1:1947843660 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CarryHoneyBee 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
 Edge:  Wait 1, 2411594926, 0, 0, 0, 0, 1, 0, 0, 0, 
-Event1:1947843660 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CarryHoneyBee 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
 Edge:  Move 0, 0, 0, 0, 0, 0, 1000, 0, 0, 0, 
-Event1:1947843660 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CarryHoneyBee 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event2:3711909737 1, 1527316959, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event3:SendMessage 1, 1049690591, 0, 0, 0, 0, 29549, "GoToRoomDemo2", "", 0, 
 Event4:RelaxedIdleAct 1, 1057358303, 0, 0, 0, 0, 496717012, 0, 0, 0, 
