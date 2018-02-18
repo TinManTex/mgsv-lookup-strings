@@ -5,10 +5,22 @@ Default dictionary is combined Tpp,Mgo,Gz,PT dictionary.
 
 qar_dictionary_HashStringMatches.txt - useful for figuring out what the discovered string was when you have only the hash (you have a file from older dictionary).
 
-Stats Tpp+Mgo:
+Hashes output from Gzstool fork: github.com/TinManTex/GzsTool/
+
+Stats TPP+MGO:
 unmatchedHashes    [11334/48488] - 23.37486%
 matchedHashes      [37154/48488] - 76.62514%
+
+Stats SSD:
+unmatchedHashes    [ 7817/14291] - 54.69876%
+matchedHashes      [ 6474/14291] - 45.30124%
 
 Stats GZ:
 unmatchedHashes    [ 390/4697] - 8.303172%
 matchedHashes      [4307/4697] - 91.69682%
+
+extensions_dictionary.txt
+Hashes output from Gzstool fork: github.com/TinManTex/GzsTool/
+Currently only contains extensions / hashes from qar. Combined tpp,mgo,ssd.
+
+

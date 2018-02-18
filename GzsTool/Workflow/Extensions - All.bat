@@ -1,0 +1,2 @@
+D:\GitHub\HashWrangler\HashWrangler\bin\Debug\HashWrangler.exe "D:\GitHub\mgsv-lookup-strings\GzsTool\Hashes\Extensions" "D:\GitHub\mgsv-lookup-strings\GzsTool\Dictionaries\extensions_dictionary-test" -HashFunction ExtensionCode64
+pause
