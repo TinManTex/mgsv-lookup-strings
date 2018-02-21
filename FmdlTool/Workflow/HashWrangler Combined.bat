@@ -1,2 +1,0 @@
-D:\GitHub\HashWrangler\HashWrangler\bin\Debug\HashWrangler.exe "D:\GitHub\mgsv-lookup-strings\LangTool\Hashes\Combined" "D:\GitHub\mgsv-lookup-strings\LangTool\Dictionaries\lang_dictionary-test" -HashFunction StrCode32
-pause
