@@ -1826,6 +1826,7 @@ fox3DDC_Blin_NrmUV
 fox3DDC_Blin_NrmUV_LNM
 fox3DDF_Blin
 fox3DDF_Blin_2MT
+fox3DDF_Blin_2MT_Dirty
 fox3DDF_Blin_2MT_Dirty_LNM
 fox3DDF_Blin_2MT_LNM
 fox3DDF_Blin_2MT_NC
@@ -1849,7 +1850,9 @@ fox3DDF_Blin_Incidence_SubNorm_2MT_Dirty_LNM
 fox3DDF_Blin_Incidence_SubNorm_3MT_Dirty_LNM
 fox3DDF_Blin_Incidence_SubNorm_4MT_Dirty_LNM
 fox3DDF_Blin_LayerBl
+fox3DDF_Blin_LayerBl_2MT_Dirty_LNM
 fox3DDF_Blin_LayerBl_2MT_LNM
+fox3DDF_Blin_LayerBl_2MT_MaskUV_LNM
 fox3DDF_Blin_LayerBl_2SubNorm_LNM
 fox3DDF_Blin_LayerBl_2SubNorm_NrmUV_LNM
 fox3DDF_Blin_LayerBl_3MT
@@ -1864,6 +1867,7 @@ fox3DDF_Blin_LayerBl_SubNorm_MaskUV
 fox3DDF_Blin_LayerBl_SubNorm_MaskUV_LNM
 fox3DDF_Blin_LayerBl_SubNorm_NrmLyMskUV
 fox3DDF_Blin_LayerBl_SubNorm_NrmLyMskUV_LNM
+fox3DDF_Blin_LayerMul_2MT_Dirty_LNM
 fox3DDF_Blin_LayerMul_2MT_LNM
 fox3DDF_Blin_LayerMul_2SubNorm_LNM
 fox3DDF_Blin_LayerMul_2SubNorm_NrmUV_LNM
@@ -1883,6 +1887,7 @@ fox3DDF_Blin_LayerSRGBBl_2SubNorm_NrmUV_LNM
 fox3DDF_Blin_LayerSRGBBl_LNM
 fox3DDF_Blin_LayerSRGBBl_MaskUV
 fox3DDF_Blin_LayerSRGBBl_MaskUV_LNM
+fox3DDF_Blin_LayerSRGBBl_MaskUV_NrmUV_LNM
 fox3DDF_Blin_LayerSRGBBl_SubNorm_2MT_MaskUV_LNM
 fox3DDF_Blin_LayerSRGBBl_SubNorm_LNM
 fox3DDF_Blin_LayerSRGBBl_SubNorm_MaskUV
@@ -1926,9 +1931,11 @@ fox3DDF_Cloth_Dirty_LNM
 fox3DDF_Cloth_LNM
 fox3DDF_Cloth_NC_Dirty_LNM
 fox3DDF_Cloth_NC_LNM
+fox3DDF_Dirty
 fox3DDF_Dirty_LNM
 fox3DDF_Dirty_UVSCroll_LNM
 fox3DDF_EdgeTrans_LNM
+fox3DDF_Eye
 fox3DDF_Eye_LNM
 fox3DDF_FastLeaf_DirectiveAlpha
 fox3DDF_FastLeafNormal_DirectiveAlpha_LNM
@@ -2696,6 +2703,7 @@ gntn_wttw003_cl
 gntn_wttw003_dr
 gold_a
 Gradient_Tex_LIN
+grass
 grip
 grss023_leaf_trans_b
 grss023_leaf_trans_b_d1
@@ -12226,6 +12234,7 @@ shadow
 shadow_mat
 shadow1
 ShadowColor
+shield
 Shift_Tex_LIN
 short
 sight
@@ -13727,6 +13736,7 @@ SKL_107_LF31
 SKL_107_SPINE
 SKL_108_cloth_SIM
 SKL_108_LF32
+SKL_108_SPINE
 SKL_109_cloth_SIM
 SKL_109_LF33
 SKL_110_ARML1
