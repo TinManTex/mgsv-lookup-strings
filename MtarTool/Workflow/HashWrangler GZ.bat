@@ -1,2 +1,2 @@
-D:\GitHub\HashWrangler\HashWrangler\bin\Debug\HashWrangler.exe "D:\GitHub\mgsv-lookup-strings\MtarTool\Hashes\gz" "D:\GitHub\mgsv-lookup-strings\MtarTool\Dictionaries\Sink" -HashFunction PathCode64Gz
+D:\GitHub\HashWrangler\HashWrangler\bin\Debug\HashWrangler.exe "D:\GitHub\mgsv-lookup-strings\MtarTool\Hashes\gz" "D:\GitHub\mgsv-lookup-strings\MtarTool\mtar_dictionary-test" -HashFunction PathCode64Gz
 pause
