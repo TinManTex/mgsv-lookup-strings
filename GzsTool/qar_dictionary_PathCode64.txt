@@ -108,6 +108,7 @@
 /Assets/mgo/chara/sna/Pictures/sna0_horn1_def_trm
 /Assets/mgo/common_source/ui/common_texture/hud_CT_IconTag1_alp
 /Assets/mgo/common_source/ui/common_texture/hud_CT_IconTag2_alp
+/Assets/mgo/effect/vfx_pic/cloud/fx_cldskyanm04_su_alp
 /Assets/mgo/environ/object/mgo_afgh/lamp/mgoa_lamp002/sourceimages/mgoa_lamp002_bsm
 /Assets/mgo/environ/object/mgo_afgh/lamp/mgoa_lamp002/sourceimages/mgoa_lamp002_nrm
 /Assets/mgo/environ/object/mgo_afgh/lamp/mgoa_lamp002/sourceimages/mgoa_lamp002_srm
@@ -3336,15 +3337,20 @@
 /Assets/ssd/effect/gr_pic/lut/TFGreenFinalCross40_FILTERLUT
 /Assets/ssd/effect/gr_pic/material_params
 /Assets/ssd/effect/gr_pic/materials_alp_rgba32_nomip_nrt
+/Assets/ssd/effect/vfx_pic/blur/fx_ssd_blrbos_ih_alp_clp
 /Assets/ssd/effect/vfx_pic/blur/fx_ssd_blrwep01_alp_clp
 /Assets/ssd/effect/vfx_pic/chara/fx_chrskyfsh002_th_alp_clp
 /Assets/ssd/effect/vfx_pic/chara/fx_chrskyfsh003_th_alp_clp
+/Assets/ssd/effect/vfx_pic/cloud/fx_cldskyanm04_su_alp
 /Assets/ssd/effect/vfx_pic/fire/fx_fir04_th
 /Assets/ssd/effect/vfx_pic/fire/fx_smkfilblr01_th
 /Assets/ssd/effect/vfx_pic/flare/fx_flr_gunlgt_s03_th_alp_clp
 /Assets/ssd/effect/vfx_pic/flare/fx_flr17_th_alp_clp
+/Assets/ssd/effect/vfx_pic/flare/fx_flr18_th_alp_clp
 /Assets/ssd/effect/vfx_pic/flare/fx_flr26_ih_alp_clp
+/Assets/ssd/effect/vfx_pic/flare/fx_flrlgt06_th_alp_clp
 /Assets/ssd/effect/vfx_pic/flare/fx_flrlgt07_th_alp_clp
+/Assets/ssd/effect/vfx_pic/flash/fx_fls02_su_alp
 /Assets/ssd/effect/vfx_pic/flash/fx_flslsrtag02_su_alp_clp
 /Assets/ssd/effect/vfx_pic/fogwall/fx_fogwall_1k_rgb01
 /Assets/ssd/effect/vfx_pic/fogwall/fx_fogwall_flow_1024
@@ -3357,6 +3363,7 @@
 /Assets/ssd/effect/vfx_pic/ocean/fx_ocean_wave2_1k_nrm
 /Assets/ssd/effect/vfx_pic/ocean/fx_ocean_wave3_1k_nrm
 /Assets/ssd/effect/vfx_pic/smoke/fx_smkrnganm08m_su_alp_clp
+/Assets/ssd/effect/vfx_pic/spark/fx_spkltb06_ht_alp_clp
 /Assets/ssd/effect/vfx_pic/view/fx_viwfil01_mk_alp_clp
 /Assets/ssd/effect/vfx_pic/view/fx_viwfil02_mk_alp_clp
 /Assets/ssd/effect/vfx_pic/view/fx_viwfilnis02_th
@@ -4722,6 +4729,7 @@
 /Assets/ssd/pack/equip/weapon/bw01_main0_def_v00
 /Assets/ssd/pack/equip/weapon/bw02_main0_def_v00
 /Assets/ssd/pack/equip/weapon/bw03_main0_def_v00
+/Assets/ssd/pack/equip/weapon/bw04_main0_def_v00
 /Assets/ssd/pack/equip/weapon/bw05_main0_def_v00
 /Assets/ssd/pack/equip/weapon/sp00_main0_def_v00
 /Assets/ssd/pack/equip/weapon/sp01_main0_def_v00
@@ -9407,6 +9415,7 @@
 /Assets/ssd/pack/location/ombs/pack_common/ombs_common
 /Assets/ssd/pack/location/spfc/pack_common/spfc_common
 /Assets/ssd/pack/location/spfc/pack_common/spfc_script
+/Assets/ssd/pack/location/spfc/pack_extraLarge/spfc_south
 /Assets/ssd/pack/location/spfc/pack_extraSmall/135/spfc_path_135_138
 /Assets/ssd/pack/location/spfc/pack_extraSmall/135/spfc_path_135_139
 /Assets/ssd/pack/location/spfc/pack_extraSmall/135/spfc_path_135_140
@@ -9634,6 +9643,7 @@
 /Assets/ssd/pack/location/spfc/spfc
 /Assets/ssd/pack/location/ssav/pack_common/ssav_common
 /Assets/ssd/pack/location/ssav/pack_common/ssav_script
+/Assets/ssd/pack/location/ssav/pack_extraLarge/ssav_north
 /Assets/ssd/pack/location/ssav/pack_extraSmall/136/ssav_path_136_127
 /Assets/ssd/pack/location/ssav/pack_extraSmall/136/ssav_path_136_128
 /Assets/ssd/pack/location/ssav/pack_extraSmall/136/ssav_path_136_129
@@ -9715,6 +9725,7 @@
 /Assets/ssd/pack/location/ssav/pack_extraSmall/144/ssav_path_144_133
 /Assets/ssd/pack/location/ssav/pack_extraSmall/144/ssav_path_144_134
 /Assets/ssd/pack/location/ssav/pack_extraSmall/144/ssav_path_144_135
+/Assets/ssd/pack/location/ssav/pack_large/ssav_savannah
 /Assets/ssd/pack/location/ssav/pack_mission/large/savannah/ssav_savannah_digger_c01
 /Assets/ssd/pack/location/ssav/pack_mission/large/savannah/ssav_savannah_digger_c02
 /Assets/ssd/pack/location/ssav/pack_mission/large/savannah/ssav_savannah_gimmick_c01
@@ -17206,6 +17217,7 @@
 /Assets/tpp/effect/vfx_pic/dust/fx_dstcom02_tm_alp
 /Assets/tpp/effect/vfx_pic/dust/fx_dstcom03_iy_alp_clp
 /Assets/tpp/effect/vfx_pic/dust/fx_dstcom03anm_hh_alp_clp
+/Assets/tpp/effect/vfx_pic/dust/fx_dstcom04_hh_alp_clp
 /Assets/tpp/effect/vfx_pic/dust/fx_dstcom05_hh_alp_clp
 /Assets/tpp/effect/vfx_pic/dust/fx_dstgls02n_ts_alp_clp
 /Assets/tpp/effect/vfx_pic/dust/fx_dstgls03n_ts_alp_clp
@@ -17280,6 +17292,7 @@
 /Assets/tpp/effect/vfx_pic/flare/fx_flr19_iy_alp_clp
 /Assets/tpp/effect/vfx_pic/flare/fx_flr20_iy_alp_clp
 /Assets/tpp/effect/vfx_pic/flare/fx_flr21_iy_alp_clp
+/Assets/tpp/effect/vfx_pic/flare/fx_flr23_iy_alp_clp
 /Assets/tpp/effect/vfx_pic/flare/fx_flrbfy_iy_alp_clp
 /Assets/tpp/effect/vfx_pic/flare/fx_flrcom01_ib_alp
 /Assets/tpp/effect/vfx_pic/flare/fx_flrcom01_iy_alp_clp
@@ -17320,6 +17333,7 @@
 /Assets/tpp/effect/vfx_pic/smoke/fx_smkcom01_tm_alp
 /Assets/tpp/effect/vfx_pic/smoke/fx_smkcom01a_tm_alp
 /Assets/tpp/effect/vfx_pic/smoke/fx_smkcom01n_iy_alp
+/Assets/tpp/effect/vfx_pic/smoke/fx_smkcom01s_hh_alp_clp
 /Assets/tpp/effect/vfx_pic/smoke/fx_smkcom03_iy_alp
 /Assets/tpp/effect/vfx_pic/smoke/fx_smkcom04_ks_alp_clp
 /Assets/tpp/effect/vfx_pic/smoke/fx_smkcom05_ks_alp_clp
@@ -17361,6 +17375,7 @@
 /Assets/tpp/effect/vfx_pic/spark/fx_spkcom01_tm_clp
 /Assets/tpp/effect/vfx_pic/spark/fx_spkcom04_tm_alp
 /Assets/tpp/effect/vfx_pic/spark/fx_spkcom05_tm_alp
+/Assets/tpp/effect/vfx_pic/spark/fx_spkltb01_iy_alp
 /Assets/tpp/effect/vfx_pic/spark/fx_spkltb02_iy_alp_clp
 /Assets/tpp/effect/vfx_pic/spark/fx_spkltb02_mk_alp
 /Assets/tpp/effect/vfx_pic/spark/fx_spkltb04_ks_alp_clp
@@ -17396,6 +17411,7 @@
 /Assets/tpp/effect/vfx_pic/splash/fx_splwtr28_ks_alp_clp
 /Assets/tpp/effect/vfx_pic/splash/fx_splwtr29_ks_alp_clp
 /Assets/tpp/effect/vfx_pic/splash/fx_wtrsplanm05_su_alp_clp
+/Assets/tpp/effect/vfx_pic/view/fx_viw_dstcir04n_km
 /Assets/tpp/effect/vfx_pic/view/fx_viwbrk01_ks
 /Assets/tpp/effect/vfx_pic/view/fx_viwdmgdir03_iy_clp
 /Assets/tpp/effect/vfx_pic/view/fx_viwdst01_iy_alp_clp
