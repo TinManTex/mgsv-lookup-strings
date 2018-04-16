@@ -17914,8 +17914,8 @@ rts_zrs_swampSouth_ene02_d_0000
 Node1:
 Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, "Rt_slopeEast_n_0002", 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, "Rt_slopeEast_n_0002", 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 381101df, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
+Event3:RelaxedIdleAct 1, 381101df, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
 Node2:
 Edge:  CautionWalkSearch 100, 0, c41a88b7, 3f250d17, c39743a2, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
@@ -19587,7 +19587,7 @@ Edge:  SwitchRoute 1, 1df, 0, 0, 0, 0, [route]dc28c971, "CanUseSearchLight", c5d
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node44:
 Edge:  RelaxedIdleAct 1, c44501df, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
-Event1:CautionWalkAim 100, 0, 44417355, c03ec2f8, "IZZBT", 0, 0, 0, 0, 0, 
+Event1:CautionWalkAim 100, 0, 44417355, c03ec2f8, 4496d586, 0, 0, 0, 0, 0, 
 Node45:
 Edge:  RelaxedIdleAct 1, bdde01df, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
 Event1:CautionWalkAim 100, 0, 44421281, c03b0a42, 4496e54a, 0, 0, 0, 0, 0, 

@@ -1973,7 +1973,7 @@ Event3:CautionStandIdleAim 101, ea280706, c4524b29, bfbb02f8, c359c58c, 0, 0, 0,
 Node2:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionSquatIdleAim 101, a7080bb4, c458d61d, 0, "mesh_mafr_wndm001", 0, 0, 0, 0, 0, 
+Event2:CautionSquatIdleAim 101, a7080bb4, c458d61d, 0, c3a0dd61, 0, 0, 0, 0, 0, 
 Event3:CautionSquatIdleAim 101, 9b420706, c44fa4b3, 3cffd380, c39c4913, 0, 0, 0, 0, 0, 
 
 855028163
@@ -4255,7 +4255,7 @@ ly023_cl05_route0000|cl05pl1_2_dv_0080_enemy|rt_move_c_1001
 Node1:
 Edge:  MoveNormal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionStandIdleAim 101, eaab00ef, c473ddab, b5a00000, c380097a, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdleAim 101, eaab00ef, "SoundAreaGroup0025", b5a00000, c380097a, 0, 0, 0, 0, 0, 
 Event3:CautionStandIdleAim 101, 187d00ef, c46be4a4, bc71bb00, c37fe5b0, 0, 0, 0, 0, 0, 
 Node2:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 

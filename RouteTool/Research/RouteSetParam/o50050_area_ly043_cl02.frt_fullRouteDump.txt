@@ -5811,7 +5811,7 @@ Node2:
 Edge:  MoveFast 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event2:CautionSquatIdleAim 101, c7080bb4, c4b6da34, 0, c3486ae6, 0, 0, 0, 0, 0, 
-Event3:CautionSquatIdleAim 101, bb420706, "CL00PL1_MB_FNDT_PLNT_LIGHT2|MTBS_LGHT005_GIM_N_0008|SL_0001", 3cffd380, c35bf17b, 0, 0, 0, 0, 0, 
+Event3:CautionSquatIdleAim 101, bb420706, c4b2cae9, 3cffd380, c35bf17b, 0, 0, 0, 0, 0, 
 
 ly043_cl02_route0000|cl02pl2_0_dv_0060_enemy|rt_move_n_1001
 Node1:
@@ -7819,7 +7819,7 @@ ly043_cl02_route0000|cl02pl3_mb_fndt_plnt_enemy|rt_snpe_d_0003
 Node1:
 Edge:  MoveFast 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 101, f45b0a89, "Ombs_fndt001_vrtn0010000|ombs_hndr001_vrtn002_0004", 40801060, c35f0da1, 0, 1d9b4cd4, 0, 0, 0, 
+Event2:RelaxedIdleAct 101, f45b0a89, c4adbcdc, 40801060, c35f0da1, 0, 1d9b4cd4, 0, 0, 0, 
 Node2:
 Edge:  MoveFast 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
@@ -8959,7 +8959,7 @@ ly043_cl02_route0000|cl02pl3_mb_fndt_plnt_enemy|rt_snpe_n_0003
 Node1:
 Edge:  MoveFast 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 101, f45b0a89, "Ombs_fndt001_vrtn0010000|ombs_hndr001_vrtn002_0004", 40801060, c35f0da1, 0, 1d9b4cd4, 0, 0, 0, 
+Event2:RelaxedIdleAct 101, f45b0a89, c4adbcdc, 40801060, c35f0da1, 0, 1d9b4cd4, 0, 0, 0, 
 Node2:
 Edge:  MoveFast 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 

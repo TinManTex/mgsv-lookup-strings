@@ -2868,7 +2868,7 @@ Event1:Move 0, 0, 0, 0, 0, 0, 12c, 0, 0, 0,
 Node4:
 Edge:  CautionStandIdleSearch 1, 891700ef, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 12c, 0, 0, 0, 
-Event2:Wait 1, "LIGHTAREA_0015", 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, ea320257, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
 Edge:  CautionWalkSearch 100, 0, c413d5d9, 40909920, c345bfe1, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 12c, 0, 0, 0, 
@@ -17518,7 +17518,7 @@ Edge:  RelaxedIdleAct 1, b8790706, 0, 0, 0, 0, 87b99d7a, 0, 0, 0,
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node44:
 Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:CautionWalkAim 100, 0, 44417355, c03ec2f8, "IZZBT", 0, 0, 0, 0, 0, 
+Event1:CautionWalkAim 100, 0, 44417355, c03ec2f8, 4496d586, 0, 0, 0, 0, 0, 
 Node45:
 Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalkAim 100, 0, 44421281, c03b0a42, 4496e54a, 0, 0, 0, 0, 0, 
@@ -20484,7 +20484,7 @@ Event1:Dash 0, 0, 0, 0, 0, 0, 12c, 0, 0, 0,
 Node5:
 Edge:  CautionWalkSearch 100, 0, c413a518, 40890e32, c34d5639, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Wait 1, "LIGHTAREA_0015", 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, ea320257, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
 Edge:  CautionWalkSearch 100, 0, c40c59d9, 4044dd3b, c31c26c2, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
@@ -23985,7 +23985,7 @@ Event1:Dash 0, 0, 0, 0, 0, 0, 12c, 0, 0, 0,
 Node5:
 Edge:  CautionWalkSearch 100, 0, c413a518, 40890e32, c34d5639, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Wait 1, "LIGHTAREA_0015", 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, ea320257, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
 Edge:  CautionWalkSearch 100, 0, c40c59d9, 4044dd3b, c31c26c2, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
@@ -24532,7 +24532,7 @@ Event1:Dash 0, 0, 0, 0, 0, 0, 12c, 0, 0, 0,
 Node5:
 Edge:  CautionWalkSearch 100, 0, c413a518, 40890e32, c34d5639, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Wait 1, "LIGHTAREA_0015", 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, ea320257, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
 Edge:  CautionWalkSearch 100, 0, c40c59d9, 4044dd3b, c31c26c2, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 

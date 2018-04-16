@@ -4190,7 +4190,7 @@ Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 Node3:
 Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:2829631605 1, d78c01df, 0, 0, 0, 0, baf7, "goToHill", 0, 0, 
+Event2:PutHostageInVehicle 1, d78c01df, 0, 0, 0, 0, baf7, "goToHill", 0, 0, 
 Event3:RelaxedIdleAct 1000001, e3ca01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 
 rt_hill_c_0007
@@ -7803,7 +7803,7 @@ Event1:Dash 0, 0, 0, 0, 0, 0, 12c, 0, 0, 0,
 Node5:
 Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Wait 1, "LIGHTAREA_0015", 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, ea320257, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
 Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 

@@ -2548,7 +2548,7 @@ Event1:Move 0, 0, 0, 0, 0, 0, 12c, 0, 0, 0,
 Node4:
 Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 12c, 0, 0, 0, 
-Event2:Wait 1, "LIGHTAREA_0015", 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, ea320257, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
 Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 12c, 0, 0, 0, 
@@ -22029,7 +22029,7 @@ Event1:Dash 0, 0, 0, 0, 0, 0, 12c, 0, 0, 0,
 Node5:
 Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Wait 1, "LIGHTAREA_0015", 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:Wait 1, ea320257, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
 Edge:  CautionStandIdleSearch 1, 54840257, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 

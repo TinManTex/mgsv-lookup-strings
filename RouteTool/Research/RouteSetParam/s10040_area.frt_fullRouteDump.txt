@@ -912,7 +912,7 @@ Node1:
 Edge:  Move 0, 0, 0, 0, 0, 0, 3e8, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event2:SendMessage 1, 4a7601df, 0, 0, 0, 0, 77fd, "WaitHostage", 0, 0, 
-Event3:2829631605 1, ee2901df, 0, 0, 0, 0, 994f, "PutHostage", 0, 0, 
+Event3:PutHostageInVehicle 1, ee2901df, 0, 0, 0, 0, 994f, "PutHostage", 0, 0, 
 Node2:
 Edge:  Wait 1, fbd04ae, 0, 0, 0, 0, 1, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
@@ -2439,7 +2439,7 @@ Event3:CautionIdleAct 1, 902100b3, 0, 0, 0, 0, ffee383b, 0, 0, 0,
 Node4:
 Edge:  CautionStandIdle 1, 2cf, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:2440322811 1, 832901df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:PickUpHoneyBee 1, 832901df, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event3:SendMessage 1, 816301df, 0, 0, 0, 0, f4ae, "GetHoneyBee", 0, 0, 
 Event4:RelaxedStandIdle 1, 816301df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
@@ -9122,7 +9122,7 @@ Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node16:
 Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:CautionWalkAim 100, 0, 4506029e, "MTBS_LGHT005_GIM_N_0108|LA_SL_0001_GEN7", c4b5f598, 0, 0, 0, 0, 0, 
+Event1:CautionWalkAim 100, 0, 4506029e, 43e9d7c5, c4b5f598, 0, 0, 0, 0, 0, 
 Node17:
 Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalkAim 100, 0, 45063ee4, 43eb5594, c4b9be3c, 0, 0, 0, 0, 0, 

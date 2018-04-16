@@ -2822,7 +2822,7 @@ ly083_cl01_route0000|cl01pl2_mb_fndt_plnt_enemy|rt_snpe_n_0000
 Node1:
 Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 101, 600c077e, 447f591a, 4103a1db, 4413aab1, 0, 87b99d7a, 0, 0, 0, 
+Event2:RelaxedIdleAct 101, 600c077e, 447f591a, 4103a1db, "/Assets/tpp/level/location/mtbs/block_area/ly070/cl06/lba/sad0_main0_def", 0, 87b99d7a, 0, 0, 0, 
 Node2:
 Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
@@ -6290,7 +6290,7 @@ Node3:
 Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event2:CautionStandIdleAim 101, 869e00ef, 445d0784, 35800000, 43f5d4e5, 0, 0, 0, 0, 0, 
-Event3:CautionStandIdleAim 101, "cnp_afterimage_end", 445827b7, 35800000, 44016c8d, 0, 0, 0, 0, 0, 
+Event3:CautionStandIdleAim 101, bcb000ef, 445827b7, 35800000, 44016c8d, 0, 0, 0, 0, 0, 
 Node4:
 Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
