@@ -1,0 +1,133 @@
+Param1: aimTargetType - aimTargetType sets up RouteAimTargetType / TppAimTargetDesc? (see gz exe route classes.txt)
+(in hex) 
++0 for edge event classes (Walk,Run etc) (ie 0 100 200)
++1 for node event classes (Idle etc) 	 (ie 1 101 201)
+0 	- ROUTE_AIM_NO_TARGET
+100 - ROUTE_AIM_STATIC_POINT
+200 - ROUTE_AIM_CHARACTER
+300 - ROUTE_AIM_ROUTE_AS_SIGHT_MOVE_PATH
+400 - ROUTE_AIM_ROUTE_AS_OBJECT
+
+Only on event node (I mean event node classes, in practice some route use event nodes as edges for some reason) VERIFY 
+- some variant of above, or using as some extra bool flag, possibly ConstantVelocityMove?
+1000000 - ROUTE_AIM_NO_TARGET
+1000100 - ROUTE_AIM_STATIC_POINT
+1000200 - ROUTE_AIM_CHARACTER
+1000300 - ROUTE_AIM_ROUTE_AS_SIGHT_MOVE_PATH
+1000400 - ROUTE_AIM_ROUTE_AS_OBJECT
+
+Unsure of the difference between ROUTE_AIM_ROUTE_AS_SIGHT_MOVE_PATH and ROUTE_AIM_ROUTE_AS_OBJECT
+Can't currently test due to more routeset creation issue
+
+Param2: ? almost always has a value
+
+Param3: Depends on Param1/aimTargetType
+ROUTE_AIM_NO_TARGET - ? - always 0
+ROUTE_AIM_STATIC_POINT - X: float
+ROUTE_AIM_CHARACTER - aimCharacterNameS32 - ex S32"Player" or S32"sol_vip_village"
+ROUTE_AIM_ROUTE_AS_SIGHT_MOVE_PATH - aimRouteS32 - S32"some_aim_route_name" (aim route names haven't been found since they are soley referenced within routes) (or S32 empty string, never 0)
+ROUTE_AIM_ROUTE_AS_OBJECT - aimRoute - as above
+
+Param4: Depends on Param1/aimTargetType
+ROUTE_AIM_NO_TARGET - always 0
+ROUTE_AIM_STATIC_POINT - Y: float
+ROUTE_AIM_CHARACTER - ? - never 0, - bodySection/bone to aim at?
+ROUTE_AIM_ROUTE_AS_SIGHT_MOVE_PATH - ? - never 0 - S32 empty string or sometimes == to Param3
+ROUTE_AIM_ROUTE_AS_OBJECT - ?
+
+Param5: Depends on Param1/aimTargetType
+ROUTE_AIM_NO_TARGET - always 0
+ROUTE_AIM_STATIC_POINT - Z: float
+ROUTE_AIM_CHARACTER - always 0
+ROUTE_AIM_ROUTE_AS_SIGHT_MOVE_PATH - ? - never 0 - S32 empty string or sometimes == to Param4
+ROUTE_AIM_ROUTE_AS_OBJECT - ?
+
+ex for ROUTE_AIM_STATIC_POINT as x,y,z float
+RelaxedWalk 
+Param1: 100, - ROUTE_AIM_STATIC_POINT
+Param2: 0, 
+Param3: 4447f940, =  799.894531	X? 
+Param4: 43e8bd1a, =  465.477356 Y?
+Param5: c48748d3, =  -1082.27576 Z?
+Param6: 0, 
+Param7: 0, 
+Param8: 0, 
+Param9: 0, 
+Param10: 0, 
+
+On initial testing with ROUTE_AIM_STATIC_POINT, and setting param3,4,5 to x,y,z float>uint seems correct, soldier looks at point.
+
+Param6: 0 or S32"" or (for s10121, rts_pfCamp_c_0011, RelexedStandIdle only) route - there param3>param6 are the same route,
+so posibly just copy paste/user error, though that would mean param6 only has two unique values, both of which are essentially 0/nothing
+
+Param7:
+
+Param8:
+
+Param9:
+
+Param 10 - specific to event type? - 0 exept for:
+
+728879063 (unknown eventname)
+Param10: 0 2 3
+
+ConversationIdle
+Param10: 0 28 2d 32 - (dec) 40 45 50
+
+Normal
+Param10: 0 1 2 3 4 5 8 a 
+
+--
+TODO:
+I would have expected some kind of wait/execution time on nodes in general, or at least the idles?
+There's "time" seen in frt snippet reconstruction but don't know if that's a specifc or not
+param2 ?
+
+---
+Some specific event types:
+
+ConversationIdle - TppRouteNodeEventConversation ?
+rts_tent_Executioner_loop_0000
+P1: 1, 
+P2: d30000, 
+P3: 0, 
+P4: 0, 
+P5: 0, 
+P6: 0, 
+P7: conversationListName (S32) - ex "speech52_EV060", 
+P8: partnerCharacterId (S32) - ex "hos_target_0000", 
+P9: 9059, 
+P10: 32,  
+
+SwitchRoute - conditional route change
+P1: 1, 
+P2: 1df, 
+P3: 0, 
+P4: 0, 
+P5: 0, 
+P6: 0, 
+P7: routeIdS32 ex "rt_slopedTown_c_0001", 
+P8: conditionNameS32 ex "CanNotUseSearchLight", 
+P9: conditionGameId/gimmickId - ex "afgh_wtct001_gim_n0000|srt_afgh_wtct001"
+P10: 0, 
+
+
+conditionNames
+"IsNotGimmickBroken" 
+"IsGimmickBroken" 
+"CanUseSearchLight" 
+"CanNotUseSearchLight" 
+
+
+
+SendMessage - fires a lua RoutePoint2 message which passes in P8,P9
+P1: 1, 
+P2: c48401df, 
+P3: 0, 
+P4: 0, 
+P5: 0, 
+P6: 0, 
+P7: 6f02, 
+P8: messageS32 - ex "UpdateStartPoint", 
+P9: message2S32 - ex "10", 
+P10: 0, 
