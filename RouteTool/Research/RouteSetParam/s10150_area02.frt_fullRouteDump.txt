@@ -1,2143 +1,1615 @@
 rts_e0000_0003
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_heli_h0700_03_start
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node4:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node5:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node6:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node7:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node8:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node9:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node10:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node11:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node12:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node13:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node14:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node15:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node16:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event2:Hovering 1000001, 3910003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Hovering 1000001, 3910003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0300_0007
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, e38e01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, e38e01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0500_0000
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0800_0007
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, 216d01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, 216d01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0600_0004
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, 8e3901df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, 8e3901df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0700_0000
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, 45b101df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, 45b101df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skull_wait_beforeEV0002
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, 355501df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, 355501df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 194992035
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 201, 1500000, "Player", 79d0, 0, 0, a22f, "trap_walk_Bringer090", "", 0, 
-Event3:RelaxedStandIdle 1000201, 15001df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 201, 1500000, "Player", 79d0, 0, 0, a22f, "trap_walk_Bringer090", "", 0, 
+Event2:RelaxedStandIdle 1000201, 15001df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0300_0000
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, f82d01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, f82d01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 289869150
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 1, 7ff00000, 0, 0, 0, 0, f025, "setBring", 0, 0, 
+Event1:SendMessage 1, 7ff00000, 0, 0, 0, 0, f025, "setBring", 0, 0, 
 Node2:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000201, 81e801df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000201, 81e801df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0900_0000
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, 9b0701df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, 9b0701df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0200_0001
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, 1df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, 1df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0100_0000
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, 1df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, 1df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skullsB_toVehicle_0000
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000201, 81e801df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000201, 81e801df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0300_0004
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, 20b401df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, 20b401df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0700_0001
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, a4fb01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, a4fb01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0900_0001
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, e38f01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, e38f01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_heli_h0600_01_hov
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Hovering 1000001, 1b06003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Hovering 1000001, 1b06003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skull_wait_beforeEV0003
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, 3ddd01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, 3ddd01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skullsB_toVehicle_0001
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedRun 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedRun 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedRun 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedRun 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedRun 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 201, 176f0000, "Player", 79d0, 0, 0, 614a, "rideCar", "", 0, 
-Event3:VehicleIdle 1000201, 595f01df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedRun 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 201, 176f0000, "Player", 79d0, 0, 0, 614a, "rideCar", "", 0, 
+Event2:VehicleIdle 1000201, 595f01df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_skull_walk_2000
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 1, 19dc0000, 0, 0, 0, 0, 20a, "talk_skull02", 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 1, 19dc0000, 0, 0, 0, 0, 20a, "talk_skull02", 0, 0, 
 Node3:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, 1e0003b, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event3:SendMessage 1, c420000, 0, 0, 0, 0, 940f, "startSecondStep", 0, 0, 
-Event4:RelaxedStandIdle 1000001, 1fc01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, 1e0003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:SendMessage 1, c420000, 0, 0, 0, 0, 940f, "startSecondStep", 0, 0, 
+Event3:RelaxedStandIdle 1000001, 1fc01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0400_0001
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, f82d01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, f82d01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0900_0006
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, 29f401df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, 29f401df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skullsC_ride
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:VehicleMoveNormal 0, 0, 0, 0, 0, 0, "", 0, 0, 0, 
-Event2:SendMessage 1, 0, 0, 0, 0, 0, 614a, "rideCar", "", 0, 
-Event3:VehicleIdle 1000001, 1df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  VehicleMoveNormal 0, 0, 0, 0, 0, 0, "", 0, 0, 0, 
+Event1:SendMessage 1, 0, 0, 0, 0, 0, 614a, "rideCar", "", 0, 
+Event2:VehicleIdle 1000001, 1df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skulls_inEV0003
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 201, 0, "Player", 79d0, 0, 0, 152c, "rideEvSol", "", 0, 
-Event3:RelaxedStandIdle 1000201, 533301df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 201, 0, "Player", 79d0, 0, 0, 152c, "rideEvSol", "", 0, 
+Event2:RelaxedStandIdle 1000201, 533301df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_heli_h0000_01_hov
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Hovering 1000001, 3b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Hovering 1000001, 3b, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0000_0008
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000201, 6aac01df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000201, 6aac01df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 713255406
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0600_0008
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, f4a201df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, f4a201df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0300_0006
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, ed8301df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, ed8301df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0000_0006
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000201, 711201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000201, 711201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0600_0002
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, 4fa301df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, 4fa301df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_heli_h0000_03_hov
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Hovering 1000001, c223003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Hovering 1000001, c223003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_bringer_06_B
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node6:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node7:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node8:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node9:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node10:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node11:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node12:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node13:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node14:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node15:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 201, fbcd0000, "Player", 79d0, 0, 0, 4554, "trap_walk_Bringer070", "", 0, 
-Event3:RelaxedStandIdle 1000201, fbcd01df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 201, fbcd0000, "Player", 79d0, 0, 0, 4554, "trap_walk_Bringer070", "", 0, 
+Event2:RelaxedStandIdle 1000201, fbcd01df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_bringer_A
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 201, 11110000, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event3:SyncRoute 201, 902001df, "Player", 79d0, 0, 0, "sync_bringer", 1, 0, 0, 
+Event1:RelaxedStandIdle 201, 11110000, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event2:SyncRoute 201, 902001df, "Player", 79d0, 0, 0, "sync_bringer", 1, 0, 0, 
 Node2:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 201, f3340000, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event3:SyncRoute 201, f33401df, "Player", 79d0, 0, 0, "sync_bringer", 2, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 201, f3340000, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event2:SyncRoute 201, f33401df, "Player", 79d0, 0, 0, "sync_bringer", 2, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 201, 36670000, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event3:SyncRoute 201, 366701df, "Player", 79d0, 0, 0, "sync_bringer", 3, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 201, 36670000, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event2:SyncRoute 201, 366701df, "Player", 79d0, 0, 0, "sync_bringer", 3, 0, 0, 
 Node4:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 201, fa560000, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event3:SyncRoute 201, fa5601df, "Player", 79d0, 0, 0, "sync_bringer", 4, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 201, fa560000, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event2:SyncRoute 201, fa5601df, "Player", 79d0, 0, 0, "sync_bringer", 4, 0, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 201, f90b0000, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event3:SyncRoute 201, f90b01df, "Player", 79d0, 0, 0, "sync_bringer", 5, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 201, f90b0000, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event2:SyncRoute 201, f90b01df, "Player", 79d0, 0, 0, "sync_bringer", 5, 0, 0, 
 Node6:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedRun 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 201, 37690000, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event3:SyncRoute 201, 376901df, "Player", 79d0, 0, 0, "sync_bringer", 6, 0, 0, 
+Edge:  RelaxedRun 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 201, 37690000, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event2:SyncRoute 201, 376901df, "Player", 79d0, 0, 0, "sync_bringer", 6, 0, 0, 
 Node7:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedRun 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 201, fec7003b, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event3:SyncRoute 201, fec701df, "Player", 79d0, 0, 0, "sync_bringer", 8, 0, 0, 
-Event4:SendMessage 201, fec701df, "Player", 79d0, 0, 0, 6797, "trap_walk_Bringer060", 0, 0, 
-Event5:RelaxedStandIdle 1000201, fec7003b, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedRun 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 201, fec7003b, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event2:SyncRoute 201, fec701df, "Player", 79d0, 0, 0, "sync_bringer", 8, 0, 0, 
+Event3:SendMessage 201, fec701df, "Player", 79d0, 0, 0, 6797, "trap_walk_Bringer060", 0, 0, 
+Event4:RelaxedStandIdle 1000201, fec7003b, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_heli_h0700_04_start
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Hovering 1, c16003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Hovering 1, c16003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node4:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node5:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node6:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node7:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node8:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node9:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node10:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node11:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node12:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node13:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node14:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node15:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node16:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node17:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node18:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event2:Hovering 1000001, 3910003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Hovering 1000001, 3910003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 1053681753
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 1, 1df, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event3:RelaxedStandIdle 1000001, 2cff01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 1, 1df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:RelaxedStandIdle 1000001, 2cff01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skullsA_walk_afterEV_0008
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000201, 8c7801df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000201, 8c7801df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0000_0004
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000201, 5ddf01df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000201, 5ddf01df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0400_0003
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, 9c7201df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, 9c7201df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_heli_h0400_02_start
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node4:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node6:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node7:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
-Event2:Hovering 1000001, 1cfc01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Event1:Hovering 1000001, 1cfc01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0800_0003
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, a16d01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, a16d01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0600_0006
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, 44401df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, 44401df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skull_wait_beforeEV0001
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, 66601df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, 66601df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skull_walk_1000
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "", b8a0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, f72c003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "", b8a0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, f72c003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:StairsDown 200, 0, "", b8a0, 0, 0, 0, 0, 0, 0, 
+Edge:  StairsDown 200, 0, "", b8a0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "", b8a0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "", b8a0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "", b8a0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 1, f8440000, 0, 0, 0, 0, 9941, "trap_walk_Skull_2000", "", 0, 
-Event3:RelaxedStandIdle 1000201, 78e1003b, "", b8a0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "", b8a0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 1, f8440000, 0, 0, 0, 0, 9941, "trap_walk_Skull_2000", "", 0, 
+Event2:RelaxedStandIdle 1000201, 78e1003b, "", b8a0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0200_0007
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node7:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node8:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 1413374507
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedStandWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RideVehicle 1, 1df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedStandWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RideVehicle 1, 1df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0200_0006
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, bdde01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, bdde01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skull_ev_idle
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, 886601df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, 886601df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0200_0004
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, 3bbb01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, 3bbb01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0800_0004
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, 1b0601df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, 1b0601df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skullsA_walk_afterEV_0009
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000201, 861201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000201, 861201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0000_0009
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000201, c44601df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000201, c44601df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 1687148477
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 1, 127d0000, 0, 0, 0, 0, f4c3, "trap_walk_Skull_4000", 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 1, 127d0000, 0, 0, 0, 0, f4c3, "trap_walk_Skull_4000", 0, 0, 
 Node6:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, 17d5003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, 17d5003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0000_0002
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000201, b55701df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000201, b55701df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 1736978342
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000201, 95d401df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000201, 95d401df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_bringer_B
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 201, 13330000, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event3:SyncRoute 201, 1df, "Player", 79d0, 0, 0, "sync_bringer", 1, 0, 0, 
+Event1:RelaxedStandIdle 201, 13330000, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event2:SyncRoute 201, 1df, "Player", 79d0, 0, 0, "sync_bringer", 1, 0, 0, 
 Node2:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 201, f7f10000, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event3:SyncRoute 201, f7f101df, "Player", 79d0, 0, 0, "sync_bringer", 2, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 201, f7f10000, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event2:SyncRoute 201, f7f101df, "Player", 79d0, 0, 0, "sync_bringer", 2, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 201, 38d90000, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event3:SyncRoute 201, 38d901df, "Player", 79d0, 0, 0, "sync_bringer", 3, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 201, 38d90000, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event2:SyncRoute 201, 38d901df, "Player", 79d0, 0, 0, "sync_bringer", 3, 0, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 201, fad30000, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event3:SyncRoute 201, fad301df, "Player", 79d0, 0, 0, "sync_bringer", 4, 0, 0, 
-Event4:RelaxedStandIdle 201, fad3003b, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 201, fad30000, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event2:SyncRoute 201, fad301df, "Player", 79d0, 0, 0, "sync_bringer", 4, 0, 0, 
+Event3:RelaxedStandIdle 201, fad3003b, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node6:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 201, f9b20000, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event3:SyncRoute 201, f9b201df, "Player", 79d0, 0, 0, "sync_bringer", 5, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 201, f9b20000, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event2:SyncRoute 201, f9b201df, "Player", 79d0, 0, 0, "sync_bringer", 5, 0, 0, 
 Node7:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedRun 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 201, 36500000, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event3:SyncRoute 201, 36500000, "Player", 79d0, 0, 0, "sync_bringer", 6, 0, 0, 
+Edge:  RelaxedRun 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 201, 36500000, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event2:SyncRoute 201, 36500000, "Player", 79d0, 0, 0, "sync_bringer", 6, 0, 0, 
 Node8:
-Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node9:
-Edge:  RelaxedStandIdle 1, e38e01df, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedRun 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 201, ff620000, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event3:SyncRoute 201, ff6201df, "Player", 79d0, 0, 0, "sync_bringer", 8, 0, 0, 
-Event4:SendMessage 201, 353a01df, "Player", 79d0, 0, 0, 6797, "trap_walk_Bringer060", 0, 0, 
-Event5:RelaxedStandIdle 1000201, ff62003b, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedRun 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 201, ff620000, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event2:SyncRoute 201, ff6201df, "Player", 79d0, 0, 0, "sync_bringer", 8, 0, 0, 
+Event3:SendMessage 201, 353a01df, "Player", 79d0, 0, 0, 6797, "trap_walk_Bringer060", 0, 0, 
+Event4:RelaxedStandIdle 1000201, ff62003b, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 1784004513
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 1, 28170000, 0, 0, 0, 0, cdb7, "trap_walk_Skull_6000", 0, 0, 
-Event3:RelaxedStandIdle 1000001, 2817003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 1, 28170000, 0, 0, 0, 0, cdb7, "trap_walk_Skull_6000", 0, 0, 
+Event2:RelaxedStandIdle 1000001, 2817003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skulls_inEV0002
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 1, 0, 0, 0, 0, 0, 152c, "rideEvSol", 0, 0, 
-Event3:RelaxedStandIdle 1000201, a66701df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 1, 0, 0, 0, 0, 0, 152c, "rideEvSol", 0, 0, 
+Event2:RelaxedStandIdle 1000201, a66701df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0200_0002
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, bdde01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, bdde01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 1884225735
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 201, 1500000, "Player", 79d0, 0, 0, a22f, "trap_walk_Bringer090", "", 0, 
-Event3:RelaxedStandIdle 1000201, 15001df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 201, 1500000, "Player", 79d0, 0, 0, a22f, "trap_walk_Bringer090", "", 0, 
+Event2:RelaxedStandIdle 1000201, 15001df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_heli_h0900_01_start
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node4:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node6:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node7:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node8:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 2, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 2, 
 Node9:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 46, 2, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 46, 2, 
 Node10:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Hovering 1, 717d00b3, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Hovering 1, 717d00b3, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node11:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Hovering 1000001, b94e003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Hovering 1000001, b94e003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0200_0003
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0900_0003
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, c9f501df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, c9f501df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0600_0001
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, 4ccd01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, 4ccd01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0600_0000
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, 549f01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, 549f01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0400_0002
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, f82d01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, f82d01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skullsA_walk_afterEV0003
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, 822301df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, 822301df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skull_walk_3000
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node7:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 1, 170101df, 0, 0, 0, 0, f4c3, "trap_walk_Skull_4000", 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 1, 170101df, 0, 0, 0, 0, f4c3, "trap_walk_Skull_4000", 0, 0, 
 Node8:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 1, 17b601df, 0, 0, 0, 0, c6eb, "talk_skull03", 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 1, 17b601df, 0, 0, 0, 0, c6eb, "talk_skull03", 0, 0, 
 Node9:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node10:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node11:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node12:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node13:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node14:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node15:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 1, 168901df, 0, 0, 0, 0, 5e3, "trap_walk_Skull_5000", 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 1, 168901df, 0, 0, 0, 0, 5e3, "trap_walk_Skull_5000", 0, 0, 
 Node16:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node17:
-Edge:  Hovering 1000001, 3910003b, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node18:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node19:
-Edge:  RelaxedStandIdle 1, e38e01df, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 1, 85fb0000, 0, 0, 0, 0, 3ba2, "rideEV", 0, 0, 
-Event3:RelaxedStandIdle 1000001, 855101df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 1, 85fb0000, 0, 0, 0, 0, 3ba2, "rideEV", 0, 0, 
+Event2:RelaxedStandIdle 1000001, 855101df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0100_0002
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, 3fff01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, 3fff01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 2126108257
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 201, bbf01df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 201, bbf01df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node6:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node7:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node8:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node9:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node10:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node11:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node12:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node13:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node14:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000201, f9e601df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000201, f9e601df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0000_0007
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000201, 688901df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000201, 688901df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_skullsC_walk_afterEV_0010
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, fa2c0077, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, fa2c0077, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node6:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000201, 3d6201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000201, 3d6201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0800_0005
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, f05d01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, f05d01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skullsA_walk_afterEV0000
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 201, 54a001df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 201, 54a001df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0100_0001
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, 311101df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, 311101df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0700_0002
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, a4fb01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, a4fb01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_heli_h0200_02_start
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
-Event2:Hovering 1, c129003b, 0, 0, 0, 0, 0, 0, 0, 0, 
-Node3:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
-Node4:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
+Node2:
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
+Event1:Hovering 1, c129003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Node3:
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
+Node4:
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
 Node6:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
 Node7:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
 Node8:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
-Event2:Hovering 1000001, 1514003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
+Event1:Hovering 1000001, 1514003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 2279818643
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 1, 17a90000, 0, 0, 0, 0, 45ce, "talk_skull01", 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 1, 17a90000, 0, 0, 0, 0, 45ce, "talk_skull01", 0, 0, 
 Node4:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 1, f9400000, 0, 0, 0, 0, 20a, "talk_skull02", 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 1, f9400000, 0, 0, 0, 0, 20a, "talk_skull02", 0, 0, 
 Node6:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node7:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node8:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node9:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 1, 194b0000, 0, 0, 0, 0, c6eb, "talk_skull03", 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 1, 194b0000, 0, 0, 0, 0, c6eb, "talk_skull03", 0, 0, 
 Node10:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node11:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 1, 7c4b0000, 0, 0, 0, 0, 3ba2, "rideEV", 0, 0, 
-Event3:RelaxedStandIdle 1000001, 81bf0257, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 1, 7c4b0000, 0, 0, 0, 0, 3ba2, "rideEV", 0, 0, 
+Event2:RelaxedStandIdle 1000001, 81bf0257, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skullsA_ride_0008
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:VehicleMoveNormal 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
-Event2:SendMessage 1, 0, 0, 0, 0, 0, 614a, "rideCar", 0, 0, 
-Event3:VehicleIdle 1000001, 8e8801df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  VehicleMoveNormal 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
+Event1:SendMessage 1, 0, 0, 0, 0, 0, 614a, "rideCar", 0, 0, 
+Event2:VehicleIdle 1000001, 8e8801df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0200_0005
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node7:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node8:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, 45f01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, 45f01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skullsC_ride_0010
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:VehicleMoveNormal 0, 0, 0, 0, 0, 0, "", 0, 0, 0, 
-Event2:SendMessage 1, 0, 0, 0, 0, 0, 614a, "rideCar", "", 0, 
-Event3:VehicleIdle 1000001, 1df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  VehicleMoveNormal 0, 0, 0, 0, 0, 0, "", 0, 0, 0, 
+Event1:SendMessage 1, 0, 0, 0, 0, 0, 614a, "rideCar", "", 0, 
+Event2:VehicleIdle 1000001, 1df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 2525323706
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, f8ab003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, f8ab003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, f8cc003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, f8cc003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:StairsDown 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  StairsDown 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, 7808012b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, 7808012b, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, 385b003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, 385b003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:StairsDown 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  StairsDown 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node7:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, f97e003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, f97e003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node8:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:StairsDown 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  StairsDown 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node9:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 1, f8830000, 0, 0, 0, 0, 45ce, "talk_skull01", 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 1, f8830000, 0, 0, 0, 0, 45ce, "talk_skull01", 0, 0, 
 Node10:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000201, 78e1003b, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event3:SendMessage 1, f8440000, 0, 0, 0, 0, f994, abb82bc2, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000201, 78e1003b, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event2:SendMessage 1, f8440000, 0, 0, 0, 0, f994, abb82bc2, 0, 0, 
 
 rts_ptr_e_citadel_W_0000
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 0, 0, 19, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 19, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 0, 0, 19, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 19, 0, 
 
 rts_e0200_0000
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, 1df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, 1df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_heli_h0600_05_hov
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Hovering 1000001, 1bbb003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Hovering 1000001, 1bbb003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 route
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 1, f8bc0000, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event3:RelaxedStandIdle 1000001, f8bc0077, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 1, f8bc0000, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:RelaxedStandIdle 1000001, f8bc0077, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_bringer_06_A
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node6:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node7:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node8:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node9:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node10:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node11:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node12:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node13:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node14:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node15:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 201, fbcd0000, "Player", 79d0, 0, 0, 4554, "trap_walk_Bringer070", "", 0, 
-Event3:RelaxedStandIdle 1000201, fbcd01df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 201, fbcd0000, "Player", 79d0, 0, 0, 4554, "trap_walk_Bringer070", "", 0, 
+Event2:RelaxedStandIdle 1000201, fbcd01df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_heli_h0600_03_hov
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Hovering 1000001, 238d003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Hovering 1000001, 238d003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 2603494382
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 1, fc4f0000, 0, 0, 0, 0, 5947, "trap_walk_Skull_7000", 0, 0, 
-Event3:RelaxedStandIdle 1000001, f80a003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 1, fc4f0000, 0, 0, 0, 0, 5947, "trap_walk_Skull_7000", 0, 0, 
+Event2:RelaxedStandIdle 1000001, f80a003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 2609869087
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 201, 1dee01df, "Player", 79d0, 0, 0, 614a, "rideCar", "", 0, 
-Event3:VehicleIdle 1000201, 1dee01df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 201, 1dee01df, "Player", 79d0, 0, 0, 614a, "rideCar", "", 0, 
+Event2:VehicleIdle 1000201, 1dee01df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0800_0006
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, 38e401df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, 38e401df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_heli_h0100_01_start
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
-Event2:Hovering 1, f1ba003b, 0, 0, 0, 0, 0, 0, 0, 0, 
-Node3:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
-Node4:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
+Node2:
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
+Event1:Hovering 1, f1ba003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Node3:
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
+Node4:
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
 Node6:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
 Node7:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
 Node8:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
 Node9:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
-Event2:Hovering 1000001, 4565003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
+Event1:Hovering 1000001, 4565003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0500_0002
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, bbbc01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, bbbc01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0400_0000
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, f82d01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, f82d01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0600_0009
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, f4a201df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, f4a201df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skull_walk_afterEV
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:2795470991 1, 58e1003b, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event3:SendMessage 1, 58ef003b, 0, 0, 0, 0, 7019, "rideSkull", 0, 0, 
-Event4:RelaxedStandIdle 1000001, 58a501df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:2795470991 1, 58e1003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:SendMessage 1, 58ef003b, 0, 0, 0, 0, 7019, "rideSkull", 0, 0, 
+Event3:RelaxedStandIdle 1000001, 58a501df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0900_0002
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, c7d301df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, c7d301df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0300_0003
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, a66601df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, a66601df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skullsC_walk_afterEV_0011
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, f79a0077, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, f79a0077, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node6:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node7:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000201, 3f8501df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000201, 3f8501df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_skullsA_ride_0006
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:VehicleMoveNormal 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
-Event2:SendMessage 1, c788003b, 0, 0, 0, 0, 614a, "rideCar", "", 0, 
-Event3:VehicleIdle 1000001, 8e8801df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  VehicleMoveNormal 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
+Event1:SendMessage 1, c788003b, 0, 0, 0, 0, 614a, "rideCar", "", 0, 
+Event2:VehicleIdle 1000001, 8e8801df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0000_0001
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000201, 555601df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000201, 555601df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_skullsB_ride_0000
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:VehicleMoveNormal 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
-Event2:SendMessage 1, 0, 0, 0, 0, 0, 614a, "rideCar", 0, 0, 
-Event3:VehicleIdle 1000001, 8e8801df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  VehicleMoveNormal 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
+Event1:SendMessage 1, 0, 0, 0, 0, 0, 614a, "rideCar", 0, 0, 
+Event2:VehicleIdle 1000001, 8e8801df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_heli_h0400_01_start
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node4:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node6:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node7:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
-Event2:Hovering 1000001, 1cfc01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Event1:Hovering 1000001, 1cfc01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 2998699441
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:VehicleMoveNormal 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
-Event2:SendMessage 1, 0, 0, 0, 0, 0, 614a, "rideCar", "", 0, 
-Event3:VehicleIdle 1000001, 8e8801df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  VehicleMoveNormal 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
+Event1:SendMessage 1, 0, 0, 0, 0, 0, 614a, "rideCar", "", 0, 
+Event2:VehicleIdle 1000001, 8e8801df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_heli_h0700_01_start
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Hovering 1, 1b060347, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Hovering 1, 1b060347, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node4:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node5:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node6:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node7:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node8:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node9:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node10:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node11:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node12:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node13:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node14:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node15:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node16:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event2:Hovering 1000001, 3a92003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Hovering 1000001, 3a92003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skullsC_ride_0011
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:VehicleMoveNormal 0, 0, 0, 0, 0, 0, "", 0, 0, 0, 
-Event2:SendMessage 1, 0, 0, 0, 0, 0, 614a, "rideCar", 0, 0, 
-Event3:VehicleIdle 1000001, 1df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  VehicleMoveNormal 0, 0, 0, 0, 0, 0, "", 0, 0, 0, 
+Event1:SendMessage 1, 0, 0, 0, 0, 0, 614a, "rideCar", 0, 0, 
+Event2:VehicleIdle 1000001, 1df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skulls_inEV0000
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 1, 0, 0, 0, 0, 0, 152c, "rideEvSol", 0, 0, 
-Event3:RelaxedStandIdle 1000201, c00101df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 1, 0, 0, 0, 0, 0, 152c, "rideEvSol", 0, 0, 
+Event2:RelaxedStandIdle 1000201, c00101df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0000_0000
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000201, b99b01df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000201, b99b01df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0000_0005
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000201, 400101df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000201, 400101df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_skull_wait_beforeEV0005
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, 755501df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, 755501df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0800_0002
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, 38e401df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, 38e401df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 3222041801
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:StairsDown 200, 0, "", b8a0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, f8ab003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  StairsDown 200, 0, "", b8a0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, f8ab003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "", b8a0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, f8cc003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "", b8a0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, f8cc003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:StairsDown 200, 0, "", b8a0, 0, 0, 0, 0, 0, 0, 
+Edge:  StairsDown 200, 0, "", b8a0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "", b8a0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, 3808003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "", b8a0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, 3808003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "", b8a0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, 385b003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "", b8a0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, 385b003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:StairsDown 200, 0, "", b8a0, 0, 0, 0, 0, 0, 0, 
+Edge:  StairsDown 200, 0, "", b8a0, 0, 0, 0, 0, 0, 0, 
 Node7:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "", b8a0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, b539012b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "", b8a0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, b539012b, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node8:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 200, 0, "", b8a0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 1, 103a0000, 0, 0, 0, 0, 5116, "trap_walk_Skull_1000", 0, 0, 
-Event3:RelaxedStandIdle 1000001, b47f003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "", b8a0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 1, 103a0000, 0, 0, 0, 0, 5116, "trap_walk_Skull_1000", 0, 0, 
+Event2:RelaxedStandIdle 1000001, b47f003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skullsA_walk_afterEV0002
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, 7bbb01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, 7bbb01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0300_0001
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, 66501df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, 66501df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0800_0000
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, 45b101df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, 45b101df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_heli_h0700_05_start
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Hovering 1, 1ded00ef, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Hovering 1, 1ded00ef, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node4:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node5:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node6:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node7:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node8:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node9:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node10:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node11:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node12:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node13:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node14:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node15:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node16:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node17:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node18:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event2:Hovering 1000001, 3910003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Hovering 1000001, 3910003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skull_walk_4000
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 1, 168401df, 0, 0, 0, 0, 61ea, "wait_player", 0, 0, 
-Event3:RelaxedStandIdle 1000001, 168401df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 1, 168401df, 0, 0, 0, 0, 61ea, "wait_player", 0, 0, 
+Event2:RelaxedStandIdle 1000001, 168401df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0700_0003
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, 60b601df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, 60b601df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skullsA_ride_0009
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:VehicleMoveNormal 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
-Event2:SendMessage 1, 0, 0, 0, 0, 0, 614a, "rideCar", "", 0, 
-Event3:VehicleIdle 1000001, 8e8801df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  VehicleMoveNormal 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
+Event1:SendMessage 1, 0, 0, 0, 0, 0, 614a, "rideCar", "", 0, 
+Event2:VehicleIdle 1000001, 8e8801df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 3411560048
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 1, fa560000, 0, 0, 0, 0, 3ba2, "rideEV", 0, 0, 
-Event3:RelaxedStandIdle 1000201, 7833003b, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 1, fa560000, 0, 0, 0, 0, 3ba2, "rideEV", 0, 0, 
+Event2:RelaxedStandIdle 1000201, 7833003b, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_heli_h0800_sup_start
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node4:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
-Event2:Hovering 1, aa270257, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Event1:Hovering 1, aa270257, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 3c, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 3c, 0, 
 Node7:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 3c, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 3c, 0, 
 Node8:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 3c, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 3c, 0, 
 Node9:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Hovering 1000001, 6660003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Hovering 1000001, 6660003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0300_0005
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, d99a01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, d99a01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0600_0003
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, c66601df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, c66601df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_heli_h0000_02_hov
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Hovering 1000001, a000003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Hovering 1000001, a000003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0900_0005
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, f5cb01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, f5cb01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0300_0002
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, be9301df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, be9301df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skullsC_ride_0013
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:VehicleMoveNormal 0, 0, 0, 0, 0, 0, "", 0, 0, 0, 
-Event2:SendMessage 1, 0, 0, 0, 0, 0, 614a, "rideCar", "", 0, 
-Event3:VehicleIdle 1000001, 1df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  VehicleMoveNormal 0, 0, 0, 0, 0, 0, "", 0, 0, 0, 
+Event1:SendMessage 1, 0, 0, 0, 0, 0, 614a, "rideCar", "", 0, 
+Event2:VehicleIdle 1000001, 1df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_heli_h0700_02_start
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Hovering 1, 28880293, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Hovering 1, 28880293, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node4:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node5:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node6:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node7:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node8:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node9:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node10:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node11:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node12:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node13:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node14:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node15:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node16:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node17:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node18:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event2:Hovering 1000001, 3910003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Hovering 1000001, 3910003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skullsA_ride_0007
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:VehicleMoveNormal 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
-Event2:SendMessage 1, 4567003b, 0, 0, 0, 0, 614a, "rideCar", "", 0, 
-Event3:VehicleIdle 1000001, 8e8801df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  VehicleMoveNormal 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
+Event1:SendMessage 1, 4567003b, 0, 0, 0, 0, 614a, "rideCar", "", 0, 
+Event2:VehicleIdle 1000001, 8e8801df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_heli_h0300_03_start
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event2:Hovering 1, cf99003b, 0, 0, 0, 0, 0, 0, 0, 0, 
-Node3:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Node4:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
+Node2:
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
+Event1:Hovering 1, cf99003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Node3:
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
+Node4:
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node5:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node6:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node7:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node8:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node9:
 Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
 Node10:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
 Node11:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
 Node12:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
 Node13:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
-Event2:Hovering 1000001, 1cfc01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
+Event1:Hovering 1000001, 1cfc01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skulls_inEV0001
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 1, 0, 0, 0, 0, 0, 152c, "rideEvSol", 0, 0, 
-Event3:RelaxedStandIdle 1000201, 2aaa01df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 1, 0, 0, 0, 0, 0, 152c, "rideEvSol", 0, 0, 
+Event2:RelaxedStandIdle 1000201, 2aaa01df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 3741508912
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionStandIdle 1, 1df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionStandIdle 1, 1df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skull_wait_beforeEV0000
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, c22301df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, c22301df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0500_0001
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, 3fff01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, 3fff01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_heli_h0500_03_start
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node4:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node6:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node7:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node8:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node9:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
 Node10:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
 Node11:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 3c, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 3c, 0, 
 Node12:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Hovering 1000001, 8bf4003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Hovering 1000001, 8bf4003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 3816646723
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 1, 99b90000, 0, 0, 0, 0, c6eb, "talk_skull03", 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 1, 99b90000, 0, 0, 0, 0, c6eb, "talk_skull03", 0, 0, 
 Node2:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 1, 1da00000, 0, 0, 0, 0, 5e3, "trap_walk_Skull_5000", 0, 0, 
-Event3:RelaxedStandIdle 1000001, 1da0003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 1, 1da00000, 0, 0, 0, 0, 5e3, "trap_walk_Skull_5000", 0, 0, 
+Event2:RelaxedStandIdle 1000001, 1da0003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0800_0001
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, 45b101df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, 45b101df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_heli_h0600_02_hov
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Hovering 1000001, 1e92003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Hovering 1000001, 1e92003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skull_wait_beforeEV0004
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1, 799901df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1, 799901df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0100_0003
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, c00001df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, c00001df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0500_0003
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skull_walk_5000
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 1, 160e01df, 0, 0, 0, 0, 61ea, "wait_player", 0, 0, 
-Event3:RelaxedStandIdle 1000001, 16c601df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 1, 160e01df, 0, 0, 0, 0, 61ea, "wait_player", 0, 0, 
+Event2:RelaxedStandIdle 1000001, 16c601df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0900_0004
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, c1601df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, c1601df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_h_heli_skull_talk_beforeEV
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 415, 0, 78, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 415, 0, 78, 0, 
 Node4:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 78, 0, 
 Node6:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 0, 5a, 0, 0, 
-Event2:Hovering 1000001, 447f01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 5a, 0, 0, 
+Event1:Hovering 1000001, 447f01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0600_0007
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, 8c1901df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, 8c1901df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_eventdummy
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, 1df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, 1df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_heli_h0400_04_start
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node4:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node6:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
 Node7:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
-Event2:Hovering 1000001, 1cfc01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 96, 0, 
+Event1:Hovering 1000001, 1cfc01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_heli_h0600_04_hov
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Hovering 1000001, 1c73003b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Hovering 1000001, 1c73003b, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rts_skulls_drive
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:41204288 0, 0, 0, 0, 0, 0, 608b3eb0, 3e8, 0, 0, 
+Edge:  41204288 0, 0, 0, 0, 0, 0, 608b3eb0, 3e8, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:41204288 0, 0, 0, 0, 0, 0, 608b3eb0, bb8, 0, 0, 
+Edge:  41204288 0, 0, 0, 0, 0, 0, 608b3eb0, bb8, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:41204288 0, 0, 0, 0, 0, 0, 608b3eb0, bb8, 0, 0, 
+Edge:  41204288 0, 0, 0, 0, 0, 0, 608b3eb0, bb8, 0, 0, 
 Node4:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:41204288 0, 0, 0, 0, 0, 0, 608b3eb0, bb8, 0, 0, 
+Edge:  41204288 0, 0, 0, 0, 0, 0, 608b3eb0, bb8, 0, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:41204288 0, 0, 0, 0, 0, 0, 608b3eb0, fa0, 0, 0, 
+Edge:  41204288 0, 0, 0, 0, 0, 0, 608b3eb0, fa0, 0, 0, 
 Node6:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:41204288 0, 0, 0, 0, 0, 0, 608b3eb0, fa0, 0, 0, 
+Edge:  41204288 0, 0, 0, 0, 0, 0, 608b3eb0, fa0, 0, 0, 
 Node7:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:41204288 0, 0, 0, 0, 0, 0, 608b3eb0, fa0, 0, 0, 
+Edge:  41204288 0, 0, 0, 0, 0, 0, 608b3eb0, fa0, 0, 0, 
 Node8:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:41204288 0, 0, 0, 0, 0, 0, 608b3eb0, fa0, 0, 0, 
+Edge:  41204288 0, 0, 0, 0, 0, 0, 608b3eb0, fa0, 0, 0, 
 Node9:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:41204288 0, 0, 0, 0, 0, 0, 608b3eb0, fa0, 0, 0, 
+Edge:  41204288 0, 0, 0, 0, 0, 0, 608b3eb0, fa0, 0, 0, 
 Node10:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:41204288 0, 0, 0, 0, 0, 0, 608b3eb0, fa0, 0, 0, 
+Edge:  41204288 0, 0, 0, 0, 0, 0, 608b3eb0, fa0, 0, 0, 
 Node11:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:41204288 0, 0, 0, 0, 0, 0, 608b3eb0, fa0, 0, 0, 
+Edge:  41204288 0, 0, 0, 0, 0, 0, 608b3eb0, fa0, 0, 0, 
 Node12:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:41204288 0, 0, 0, 0, 0, 0, 608b3eb0, fa0, 0, 0, 
+Edge:  41204288 0, 0, 0, 0, 0, 0, 608b3eb0, fa0, 0, 0, 
 Node13:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:41204288 0, 0, 0, 0, 0, 0, 608b3eb0, fa0, 0, 0, 
+Edge:  41204288 0, 0, 0, 0, 0, 0, 608b3eb0, fa0, 0, 0, 
 Node14:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:41204288 0, 0, 0, 0, 0, 0, 608b3eb0, fa0, 0, 0, 
+Edge:  41204288 0, 0, 0, 0, 0, 0, 608b3eb0, fa0, 0, 0, 
 Node15:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:VehicleMoveFast 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
+Edge:  VehicleMoveFast 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
 Node16:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:VehicleMoveFast 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
+Edge:  VehicleMoveFast 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
 Node17:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:VehicleMoveFast 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
+Edge:  VehicleMoveFast 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
 Node18:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:VehicleMoveFast 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
+Edge:  VehicleMoveFast 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
 Node19:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 400, 0, 64, 0, 
-Event1:VehicleMoveFast 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
+Edge:  VehicleMoveFast 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
 Node20:
-Edge:  Hovering 1000001, 3910003b, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:VehicleMoveFast 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
+Edge:  VehicleMoveFast 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
 Node21:
-Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:VehicleMoveFast 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
+Edge:  VehicleMoveFast 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
 Node22:
-Edge:  RelaxedStandIdle 1, e38e01df, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:VehicleMoveFast 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
+Edge:  VehicleMoveFast 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
 Node23:
-Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:VehicleMoveFast 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
+Edge:  VehicleMoveFast 0, 0, 0, 0, 0, 0, 608b3eb0, 0, 0, 0, 
 
 4135913055
 Node1:
 Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandIdle 1000201, b11201df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  Hovering 1, 16bf0167, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  Normal 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event2:SendMessage 201, 176f0000, "Player", 79d0, 0, 0, 614a, "rideCar", 0, 0, 
-Event3:VehicleIdle 1000201, 595f01df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
+Event1:SendMessage 201, 176f0000, "Player", 79d0, 0, 0, 614a, "rideCar", 0, 0, 
+Event2:VehicleIdle 1000201, 595f01df, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
 
 rts_e0600_0005
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, eee01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, eee01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 4289007686
 Node1:
-Edge:  RelaxedWalk 200, 0, "Player", 79d0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedStandWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, f99a01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Edge:  RelaxedStandWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedIdleAct 1, f99a01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 

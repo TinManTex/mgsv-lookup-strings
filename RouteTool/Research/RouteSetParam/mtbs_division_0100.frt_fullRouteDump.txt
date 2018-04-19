@@ -1,104 +1,83 @@
 2418022724
 Node1:
 Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
-Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, e07001df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, b1a01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Event1:RelaxedIdleAct 1, e07001df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, b1a01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 Node2:
 Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
-Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
 Node3:
 Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
-Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 5dde01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, 9da101df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
-Event4:SendMessage 1, 7da001df, 0, 0, 0, 0, 521, "FOBRouteChange", "", 0, 
+Event1:RelaxedIdleAct 1, 5dde01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 9da101df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Event3:SendMessage 1, 7da001df, 0, 0, 0, 0, 521, "FOBRouteChange", "", 0, 
 Node4:
 Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
-Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
 
 2989711845
 Node1:
 Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
-Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, b1a01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, d5c601df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Event1:RelaxedIdleAct 1, b1a01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, d5c601df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 Node2:
 Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
-Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, a88a01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, 55c501df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Event1:RelaxedIdleAct 1, a88a01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 55c501df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 
 3541143283
 Node1:
 Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
-Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 15c501df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, d5c601df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Event1:RelaxedIdleAct 1, 15c501df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, d5c601df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 Node2:
 Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
-Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 733301df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, 4b1a01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Event1:RelaxedIdleAct 1, 733301df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 4b1a01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 
 3587811207
 Node1:
-Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
-Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionStandIdle 1, a12800ef, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event3:CautionStandIdle 1, e12800ef, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionStandIdle 1, a12800ef, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdle 1, e12800ef, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
-Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionStandIdle 1, 2b1a00ef, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionStandIdle 1, 2b1a00ef, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  RelaxedIdleAct 1, 5dde01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
-Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionStandIdle 1, a88a00ef, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, 610601df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionStandIdle 1, a88a00ef, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 610601df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 Node4:
-Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
-Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionStandIdle 1, 2b1a00ef, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event3:CautionStandIdle 1, 11800ef, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionStandIdle 1, 2b1a00ef, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdle 1, 11800ef, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  RelaxedIdleAct 1, d5c601df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
-Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 4110573445
 Node1:
-Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
-Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionStandIdle 1, e07000ef, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event3:CautionStandIdle 1, 19fe00ef, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionStandIdle 1, e07000ef, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdle 1, 19fe00ef, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
-Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
-Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  RelaxedIdleAct 1, 5dde01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
-Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionStandIdle 1, 488900ef, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event3:CautionStandIdle 1, 755c00ef, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionStandIdle 1, 488900ef, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdle 1, 755c00ef, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
-Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
-Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
-Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 4263889387
 Node1:
 Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
-Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 6f01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, eb1b01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Event1:RelaxedIdleAct 1, 6f01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, eb1b01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 Node2:
 Edge:  RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
-Event1:RelaxedStandWalkAct 0, 0, 0, 0, 0, 0, f, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 5dde01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, 9d9701df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
-Event4:SendMessage 1, 7d9601df, 0, 0, 0, 0, 521, "FOBRouteChange", 0, 0, 
+Event1:RelaxedIdleAct 1, 5dde01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 9d9701df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Event3:SendMessage 1, 7d9601df, 0, 0, 0, 0, 521, "FOBRouteChange", 0, 0, 
 

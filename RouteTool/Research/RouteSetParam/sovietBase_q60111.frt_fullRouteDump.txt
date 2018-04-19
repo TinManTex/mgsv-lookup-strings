@@ -1,54 +1,46 @@
 rt_quest_c_0001
 Node1:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionStandIdle 1, 7d4601df, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event3:CautionStandIdle 1, a71701df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionStandIdle 1, 7d4601df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdle 1, a71701df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rt_quest_d_0002
 Node1:
-Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 198901df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, edda01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedIdleAct 1, 198901df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, edda01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 
 rt_quest_d_0000
 Node1:
-Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, dff301df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, b28a01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedIdleAct 1, dff301df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, b28a01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 
 rt_quest_c_0002
 Node1:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionStandIdle 1, 198901df, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event3:CautionStandIdle 1, edda01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionStandIdle 1, 198901df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdle 1, edda01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rt_quest_c_0000
 Node1:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionStandIdle 1, 65ba01df, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event3:CautionStandIdle 1, 24b901df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionStandIdle 1, 65ba01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdle 1, 24b901df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rt_quest_c_0003
 Node1:
 Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionStandIdle 1, dff301df, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event3:CautionStandIdle 1, b28a01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionStandIdle 1, dff301df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdle 1, b28a01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rt_quest_d_0003
 Node1:
-Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1000001, c8f101df, 0, 0, 0, 0, 7812dd98, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedIdleAct 1000001, c8f101df, 0, 0, 0, 0, 7812dd98, 0, 0, 0, 
 
 rt_quest_d_0001
 Node1:
-Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1000001, 94de01df, 0, 0, 0, 0, 7812dd98, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedIdleAct 1000001, 94de01df, 0, 0, 0, 0, 7812dd98, 0, 0, 0, 
 

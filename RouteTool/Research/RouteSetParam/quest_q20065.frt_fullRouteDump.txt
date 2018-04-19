@@ -1,14 +1,12 @@
 rt_quest_d_0000
 Node1:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 816c0706, 0, 0, 0, 0, 7812dd98, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, 151c18, 0, 0, 0, 0, f528c82c, 0, 0, 0, 
+Event1:RelaxedIdleAct 1, 816c0706, 0, 0, 0, 0, 7812dd98, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 151c18, 0, 0, 0, 0, f528c82c, 0, 0, 0, 
 
 rt_quest_c_0000
 Node1:
-Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionSquatIdleAim 1, 94c80526, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event3:CautionStandIdleAim 1, 95fc059e, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  CautionWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionSquatIdleAim 1, 94c80526, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdleAim 1, 95fc059e, 0, 0, 0, 0, 0, 0, 0, 0, 
 

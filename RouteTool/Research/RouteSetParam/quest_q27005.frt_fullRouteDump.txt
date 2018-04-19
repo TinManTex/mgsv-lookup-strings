@@ -1,52 +1,38 @@
 rt_heli_quest_0000
 Node1:
 Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
 Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
 Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
 Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
 Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
 Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node7:
 Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node8:
 Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node9:
 Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rt_quest_d_0000
 Node1:
-Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 996077e, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedIdleAct 1, 996077e, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 Node2:
-Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 700e03bf, 0, 0, 0, 0, 7812dd98, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedIdleAct 1, 700e03bf, 0, 0, 0, 0, 7812dd98, 0, 0, 0, 
 Node4:
-Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rt_quest_d_0001
 Node1:
-Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, e70701df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, fdc701df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedIdleAct 1, e70701df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, fdc701df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 

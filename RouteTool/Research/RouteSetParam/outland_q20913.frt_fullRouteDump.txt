@@ -1,85 +1,60 @@
 rt_heli_quest_0000
 Node1:
 Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
 Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
 Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
 Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
 Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
 Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node7:
 Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node8:
 Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node9:
 Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rt_quest_d_0000
 Node1:
-Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedStandIdle 1000001, caab01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedStandIdle 1000001, caab01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rt_quest_c_0000
 Node1:
-Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionStandIdleAim 1, 2c09012b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionStandIdleAim 1, 2c09012b, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
-Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionStandIdleAim 1, 81e5012b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionStandIdleAim 1, 81e5012b, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node7:
-Edge:  None 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node8:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node9:
-Edge:  RelaxedStandIdle 1000001, caab01df, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node10:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionStandIdleAim 1, 8f68012b, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionStandIdleAim 1, 8f68012b, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node11:
-Edge:  CautionStandIdleAim 1, 2c09012b, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node12:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node13:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node14:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node15:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 

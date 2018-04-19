@@ -1,234 +1,177 @@
 234607760
 Node1:
 Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionStandIdleAim 101, 9b7700ef, c1dd0115, 0, c1e7a202, 0, 0, 0, 0, 0, 
+Event1:CautionStandIdleAim 101, 9b7700ef, c1dd0115, 0, c1e7a202, 0, 0, 0, 0, 0, 
 Node2:
 Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
 Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionStandIdleAim 101, d69f00ef, c1b3922f, 0, 41b31a2e, 0, 0, 0, 0, 0, 
-Event3:CautionStandIdleAim 101, 183d00ef, 4097d2eb, 0, 41bb282c, 0, 0, 0, 0, 0, 
+Event1:CautionStandIdleAim 101, d69f00ef, c1b3922f, 0, 41b31a2e, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdleAim 101, 183d00ef, 4097d2eb, 0, 41bb282c, 0, 0, 0, 0, 0, 
 Node4:
 Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionStandIdleAim 101, 276b00ef, 41d3259a, 0, 41755e67, 0, 0, 0, 0, 0, 
-Event3:CautionStandIdleAim 101, 521500ef, 41ee1208, b6800000, c11cf8eb, 0, 0, 0, 0, 0, 
+Event1:CautionStandIdleAim 101, 276b00ef, 41d3259a, 0, 41755e67, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdleAim 101, 521500ef, 41ee1208, b6800000, c11cf8eb, 0, 0, 0, 0, 0, 
 Node5:
 Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 710742035
 Node1:
-Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  CautionStandIdleAim 101, 9b7700ef, c1dd0115, 0, c1e7a202, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 101, d4f604ae, c21c0000, 0, 42180000, 0, 1d9b4cd4, 0, 0, 0, 
-Event3:RelaxedIdleAct 101, ff9904ae, c0c00000, 0, 42180000, 0, 1d9b4cd4, 0, 0, 0, 
-Event4:RelaxedIdleAct 101, 273d04ae, 41d00000, 0, 41c80000, 0, 1d9b4cd4, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedIdleAct 101, d4f604ae, c21c0000, 0, 42180000, 0, 1d9b4cd4, 0, 0, 0, 
+Event2:RelaxedIdleAct 101, ff9904ae, c0c00000, 0, 42180000, 0, 1d9b4cd4, 0, 0, 0, 
+Event3:RelaxedIdleAct 101, 273d04ae, 41d00000, 0, 41c80000, 0, 1d9b4cd4, 0, 0, 0, 
 Node4:
-Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  CautionStandIdleAim 101, 276b00ef, 41d3259a, 0, 41755e67, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
-Edge:  CautionStandIdleAim 101, 521500ef, 41ee1208, b6800000, c11cf8eb, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 101, 7d5905da, 40000000, 0, c2500000, 0, 1d9b4cd4, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedIdleAct 101, 7d5905da, 40000000, 0, c2500000, 0, 1d9b4cd4, 0, 0, 0, 
 Node7:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node8:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 101, 1a8504ae, 42200000, 0, 4038c49c, 0, 1d9b4cd4, 0, 0, 0, 
-Event3:RelaxedIdleAct 101, 5a6204ae, 427c0000, 40a00000, c1e80000, 0, 1d9b4cd4, 0, 0, 0, 
+Event1:RelaxedIdleAct 101, 1a8504ae, 42200000, 0, 4038c49c, 0, 1d9b4cd4, 0, 0, 0, 
+Event2:RelaxedIdleAct 101, 5a6204ae, 427c0000, 40a00000, c1e80000, 0, 1d9b4cd4, 0, 0, 0, 
 Node9:
-Edge:  RelaxedIdleAct 101, ff9904ae, c0c00000, 0, 42180000, 0, 1d9b4cd4, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node10:
-Edge:  RelaxedIdleAct 101, 273d04ae, 41d00000, 0, 41c80000, 0, 1d9b4cd4, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 101, ff7b05da, 41100000, 0, 427fffff, 0, 1d9b4cd4, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedIdleAct 101, ff7b05da, 41100000, 0, 427fffff, 0, 1d9b4cd4, 0, 0, 0, 
 
 947984129
 Node1:
-Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  CautionStandIdleAim 101, 9b7700ef, c1dd0115, 0, c1e7a202, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 101, d4f60706, c21c0000, 0, 42180000, 0, 1d9b4cd4, 0, 0, 0, 
-Event3:RelaxedIdleAct 101, ff990706, c0c00000, 0, 42180000, 0, 1d9b4cd4, 0, 0, 0, 
-Event4:RelaxedIdleAct 101, 273d0706, 41d00000, 0, 41c80000, 0, 1d9b4cd4, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedIdleAct 101, d4f60706, c21c0000, 0, 42180000, 0, 1d9b4cd4, 0, 0, 0, 
+Event2:RelaxedIdleAct 101, ff990706, c0c00000, 0, 42180000, 0, 1d9b4cd4, 0, 0, 0, 
+Event3:RelaxedIdleAct 101, 273d0706, 41d00000, 0, 41c80000, 0, 1d9b4cd4, 0, 0, 0, 
 Node4:
-Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  CautionStandIdleAim 101, 276b00ef, 41d3259a, 0, 41755e67, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
-Edge:  CautionStandIdleAim 101, 521500ef, 41ee1208, b6800000, c11cf8eb, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 101, 7d5905da, 40000000, 0, c2500000, 0, 1d9b4cd4, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedIdleAct 101, 7d5905da, 40000000, 0, c2500000, 0, 1d9b4cd4, 0, 0, 0, 
 Node7:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node8:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 101, 1a8504ae, 42200000, 0, 4038c49c, 0, 1d9b4cd4, 0, 0, 0, 
-Event3:RelaxedIdleAct 101, 5a62095d, 427c0000, 40a00000, c1e80000, 0, 1d9b4cd4, 0, 0, 0, 
+Event1:RelaxedIdleAct 101, 1a8504ae, 42200000, 0, 4038c49c, 0, 1d9b4cd4, 0, 0, 0, 
+Event2:RelaxedIdleAct 101, 5a62095d, 427c0000, 40a00000, c1e80000, 0, 1d9b4cd4, 0, 0, 0, 
 Node9:
-Edge:  RelaxedIdleAct 101, ff9904ae, c0c00000, 0, 42180000, 0, 1d9b4cd4, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node10:
-Edge:  RelaxedIdleAct 101, 273d04ae, 41d00000, 0, 41c80000, 0, 1d9b4cd4, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 101, ff7b05da, 41100000, 0, 427fffff, 0, 1d9b4cd4, 0, 0, 0, 
+Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedIdleAct 101, ff7b05da, 41100000, 0, 427fffff, 0, 1d9b4cd4, 0, 0, 0, 
 
 1702457776
 Node1:
-Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 9b7701df, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
+Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedIdleAct 1, 9b7701df, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
 Node2:
-Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, d69f01df, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, 2d9201df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedIdleAct 1, d69f01df, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 2d9201df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 Node4:
-Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 321601df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedIdleAct 1, 321601df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 Node5:
-Edge:  CautionStandIdleAim 101, 521500ef, 41ee1208, b6800000, c11cf8eb, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 1992279826
 Node1:
 Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionStandIdleSearch 1, a41501df, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event3:CautionStandIdleSearch 1, 612601df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionStandIdleSearch 1, a41501df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdleSearch 1, 612601df, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
 Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  CautionStandIdleAim 101, d69f00ef, c1b3922f, 0, 41b31a2e, 0, 0, 0, 0, 0, 
-Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionStandIdleSearch 1, 1a8501df, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event3:CautionStandIdleSearch 1, d80b01df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionStandIdleSearch 1, 1a8501df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event2:CautionStandIdleSearch 1, d80b01df, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node4:
-Edge:  CautionStandIdleAim 101, 276b00ef, 41d3259a, 0, 41755e67, 0, 0, 0, 0, 0, 
-Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 2302605985
 Node1:
 Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  CautionStandIdleAim 101, 9b7700ef, c1dd0115, 0, c1e7a202, 0, 0, 0, 0, 0, 
-Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
 Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionSquatIdleAim 101, d4f604ae, c21c0000, 0, 42180000, 0, 0, 0, 0, 0, 
-Event3:CautionSquatIdleAim 101, ff9904ae, c0c00000, 0, 42180000, 0, 0, 0, 0, 0, 
-Event4:CautionSquatIdleAim 101, 273d04ae, 41d00000, 0, 41c80000, 0, 0, 0, 0, 0, 
+Event1:CautionSquatIdleAim 101, d4f604ae, c21c0000, 0, 42180000, 0, 0, 0, 0, 0, 
+Event2:CautionSquatIdleAim 101, ff9904ae, c0c00000, 0, 42180000, 0, 0, 0, 0, 0, 
+Event3:CautionSquatIdleAim 101, 273d04ae, 41d00000, 0, 41c80000, 0, 0, 0, 0, 0, 
 Node4:
 Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node5:
-Edge:  CautionStandIdleAim 101, 276b00ef, 41d3259a, 0, 41755e67, 0, 0, 0, 0, 0, 
-Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node6:
-Edge:  CautionStandIdleAim 101, 521500ef, 41ee1208, b6800000, c11cf8eb, 0, 0, 0, 0, 0, 
-Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionSquatIdleAim 101, 7d5905da, 40000000, 0, c2500000, 0, 0, 0, 0, 0, 
+Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionSquatIdleAim 101, 7d5905da, 40000000, 0, c2500000, 0, 0, 0, 0, 0, 
 Node7:
-Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node8:
-Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionSquatIdleAim 101, 3f9304ae, 42200000, 0, 4038c49c, 0, 0, 0, 0, 0, 
-Event3:CautionSquatIdleAim 101, 5a6204ae, 427c0000, 40a00000, c1e80000, 0, 0, 0, 0, 0, 
+Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionSquatIdleAim 101, 3f9304ae, 42200000, 0, 4038c49c, 0, 0, 0, 0, 0, 
+Event2:CautionSquatIdleAim 101, 5a6204ae, 427c0000, 40a00000, c1e80000, 0, 0, 0, 0, 0, 
 Node9:
-Edge:  RelaxedIdleAct 101, ff9904ae, c0c00000, 0, 42180000, 0, 1d9b4cd4, 0, 0, 0, 
-Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node10:
-Edge:  RelaxedIdleAct 101, 273d04ae, 41d00000, 0, 41c80000, 0, 1d9b4cd4, 0, 0, 0, 
-Event1:CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionSquatIdleAim 101, ff7b05da, 41100000, 0, 427fffff, 0, 0, 0, 0, 0, 
+Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionSquatIdleAim 101, ff7b05da, 41100000, 0, 427fffff, 0, 0, 0, 0, 0, 
 
 2970963695
 Node1:
-Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, b2ed01df, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, 67cf01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedIdleAct 1, b2ed01df, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 67cf01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 Node2:
-Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  CautionStandIdleAim 101, d69f00ef, c1b3922f, 0, 41b31a2e, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 18c001df, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, eca801df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedIdleAct 1, 18c001df, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, eca801df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 Node4:
-Edge:  CautionStandIdleAim 101, 276b00ef, 41d3259a, 0, 41755e67, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 3301411368
 Node1:
-Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, b2ed01df, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, 67cf01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedIdleAct 1, b2ed01df, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, 67cf01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 Node2:
-Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  CautionStandIdleAim 101, d69f00ef, c1b3922f, 0, 41b31a2e, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 18c001df, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
-Event3:RelaxedIdleAct 1, eca801df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedIdleAct 1, 18c001df, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
+Event2:RelaxedIdleAct 1, eca801df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 Node4:
-Edge:  CautionStandIdleAim 101, 276b00ef, 41d3259a, 0, 41755e67, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 3945249648
 Node1:
-Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 9b7701df, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
+Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedIdleAct 1, 9b7701df, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
 Node2:
-Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node3:
-Edge:  CautionWalkSearch 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, d69f01df, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
+Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedIdleAct 1, d69f01df, 0, 0, 0, 0, 87b99d7a, 0, 0, 0, 
 Node4:
-Edge:  CautionStandIdleAim 101, 183d00ef, 4097d2eb, 0, 41bb282c, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:RelaxedIdleAct 1, 276c01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
+Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:RelaxedIdleAct 1, 276c01df, 0, 0, 0, 0, 1d9b4cd4, 0, 0, 0, 
 Node5:
-Edge:  CautionStandIdleAim 101, 276b00ef, 41d3259a, 0, 41755e67, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  RelaxedWalkAct 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 

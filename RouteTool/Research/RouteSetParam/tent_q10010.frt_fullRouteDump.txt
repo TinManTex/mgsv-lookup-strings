@@ -1,38 +1,31 @@
 rt_quest_d_0002
 Node1:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionSquatIdle 1, a90701df, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:CautionSquatIdle 1, a90701df, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rt_quest_d_0000
 Node1:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionSquatIdle 1000301, 5e2a003b, [route]b3af57ad, "", "", "", 0, 0, 0, 0, 
+Event1:CautionSquatIdle 1000301, 5e2a003b, [route]b3af57ad, "", "", "", 0, 0, 0, 0, 
 
 3014612909
 Node1:
-Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Wait 1, b00100b3, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Wait 1, b00100b3, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
-Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Wait 1, 300000b3, 0, 0, 0, 0, 0, 0, 0, 0, 
+Edge:  Move 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Wait 1, 300000b3, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 rt_quest_d_0001
 Node1:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:CautionSquatIdleAim 1000401, 6910003b, [route]d22183a9, "", "", "", 0, 0, 0, 0, 
+Event1:CautionSquatIdleAim 1000401, 6910003b, [route]d22183a9, "", "", "", 0, 0, 0, 0, 
 
 3525411753
 Node1:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Wait 1, aa8300b3, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Wait 1, aa8300b3, 0, 0, 0, 0, 0, 0, 0, 0, 
 Node2:
 Edge:  RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event1:RelaxedWalk 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-Event2:Wait 1, 2a8200b3, 0, 0, 0, 0, 0, 0, 0, 0, 
+Event1:Wait 1, 2a8200b3, 0, 0, 0, 0, 0, 0, 0, 0, 
 
