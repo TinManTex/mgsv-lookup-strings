@@ -1,117 +1,176 @@
-: 168 - Params: none, 4 files - possibly used as dummy node where there was edge but no event nodes, either that or a editor bug or user error (though seems too consistant for latter)
-1245047319: 53 - sally
+TODO: some of the notes about what they were included in was on older bre bugfix foxlib, re check eventinfo_all
+
+Edge events:
+Unknown:
 1875147223: 16 - 4 files, afgh free, couple of missions, 1 quest - mostly used in caution routes, but not always, also in some walker routes
-2343446301: 22 - mafr_common, unknown routes - include vanish and opendoor, so a heli route?
-2358641809: 1 - s10081_area - rts_spy_alert
-2440322811: 1 - s10040_area - rts_GetHoneyBee_1002
-2481191805: 6 - seems to have params similar to SendMessage? a typo version, or alternate?
-2617377844: 1 - s10120_area.frt - rts_s10120_d_TppLiquid2
-2674482002: 27 - s10260_area - A Quiet Exit - vehicle
-2795470991: 1 - s10150_area02 - rts_skull_walk_afterEV - skull face
-2829631605: 3 - yet another SendMessage analogue?
-3589755714: 1 - mafr_common - unknown route
-3696614179: 1 - s10120_area.frt - rts_s10120_s_TppLiquid2 - Eli sleep?
-3711909737: 1 - s10040_area.frt - rts_GetHoneyBee_1003
-3777183860: 2956 - missions, quests, free, fob - soldier, heli, rat
-3969758229: 59 - free, missions - heli drp
-41204288: 669 - misisons, soldier, behicle, walker, heli apr,drp 
+41204288: 288 - vehicle related
 4125130163: 896 - params: none - fob, uav
-4257632892: 8 - sally
-728879063: 4503 - free, missions, fob - soldier, heli apr,drp
-All: 1754 - Params: none (all 0) - sally
-CarryHoneyBee: 3 - Params: none - frt s10040 - Where Do the Bees Sleep - rts_GetHoneyBee_1003
-Caution: 39 - Params: unk1: always 1, unk2 ? may values - frts s10030_area only - rats on MB Diamond Dogs mission
+728879063: 3483 - edge - free, missions, fob - heli apr,drp, and a heap of unknown routenames, often paired with DropPoint event for most routes but never for fob (which doesn use DropPoint). Possibly force snake to door?
+
+Common or possibly generally usable:
+: 168 - Params: none, 4 files - possibly used as dummy node where there was edge but no event nodes, either that or a editor bug or user error (though seems too consistant for latter)
 CautionDash: 1074 - Params: none (all 0) - frts several missions - soldier
-CautionIdleAct: 63300 - frts 243 files
 CautionRun: 1459 - Params: none 
 CautionRunAim: 8
-CautionSquatFire: 9 
-CautionSquatIdle: 4159
-CautionSquatIdleAim: 42403
-CautionStandIdleAimCarrying: 3 - quest_q20705.frt, s10010_l01.frt, routes: rt_quest_c_0002, rts_skull_corridor_0001
-CautionStandFire: 43
-CautionStandIdle: 24580
-CautionStandIdleAim: 16754
-CautionStandIdleReady: 2
-CautionStandIdleSearch: 29217
 CautionStandWalkReady: 2 - Params: none
 CautionWalk: 122061 - Params can be all 0
 CautionWalkAim: 1558 - Params can be all 0
 CautionWalkAimFront: 171 - Params can be all 0, only time params not 0 is s10010_l01 - 171 matches across 34 files
 CautionWalkFire: 3
 CautionWalkSearch: 175854 - Params can be all 0
-chase: 353 - volgin
-CloseDoor: 48 - frt mafr_common
-ConversationIdle: 62 - Params: unk1: 1||513,unk2:unknown (many unique values),unk3: str32 of soldier or hostage name, unk4: some numbers in 10k range (less than typical hash length), unk5 0 unk6 0, speechLabel s32 speech label (ex CT10041_04a, speech085_EV030 ) , unk8: s32 of soldier or hostage name, unk9, unk10 - 7 files, missions
-CurtainIn: 3
-CurtainOut: 4
-Dash: 1515 - Param: all 0 except param7 = 300 - rat
-Demo: 5
-DropPoint: 2868 - heli lz drop point
-Fire: 1 - frts s10010_l01
-ForwardChangeSpeed: 479 - Params: all 0 except Param7: 2000 4000 6000 - frts 6 files, missions and f30020, unknown route names, - heli? routes with this have vehicle events but also UseSearchLight, ah so maybe WalkerGear?
-HeliIdle: 7 - missions - heli routes, but why do some of them contain Salutes? and CautionSquatIdleAim?
-Hovering: 1068 - heli rt_apr, uav, xof in skullface mission??, rts_ocelotHorce, volgin
-JumpOnly: 64 - Params: none - sally
-JumpWalk: 5 - Params: none - sally
-Kill: 6 - frts s10050 - cloaked in silence - bossquiet
-move: 180 - Param7: 1000 1200 1300 - frt s10010_l01, rts_ocelotHorce
 Move: 32646 - Params: can be all 0, Param7: 0 50 100 200 300 400 500 600 700 800 900 1000 1100 1200 1300 1500 2000 2500 3000 - pretty much everything everywhere - missions, quest, fob - soldier, animal, heli
 MoveFast: 144944 - fob only - soldier, uav
 MoveNormal: 34288 - Params Can be all 0
 MoveSlow: 3496 - fob - soldier, uav
 None: 51488 - Params: none - 71 files - free, quest, mission
 Normal: 61290 - Params: can be all 0, mission, fob, quest - soldier, heli, animal
-OnBaseRoute: 634 - s10070_area03, sally routes, but also support heli routes? - sally - theres a command SetBaseRoute
-OnTheHill: 2 -  s10151_area01.frt - rts_shln_s_3010 - sally, possibly on the background hill it jumps to VERIFY once have route visualization
-OpenDoor: 23 - frt mafr_common
-PileBunker: 146 - sally
-Recovery: 18 - frt s10050_area - boss quiet
-RelaxedIdleAct: 222804 - 361 files
 RelaxedRun: 2439 - Params: none- 18 files
-RelaxedStandIdle: 3774 - Param 1 = 1 only seems to use Param 2, Param 1 = 769 = 769, 2004287967, [route]1720189689, "", "", "", 0, 0, 0, 0, 
 RelaxedStandWalk: 449 - Params: none 
 RelaxedStandWalkAct: 45825 - Params can be all 0 - 227 files 
 RelaxedWalk: 238322 - Params can all be 0
 RelaxedWalkAct: 170990 - Params can allbe 0
-RideVehicle: 4 - Param1: 1, Param2: 479, frts s10195, s10150_area02
-RouteMove: 2 - Params: none - anml_remnantsNorth
-RouteMoveFree: 8 - Params: none - s10052_area - rts_anml_goat_event_0000 - interaction between goat and vehicle, odd thing here is it's assigned to a TppGoat, but the route has VehicleMoveNormal
-RunOnly: 99 - sally
-RunWalk: 1139 - sally
-Salute: 28 - s10030_area, s10041_area
-SaluteGreeting: 2 - s10121_area
-SearchMissile: 2 - sally
-SendMessage: 61509 - unk1, unk2, unkS32GameObjectName, unk4, unk5, unk6, unk7, messageS32, paramS32, unk10,  - sends message to engine (possibly some messages dealt with by engine), fires lua msg RoutePoint2 (see RoutePoint2 in InfLookup.lua)
-SetTargetSpeed: 6 - mafr_common, unknown route names, routes include Hovering, Vanish, open/closedoor events
-Snipe: 511 - s10050_area, s10130 - bossquiet / skullsnipers
-StairsDown: 7 - s10150_area02 - skullfaces end of mission walk
-StandIdle: 535 - 
-StandSearch: 714
-SupineSnipe: 16 - s10050_area - bossquiet
-SwitchRoute: 2484 - 1, 1013711027, 0, 0, 0, 0, [route]"rt_villageEast_d_0000_no_watchtower_sub", (condition)"IsGimmickBroken", 2496863726, 0, - 
-SyncRoute: 23 - 
-UseSearchLight: 1075 - soldier, heli, rat??
-Vanish: 55 - mafr_common - unknown routes
+Wait: 15417
+WaitIdle: 79968 - fob, soldier, uav
+Walk: 687 - animal, hostage, eli, volgin
+
+
 VehicleBackFast: 4 - 
 VehicleBackNormal: 186 - 
 VehicleBackSlow: 214 -
+VehicleMoveFast: 27637 - missions, freeroam - soldier?, heli, vehicle, rats?
+VehicleMoveNormal: 19633
+VehicleMoveSlow: 3954 - missions, freeroam, quests - soldier?, heli, vehicle, rats?
+
+
+WalkerGearCautionDash: 346
+WalkerGearCautionRun: 7
+WalkerGearCautionWalk: 300
+WalkerGearRelaxedRun: 111
+WalkerGearRelaxedWalk: 708
+
+Heli:
+HeliIdle: 7 - missions - heli routes, but why do some of them contain Salutes? and CautionSquatIdleAim?
+Hovering: 1068 - heli rt_apr, uav, xof in skullface mission??, rts_ocelotHorce, volgin
+
+
+RouteMove: 2 - Params: none - anml_remnantsNorth
+RouteMoveFree: 8 - Params: none - s10052_area - rts_anml_goat_event_0000 - interaction between goat and vehicle, odd thing here is it's assigned to a TppGoat, but the route has VehicleMoveNormal
+
+Mission specifc/minor usage
+CarryHoneyBee: 3 - Params: none - frt s10040 - Where Do the Bees Sleep - rts_GetHoneyBee_1003
+chase: 353 - prologue volgin 
+move: 180 - prologue - frt s10010_l01, rts_ocelotHorce
+StairsDown: 7 - s10150_area02 - skullfaces end of mission walk
+
+Dash: 1515 - Param: all 0 except param7 = 300 - rat
+
+Sally:
+All: 1754 - Params: none (all 0) - sally
+JumpOnly: 64 - Params: none - sally
+JumpWalk: 5 - Params: none - sally
+RunOnly: 99 - sally
+RunWalk: 1139 - sally
+WalkOnly: 80 - sally
+
+
+Node events:
+Unknown:
+2343446301: 22 - mafr_common, unknown routes - include vanish and opendoor, so a heli route?
+2358641809: 1 - s10081_area - rts_spy_alert
+2481191805: 6 - seems to have params similar to SendMessage? a typo version, or alternate?
+2617377844: 1 - s10120_area.frt - rts_s10120_d_TppLiquid2
+2674482002: 27 - s10260_area - A Quiet Exit - vehicle
+2795470991: 1 - s10150_area02 - rts_skull_walk_afterEV - skull face
+3589755714: 1 - mafr_common - unknown route
+3696614179: 1 - s10120_area.frt - rts_s10120_s_TppLiquid2 - Eli sleep?
+3969758229: 59 - free, missions - heli drp
+
+1245047319: 53 - sally
+4257632892: 8 - sally
+
+Common or possibly generally usable:
+CautionIdleAct: 63300 - frts 243 files
+CautionSquatFire: 9 
+CautionSquatIdle: 4159
+CautionSquatIdleAim: 42403
+CautionStandFire: 43
+CautionStandIdle: 24580
+CautionStandIdleAim: 16754
+CautionStandIdleAimCarrying: 3 - quest_q20705.frt, s10010_l01.frt, routes: rt_quest_c_0002, rts_skull_corridor_0001
+CautionStandIdleReady: 2
+CautionStandIdleSearch: 29217
+ConversationIdle: 62 - Params: unk1: 1||513,unk2:unknown (many unique values),unk3: str32 of soldier or hostage name, unk4: some numbers in 10k range (less than typical hash length), unk5 0 unk6 0, speechLabel s32 speech label (ex CT10041_04a, speech085_EV030 ) , unk8: s32 of soldier or hostage name, unk9, unk10 - 7 files, missions
+PutHostageInVehicle: 3 - missions - yet another SendMessage analogue?
+RelaxedIdleAct: 222804 - 361 files
+RelaxedStandIdle: 3774 -
+RideVehicle: 4 - frts s10195, s10150_area02 - unknwonname routes
+Salute: 28 - s10030_area, s10041_area
+SaluteGreeting: 2 - s10121_area
+SendMessage: 61509 - unk1, unk2, unkS32GameObjectName, unk4, unk5, unk6, unk7, messageS32, paramS32, unk10,  - sends message to engine (possibly some messages dealt with by engine), fires lua msg RoutePoint2 (see RoutePoint2 in InfLookup.lua) 
+StandIdle: 535 - 
+StandSearch: 714
+SwitchRoute: 2484 - 1, 1013711027, 0, 0, 0, 0, [route]"rt_villageEast_d_0000_no_watchtower_sub", (condition)"IsGimmickBroken", 2496863726, 0, 
+SyncRoute: 23 - missions
+UseFlashLight: 2956 - missions, quests, free, fob - soldier, heli,
+UseSearchLight: 1075 - soldier, heli
+
 VehicleFire: 3
 VehicleGetIn: 2
 VehicleGetOff: 1
 VehicleGetOut: 1
 VehicleIdle: 760
-VehicleMoveFast: 27637 - missions, freeroam - soldier?, heli, vehicle, rats?
-VehicleMoveNormal: 19633
-VehicleMoveSlow: 3954 - missions, freeroam, quests - soldier?, heli, vehicle, rats?
-Wait: 15417
-WaitIdle: 79968 - fob, soldier, uav
-Walk: 687 - animal, hostage, eli, volgin
-WalkerGearCautionDash: 346
+
 WalkerGearCautionIdle: 137
-WalkerGearCautionRun: 7
-WalkerGearCautionWalk: 300
 WalkerGearRelaxedIdle: 646
-WalkerGearRelaxedRun: 111
-WalkerGearRelaxedWalk: 708
-WalkOnly: 80 - sally
+
+Heli:
+DropPoint: 2868 - heli lz drop point
+
+
+Mission specifc/minor usage
+Caution: 39 - Params: unk1: always 1, unk2 ? may values - frts s10030_area only - rats on MB Diamond Dogs mission
+CurtainIn: 3 - prologue
+CurtainOut: 4 - prologue
+Demo: 5
+
+Fire: 1 - frts s10010_l01
+
+Kill: 6 - frts s10050 - cloaked in silence - bossquiet
+Recovery: 18 - frt s10050_area - boss quiet
+Snipe: 511 - s10050_area, s10130 - bossquiet / skullsnipers
+SupineSnipe: 16 - s10050_area - bossquiet
+
+PickUpHoneyBee: 1 - s10040_area - rts_GetHoneyBee_1002
+PutDownHoneyBee: 1 - s10040_area.frt - rts_GetHoneyBee_1003
+
+Sally:
+OnBaseRoute: 634 - s10070_area03, sally routes, but also support heli routes? - sally - theres a command SetBaseRoute
+OnTheHill: 2 -  s10151_area01.frt - rts_shln_s_3010 - sally, possibly on the background hill it jumps to VERIFY once have route visualization
+PileBunker: 146 - sally
+SearchMissile: 2 - sally
+
+-- unsorted
+
+
+ForwardChangeSpeed: 479 - edge - Params: all 0 except Param7: 2000 4000 6000 - frts 6 files, missions and f30020, unknown route names, - heli? routes with this have vehicle events but also UseSearchLight, ah so maybe WalkerGear?
+
+CloseDoor: 48 - frt mafr_common - unknown routes
+OpenDoor: 23 - mafr_common - unknown routes
+Vanish: 55 - mafr_common - unknown routes
+SetTargetSpeed: 6 - mafr_common, unknown route names, routes include Hovering, Vanish, open/closedoor events, Param7 similar to forwardchangespeed?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -88,29 +88,15 @@ Some specific event types:
 
 ConversationIdle - TppRouteNodeEventConversation ?
 rts_tent_Executioner_loop_0000
-P1: 1, 
-P2: d30000, 
-P3: 0, 
-P4: 0, 
-P5: 0, 
-P6: 0, 
 P7: conversationListName (S32) - ex "speech52_EV060", 
 P8: partnerCharacterId (S32) - ex "hos_target_0000", 
 P9: 9059, 
 P10: 32,  
 
 SwitchRoute - conditional route change
-P1: 1, 
-P2: 1df, 
-P3: 0, 
-P4: 0, 
-P5: 0, 
-P6: 0, 
 P7: routeIdS32 ex "rt_slopedTown_c_0001", 
 P8: conditionNameS32 ex "CanNotUseSearchLight", 
 P9: conditionGameId/gimmickId - ex "afgh_wtct001_gim_n0000|srt_afgh_wtct001"
-P10: 0, 
-
 
 conditionNames
 "IsNotGimmickBroken" 
@@ -127,7 +113,54 @@ P3: 0,
 P4: 0, 
 P5: 0, 
 P6: 0, 
-P7: 6f02, 
+P7: 6f02,  ?
 P8: messageS32 - ex "UpdateStartPoint", 
 P9: message2S32 - ex "10", 
 P10: 0, 
+
+
+RelaxedIdleAct
+P7
+1d9b4cd4 - 496717012 - SoldierLookWatch, fidget (posibly cycles through all the ene_routeAnimationGaniPathTable)
+3657493f - 911690047 - ? doesnt seem to work?
+7812dd98 - 2014502296 - smoke
+87b99d7a - 2277088634 - SoldierFootStep - takes a few steps around and returns to spot
+f528c82c - 4113090604 - ? doesnt seem to work?
+
+CautionIdleAct
+P7
+1d9b4cd4 - 496717012 - ASSUMPTION as above
+3e8bf65b - 1049359963 -? doesnt seem to work?? retry on cautionidleact instead on relaxedidleaxt, lookup examples of use for any other params
+7f4714d2 - 2135364818 -? doesnt seem to work?? retry on cautionidleact instead on relaxedidleaxt, lookup examples of use for any other params
+87b99d7a - 2277088634 - ASSUMPTION as above
+d90d9036 - 3641544758 - raise gun and sweep around
+ffee383b - 4293802043 -? doesnt seem to work?? retry on cautionidleact instead on relaxedidleaxt, lookup examples of use for any other params
+
+HeliIdle
+Enter enemy attack heli (when on soldier route)
+P2 - time - Only param ever set, stays in heli reguardless 
+Hard coded to either "enemyheli" heli or simply first heli game object
+Will warp to start of getting in heli animation
+Is either on soldier routes or heli routes
+untested on heli routes, cant think how it would work
+
+Normal - and posibly other heli movement?
+P7: 0 2 4 5 8 9 a 10 80 aa c0 c4 c5 100 10a 200 20a 400 402 404 405 408 40a 415 480 488 4c0 4c5 50a 580 582 600 608 60a 680 68a 
+P8: 0 f 5a 104 ffffffd3 ffffffe2 
+P9: 0 6 8 a d f 12 14 17 19 1a 1c 1e 1f 20 21 23 24 25 26 28 29 2d 32 37 3c 46 4b 50 55 5f 64 78 7d 96 af c8 e1 fa 113 12c 145 15e 177 190 1a9 1c2 1db 1f4 20d 226 23f 258 271 28a 2a3 2bc 2ee 320 352 384 
+P10: 0 1 2 3 4 5 8 a 
+
+--from0
+Param6: 1026 - opens left  (in inside facing front) door, but if set with other params 0 will halt the helicopter from contining route
+Param7: 0
+Param8: 100
+Param9: 1
+
+param6 alone (other params 0)
+2   - 2 - ? no apparent
+5  	- 5    close door
+100 - 256 ? - no apprent
+400 - 1024 - does not execute nodes or continue route
+402 - 1026 - opens left - does not execute nodes or continue route
+404 - 1028 - does not execute nodes or continue route
+405 - 1029
