@@ -1,3 +1,5 @@
+GOTCHA: Params listed here start from 1 - Route builder now labels params from 0
+
 Param1: aimTargetType - aimTargetType sets up RouteAimTargetType / TppAimTargetDesc? (see gz exe route classes.txt)
 (in hex) 
 +0 for edge event classes (Walk,Run etc) (ie 0 100 200)
@@ -19,7 +21,7 @@ Only on event node (I mean event node classes, in practice some route use event 
 Unsure of the difference between ROUTE_AIM_ROUTE_AS_SIGHT_MOVE_PATH and ROUTE_AIM_ROUTE_AS_OBJECT
 Can't currently test due to more routeset creation issue
 
-Param2: ? almost always has a value
+Param2: ? almost always has a value - seems to be time related, trying different values from game routes changes , value as float is nonsensical
 
 Param3: Depends on Param1/aimTargetType
 ROUTE_AIM_NO_TARGET - ? - always 0
