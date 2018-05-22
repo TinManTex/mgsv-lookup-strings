@@ -1,3 +1,8 @@
 General purpose PathFileName strings of fox engine games.
 
 Dat and Pftx PathFileNames - Only as complete as the qar_dictionary is, ie there are still unknown PathFileNames.
+
+fox_file_dictionary.txt is combined/ultimate dictionary.
+Otherwise:
+<gameid>_file_dictionary.txt for all pathfilneames per game or
+\<gameid>\<archive type>_unique.txt for further breakdown by type
