@@ -1,0 +1,74 @@
+/Assets/<game type>/<object type>/<fmdl type>/Pictures/<fmdl name>_<texture suffix>
+
+or
+/<fmdl type><model num>_<model type><model type num>_def_<texture suffix>_<texture suffix>
+
+or camo variants
+/<fmdl type><model num>_<model type><model type num>_def_v<nn>
+
+dds6_head_z_cov
+
+dds9_main0_v00_sta
+
+
+
+Speedups:
+have both model type references run in lockstep (brutegen currently doesnt support this)
+
+have target lists of fmdl type by game-object type
+
+fmdl type lists should have full coverage if pulled from fmdl filenames (as they are in fpk and fpks have 100% of names unlike qar/pftx) 
+
+Fmdl file paths generated from archive file list output (gzstool fork) lists processed for just .fmdl 
+(MiscTool)
+then /Scenes/ replaces with /Pictures/
+
+worfify fmdl path on first number
+then by numbers, to get
+/Assets/tpp/chara/ber/Scenes/ber
+_main
+_def
+strip leading _
+
+REF
+/Assets/mgo/chara/sna/Pictures/sna0_horn1_def_nrm
+/Assets/mgo/chara/sna/Pictures/sna0_horn1_def_srm
+/Assets/mgo/chara/sna/Pictures/sna0_horn1_def_trm
+
+/Assets/sh/chara/bab/Pictures/bab0_main0_def_bsm_alp
+/Assets/sh/chara/bab/Pictures/bab0_main0_def_hgm
+/Assets/sh/chara/bab/Pictures/bab0_main0_def_ils
+/Assets/sh/chara/bab/Pictures/bab0_main0_def_nrm
+/Assets/sh/chara/bab/Pictures/bab0_main0_def_spr
+/Assets/sh/chara/bab/Pictures/bab0_main0_def_srm
+/Assets/sh/chara/bab/Pictures/bab0_main0_def_trm
+
+
+Exceptions
+/Assets/tpp/chara/dds/Scenes/dds6_head_z_cov
+/Assets/tpp/chara/dds/Scenes/dds9_main0_v00_sta
+
+weapon has it's its own naming system
+/Assets/tpp/weapon/amo/Scenes/am00_main0_def.fmdl
+/Assets/tpp/weapon/amo/Scenes/am00_main1_def.fmdl
+/Assets/tpp/weapon/amo/Scenes/am00_main2_def.fmdl
+/Assets/tpp/weapon/amo/Scenes/am00_main3_def.fmdl
+
+/Assets/tpp/weapon/put/Scenes/pt07_main4_def.fmdl
+/Assets/tpp/weapon/ril/Scenes/rl02_main0_def.fmdl
+/Assets/tpp/weapon/sas/Scenes/ss00_main0_def.fmdl
+/Assets/tpp/weapon/sas/Scenes/ss01_main0_def.fmdl
+/Assets/tpp/weapon/shg/Scenes/sg00_main0_def.fmdl
+/Assets/tpp/weapon/shg/Scenes/sg01_barl0_def.fmdl
+/Assets/tpp/weapon/shg/Scenes/sg01_barl1_def.fmdl
+/Assets/tpp/weapon/shg/Scenes/sg01_barl2_def.fmdl
+
+--
+fmdl naming not standard
+/Assets/tpp/chara/avm/Scenes/avm_hair_a0_v0_cov.fmdl
+
+---
+fmdl naming not standard
+/Assets/tpp/mecha/mgs/Scenes/wmue_rockbig0_def_v00.fmdl
+/Assets/tpp/mecha/mgs/Scenes/wmue_rockbig0_def_v01.fmdl
+/Assets/tpp/mecha/mgs/Scenes/wmue_rockbig0_def_v02.fmdl
