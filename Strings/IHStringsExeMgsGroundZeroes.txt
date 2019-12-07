@@ -1,3 +1,42 @@
+  opt.abort: %s\n
+  opt.dss: \"%s\"\n
+  opt.junk: %s\n
+  opt.lg_chunk: %zu\n
+  opt.lg_dirty_mult: %zd\n
+  opt.lg_prof_interval: %zd\n
+  opt.lg_prof_sample: %zd\n
+  opt.lg_tcache_max: %zd\n
+  opt.narenas: %zu\n
+  opt.prof: %s\n
+  opt.prof_accum: %s\n
+  opt.prof_active: %s\n
+  opt.prof_final: %s\n
+  opt.prof_gdump: %s\n
+  opt.prof_leak: %s\n
+  opt.prof_prefix: \"%s\"\n
+  opt.quarantine: %zu\n
+  opt.redzone: %s\n
+  opt.stats_print: %s\n
+  opt.tcache: %s\n
+  opt.utrace: %s\n
+  opt.valgrind: %s\n
+  opt.xmalloc: %s\n
+  opt.zero: %s\n
+ !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ %#lx
+ /backup
+ /echo
+ /log
+ /update
+ deflate 1.2.5 Copyright 1995-2010 Jean-loup Gailly and Mark Adler 
+ for detail.\n
+ illegal property for 'pairs'
+ in function '%s'
+ in function <%s:%d>
+ in main chunk
+ inflate 1.2.5 Copyright 1995-2010 Mark Adler 
+ long
+ private property index
 !(A
 !)@
 !1A
@@ -49,6 +88,7 @@
 #Spa
 #SyncUniqueId
 #T@
+#TooLongFileName
 #Vector3
 #Vector4
 #]F
@@ -84,6 +124,7 @@ $F@
 $Ib?s
 $J@
 $Lua: Lua 5.1.5 Copyright (C) 1994-2012 Lua.org, PUC-Rio $
+$Lua: Lua 5.1.5 Copyright (C) 1994-2012 Lua.org, PUC-Rio $\n$Authors: R. Ierusalimschy, L. H. de Figueiredo & W. Celes $\n$URL: www.lua.org $\n
 $T@
 $Tj
 $URL: www.lua.org $
@@ -107,6 +148,7 @@ $~@
 %+d
 %-15s : %-15s
 %.14g
+%.1f%s
 %.3f%s
 %016llx.%s
 %02d
@@ -116,9 +158,13 @@ $~@
 %02u
 %02u:%02u/%02u:%02u
 %02u:%02u/--:--
+%02u:%02u:%02u/%02u:%02u:%02u
+%02u:%02u:%02u/--:--:--
+%02x
 %02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x
 %03d
 %04d
+%06d.
 %08d
 %1@
 %2B
@@ -158,13 +204,17 @@ $~@
 %d/     
 %d/%d
 %d:
+%d: 
 %eA
 %f %f %f
 %f %f %f %f
+%f %f %f %f\n%f %f %f %f\n%f %f %f %f\n%f %f %f %f
 %f %f %f - %d %d
+%f %f %f\n%f %f %f\n%f %f %f
 %f-
 %f@
 %h$u
+%ld: %ld [%lu: %lu] @
 %lf
 %lld
 %llu
@@ -176,14 +226,21 @@ $~@
 %s (%s)
 %s : %-15s @ %-15s
 %s expected, got %s
+%s near '%s'
 %s requires DirectX 11.
 %s%c%c%c%c_%c%c%c%c%c%c
 %s%d
 %s%s
+%s%s/
 %s(%u)
+%s-%s; q=1.0, %s; q=0.5, en; q=0.1
+%s.%d.%lu.%c%ld.heap
+%s.%d.%lu.%c.heap
 %s.ftex
 %s/%03d/%s_%03d_%03d.fpk
 %s/%s
+%s/%s.lua
+%s/%s/%s/%s.%s
 %s/%s/%s/%s.fpk
 %s/Scripts/Classes/%s.lua
 %s0000
@@ -194,6 +251,7 @@ $~@
 %s: 0x%p
 %s:%d: 
 %s:%d: %s
+%s:%s
 %sText
 %sVoice
 %s[%d]
@@ -210,8 +268,10 @@ $~@
 %s_edb_%s
 %s_lockable
 %s_lockable_%d
+%s_ps
 %s_s_%03d_%03d.fpk
 %s_viewport
+%s_vs
 %u / %u
 & 96
 & A
@@ -236,6 +296,23 @@ $~@
 &d@
 &r@
 &uj
+' is not a number.
+'%s' expected
+'%s' expected (to close '%s' at line %d)
+'%s' is constant or read only, setter failed.
+'%s' is read only.
+'=' or 'in' expected
+'for' initial value must be a number
+'for' limit must be a number
+'for' step must be a number
+'module' not called from a Lua function
+'package.%s' must be a string
+'package.loaders' must be a table
+'package.preload' must be a table
+'popen' not supported
+'setfenv' cannot change environment of given object
+'setn' is obsolete
+'string.gfind' was renamed to 'string.gmatch'
 ( 8PX
 (!A
 (#A
@@ -268,6 +345,7 @@ $~@
 (for state)
 (for step)
 (n@
+(no_name)
 (null)
 (p@
 (q@
@@ -277,6 +355,11 @@ $~@
 (z@
 (~@
 ) A
+) SIZE(
+) array(
+) offset(
+) type(
+)#A3u\n
 )%<
 )/@
 )0@
@@ -406,6 +489,7 @@ $~@
 -)>
 -+ #0
 ---
+--- End jemalloc statistics ---\n
 -.---M
 -/!>
 -/-
@@ -443,10 +527,17 @@ $~@
 .*F
 ...
 ../
+../external/tape/
+..\\..\\..\\ext\\gn\\include\\gn/ps4/gn_core_ps4.inl
+..\\..\\tpp\\Tpp\\Config
 ..om?
+./?.lua;/usr/local/share/lua/5.1/?.lua;/usr/local/share/lua/5.1/?/init.lua;/usr/local/lib/lua/5.1/?.lua;/usr/local/lib/lua/5.1/?/init.lua
+./?.so;/usr/local/lib/lua/5.1/?.so;/usr/local/lib/lua/5.1/loadall.so
 ./@
 ./as/
+./terrain/default%3.3d.tre
 ./tmp/shaders/dx11/
+./tmp/shaders/ps4/
 .3i
 .8@
 .>E
@@ -500,15 +591,22 @@ $~@
 .]W
 .a:T
 .bat
+.bsf
 .cani
 .cmd
 .com
 .d@
 .dds
 .eB
+.evb
+.evf
 .exe
 .f@
+.fagx
+.fmdl
 .foxsid
+.fpk
+.fpkl
 .ftex
 .g0s
 .gani
@@ -517,15 +615,19 @@ $~@
 .phsd
 .pic
 .png
+.ps4
+.psarc
 .psd
 .qar
 .r/
+.state
 .sys
 .t@
 .tga
 .tre2
 .trmtl
 .vfx
+.wav
 .wem
 .xJ>Hf
 .xml
@@ -534,6 +636,7 @@ $~@
 /%A
 /)A
 /)I
+/* registerd entities' class specific property index enumeration for property event handler */
 // 
 // Property map hash:
 /2GG>!B
@@ -573,6 +676,7 @@ $~@
 /Assets/tpp/effect/vfx_data/explosion/fx_tpp_expwtr04_s3.vfx
 /Assets/tpp/effect/vfx_data/hit/
 /Assets/tpp/effect/vfx_data/hit/fx_tpp_hitexp01_s3.vfx
+/Assets/tpp/effect/vfx_data/muzzle/fx_tpp_mzfak74_s0FG.vfx
 /Assets/tpp/effect/vfx_data/ricochet/
 /Assets/tpp/effect/vfx_data/ricochet/fx_tpp_rctair01M_s0.vfx
 /Assets/tpp/effect/vfx_data/ricochet/fx_tpp_rctwodwtr01M_s0LG.vfx
@@ -709,6 +813,7 @@ $~@
 /Assets/tpp/motion/mtar/rat/TppRat_layers.mtar
 /Assets/tpp/motion/mtar/raven/TppRaven_layers.mtar
 /Assets/tpp/motion/mtar/soldier/SoldierGz_layers.mtar
+/Assets/tpp/movie/PS4/trailer_eng.bsf
 /Assets/tpp/pack/collectible/common/col_common.fpk
 /Assets/tpp/pack/mbdvc/gz/mb_child_window_mission_info.fpk
 /Assets/tpp/pack/mbdvc/gz/mb_dvc_gz.fpk
@@ -728,6 +833,7 @@ $~@
 /Assets/tpp/pack/ui/gz/gz_title_key_setting_data.fpk
 /Assets/tpp/pack/ui/gz/gz_title_playrecord_data.fpk
 /Assets/tpp/pack/ui/gz/gz_title_prestory_data.fpk
+/Assets/tpp/pack/ui/gz/gz_ui_default_data.fpk
 /Assets/tpp/pack/ui/gz/gz_ui_default_data_ps3.fpk
 /Assets/tpp/pack/ui/gz/gz_ui_default_data_ps4.fpk
 /Assets/tpp/pack/ui/gz/gz_ui_default_data_steam.fpk
@@ -736,12 +842,16 @@ $~@
 /Assets/tpp/pack/ui/gz_game_manual/%s/%s/gz_game_manual_%s.fpk
 /Assets/tpp/pack/ui/ui_default_data.fpk
 /Assets/tpp/parts/mecha/uth/uth0_main0_def.parts
+/Assets/tpp/save/gz/PS4/ICON_eu.png
 /Assets/tpp/sound/scripts/chara/SoundTppHostage.lua
 /Assets/tpp/sound/scripts/chara/SoundTppPlayer.lua
 /Assets/tpp/sound/scripts/chara/SoundTppRaiden.lua
 /Assets/tpp/sound/scripts/chara/SoundTppSoldier.lua
 /Assets/tpp/sound/scripts/tape/PreinstallTape.lua
 /Assets/tpp/ui/Ending/GZEndingSetting_others.ends
+/Assets/tpp/ui/Ending/GZEndingSetting_ps4_jp.ends
+/Assets/tpp/ui/Ending/GZEndingSetting_ps4_jp_eng.ends
+/Assets/tpp/ui/Ending/GZEndingSetting_ps4_others.ends
 /Assets/tpp/ui/Font/Font_KJP_CUTIE_80p_alp.ftex
 /Assets/tpp/ui/Font/Font_KJP_PG_REG_32p_mb_blr_alp.ftex
 /Assets/tpp/ui/Font/Font_KJP_PROG_REG_32p_mb_alp.ftex
@@ -758,6 +868,7 @@ $~@
 /Assets/tpp/ui/GraphAsset/StageGame/Player/action_icon/action_icon.uigb
 /Assets/tpp/ui/GraphAsset/StageGame/Player/action_icon/cqc_action_icon.uigb
 /Assets/tpp/ui/GraphAsset/StageGame/Player/action_icon/pickup_weapon_info.uigb
+/Assets/tpp/ui/GraphAsset/StageGame/Player/lmenu/ld_layer/equip_cross.uigb
 /Assets/tpp/ui/GraphAsset/StageGame/Player/lmenu/ld_layer/equip_weapon_num.uigb
 /Assets/tpp/ui/GraphAsset/StageGame/Radio/button_guide.uigb
 /Assets/tpp/ui/GraphAsset/StageGame/Radio/preset_radio.uigb
@@ -794,6 +905,86 @@ $~@
 /Assets/tpp/ui/GraphAsset/mb_menu/ld_layer/mb_dvc_demo.uigb
 /Assets/tpp/ui/GraphAsset/mb_menu/ld_layer/mb_dvc_minimum.uigb
 /Assets/tpp/ui/GraphAsset/popup/popup.uigb
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_am00_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_am01_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_am01_main1_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_am01_main2_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_am01_main3_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_am02_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_am02_main1_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_am02_main2_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_am04_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_am05_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_am06_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_am07_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_am08_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ar00_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ar01_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ar01_main1_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ar03_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba00_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba00_main1_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba00_main2_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba00_main3_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba00_main4_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba00_main5_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba01_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba01_main1_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba01_main2_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba01_main3_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba01_main4_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba01_main5_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba01_main6_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba01_main7_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba01_main8_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba01_main9_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba02_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba03_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba04_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba05_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba06_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba07_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba07_main1_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba07_main2_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba07_main3_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba07_main4_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba07_main5_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_ba08_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_mg01_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_mg02_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_mg03_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_mz00_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_mz01_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_mz02_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_mz03_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_mz04_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_mz05_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_mz06_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_mz07_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_mz08_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_mz09_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_mz10_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_mz11_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_mz12_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_mz13_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_mz14_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_mz15_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_sk00_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_sk00_main1_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_sk01_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_sk01_main1_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_sk01_main2_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_sk01_main3_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_sk01_main4_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_sk02_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_sk04_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_sk05_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_sk06_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_sk06_main1_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_sk06_main2_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_sk06_main3_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_sr00_main0_def_alp.ftex
+/Assets/tpp/ui/ModelAsset/cmn_itemicon/Pictures/ui_sr03_main0_def_alp.ftex
 /Assets/tpp/ui/ModelAsset/cmn_loadmark/Pictures/cmn_loadmark_icon_a_alp.ftex
 /Assets/tpp/ui/ModelAsset/cmn_loadmark/Pictures/cmn_loadmark_logo_mini.ftex
 /Assets/tpp/ui/ModelAsset/cmn_loadmark/Pictures/cmn_loadmark_logo_mini_nmp.ftex
@@ -875,13 +1066,17 @@ $~@
 /Assets/tpp/ui/texture/ActionIcon/hud_acticon_icon_08_alp.ftex
 /Assets/tpp/ui/texture/ActionIcon/hud_acticon_icon_09_alp.ftex
 /Assets/tpp/ui/texture/ActionIcon/hud_acticon_icon_10_alp.ftex
+/Assets/tpp/ui/texture/ButtonIcon/cmn_btn_icon_a_alp.ftex
 /Assets/tpp/ui/texture/ButtonIcon/cmn_btn_icon_a_ps3_alp.ftex
 /Assets/tpp/ui/texture/ButtonIcon/cmn_btn_icon_a_ps4_alp.ftex
 /Assets/tpp/ui/texture/ButtonIcon/cmn_btn_icon_a_win11_alp.ftex
 /Assets/tpp/ui/texture/ButtonIcon/cmn_btn_icon_a_x36_alp.ftex
 /Assets/tpp/ui/texture/ButtonIcon/cmn_btn_icon_a_xone_alp.ftex
 /Assets/tpp/ui/texture/CategoryIcon/mb_cct_icon_cat_a.ftex
+/Assets/tpp/ui/texture/CategoryIcon/mb_dvlp_icon_cat_a.ftex
 /Assets/tpp/ui/texture/CategoryIcon/mb_log_icon_cat_a.ftex
+/Assets/tpp/ui/texture/CategoryIcon/mb_msm_icon_cat_a.ftex
+/Assets/tpp/ui/texture/CategoryIcon/mb_stf_icon_cat_a.ftex
 /Assets/tpp/ui/texture/CategoryIcon/sys_rank_icon_cat_a.ftex
 /Assets/tpp/ui/texture/EquipIcon/equip_blank_icon_alp.ftex
 /Assets/tpp/ui/texture/EquipIcon/ui_it_cassette_alp.ftex
@@ -913,6 +1108,20 @@ $~@
 /Assets/tpp/ui/texture/EquipIcon/ui_wp_stungrenade_alp.ftex
 /Assets/tpp/ui/texture/EquipIcon/ui_wp_suppressor_alp.ftex
 /Assets/tpp/ui/texture/Manual/%s/%s/%s/game_manual%02u.ftex
+/Assets/tpp/ui/texture/MissionImage/PS4/ui_gz_ttl_msn_logo_chk_10.ftex
+/Assets/tpp/ui/texture/MissionImage/PS4/ui_gz_ttl_msn_logo_chk_10_blr.ftex
+/Assets/tpp/ui/texture/MissionImage/PS4/ui_gz_ttl_msn_logo_chk_2.ftex
+/Assets/tpp/ui/texture/MissionImage/PS4/ui_gz_ttl_msn_logo_chk_2_blr.ftex
+/Assets/tpp/ui/texture/MissionImage/PS4/ui_gz_ttl_msn_logo_chk_3.ftex
+/Assets/tpp/ui/texture/MissionImage/PS4/ui_gz_ttl_msn_logo_chk_3_blr.ftex
+/Assets/tpp/ui/texture/MissionImage/PS4/ui_gz_ttl_msn_logo_chk_4.ftex
+/Assets/tpp/ui/texture/MissionImage/PS4/ui_gz_ttl_msn_logo_chk_4_blr.ftex
+/Assets/tpp/ui/texture/MissionImage/PS4/ui_gz_ttl_msn_logo_chk_5.ftex
+/Assets/tpp/ui/texture/MissionImage/PS4/ui_gz_ttl_msn_logo_chk_5_blr.ftex
+/Assets/tpp/ui/texture/MissionImage/PS4/ui_gz_ttl_msn_logo_chk_6.ftex
+/Assets/tpp/ui/texture/MissionImage/PS4/ui_gz_ttl_msn_logo_chk_6_blr.ftex
+/Assets/tpp/ui/texture/MissionImage/PS4/ui_gz_ttl_msn_logo_chk_7.ftex
+/Assets/tpp/ui/texture/MissionImage/PS4/ui_gz_ttl_msn_logo_chk_7_blr.ftex
 /Assets/tpp/ui/texture/PadImage/PS4/ui_pad_img_ps4.ftex
 /Assets/tpp/ui/texture/PadImage/PS4/ui_pad_line_ps4_1_p_l.ftex
 /Assets/tpp/ui/texture/PadImage/PS4/ui_pad_line_ps4_1_p_r.ftex
@@ -928,10 +1137,14 @@ $~@
 /Assets/tpp/ui/texture/PadImage/Xone/ui_pad_line_xone_2_v_l.ftex
 /Assets/tpp/ui/texture/PadImage/Xone/ui_pad_line_xone_2_v_r.ftex
 /Assets/tpp/ui/texture/Photo/gz/mb_photo_%02d_%05d_%03d
+/Assets/tpp/ui/texture/Photo/mb_photo_empty_alp.ftex
 /Assets/tpp/ui/texture/Prestory/sys_prestory_%u.ftex
 /Assets/tpp/ui/texture/Terop/%s/terop_%s_alp.ftex
+/Assets/tpp/ui/texture/map/gntn_alp_clp.ftex
 /Assets/tpp/ui/texture/map/gntn_building/gntn_camp_omega_out_alp.ftex
+/Assets/tpp/ui/texture/map/gntn_building/gntn_camp_omega_out_alp_clp.ftex
 /Assets/tpp/ui/texture/map/gntn_photo_clp.ftex
+/Assets/tpp/ui/texture/screencapture/screencapture_decal_480_alp.ftex
 /Assets/tpp_sandbox/level/openworld_test/ogasawara/fpk/oga
 /Assets/tpptest/ui/Layer0/login_print.uig
 /D@
@@ -941,14 +1154,30 @@ $~@
 /L@
 /P8i
 /TF<)VGy#WH
+/\n;\n?\n!\n-
 /]<
 /^@
+/app0
+/app0/
+/app0/chunk1.psarc
+/app0/chunk2.psarc
+/app0/chunk3.psarc
 /as/
 /cache/
+/convert/
 /d@
+/data/
+/develop/
+/host/
 /n#
+/proc/%d/maps
+/public/
+/release/
 /t@
+/tmp/
+/v1/users/%s/friendList?friendStatus=friend&presenceType=primary&sort=onlineStatus&limit=500
 /w?
+/workspace/
 /yQA
 /z@
 0 6@
@@ -1187,6 +1416,7 @@ $~@
 2?@
 2D@
 2DFilterManager
+2D_Border
 2F@
 2G?
 2P8
@@ -1197,6 +1427,7 @@ $~@
 2a@
 2j?
 3+5<t
+3.4.0-0-g0ed518e5dab789ad2171bb38977a8927e2a26775
 3.ftexs
 31@
 333
@@ -1204,6 +1435,7 @@ $~@
 333?
 333?333?333?333?
 333?ff
+333?fff?
 33s?
 33s?33s?33s?33s?
 33s?=
@@ -1501,6 +1733,7 @@ $~@
 <(A
 <-z
 </assembly>
+</versions>
 <2@
 <2t
 <33
@@ -1510,6 +1743,8 @@ $~@
 <>#n2
 <>@
 <?/
+<?xml
+<?xml version=\"1.0\" encoding=\"UTF-8\" ?>
 <B@
 <D@
 <H7
@@ -1524,15 +1759,42 @@ $~@
 <f?
 <ff
 <hC
+<jemalloc>
+<jemalloc>: %s: %.*s:%.*s\n
+<jemalloc>: Conf string ends with comma\n
+<jemalloc>: Conf string ends with key\n
+<jemalloc>: Corrupt redzone %zu byte%s after end of %p (size %zu), byte=%#x\n
+<jemalloc>: Corrupt redzone %zu byte%s before %p (size %zu), byte=%#x\n
 <jemalloc>: Error in VirtualFree(): %s
 <jemalloc>: Error in atexit()
+<jemalloc>: Error in atexit()\n
+<jemalloc>: Error in munmap(): %s\n
+<jemalloc>: Error in pthread_key_create()\n
+<jemalloc>: Error initializing arena\n
+<jemalloc>: Error re-initializing mutex in child\n
+<jemalloc>: Error setting TSD for arenas\n
+<jemalloc>: Error setting TSD for prof_tdata\n
+<jemalloc>: Error setting TSD for tcache\n
+<jemalloc>: Failure in mallctl(\"epoch\", ...)\n
+<jemalloc>: Failure in xmallctl(\"%s\", ...)\n
+<jemalloc>: Leak summary: %ld byte%s, %ld object%s, %zu context%s\n
+<jemalloc>: Malformed conf string\n
+<jemalloc>: Memory allocation failure in mallctl(\"epoch\", ...)\n
 <jemalloc>: Reducing narenas to limit (%d)
+<jemalloc>: Reducing narenas to limit (%d)\n
+<jemalloc>: Run pprof on \"%s\" for leak detail\n
+<jemalloc>: creat(\"%s\"), 0644) failed\n
+<jemalloc>: write() failed during heap profile flush\n
+<memmutex>
 <name>
+<name> or '...' expected
 <number>
 <p$P
 <program name unknown>
 <q=
 <string>
+<ver class=\"%s\" super=\"%s\">%s</ver>
+<versions>
 <y 
 <y5
 <z@
@@ -1961,6 +2223,7 @@ $~@
 @QY;
 @R@
 @Rd@
+@Ref:%s
 @S@
 @SW@
 @Selector
@@ -2203,6 +2466,7 @@ ANALYZE_REASON_NONE
 ANALYZE_REASON_NOT_ON_NAV
 ANALYZE_REASON_NO_LOCAL_PATH
 ANALYZE_REASON_NO_OPTIMIZE_NEXT_PATH
+ANALYZE_REASON_NO_OPTIMIZE_PATH
 ANALYZE_REASON_NO_PATH
 ANALYZE_REASON_REACHED_SUB_GOAL
 ANALYZE_REASON_REACH_REQUESTED_START
@@ -2239,6 +2503,7 @@ ATK_Kick
 ATK_Punch1
 ATK_Punch2
 ATK_PunchNoHit
+ATK_VolRideBullet
 ATTACH_CONNECT_POINT
 ATTACH_MOTION_POINT
 ATTACH_SKELETON
@@ -2246,8 +2511,12 @@ ATTR
 AUTO
 AV@
 Absf
+Accept-Language
 AcceptMission
 AcceptReservation
+AchievementTrophyGetInfo
+AchievementTrophyInstall
+AchievementTrophyUnlock
 Acos
 Act
 ActMotion
@@ -2308,6 +2577,7 @@ AddFirstWaitSquad
 AddFixedSquads
 AddForceAll
 AddForceInWorld
+AddForceOrderMember
 AddForceRagdollFromHitDir
 AddGadgetPlugins
 AddGame
@@ -2368,6 +2638,7 @@ Adobe APP14 marker: version %d, flags 0x%04x 0x%04x, transform %d
 Advapi32.dll
 Aed
 AfterUpdate
+AfterUpdateEx
 Ahd=<c]^7if1Rjg
 AiAibFile
 AiBehaviorGraphCharacterInfo
@@ -2502,6 +2773,7 @@ AimTargetType
 AimUpdateJob
 AimUpdateJobInput
 AimUpdateJobOutput
+AkEvent
 Alert
 AlertBattle
 AlertCp
@@ -2510,6 +2782,7 @@ AlertReinforce
 All
 AllChangeStatusInCp
 AllClear
+AllProperties
 AllSequencesIsEnded
 AllSetEnable
 Allow
@@ -2546,6 +2819,7 @@ AnimGraphLayersDescription
 AnimGraphLayersDescriptionBody
 AnimJobPacket
 AnimNormalPluginStart
+AnimPlayControl
 AnimPlugin
 AnimSystem
 AnimUpdateJobInput
@@ -2567,6 +2841,7 @@ Application
 Application transferred too few scanlines
 Application transferred too many scanlines
 ApplyRotation
+ApplyThumbnail
 ApplyTranslation
 Apr
 April
@@ -2576,7 +2851,9 @@ Arabic
 AreFileApisANSI
 Area
 AreaInterferenceSingleLineCheckJob
+Arenas: %u\n
 Arg list too long
+Arguments
 Arithmetic table 0x%02x was not defined
 Arrive
 ArriveToLandingZone
@@ -2587,6 +2864,7 @@ Asin
 Assemble
 Assert
 Assertions %s
+Assertions %s\n
 AssetConfiguration
 AssignCommonRouteForBattle
 AssignCommonRouteForSquad
@@ -2627,11 +2905,16 @@ Audio Frame
 Audio Object
 Audio Physical
 Audio System
+AudioDecodeThread
 AudioPlay
+AudioThread
 Aug
 August
 AutoAssignStaffUnit
 AutoMarkingLength
+Average profile dump interval: %lu (2^%zd)\n
+Average profile dump interval: N/A\n
+Average profile sample interval: %lu (2^%zu)\n
 AwayFromHorse
 AxisSort
 B#A
@@ -2648,6 +2931,7 @@ B?0
 B?ff
 BACKLEFT
 BACKRIGHT
+BASE_DEV
 BATTLE
 BA~
 BC1%M
@@ -2693,6 +2977,9 @@ BLOCK_PLAYER_PRIMARY_WEAPON
 BLOCK_PLAYER_SECONDARY_WEAPON
 BLOCK_SUPPORT_WEAPON
 BLOOD
+BLUR
+BLUR_X
+BLUR_Y
 BL_HeliChainGun
 BL_Ms00
 BOMB
@@ -2775,6 +3062,7 @@ Betrayer Contact Marking Time
 Betrayer Contact No Weapon Clear Time
 Betrayer Contact clearTime_perfect_stealth
 BilateralUpscale2x2
+Binary
 BindBlendTreeControlValue
 BindEdgeTag
 BindNodeTag
@@ -2929,6 +3217,7 @@ C-Yn
 C5R?
 C9#e
 C:A
+C:\\Program Files (x86)\\SCE\\ORBIS SDKs\\1.500\\target\\include_common\\gnm/texture.h
 CALL
 CALL_HELI_RES
 CALL_TYPE_ALWAYS
@@ -2961,6 +3250,8 @@ CATEGORY_SHOTGUN
 CATEGORY_SNIPERRIFLE
 CATEGORY_SUBMACHINEGUN
 CATEGORY_SUPPORTWEAPON
+CAkAudioThread::Stop
+CB(%d)[parent:%d]\n
 CCIR601 sampling not implemented yet
 CCW
 CD@
@@ -3018,9 +3309,17 @@ CLOSE
 CLOSURE
 CLOUDY_INSCATTER
 CLOUDY_TRANSMITTANCE
+CMD_ADD_RIVAL
+CMD_AUTH_AUTHCODE
+CMD_CREATE_PLAYER
+CMD_DELETE_RIVAL
+CMD_GET_PLAYERLIST
 CMD_GET_RIVAL_LIST
+CMD_GET_URLLIST
+CMD_REQAUTH_HTTPS
 CMD_SEND_MISSION_EVENT
 CMD_SET_CASSETTE
+CMD_SET_CURRENTPLAYER
 CMD_SET_MISSION_SCORE
 CMD_SET_SCORE
 CNP_
@@ -3061,18 +3360,22 @@ COLOR_ALPHA
 COLOR_CORRECTION
 COLOR_RGB
 COMBAT
+COMMON
 COMPILER_STATE_COMPILING
 COMPILER_STATE_COMPLETED
 COMPILER_STATE_FAILED
 COMPILER_STATE_FILE_MODIFIED
 COMPILER_STATE_IDLE
 COMPILER_STATE_WAITING_TO_LOAD
+COMPOUND
 COMSPEC
 CONCAT
 CONOUT$
 CONSTANT
+COPY
 CPR0060
 CPR0070
+CPUs: %u\n
 CP_PLG_CLEARING
 CP_PLG_GROUP_BEHAVIOR
 CP_PLG_HQ_RADIO
@@ -3096,6 +3399,7 @@ CString Data(Path)
 CString Data(String)
 CTex
 CUBEMAP_FILE_ONLY
+CUSA00211_00
 CWD>~3
 CYLINDER
 CZE
@@ -3182,6 +3486,7 @@ CarryStartFromVehicle
 CarryThrow
 Carrying
 CascadeShadowRangeScale
+Category
 Category (%s) not found
 Category (%s) registered
 CategoryTag %s
@@ -3419,12 +3724,18 @@ ChangeStock
 ChangeTargetSpeed
 ChangeToEnable
 ChangeTppVolumetricFog
+Channels      : %d\n
 CharaControl
 CharaControlEndJob
 CharaControlEndJobInput
 CharaControlEndJobOutput
 CharaControlUpdateJob
 CharaControlUpdateJobOutput
+CharaTppCommonVehicle.lua
+CharaTppStryker.lua
+CharaTppStrykerWav01.lua
+CharaTppTank.lua
+CharaTppWesternJeep.lua
 Character
 CharacterDescElement
 CharacterFinish
@@ -3432,6 +3743,7 @@ CharacterObject
 CharacterRealizer_UpdateOriginWithEditingCamera
 CharacterRespawnerBodyJob
 CharacterStart
+Chat
 Check
 CheckBlastHit
 CheckDefenseStart
@@ -3441,8 +3753,11 @@ CheckFixedSquad
 CheckFrustumIntersection
 CheckGroupBehavior
 CheckHelpSquad
+CheckIn
 CheckInput
 CheckIsFreeCommonRoutes
+CheckIsInPreparationMember
+CheckIsOrderStarted
 CheckIsValidMember
 CheckLookingTarget
 CheckLostToLastPosition
@@ -3451,7 +3766,11 @@ CheckOffenseStart
 CheckOkToChangeSequence
 CheckOrderBattle
 CheckOrderEvent
+CheckOrderName
 CheckOrderReaction
+CheckOrderResult
+CheckOrderWithSubSquad
+CheckOut
 CheckPadInput
 CheckPlayerExistArea
 CheckPlayerMotionForSoner
@@ -3490,6 +3809,7 @@ Chico
 ChildSoldier
 Choke
 Choked
+Chunk size: %zu (2^%zu)\n
 CigarBreath
 CigarFire
 CigarSmoke
@@ -3522,6 +3842,7 @@ ClearCoverPoint
 ClearCoverPosition
 ClearCurrentNavigation
 ClearDrawPriorityTable
+ClearForceOrderMember
 ClearGroupRouteMoveInfo
 ClearGroupUseEmplacementInfo
 ClearGuardSquad
@@ -3534,6 +3855,7 @@ ClearParameter
 ClearPlugin
 ClearProjectName
 ClearRecoilMaterialParameterTable
+ClearRenderBuffer
 ClearSearchTargetEntities
 ClearSensors
 ClearSquadGroupIndex
@@ -3552,6 +3874,7 @@ CloneDeferredBase
 CloneMatrixVisibility
 CloneRendering
 CloneRenderingDx11
+CloneRenderingPs4
 CloneStreamRender
 CloneUpdateMaterial
 CloneWireframe
@@ -3614,6 +3937,7 @@ ColorArrayPropertyDifference
 ColorCorrection
 ColorCorrectionData
 ColorCorrectionDx11
+ColorCorrectionPs4
 ColorCorrection_1DLUT
 ColorCorrection_BlndLut_Add_T_G
 ColorCorrection_BlndLut_Add_T_T
@@ -3626,7 +3950,9 @@ ColorEntity
 ColorInfo
 ColorStringMapPropertyDifference
 CombatInCover
+Command
 CommandPost
+Comment
 CommonBootDataBody
 CommonBootDataDependenceType
 CommonBootDataPauseType
@@ -3662,8 +3988,10 @@ Content-Type
 ContinueDebugEvent
 ContinueGradeChange
 ContinuousCqc
+Controller
 Conversation
 ConversationEnd
+Convert
 ConvertMsgIDInt
 ConvertMsgIDString
 ConvertToGroupNameID
@@ -3671,8 +3999,10 @@ ConvertToSubtitlesId
 Copy
 CopyDepthBuffer
 CopyDepthBufferOtherReso
+CopyGBufferDepth
 CopyRenderBuffer
 CopyRenderBuffer_FarAlpha
+CopyResourceToStagingTexture
 CopyTerrain
 CopyTerrainRender
 CopyTextureSRGB-ON
@@ -3833,6 +4163,7 @@ DAM_BLAST
 DAM_BULLET
 DAM_DEFAULT
 DAM_FLAME
+DAM_PARASITE
 DAM_RECOVER
 DAM_RESERVED1
 DAM_SHOTGUN
@@ -3871,6 +4202,7 @@ DEBUG_SH_VALUE
 DEBUG_SH_WITH_SKY
 DEC
 DECAL
+DECODING ERROR!!\n
 DEFAULT
 DEFENSE
 DEFERRED_PLUGIN
@@ -4027,6 +4359,7 @@ DataBodySet
 DataChunk
 DataElement
 DataIdentifier
+DataLevel
 DataSet
 DataSetDifference
 DataSetFile
@@ -4072,6 +4405,7 @@ DecalOnModel
 DecalOnModel_ln
 DecalRendering
 DecalRenderingDx11
+DecalRenderingPs4
 DecalType
 Decal_DrawRejectionLevel
 Decal_PolygonDataSource
@@ -4081,6 +4415,8 @@ December
 DeckCliff
 Decode
 DecodePointer
+DecompressGnDepthStencilView
+DecompressGnRenderTargetView
 DecreaseOpReinforceStock
 DecreaseUrgentOpReinforceRequestNum
 Decrement
@@ -4105,6 +4441,7 @@ Define Huffman Table 0x%02x
 Define Quantization Table %d  precision %d
 Define Restart Interval %u
 DegreeToRadian
+Delete
 DeleteAllStaffs
 DeleteAttachment
 DeleteAxisAssign
@@ -4118,6 +4455,8 @@ DeleteGroupRouteMoveInfo
 DeleteMember
 DeleteObserver
 DeleteObserverScript
+DeleteOption
+DeletePropertyFox
 DeleteScene
 DeleteSession
 DeleteStickAssign
@@ -4211,6 +4550,7 @@ DepthOfField
 DepthOfFieldBlurRatio
 DepthOfFieldBlurRatio_Downsample
 DepthOfFieldDx11
+DepthOfFieldPs4
 DepthTest=[%s]
 DepthWrite=[%s]
 Des
@@ -4244,6 +4584,7 @@ DirectionalLight
 DirectionalLightBody
 DirectionalLightShadowResolution
 Directory not empty
+DirectoryName
 Disable
 DisableAction
 DisableAim
@@ -4334,6 +4675,7 @@ Draw Sky
 Draw2D
 Draw2DRendering
 Draw2DRenderingDx11
+Draw2DRenderingPs4
 Draw2D_Border
 Draw2D_DebugTex3D
 Draw2D_TppInterlaceFilter
@@ -4344,6 +4686,7 @@ Draw2D_TppVolFog
 Draw2D_TppVolFog_Area
 Draw2D_TppVolFog_Area_Sun
 Draw2D_TppVolFog_Sun
+Draw2D_Video
 DrawLocalLightMaxCount
 DrawPath
 DrawRejectionLevel
@@ -4434,6 +4777,7 @@ ENJ
 ENL
 ENS
 ENT
+ENTITY(
 ENTITY_HANDLE
 ENTITY_LINK
 ENTITY_PTR
@@ -4574,6 +4918,7 @@ EXP1
 EXP3
 EXTERNAL_SCORE
 EYE_STOP
+E_ACTIVE
 E_FOOT_SMOKE_WALK
 EbA
 EdCameraSyncViewport
@@ -4697,6 +5042,8 @@ EnemyFulton
 EnemyHoldUp
 EnemyIndicationFilter
 EnemyInterrogation
+EnemyManager1
+EnemyManager2
 EnemyManagerForCommandPost
 EnemyManagerForEnemy
 EnemyManagerPreSystemJob
@@ -4765,6 +5112,9 @@ EraseRecord
 EraseSubPhaseController
 Error
 Error setting dss
+ErrorCode
+ErrorList
+ErrorMessage
 Es8
 Escape
 EspionageRadio
@@ -4773,6 +5123,7 @@ EspionageRadioController
 EspionageRadioData
 EspionageRadioDataBody
 EspionageRadioPlayButton
+Europe
 EvControlSubtitlesNode
 EvControlSubtitlesNodeBody
 EvSubtitlesNode
@@ -4802,6 +5153,7 @@ Exec format error
 ExecGroupCombat
 ExecGroupFieldCombat
 ExecGroupUseEmplacement
+ExecReleaseOrderAll
 ExecUrgent
 ExecuteActiveGenerators
 ExecuteFreeReservation
@@ -4828,6 +5180,7 @@ ExportPackedMaterialTexture
 ExportPropertyEnum
 ExportSerializeInfo
 ExportSymbols
+ExtArray
 ExtensionProcessingHierarchy
 Extinguish
 E~@
@@ -5165,6 +5518,7 @@ FxFirstLoopOnlyEmitNode
 FxFootPrint
 FxGameTimeInterpolateVectorNode
 FxGeoMaterial
+FxGeoMaterialInfo
 FxGraphEmitNode
 FxInfinityLifeNode
 FxInputFilterVectorNode
@@ -5213,6 +5567,7 @@ FxPtclInitEmitBigJob
 FxPtclInitEmitSmallJob
 FxPtclInitLifeBigJob
 FxPtclInitLifeSmallJob
+FxRandomGatherType
 FxRandomGenerateVectorNode
 FxRandomLifeNode
 FxRandomVectorNode
@@ -5269,6 +5624,7 @@ FxWorldPosDeltaVectorNode
 Fxaa
 FxaaFilter
 FxaaFilterDx11
+FxaaFilterPs4
 Fy@
 Fzw
 F~@
@@ -5351,6 +5707,7 @@ GRADIENT_GRAY
 GU@
 GUARD
 GUARDTOWER_DESTROY
+GUARD_HOUSE
 GUN
 Ga=
 Ga>
@@ -5371,6 +5728,7 @@ GameCoreAgent
 GameCoreObject
 GameCoreSystem
 GameKit
+GameLoad
 GameObject
 GameObjectDataBody
 GameObjectLocator
@@ -5524,11 +5882,13 @@ Get
 GetA
 GetACP
 GetActMode
+GetActiveLocatorSet
 GetActiveSensors
 GetActiveWeaponClipCountCurrent
 GetActiveWeaponClipCountMax
 GetActiveWeaponId
 GetActiveWeaponMuzzleMatrix
+GetActiveWeaponSuppressorLife
 GetActiveWindow
 GetActorList
 GetAdaptersAddresses
@@ -5546,6 +5906,7 @@ GetAimTargetType
 GetAllCassetteTapes
 GetAllDataList
 GetAllPlugins
+GetAllPropertyName
 GetAncestor
 GetAngleLeftRight
 GetAngleToTarget
@@ -5602,6 +5963,7 @@ GetCharacterId
 GetCharacterIdByRoute
 GetCharacterIdFromUniqueId
 GetCharacterObject
+GetCharacterTransformFromCharacter
 GetChildren
 GetClassName
 GetClassNameList
@@ -5730,6 +6092,9 @@ GetDirection
 GetDirectionAtNextPathNode
 GetDirectionFromRouteEdgeEventHelicopter
 GetDirectionTypeFromRouteEdgeEventHelicopter
+GetDirectoryEntryList
+GetDirectoryFileList
+GetDirectoryList
 GetDistFromNearestPlayer
 GetDistanceToNextPathNode
 GetDistanceXZPositionToLine
@@ -5772,6 +6137,11 @@ GetError
 GetEscapedCount
 GetEspionageRadioId
 GetEvacuationPositions
+GetEventNumber
+GetEventNumber2
+GetEventPosition
+GetEventTag
+GetEventTargetPosition
 GetEventsSize
 GetExitCodeProcess
 GetEyeMatrix
@@ -5824,6 +6194,7 @@ GetGuardTargetPosition
 GetGunEmplacement
 GetHandAdjustMatrix
 GetHeadBackDistance
+GetHelpRequestNum
 GetHostageStatus
 GetHostageStatusInCp
 GetHqRadioRequestName
@@ -5850,6 +6221,8 @@ GetLastPosition
 GetLastRadioName
 GetLastRadioSquad
 GetLastTargetCharacter
+GetLastWriteTime
+GetLatest
 GetLatestCategory
 GetLatestCheckpointTag
 GetLayDownIk
@@ -5859,6 +6232,7 @@ GetLength
 GetLengthSqr
 GetLevel
 GetLevelArea
+GetLevelEditorEditExt
 GetLifeStatus
 GetLifeStatusByRoute
 GetLineDir
@@ -5989,7 +6363,10 @@ GetOffVehicle
 GetOpReinforceStock
 GetOpenChallenge
 GetOrderEventNameFromSquad
+GetOrderNum
+GetOrderSubSquad
 GetOrientation
+GetOriginalFileName
 GetOwner
 GetOwnerCharacter
 GetPad0LogicalNum
@@ -6039,7 +6416,9 @@ GetProcAddress
 GetProcessHeap
 GetProcessMemoryInfo
 GetProcessWindowStation
+GetPropertyFox
 GetQuarkCreatorInfo
+GetR
 GetRadioClearHearingRange
 GetRadioGroupSetNameCurrentRegistered
 GetRadioNoisyHearingRange
@@ -6136,6 +6515,7 @@ GetSystemDirectoryW
 GetSystemInfo
 GetSystemTime
 GetSystemTimeAsFileTime
+GetTacticalActionEdge
 GetTacticalActionId
 GetTacticalActionWaypointPosition
 GetTacticalPoint
@@ -6164,6 +6544,7 @@ GetThresholdDistanceToExtendByMoveState
 GetThroughFireLinePos
 GetThrowTargetPosition
 GetThrowVelocity
+GetThumbnail
 GetTickCount
 GetTime
 GetTimeFormatEx
@@ -6179,6 +6560,8 @@ GetTransform
 GetTranslation
 GetTranslationForce
 GetTrigger
+GetTurretRotX
+GetTurretRotY
 GetType
 GetUiLuaExportCommonData
 GetUniqueId
@@ -6220,6 +6603,7 @@ GetVelocity
 GetVersion
 GetVfxEmitMatrix
 GetViewportName
+GetVirtualPath
 GetVoiceType
 GetW
 GetWaitSquadAssignMin
@@ -6326,6 +6710,7 @@ GlobalCameraSettingsBody
 GlobalMotionPoint
 GlobalVolumetricFog
 GlobalVolumetricFogDx11
+GlobalVolumetricFogPs4
 GoNextSequence
 GoNextSubSequence
 GoalParameters
@@ -6368,7 +6753,9 @@ Gr Umbra
 Gr Viewport
 Gr gd
 GrCamera
+GrCameraBlurMaterialParameter
 GrColorCorrection
+GrColorCorrectionParameter
 GrDaemon
 GrFilmicTonemap
 GrFilmicTonemapParameter
@@ -6399,6 +6786,7 @@ GrPluginLocalLight
 GrPluginLocelReflection
 GrPluginMaterialLayer
 GrPluginModel
+GrPluginModelDebug
 GrPluginModelSetup
 GrPluginMotionBlur
 GrPluginOccluder
@@ -6407,6 +6795,7 @@ GrPluginOverlayModel
 GrPluginPostFilter
 GrPluginPrecomputeSky
 GrPluginPrimitive
+GrPluginPrimitiveDebug
 GrPluginPrimitiveUnfiltered
 GrPluginReflectMap
 GrPluginScreenCapture
@@ -6431,6 +6820,7 @@ GrSkyParameter
 GrSystem
 GrTools
 GrViewport
+GrViewportColorCorrectionParameters
 GrViewportLightingParameters
 GrViewportParameter
 GrViewportRenderingParameters
@@ -6662,6 +7052,7 @@ HOSTAGE_STATUS_TERMINATED
 HOSTAGE_STATUS_WANTED
 HQ@
 HRp
+HTilePixelShaderConstantBuffer
 HUD_DECIDE
 HUD_DOWN
 HUD_EQUIP
@@ -6725,6 +7116,7 @@ HelicopterChangeRendezvousPoint
 Help
 HelpBone
 HelpBoneFile
+HelpOp
 HelpOpNoLoss
 HevyPhysicsOffense
 Hid
@@ -6934,6 +7326,7 @@ Illegal byte sequence
 Image too wide for this implementation
 ImageCompositeFinal
 ImmDisableIME
+Import
 Improper call to JPEG library in state %d
 Improper link
 In@
@@ -6945,6 +7338,7 @@ IncrementSaturate
 Indis
 Inference
 Info
+Informations
 Init
 Init.bnk
 Init1
@@ -6979,6 +7373,8 @@ Input
 Input file read error
 Input/output error
 InputCount
+InputFileName
+InputFileNames
 InputX
 InputY
 Inquire
@@ -7083,6 +7479,9 @@ IsCarriedCharacter
 IsChangeEntryPos
 IsCharacter
 IsCharacterWithId
+IsCheckOut
+IsCheckOutOther
+IsConflicted
 IsConnected
 IsConstantVelocityMove
 IsContinuousCqc
@@ -7095,6 +7494,7 @@ IsDebuggerPresent
 IsDemoBlockActiveLua
 IsDemoEnded
 IsDemoPlaying
+IsDifferent
 IsDiscImage
 IsDueToGoToLandingZone
 IsDuringBasicAction
@@ -7176,7 +7576,10 @@ IsKindOf
 IsLargerThan
 IsLargerThanThenLock
 IsLastRadioTypeSame
+IsLatestVersion
 IsLeaveAnimGraphNode
+IsLeftWheelBroken
+IsLevelEditor
 IsLimited
 IsLineTargetAssigningOrderly
 IsLineTargetReusable
@@ -7187,11 +7590,13 @@ IsLocalPlayerEspRadioEnabled
 IsLocalPlayerSetDescStatus
 IsLocalPlayerSquat
 IsLocalPlayerStand
+IsLocatorLocked
 IsLogin
 IsLooking
 IsLookingAtEntity
 IsLoop
 IsLowTextureLoaded
+IsManaged
 IsMaster
 IsMemberOf
 IsMissionChallenge
@@ -7265,6 +7670,7 @@ IsReserved
 IsRideOnHelicopter
 IsRidingStryker
 IsRidingVehicle
+IsRightWheelBroken
 IsRocketSoldier
 IsRouteAssignReinforce
 IsRouteAssigned
@@ -7549,6 +7955,7 @@ LACCEndShrinkBuffer
 LACCShrinkBufferContinue
 LADDER_TYPE_LEAN
 LADDER_TYPE_VERTICAL
+LANG
 LASTDEAD
 LASTKNOWN
 LArm
@@ -7578,6 +7985,7 @@ LEVEL7(size:64m)
 LEVEL_FIRST_AREA
 LEVEL_SECOND_AREA
 LF@
+LIGHT
 LIGHT_VEHICLE
 LINEAR
 LINE_INTEGRALS
@@ -7592,6 +8000,7 @@ LOCATOR_TYPE_NONE
 LOCATOR_TYPE_NULL
 LOCATOR_TYPE_PARTS
 LOD %d/%d %1.3f MeshLod=%d
+LOD %d/%d %1.3f MeshLod=%d\n
 LOG
 LOG1
 LOG3
@@ -7670,6 +8079,7 @@ Lerp
 LerpByMoveVolume
 Less
 LessEqual
+Level
 LevelArea
 LevelType
 LevelingTerrain
@@ -7702,6 +8112,7 @@ LightProbe_DebugMode
 LightProbe_DrawRejectionLevel
 LightRendering
 LightRenderingDx11
+LightRenderingPs4
 LightSearch
 LightSwitch
 LightUserData
@@ -7709,6 +8120,7 @@ LightUtility
 LightVehicle
 LightVehicleDefaultParameter
 Line
+Line %d, Column %d
 LineCheck
 LineCheckWithHitPos
 LineIntegralSSAO_rotations
@@ -7779,6 +8191,7 @@ LocatorBody
 LocatorGroupBody
 Lock
 LockEventSequence
+LockLocator
 LodFarSize
 LodForDistanceFromCamera
 LodNearSize
@@ -7802,6 +8215,7 @@ Lua function expected
 Lua,%s
 LuaIndexFunc
 LuaNewIndexFunc
+LuaProperty
 LuaScript
 Lub@
 Luggage
@@ -7890,6 +8304,7 @@ MGS Hommage clearTime_perfect_stealth
 MGS Hommage deleteAllXofTime
 MGS Hommage findFoxTime 
 MGS Hommage_allExterminateCrowTime
+MGSVGZSaveDataEU
 MGSV_GZ_Local_Config_GL_EN
 MGSV_GZ_Save_Data_GL_EN
 MGS_LadderEntryType
@@ -7999,6 +8414,7 @@ M^@
 Machine
 MachineGunWheeledArmoredVehicleDefaultParameter
 Machinegun
+Main
 MainBody
 MainGamePad
 MainRender
@@ -8025,6 +8441,7 @@ MaterialInfo
 MaterialInfoBase
 MaterialLayerRendering
 MaterialLayerRenderingDx11
+MaterialLayerRenderingPs4
 MaterialName
 MaterialParam
 Matrix3
@@ -8041,6 +8458,7 @@ Matrix4Entity
 Matrix4StringMapPropertyDifference
 Max
 Maximum supported image dimension is %u pixels
+Maximum thread-cached size class: %zu\n
 May
 Mb@?a2U0*
 MbDvc
@@ -8077,6 +8495,7 @@ MbdvcBootDataMbType
 MediaMusic
 MediaPositionalMusic
 MeleeDamage
+Merge
 MessageBox
 MessageBoxA
 MessageBoxCollector
@@ -8124,8 +8543,14 @@ Microsoft Visual C++ Runtime Library
 Middle
 MiddleRatio
 Min
+Min active:dirty page ratio per arena: %u:1\n
+Min active:dirty page ratio per arena: N/A\n
 Misc System
 Miscellaneous marker 0x%02x, length %u
+Missing ',' or ']' in array declaration
+Missing ',' or '}' in object declaration
+Missing ':' after object member name
+Missing '}' or object member name
 Missing Huffman code table entry
 Mission
 MissionAbort
@@ -8153,6 +8578,8 @@ Model
 ModelArraySetup
 ModelBuildCommands
 ModelConvert
+ModelDebug
+ModelDebugInfo
 ModelDescription
 ModelDescription_DrawRejectionLevel
 ModelDescription_RejectFarRangeShadowCast
@@ -8202,6 +8629,7 @@ MotionPoint
 Move
 MoveFileExW
 MovedEntryProcedure
+Mozilla/5.0 (fox-nio-ps4/1.0)
 Ms@
 MtFile
 MtarFile
@@ -8222,7 +8650,14 @@ N(A
 N,@
 N/A
 N0<|H
+N13genaudio_asce9ASRoomSimE
 N1a
+N2AK14IAkPluginParamE
+N2AK15IAkEffectPluginE
+N2AK17IAkRTPCSubscriberE
+N2AK25IAkOutOfPlaceEffectPluginE
+N2AK9IAkPluginE
+N35genaudio_akplugin_effect_rti_plugin6PLUGINE
 N3`d?
 N6@
 N=@
@@ -8234,6 +8669,7 @@ NAME
 NAME_CHECK
 NATURAL
 NB9
+NDLY
 NEAR
 NEWTABLE
 NLB
@@ -8350,6 +8786,7 @@ NearVehicle
 NeedTrace
 Network
 Network Debug
+Network Ncl System
 Network Nt System
 Network System
 NetworkInfo
@@ -8501,6 +8938,7 @@ Not enough space
 Not implemented yet
 NotAddSlpDmgKnowledge
 NotEqual
+NotFound
 NotImplement
 NotTop
 Notice
@@ -8723,6 +9161,8 @@ OpticalCamouflageRendering
 OptimizeAllStaffUnit
 Or@
 OrCheck
+OrbShdr
+OrderAddMemberToSubSquad
 OrderBattle
 OrderEvent
 OrderGroupRouteMoveAction
@@ -8730,6 +9170,8 @@ OrderGuard
 OrderReaction
 OrderShift
 OrientedBoundingBox
+OriginalFileName
+OriginalFileNames
 OriginalFilename
 OrthogonalAimCamera
 OrthogonalCamera
@@ -8740,6 +9182,7 @@ Out-of-range conf value
 OutOfMissionRange
 OutOfMissionRangeEffect
 OutPost
+Output
 Output file write error --- out of disk space?
 OutputDebugStringW
 OverlayModel
@@ -8863,6 +9306,7 @@ PAD_U
 PAD_X
 PAD_Y
 PANIC: unprotected error in call to Lua API (%s)
+PANIC: unprotected error in call to Lua API (%s)\n
 PASSENGER
 PASSENGER_ENGINE_OFF
 PASSENGER_ENGINE_ON
@@ -8900,6 +9344,7 @@ PI A
 PIK@
 PIO
 PKy@
+PLACE_MEDICAL
 PLAYER
 PLAYER_ALERT
 PLAYER_CRAWL
@@ -8954,6 +9399,7 @@ PLG_CURE_ACTION
 PLG_CURE_MANAGE
 PLG_CURTAIN
 PLG_CUT_IN_CAMERA
+PLG_CYPR_ACTION
 PLG_DAMAGE
 PLG_DAMAGE_ACTION
 PLG_DAMAGE_ACTION_ON_HORSE
@@ -9034,6 +9480,7 @@ PLG_NPC_RIDE_VEHICLE
 PLG_ON_BED_ACTION
 PLG_ON_BED_CAMERA
 PLG_PAD_OPERATOR
+PLG_PARASITE_DEFENSE_ACTION
 PLG_PASSENGER_MANAGE
 PLG_PATH_ADJUST_MODULE
 PLG_PHASE
@@ -9183,6 +9630,7 @@ PQT@
 PR(A
 PR@
 PRA;1
+PREPROCESS_SSAO
 PRI
 PRIMITIVE_PACKET_CLEAR
 PRIM_CIRCLE
@@ -9242,6 +9690,7 @@ Pad
 Pad2
 PadMapping
 PadOperatorStatus
+Page size: %zu\n
 ParamDataDesCondition
 ParamInterp
 ParameterMaskElement
@@ -9345,8 +9794,10 @@ PhPostDaemon
 PhPreDaemon
 PhPrimitiveShape
 PhPrimitiveShapeParam
+PhPrimitiveShapeType
 PhRigidBody
 PhRigidBodyParam
+PhRigidBodyType
 PhShape
 PhShapeParam
 PhShapeType
@@ -9407,6 +9858,7 @@ PlanningLog
 PlanningOperator
 Plant
 PlatformConfiguration
+Platinum Trophy(%d) was unlocked!\n
 Play
 PlayDamageFacialMotion
 PlayDefaultFacialMotion
@@ -9483,6 +9935,7 @@ PluginExecEnd
 PluginExecStart
 PluginHelpBone
 PluginHumanBlink
+PluginName
 PluginRotateBone
 PluginSettingsBody
 PluginSmallJob
@@ -9502,6 +9955,7 @@ PointLightIncandescence
 PointLightLightShadowResolution
 PointLight_LodRadiusLevel
 PointUpscale
+Pointer size: %zu\n
 Points
 Pom@
 Pop
@@ -9550,6 +10004,7 @@ PrePreAction
 PrePreActionEx
 PrecomputeSky
 PrecomputeSkyDx11
+PrecomputeSkyPs4
 Premature end of JPEG file
 Premature end of input file
 Prepare Event Pool
@@ -9674,6 +10129,7 @@ PrimitiveBuildMacroPacket
 PrimitiveLocalSort
 PrimitiveRendering
 PrimitiveRenderingDx11
+PrimitiveRenderingPs4
 PrimitiveSetupLauncher
 PrimitiveSortMacroPacket
 Primitive_LiqSprt2Final
@@ -9709,11 +10165,14 @@ ProductVersion
 Program: 
 Project
 Prone
+PropOption
 Propeller
+Properties
 Property: %s(0x%p).%s
 Property: NULL
 PropertyDifference
 PropertyInfo
+PropertyResult
 PropertyValueEntity
 Ps@
 Pt@
@@ -9766,6 +10225,7 @@ Qr@
 Quantization table 0x%02x was not defined
 Quantizing to %d = %d*%d*%d colors
 Quantizing to %d colors
+Quantum size: %zu\n
 QuarityType
 QuarkSystem
 Quat
@@ -9839,6 +10299,7 @@ REJECT
 RELATIVE_ROOT_OFFSET
 RELEASE
 REMOVE
+RENDER_SSAO
 RENDER_TO_TEMPORARY
 RENDEZVOUS
 REQUEST_OBJECT
@@ -9933,6 +10394,7 @@ Read failed on temporary file
 Read from EMS failed
 Read from XMS failed
 Read-only file system
+ReadAll
 ReadConsoleW
 ReadFile
 ReadProcessMemory
@@ -9958,6 +10420,7 @@ Recovering
 Recreate
 RecreateDataBody
 RecreateDataBody() failed!:%s
+Recursive
 RecvJob
 ReductionProcessingHierarchy
 ReevaluateSelector
@@ -9966,7 +10429,13 @@ Ref_SysSound_Cancel_
 Ref_SysSound_Enter_
 Ref_SysSound_NG_
 Ref_SysSound_Select_
+ReflectMan Apply
+ReflectMan Draw
+ReflectMapBlend
+ReflectMapBlur
+ReflectMapMake
 ReflectMapRendering
+ReflectMapRenderingPs4
 ReflectionSetting
 ReflectionSettingBody
 RegCloseKey
@@ -10056,6 +10525,7 @@ Release
 ReleaseEvent
 ReleaseKnowledgeEvent
 ReleaseMutex
+ReleaseOrder
 ReleaseSemaphore
 ReleaseTrigger
 Reload
@@ -10088,6 +10558,7 @@ RemoveDefenseTargetUnit
 RemoveExtraCache
 RemoveFirstWaitSquad
 RemoveFixedSquads
+RemoveForceOrderMember
 RemoveFromUsingCharacter
 RemoveGame
 RemoveGuardSquad
@@ -10124,6 +10595,13 @@ ReportedExecution
 ReportedHostage
 ReportedLostHostage
 Request
+Request Call Comrade
+Request Crawl
+Request Deceive
+Request Info
+Request None
+RequestAbortOrder
+RequestAbortOrderAll
 RequestAcceptMission
 RequestAcceptMission(lua) is need 2args.(missionId,locationId).
 RequestAcceptMission(lua<%d,%d,%d>) failed.
@@ -10131,6 +10609,7 @@ RequestAcceptMission(lua<%d,%d>) failed.
 RequestAddLife
 RequestAirStrike
 RequestAuthority
+RequestDefaultComment
 RequestDownHoldUp
 RequestEffectSetting
 RequestEndLoadingTips
@@ -10214,14 +10693,18 @@ ResetAllNewMarker
 ResetAngleRateXZ
 ResetAnnounceLog
 ResetAroundCamera
+ResetCameraControl
+ResetCameraMode
 ResetCameraSituationPresetName
 ResetCassetteTape
 ResetCharacter
+ResetCoverPoint
 ResetCpAlertVariables
 ResetCpRadioManager
 ResetCurrentMissionSubGoalNo
 ResetDefaultAssetLevel
 ResetDefaultButtonMap
+ResetDefaultComment
 ResetDefaultPadSensibility
 ResetDisableActionsWithName
 ResetEndRequest
@@ -10279,6 +10762,7 @@ ResetTome
 ResetTopMenuItemNoticeFlags
 ResetVehicle
 ResetWind
+ResolveRenderTexture
 Resource deadlock avoided
 Resource device
 Resource temporarily unavailable
@@ -10292,7 +10776,11 @@ Restitution
 Restore
 RestoreFogColorScripts.lua
 RestoreGame
+Result
 Result too large
+ResultCode
+ResultCodes
+Results
 ResumeThread
 RetireRequest
 ReturnTitle
@@ -10351,6 +10839,7 @@ RouteAsObject
 RouteAsSightMovePath
 RouteCautionWalk
 RouteEdgeEvents
+RouteFile
 RouteIsValid
 RouteMove
 RouteMoveFree
@@ -10368,6 +10857,7 @@ RtlUnwindEx
 RtlVirtualUnwind
 Run
 Run-time option settings:
+Run-time option settings:\n
 Runtime Error!
 Rus
 Russian
@@ -10400,6 +10890,8 @@ S:j
 S;mq
 S>$hkDh$h>[2
 S?#
+SAVE0
+SAVE1
 SBK
 SBPL
 SCALE
@@ -10409,6 +10901,7 @@ SCRIPT_DATA
 SCURVE
 SEARCH
 SEARCHLIGHT
+SECURITY
 SELECT
 SELF
 SEND
@@ -10499,6 +10992,7 @@ SOLDIER_RESCUE
 SOUND
 SPECIAL
 SPECULAR
+SPHERE
 SPOT_LIGHT
 SPOT_LIGHT_SHADOWMAP
 SQUAD_PLG_GROUP_BEHAVIOR
@@ -10515,6 +11009,9 @@ SRGB
 SRT_Col
 SSAOAlphaToRGB
 SSAOLineIntegrals
+SSAOPreClear
+SSAOStencilMask
+SSAOStencilMask_Near
 SSDecal
 SSDecal2
 SSDecal2_ln
@@ -10619,6 +11116,7 @@ ST_START
 SUB
 SUCCESS
 SUNCOLOR
+SUPPORT
 SVF
 SVK
 SWITCH_OFF
@@ -10651,6 +11149,7 @@ S_DISABLE_TERMINAL
 S_DISABLE_THROWING
 S_DISABLE_TRAP
 SafeScript
+Sample Rate   : %d\n
 SampleWeather
 SamplerLinearClamp
 Sampling factors too large for interleaved scan
@@ -10659,6 +11158,7 @@ Sat
 Saturate
 Saturday
 Save
+Save data
 SaveEditableDataBodySet() failed!:%s
 SaveEditableDataSet
 SaveErrorUiDisp
@@ -10763,6 +11263,7 @@ SecurityCameraMngCoreJob
 SecurityCameraMngDescJob
 SecurityCameraMngSystemJob
 SecurityCameraMngUpdateJob
+See 
 Seek failed on temporary file
 SegmentChunk
 SegmentGraphWorkInfo
@@ -10803,6 +11304,7 @@ September
 SequenceManager
 SequenceState
 Sequences
+Server
 Set
 SetAbort
 SetActMode
@@ -10911,15 +11413,18 @@ SetCompleteMissionPhotoId
 SetComradeFactFlagSoldier
 SetConfigDefaultPadAssigns
 SetConnectAddress
+SetControlEnable
 SetControlPosition
 SetControlRotation
 SetControlRotationInterp
 SetControlSize
 SetControlTurn
 SetControlVelocity
+SetCoverPoint
 SetCrashActionMode
 SetCrashActionModeAll
 SetCurrentClock
+SetCurrentDirectory
 SetCurrentDisableAction
 SetCurrentMissionSubGoalNo
 SetCurrentPhase
@@ -10942,6 +11447,7 @@ SetDamageFactFlagSoldier
 SetDamageModeManually
 SetDefaultAssetLevel
 SetDefaultCategory
+SetDefaultComment
 SetDefaultDllDirectories
 SetDefaultEnemyMotionPackagePath
 SetDefaultFacialMotion
@@ -11138,6 +11644,7 @@ SetInterp
 SetInterpBezier
 SetInterpFrameToBreast
 SetInterpFrameToParts
+SetInterpSpeed
 SetInterpTimeToBreast
 SetInterpTimeToParts
 SetInterrogationAllDoneFlagByCharacterId
@@ -11314,11 +11821,13 @@ SetPowerParam
 SetPrefetchTexture
 SetPrefetchTextureTable
 SetPreventMotionSicknessRatio
+SetPreviousCameraPosition
 SetPriorityEnemyForRoute
 SetProcessEnd
 SetProcessEndCompletely
 SetProjectRootPath
 SetProjectionScale
+SetPropertyFox
 SetRTPC
 SetRadius
 SetRange
@@ -11358,12 +11867,14 @@ SetRotInterp
 SetRotTarget
 SetRotVelMaxX
 SetRotVelMaxY
+SetRotateLimit
 SetRotation
 SetRotationForce
 SetRotationNoInterp
 SetRotationXY
 SetRotationYAdjustRate
 SetRotationYForce
+SetRotationZ
 SetRouteAssignReinforce
 SetRouteSetShift
 SetRouteSystemScript
@@ -11533,6 +12044,7 @@ ShadowCastingDynamicLocalLightMaxCount
 ShadowCastingStaticLocalLightMaxCount
 ShadowRendering
 ShadowRenderingDx11
+ShadowRenderingPs4
 ShakeParams
 Shape
 ShapeData
@@ -11542,6 +12054,7 @@ SharedPathPoolBin
 SharedPathPoolSub
 SharedString
 SharedStringPool
+Shdr
 ShearTransform
 ShearTransformEntity
 Sheep
@@ -11564,6 +12077,7 @@ ShowBonusPopupItemTape
 ShowBonusPopupItemXOF
 ShowBonusPopupMission
 ShowCursor
+ShowDifference
 ShowPopup
 ShowWarningIfUse
 ShowWindow
@@ -11615,6 +12129,7 @@ SimHitGroupControlParam
 SimInertialControl
 SimInertialControlParam
 SimLocalWorld
+SimLodLevelName
 SimObject
 SimObjectParam
 SimOnPhysics
@@ -11641,6 +12156,7 @@ SkyController
 SkyNavigator
 SkyRendering
 SkyRenderingDx11
+SkyRenderingPs4
 Sky_CopyInscatter1
 Sky_CopyInscatterN
 Sky_CopyIrradiance
@@ -11742,6 +12258,7 @@ SphereShape
 SphereShapeBody
 SphericalHarmonicsLighting
 SphericalHarmonicsLightingDx11
+SphericalHarmonicsLightingPs4
 SplashDoorLeft
 SplashDoorRight
 SpotLight
@@ -11777,6 +12294,10 @@ SquatWalk
 SquatWalkBeckonLeft
 SquatWalkBeckonRight
 Sr@
+St14error_category
+St22_System_error_category
+St23_Generic_error_category
+St24_Iostream_error_category
 Stage
 StageBlockController
 StageBlockControllerData
@@ -11956,6 +12477,7 @@ StencilReadMask=[0x%02X]
 StencilWriteMask=[0x%02X]
 Stencil_Dummy
 Stencil_Dummy_SkyLight
+StensilVisualizer
 Step
 StepOn
 Stop
@@ -12037,6 +12559,7 @@ SubjectiveCameraMBTerminalAdjust
 SubjectiveCameraUpperAdjust
 SubjectiveCameraWeaponAdjust
 SubjectiveEmplacementAdjust
+SubmitDone
 Subtitle
 Subtitles
 SubtitlesBlockControllerData
@@ -12062,10 +12585,12 @@ Subversive Activity Disablement Time
 Subversive Activity Marking Time
 Subversive Activity No Weapon Clear Time
 Subversive Activity clearTime_perfect_stealth
+Succeeded
 Sun
 SunLightFlare
 SunLightRendering
 SunLightRenderingDx11
+SunLightRenderingPs4
 SunMonTueWedThuFriSat
 Sunday
 Supine
@@ -12095,6 +12620,7 @@ SyncFactory2
 SyncInstance
 SyncUniqueId
 Syntax error: value, object or array expected.
+Sys Temporal Task
 System
 SystemRoot
 S|@
@@ -12236,6 +12762,7 @@ TPP_PLG_VOICE2
 TQ@
 TRACKED_TANK
 TRACK_LIST
+TRADE
 TRANSLATION
 TRANSMITTANCE
 TROPHY_CHALLENGE_ACHIEVE
@@ -12397,6 +12924,7 @@ TargetUnit
 Task
 TaskTree
 TcM
+TempText
 TemporalAA
 TemporalAAPreprocess
 Terminal
@@ -12435,6 +12963,7 @@ TerrainRender
 TerrainRenderBody
 TerrainRendering
 TerrainRenderingDx11
+TerrainRenderingPs4
 TerrainSelfShadow
 TerrainSelfShadow_Block
 TerrainSelfShadow_Block_ln
@@ -12460,6 +12989,7 @@ Tg?/
 Thermography
 ThermographyRendering
 ThermographyRenderingDx11
+ThermographyRenderingPs4
 This game
 This indicates a bug in your application.
 This indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.
@@ -12472,8 +13002,10 @@ ThrowingHold
 ThrowingSound
 Thrown
 Thu
+ThumbnailName
 ThunderLightning
 Thursday
+TimeCountName
 TimeSection
 Timer
 TinyJob
@@ -12508,6 +13040,7 @@ Tonemap
 TonemapBrightpass
 TonemapFilter
 TonemapFilterDx11
+TonemapFilterPs4
 Tonemap_1DLUT
 Tonemap_Lum
 Tonemap_Lum_Lacc
@@ -12515,6 +13048,7 @@ Too many color components: %d, max %d
 Too many links
 Too many open files
 Too many open files in system
+ToolName
 Top
 Tpp
 Tpp Effect BridgeFunctor
@@ -12683,6 +13217,7 @@ TppCollectibleBlockControllerService
 TppCollectibleDataManager
 TppCollectibleFileResources
 TppCollectibleFileResourcesBody
+TppCombatAreaManager
 TppCombatIndexAreaData
 TppCombatIndexAreaDataBody
 TppCombatLocatorData
@@ -12726,6 +13261,7 @@ TppCpSetKeepPhaseMessage
 TppCureActionPlugin
 TppCureManagePlugin
 TppCutInCameraPlugin
+TppDamageActionCancelRequest
 TppDamageActionPlugin
 TppDamageFilterExposure
 TppDamageModulePlugin
@@ -12889,6 +13425,7 @@ TppGadgetSwitchActionPlugin
 TppGadgetUnsetOwnerRequest
 TppGadgetUtility
 TppGadgetUtility_Explode
+TppGadgetWindowActionPlugin
 TppGadget_AttachPointType
 TppGameKit
 TppGameOverEvCall_PHASE_ACT_DECIDE
@@ -12909,6 +13446,7 @@ TppGimmickLocatorData
 TppGimmickLocatorDataBody
 TppGimmickPartsInstanceData
 TppGimmickPartsInstanceDataBody
+TppGimmickUtility
 TppGlassMaterialNode
 TppGlobalVolumetricFog
 TppGlobalVolumetricFogBody
@@ -13208,6 +13746,8 @@ TppPairActionChangeSessionStateActionRequest
 TppPairActionPlugin
 TppPairActionStartActionRequest
 TppPairActionTargetData
+TppParasiteCamPreviewData
+TppParasiteCamPreviewDataBody
 TppPassengerManagePlugin
 TppPathActionPlugin
 TppPathAdjustModulePlugin
@@ -13413,6 +13953,7 @@ TppSpread
 TppSpreadPlugin
 TppSprintBlur
 TppSprintBlurData
+TppSprintBlurDataBody
 TppSquad
 TppSquadAiBlackboard
 TppSquadBaseSquadPlugin
@@ -13427,8 +13968,10 @@ TppSquadMemberPlugin
 TppSquadMemberPluginImpl
 TppSquadObject
 TppSquadObjectCreator
+TppSquadOrderAddMemberToSubSquadMessage
 TppSquadOrderGroupBehaviorMessage
 TppSquadOrderReleaseKnowledgeEventMessage
+TppSquadOrderRemoveMemberFromSubSquadMessage
 TppSquadOrderStartGroupBehaviorToSubSquadMessage
 TppSquadParameter
 TppSquadPlugin
@@ -13506,6 +14049,7 @@ TppTextureLoader
 TppTextureLoaderBody
 TppTexturePoolManager
 TppThreatEnemySharedInfo
+TppThrowAttackActionRequest
 TppTonemap
 TppTonemapBody
 TppTppLightAreaShapeBody
@@ -13561,6 +14105,7 @@ TppVehicleDefaultParameter2
 TppVehicleDesc
 TppVehicleDescElement
 TppVehicleDrivingParameter
+TppVehicleFallActionRequest
 TppVehicleFallDamageActionPlugin
 TppVehicleHitActionPlugin
 TppVehicleHitPhysicsActionRequest
@@ -13611,6 +14156,8 @@ TppWeatherThunder
 TppWeatherThunderBody
 TppWeatherThunderEffect
 TppWeatherWind
+TppWindowLocatorParameter
+TppWindowParameter
 Tpp_LadderActionUpHand
 Tpp_LightType
 TpsCameraWeaponAdjust
@@ -13753,6 +14300,7 @@ UInt8StringMapPropertyDifference
 UL@
 UNICODE
 UNIT=%d PACKET=%d POLY=%d
+UNIT=%d PACKET=%d POLY=%d\n
 UNKNOWN
 UNM
 UNREAD
@@ -13898,6 +14446,7 @@ UnableWakeupCoverAction
 Unattach
 UnbindBlendTreeControlValue
 UnderBarrelSwitch
+UndoCheckOut
 Unexpected marker 0x%02x
 UnhandledExceptionFilter
 UnholsterActiveWeaponToMtp
@@ -14007,6 +14556,7 @@ UpdatePlanStepJob2
 UpdatePlanStepJobInput
 UpdatePlanStepJobOutput
 UpdateRadioConditionManagerJob
+UpdateSaveDialogThread
 UpdateSecurityStaffInfo
 UpdateStoryFlags
 UpdateTarget
@@ -14117,6 +14667,7 @@ ValidAllObjects
 ValidObject
 ValidTargetParts
 ValidateCollision
+Value
 VarFileInfo
 Variables
 Vc0a
@@ -14159,13 +14710,18 @@ VerSetConditionMask
 VeriSign Class 3 Code Signing 2010 CA
 VerifyVersionInfoW
 Version: %s
+Version: %s\n
 Vertex
 Video
+VideoDecodeThread
+VideoMaterial
+VideoPlayerJob
 VideoPlayerMaterial
 ViewLeftStick
 ViewRightStick
 ViewStatus
 Viewport
+ViewportScreenCaptureParameter
 Vip
 Virtual array controller messed up
 VirtualAlloc
@@ -14176,6 +14732,7 @@ VisibleMesh
 VisiblePrimaryWeaponByDemo
 Visual C++ CRT: Not enough memory to complete call to strerror.
 Vm@
+Voice
 VoiceCommand
 VoicePriorityManagerPriorityManager
 VpcFile
@@ -14199,6 +14756,7 @@ W<@
 W>E
 W>^
 W? 
+WAITING
 WALK_RES
 WALK_ST
 WATER_SURFACE
@@ -14382,6 +14940,7 @@ Wireframe
 Wj?
 Wl@
 WoodenDoor
+Workspace
 WorldAlterationCallbackPlugin
 WorldFactoryPlugin
 WorldKnowledgeEventCollector
@@ -14416,9 +14975,11 @@ XOne
 XQ@
 X[@
 X` 
+Xbox
 Xbox360
 XhL
 Xm@
+Xone
 XsBI
 Xu@
 Xx@
@@ -14444,6 +15005,7 @@ YQ@
 YT@
 YW;
 YXA
+YZE_REASON_NO_PATH
 Ya@
 Yi?
 YpU_Z
@@ -14519,8 +15081,39 @@ Zz@
 [p]
 [r]
 [s]
+[string \"
 [x@
 [z@
+\" : {
+\"%s\"
+\"arraySize\" : 
+\"class\"
+\"container\" : \"
+\"declaredAt\" : \"
+\"functions\" : {
+\"member\"
+\"readableInEditor\" : 
+\"readable\" : 
+\"staticProperties\" : {
+\"super\" : \"
+\"type\" : 
+\"type\" : \"
+\"writableInEditor\" : 
+\"writable\" : 
+\\000
+\\host\\
+\\u%04x
+\\updater\\FoxDataUpdater.wsf
+\nMAPPED_LIBRARIES:\n
+\n\t...
+\n\tno field package.preload['%s']
+\n\tno file '%s'
+\n\tno module '%s' in file '%s'
+\r\n\r\n
+\r\n\r\n\r\n
+\t%p %s size: %x (%p)\n
+\t// Property map hash:
+\t// Property map hash:'
 ]!A
 ]#A
 ]%A
@@ -14614,6 +15207,7 @@ __FOX_PRIORITY4
 __PlayerPadReleaseMaskInProg__
 __PlayerPadReleaseMaskWhenEquipMenu__
 __PlayerPadReleaseMaskWhenInterrogationMenu__
+___ Begin jemalloc statistics ___\n
 ___lfunc
 ___lmt
 ___lvar
@@ -14631,7 +15225,9 @@ __eq
 __fastcall
 __game_main
 __gc
+__id__
 __index
+__key__
 __le
 __len
 __lt
@@ -14653,6 +15249,7 @@ __unaligned
 __unm
 __volatileBucket
 _a@
+_base
 _bsm.ftex
 _cabs
 _className
@@ -14667,6 +15264,7 @@ _n@
 _nextafter
 _nrm.ftex
 _oD>Kg
+_player01
 _ps.pso
 _ptr
 _s8
@@ -14887,10 +15485,14 @@ a^@
 aa?
 aa@
 abcdefghijklmnopqrstuvwxyz
+able
 abort
 abs
+absent
 accelRateXZ
 accelRateY
+account_id
+acos
 actMode
 action
 actionDirection
@@ -14921,6 +15523,7 @@ addressPluginName
 address_family_not_supported
 address_in_use
 address_not_available
+adeTime
 adjustJumpStartTime
 adjustOffset
 adjustPlosionOffset
@@ -14928,6 +15531,7 @@ adjustRateRiseTo
 adjustValue
 adm
 ae?
+aemon
 aerialPersColor
 aerialPerspective
 af-ZA
@@ -15006,8 +15610,12 @@ align
 all
 allDestroyTowerTime
 allDoorUnlockTime
+allEliminateCrowTime
+allEliminateRatTime
 allGetClaymoreTime
 allHitMoaiTime
+allMarkingEnemyTime
+allNeutralizeEnemyTime
 allSettings
 allStopWhileInvisible
 all_eliminate_crow_time
@@ -15042,6 +15650,7 @@ america
 american
 american english
 american-english
+ameterTable
 and
 anesthCount
 anesthCountMax
@@ -15074,9 +15683,12 @@ animalKindStr
 animations
 animeFileName
 announce_mb_%03d
+announce_mb_%03d_from_%01d_prio_%01d
 announce_mb_intelligence_%03d
+announce_mission_%02d_%05d_%03d_from_%01d_prio_%01d
 announce_mission_%03d
 announce_online_%03d
+announce_online_%03d_from_%01d_prio_%01d
 answerId
 antennaCharacterIds
 antiAircraftGunSearchRange
@@ -15135,9 +15747,12 @@ area_mission_%02d_%05d
 arena
 arenas
 arenas.narenas
+arenas.nbins
 arenas.page
 arenas.quantum
+arenas.tcache_max
 arg
+arg1 must be \"GAME\" or \"EDIT\".
 arg1 must be a ActorPause.
 arg1 must be a CameraSelector.
 arg1 must be a boolean
@@ -15159,6 +15774,7 @@ arg2 must be string or entity(Scene)
 arg2 of Data.GetDataBodyWithReferrer() must be a DataBody
 arg3 must be a scene name string or a scene instance!
 arg3 must be a scene!
+arget
 args
 argument list too long
 argument out of domain
@@ -15178,6 +15794,7 @@ arraysize
 arrivalDistance
 as:/
 asStaticModel
+ase::badbit set
 asin
 aspectMaskList
 assert
@@ -15226,6 +15843,7 @@ attackSquadIndexes
 attackTargetName
 attackerHandle
 attackstryker
+attempt to %s %s '%s' (a %s value)
 attempt to %s a %s value
 attempt to compare %s with %s
 attempt to compare two %s values
@@ -15239,8 +15857,10 @@ attributeNames
 attributes
 audioPath
 australian
+authcode
 autoLineFeed
 auxSends
+avigationParameterHolder
 awake
 awakeMax
 axis
@@ -15254,6 +15874,7 @@ b A
 b!y
 b#A
 b0@
+b0c6dcee-d908-4d8f-a20f-edd5e4a85239
 b5@
 b62
 b8L
@@ -15268,12 +15889,14 @@ bJ@
 bL@
 bW]
 b^@
+back  
 backGear
 backstory_info_00_%02u
 backstory_name_00_%02u
 bad address
 bad allocation
 bad argument #%d (%s)
+bad argument #%d to '%s' (%s)
 bad cast
 bad code
 bad constant
@@ -15289,6 +15912,7 @@ bad_file_descriptor
 banks
 barrelParameterTable
 base out of range
+baseAddr (0x%010llX) must be 256-byte-aligned!
 baseAxisRotX
 baseColor
 baseColorTexture
@@ -15343,6 +15967,23 @@ behindBlendRate
 behindType
 belgian
 bendDamageInvincibleTime
+bestRank
+bestScore
+bestScoreAlert
+bestScoreAlertPoint
+bestScoreBounus
+bestScoreBounusPoint
+bestScoreHeri
+bestScoreHeriPoint
+bestScoreHostage
+bestScoreHostagePoint
+bestScoreKill
+bestScoreKillPoint
+bestScoreRetry
+bestScoreRetryPoint
+bestScoreStealthPoint
+bestScoreTime
+bestScoreTimePoint
 best_rank
 best_score
 best_score_alert
@@ -15375,6 +16016,7 @@ binary string
 binformat
 binoclePlugin
 bins
+bits          : %d\n
 blackboard
 blastParameterTable
 blastReactionFactor
@@ -15479,6 +16121,7 @@ buckets
 buffer error
 buildType
 bulletEffect
+bulletId
 bulletName
 bulletParameterTable
 bushFlags
@@ -15521,6 +16164,7 @@ callHelpIntervalSec
 callHelpPercent
 callSign
 callback
+calling '%s' on bad self (%s)
 calmsleep
 camera
 camera priorities are already registered!
@@ -15609,6 +16253,7 @@ cannot %s %s: %s
 cannot add a game to application: %s
 cannot add actor:%s
 cannot add dynamic property %s:%s
+cannot bind to index(%d, available:%d-%d).
 cannot change a protected metatable
 cannot close standard file
 cannot create Color
@@ -15616,6 +16261,7 @@ cannot create Quark.
 cannot create Quark. CreateQuark() can only be called in OnInitialize().
 cannot create Quark. Quark count reaches its max value %d.
 cannot create Quat
+cannot create Script with path \"%s\".
 cannot create Vector3
 cannot create Vector4
 cannot create bucket with name(%s)
@@ -15623,8 +16269,11 @@ cannot delete bucket(code:%s)
 cannot delete scene:%s
 cannot dump record(%s). error:%s
 cannot erase record(%s). error:%s
+cannot find \"%s\" scene
+cannot find class \"%s\".
 cannot find game instance
 cannot find game object (type:%d group:%d index:%d).
+cannot find scene \"%s\" in game \"%s\".
 cannot find scene(%s)
 cannot get an enum value!
 cannot get game object id
@@ -15640,6 +16289,7 @@ cannot set main game: %s
 cannot start recording (name:%s size:%d). error:%s
 cannot stop playing record(%s). error:%s
 cannot stop recording (%s). error:%s
+cannot use '...' outside a vararg function
 captureBounceCount
 capturePosition
 captureSource
@@ -15672,7 +16322,9 @@ centerIndexZ
 centerOfMassOffset
 centerScale
 centerValue
+challengeFlag
 challengeScore
+challengeTime
 challenge_flag
 challenge_time
 changeAlbedo
@@ -15692,6 +16344,7 @@ charaId
 charaLocators
 charaObj
 charaPos
+charaType
 character
 characterFileResources
 characterId
@@ -15706,6 +16359,7 @@ checkAreaSize
 checkButtons
 checkCallbackDataElements
 checkCharacterId
+checkCurrentRadius
 checkExistEffectTime
 checkFuncNames
 checkGrenadeWaitTime
@@ -15741,6 +16395,10 @@ chokeTriggerLevel
 chork_lp
 chunk has too many lines
 chunk has too many syntax levels
+chunk1
+chunk2
+chunk3
+chunk_type    : %x\n
 chunks
 cinemaScopeShift
 cinemaScopeSlope
@@ -15753,6 +16411,7 @@ className
 classProperties
 classes
 clearColor
+clearCount
 clearTime
 clear_count
 clear_time
@@ -15843,6 +16502,7 @@ commonInterrogationData
 commonInterrogationTable
 commonRouteIds
 commonSelectIndex
+compatibility
 components
 compositeDataElementArray
 compress
@@ -15914,6 +16574,7 @@ conversationListDataPath
 conversationListName
 convert
 convertMoveToWind
+coopData
 coop_data
 coreContainer
 corectAimOffsetYExcessRate
@@ -15950,7 +16611,9 @@ cpType
 cpUpdateScript
 cp_a
 cpath
+cpradio_seq_v1.1
 cqcHoldTriggerTime
+cqcInterrogationCount
 cqcPlugin
 cqc_interrogation_count
 crawlCameraOffsetDistance
@@ -15960,21 +16623,26 @@ crawlMoveSubjectFocalInterpRate
 crawlMoveSubjectFocalLength
 crawlSubjectFocalInterpRate
 crawlSubjectFocalLength
+crawlTime
 crawlTurnMaxAngle
 crawl_time
 creatable
 create
 create new process failed : %x(%s)
+createFoxMarkTime
 createOnInitialize
 createStartEffect
 create_fox_mark_time
 crews
 cross device link
 crypt32.dll
+crypto_key
 crypto_type
 cs-CZ
 cs-cz
+cscript.exe //Nologo \"%s\" /datapath:\"%s\" /fox:\"%s\" /tgt:\"%s\" /dot:\"%s\" /proj:\"%s\"%s%s%s%s%s
 csm
+ctimes
 ctype
 cubemapFile
 cubemapLuminanceScale
@@ -16038,6 +16706,9 @@ d?$
 d?000000`?
 d?@
 d?h
+dAreaGlobalBody
+dAreaGroupBody
+dAreaMemberBody
 dD@
 dH@
 dHx
@@ -16048,6 +16719,7 @@ dO@
 dO@)!x
 dQy/
 dRL>
+dSourceTrapParameter
 dU@
 da-DK
 da-dk
@@ -16175,6 +16847,7 @@ deferred
 deg
 deleteAllXofTime
 deleteFromPackage
+deleteXofMarkTime
 delete_xof_mark_time
 demo
 demoData
@@ -16207,6 +16880,8 @@ destination
 destination address required
 destinationDirection
 destination_address_required
+destroyHeriCount
+destroyVehicleCount
 destroy_heri_count
 destroy_vehicle_count
 destructObject
@@ -16267,6 +16942,7 @@ discoveryAsEnemyCamouflageValue
 discoveryAsEnemyCamouflageValueHard
 discoveryAsObjectCamouflageValue
 discoveryAsObjectCamouflageValueHard
+discoveryCount
 discovery_count
 distFloorFootBL
 distFloorFootBR
@@ -16319,6 +16995,7 @@ drawRejectionDegree
 drawRejectionLevel
 drawRejectionLevels
 drawText
+draw_Occlusion
 driverEnemy
 driverEnemyId
 driverId
@@ -16328,6 +17005,7 @@ dropRoute
 dropRouteId
 dryVolume
 dss
+dstHtileSurface
 dummy
 dummyFilePath
 dump
@@ -16335,9 +17013,11 @@ dutch-belgian
 dword
 dxgi.dll
 dying
+dyingCount
 dyingLifeRate
 dying_count
 dying_lp
+dynamic libraries not enabled; check your Lua installation
 dynamicProperties
 d|@
 e A
@@ -16370,7 +17050,9 @@ earClose
 earRange
 earRanges
 earRangesHard
+earchSpace
 eb@
+ector3(%6.2f,%6.2f,%6.2f)
 edgeTags
 edgeTransparencyLength
 edges
@@ -16379,6 +17061,9 @@ editableDataBodySet
 editableDataSet
 editableDataSetChanged
 editableDataSetPath
+editorpid
+editport
+effect
 effectBuilderName
 effectConnect
 effectFile
@@ -16396,6 +17081,8 @@ effectSleep
 effectiveFocalLengthRatio
 effectiveFocalLengthRatioFromDemo
 eh@
+ehicleAxis
+ehicleNormalEngine
 el-GR
 el-gr
 elasticForce
@@ -16499,6 +17186,7 @@ endSlope
 endStepName
 end_mission_%02d_%05d_%02d
 end_mission_%02d_%05d_%02d_name_%02d
+end_mission_%02d_%05d_%02d_name_%02d_jp
 end_mission_%02d_%05d_%02d_title_%02d
 endian
 ends
@@ -16537,6 +17225,7 @@ english-trinidad y tobago
 english-uk
 english-us
 english-usa
+entUpdate
 enterEvent
 enterRadioGroupName
 enterSubtitlesFileName
@@ -16544,10 +17233,13 @@ entities
 entity
 entity is nil while accessing property
 entity is null
+entity:[%s]
+entityClassInfo = {
 entityDifferences
 entityLinkArray
 entityParams
 entityinfo
+entries
 entryAngle
 entryBody
 entryBodyHandle
@@ -16574,8 +17266,10 @@ environmentType
 environmentTypeString
 epoch
 equations
+erFlags
 error
 error in error handling
+error loading module '%s' from file '%s':\n\t%s
 error while calling require(): %s
 es-AR
 es-BO
@@ -16624,6 +17318,7 @@ escapeRouteId
 ese
 et-EE
 et-ee
+etActMode
 eu-ES
 eu-es
 eu@
@@ -16686,6 +17381,7 @@ exit
 exp
 expandHorizontalLineColor
 expansionRatio
+expecting another \\u token to begin the second half of a unicode surrogate pair
 expf
 explodeWeaponId
 exportname
@@ -16694,6 +17390,8 @@ exposureCompensation
 extend
 extensData
 extensions
+exterminateCrowCount
+exterminateRatCount
 exterminate_crow_count
 exterminate_rat_count
 external hook
@@ -16817,6 +17515,7 @@ fage
 fago
 fagp
 fagx
+failedCount
 failed_count
 faint
 faintDamage
@@ -16830,6 +17529,7 @@ fall_death
 falloff
 falloffRange
 falloffStart
+false
 far
 farAsCharacterCamouflageValue
 farAsCharacterCamouflageValueHard
@@ -16858,9 +17558,11 @@ ff&
 ff&?
 ff&?333?
 ff&@
+ffectData
 fff
 fff?
 fff?ff
+fff?ff&?AnimPlugin
 fff?fff?
 fff@
 fff@fff@fff@fff@
@@ -16868,6 +17570,7 @@ fi-FI
 fi-fi
 fid
 field
+field '%s' missing in date table
 file
 file (%p)
 file (closed)
@@ -17020,8 +17723,10 @@ fox::gr::PluginSelfShadowOfTerrain::MainExec
 fox::gr::PluginShadow::MainExec
 fox::gr::PluginTemporalAA::MainExec
 foxDeferredDecal
+fox_export
 foxde
 foxmath
+foxtest
 fpk
 fpkPath
 fpkd
@@ -17044,16 +17749,19 @@ framePerCycleMax
 framePerCycleMin
 frdv
 fre
+free
 french-belgian
 french-canadian
 french-luxembourg
 french-swiss
 frexp
 friction
+friendList
 frig
 from
 fromDropPointRouteId
 fromHeight
+front 
 frontAngle
 frontL
 frontLineIndex
@@ -17069,6 +17777,7 @@ ftex
 fu`z
 full
 fullMoonLux
+fullscreen
 fultonConnectPointNames
 fultonRecovered1stStepHeight
 fultonRecovered1stStepTime
@@ -17134,6 +17843,8 @@ fz@
 f|@
 g *
 g A
+g position
+g too long
 g#A
 g$K
 g&@
@@ -17151,12 +17862,15 @@ gL@
 gP:
 gU@
 gWu
+g^WuT+
+g_htileBuffer
 ga@
 gadget
 gadgetType
 gainonRange
 gainonStart
 gameRigFile
+gamedata
 gani
 ganiPath
 gasPedal
@@ -17216,6 +17930,7 @@ goals
 gpfp
 gqr<
 graphPath
+gravity
 gravityCoefficient
 gravityRate
 grazeRate
@@ -17304,8 +18019,10 @@ h]#
 h_@
 h_aid
 h_tid
+handle
 handleCharacter
 handler
+hardClearTime
 hard_clear_time
 hasCollision
 hasGravity
@@ -17319,6 +18036,8 @@ hasTranslations
 hasTrap
 hasTurnXYZ
 hasUpdateFunc
+hash
+hash_base64
 hashver
 haveLock
 hb:?
@@ -17332,8 +18051,13 @@ headLightRange
 headMatrix
 headName
 header crc mismatch
+headshotCount
+headshotDistance
 headshot_count
 headshot_distance
+heap profile: %ld: %ld [%lu: %lu] @ heap_v2/%lu\n
+heap profile: %ld: %ld [%lu: %lu] @ heapprofile\n
+heelConstraintParam
 height
 heightMap
 heightMax
@@ -17367,7 +18091,10 @@ highSpeedTimeRateInterpTimeStart
 highSpeedWorldTimeRate
 highestTexture
 highestTextureStreamModel
+highthroughput
+hinstance
 hint
+hitCount
 hitDirection
 hitEvent
 hitIntervalSeconds
@@ -17388,6 +18115,7 @@ holdReleaseTime
 holdThrowStickForce
 holdUpDistance
 hold_lp
+holdupCount
 holdup_count
 holland
 homingAdjustDistance
@@ -17422,6 +18150,7 @@ hriLimL
 hriLimR
 htre
 http://%s:%d/%s
+http://www.konami.jp/mgs5/gz/manual/ps4/manual.php?region=%s&lang=%s
 httpMsg=
 hu-HU
 hu-hu
@@ -17440,9 +18169,12 @@ huge
 humidTexture
 hurt
 hwe
+hwnd
+hwndhost
 hy-AM
 hy-am
 hy@
+hysicsManager
 h~@
 i#A
 i%;j
@@ -17461,6 +18193,8 @@ i]Wb
 i_;
 ia@
 iak
+ibutes
+icalActionFile
 id-ID
 id-id
 id_%04d%02d%02d_%02d%02d%02d_%03d
@@ -17468,6 +18202,7 @@ identifier
 identifier removed
 idl_lp
 idx
+ignore
 ignoreCollisionCheckOnStart
 ignoreMovingObjects
 ignoreNoticeConditions
@@ -17487,6 +18222,7 @@ incidences
 includeAttack
 includeGuard
 includeReaction
+includeTag
 incompatible version
 incorrect data check
 incorrect header check
@@ -17535,6 +18271,7 @@ initWeaponId
 initial
 initialNormalMeshNames
 initialOn
+initialPartPosition
 initializeScore
 initialized
 initiatedNoticeDiscovery
@@ -17542,6 +18279,8 @@ injured
 inlinks
 innerArea
 innerRadius
+innerRadiusMax
+innerRadiusMin
 innerRange
 innerRate
 innerScale
@@ -17601,21 +18340,27 @@ invalid distances set
 invalid format
 invalid format (repeated flags)
 invalid format (width or precision too long)
+invalid key to 'next'
 invalid level
 invalid literal/length code
 invalid literal/lengths set
 invalid long string delimiter
 invalid map/set<T> iterator
 invalid option
+invalid option '%%%c' to 'format'
+invalid option '%s'
 invalid order function for sorting
 invalid pattern capture
 invalid replacement value (a %s)
 invalid seek
 invalid stored block lengths
+invalid string
 invalid string position
 invalid value
+invalid value (%s) at index %d in table for 'concat'
 invalid vector<T> subscript
 invalid window size
+invalidScoreFlag
 invalid_argument
 invalid_score_flag
 inventory
@@ -17626,6 +18371,7 @@ invisibleMeshes
 invisiblePartNames
 io error
 io@
+ionTable
 ios_base::badbit set
 ios_base::eofbit set
 ios_base::failbit set
@@ -17635,6 +18381,8 @@ ip9
 ipairs
 iqF;f
 irF
+irectionControl
+irectionControlParam
 irish-english
 irritated
 is a directory
@@ -17668,6 +18416,7 @@ isAttackDirection
 isAttacker
 isAutoAdjustAim
 isBarrel
+isBestScoreBounus
 isBloom
 isBounced
 isBroken
@@ -17927,6 +18676,10 @@ isWrap
 isZombie
 is_best_score_bounus
 isdst
+isionCheckBigJob
+isionMultiCheckTinyJob
+issuerId
+issuer_id
 it-CH
 it-IT
 it-ch
@@ -17964,6 +18717,7 @@ j`&
 ja-JP
 ja-jp
 jb@
+jeprof
 jobPacketCollectorHandle
 jp5
 jp8
@@ -18026,6 +18780,7 @@ kn-in
 knowledgePoint
 knowledgePointArrayMap
 knowledges
+known error
 knv
 ko-KR
 ko-kr
@@ -18068,6 +18823,7 @@ ladderBodyHandle
 ladderHandle
 ladderMotionSelect
 ladderType
+lang
 langFile
 langFilePath
 langId
@@ -18112,6 +18868,7 @@ lazy_lock
 lba
 ldE
 ldexp
+left  
 leftBrokenMeshNames
 leftHandName
 leftHandOffset
@@ -18231,12 +18988,33 @@ loadfile
 loading from
 loadingDistanceX
 loadingDistanceZ
+loading_item_info_%03d_%02d_ps3
+loading_item_info_%03d_%02d_ps4
+loading_item_info_%03d_%02d_x36
 loading_item_info_%03d_%02d_xb1
+loading_item_name_%03d_%02d_ps3
+loading_item_name_%03d_%02d_ps4
+loading_item_name_%03d_%02d_x36
 loading_item_name_%03d_%02d_xb1
+loading_prestory_%d_%03d_ps3
+loading_prestory_%d_%03d_ps4
+loading_prestory_%d_%03d_x36
 loading_prestory_%d_%03d_xb1
+loading_tips_info_%03d_%02d_ps3
+loading_tips_info_%03d_%02d_ps4
+loading_tips_info_%03d_%02d_x36
 loading_tips_info_%03d_%02d_xb1
+loading_tips_name_%03d_%02d_ps3
+loading_tips_name_%03d_%02d_ps4
+loading_tips_name_%03d_%02d_x36
 loading_tips_name_%03d_%02d_xb1
+loading_weapon_info_%03d_%02d_ps3
+loading_weapon_info_%03d_%02d_ps4
+loading_weapon_info_%03d_%02d_x36
 loading_weapon_info_%03d_%02d_xb1
+loading_weapon_name_%03d_%02d_ps3
+loading_weapon_name_%03d_%02d_ps4
+loading_weapon_name_%03d_%02d_x36
 loading_weapon_name_%03d_%02d_xb1
 loadlib
 loadstring
@@ -18285,6 +19063,8 @@ logCount
 log_speaker_%d
 logf
 logger
+loginid_password
+long
 longVoice
 longitude
 lookAtCharacterId
@@ -18294,15 +19074,20 @@ lookatOffset
 lookingTime
 loop in gettable
 loop in settable
+loop or previous error loading module '%s'
 loopCount
 lostLevel
 lostSearchRadius
 lostTimer
+lothControlParam
+lothControlUnitParam
+lothSettingData
 lowCylinderIntrusion
 lowCylinderScrSpeed
 lowCylinderStreach
 lowCylinderTexture
 lowModelBasePath
+lower
 lpsh
 lpshFile
 lrun
@@ -18314,6 +19099,7 @@ lu@
 lua
 lua gc framework
 luaopen_%s
+lugin
 lumen
 luminance
 luminanceScale
@@ -18342,11 +19128,14 @@ magazineParameterTable
 magazineSelectableCost
 main
 main function has more than %d %s
+main.m_position
 mainBucket
 mainGuardIndex
 mainLives
 mainRotorBoneName
 malformed number
+malformed pattern (ends with '%%')
+malformed pattern (missing ']')
 manager
 manualTurnInterp_NormalCrawl
 manualTurnInterp_NormalSquat
@@ -18359,6 +19148,7 @@ margin
 marginLastNearChara
 markerId
 markerType
+markingEnemyCount
 markingScore
 marking_enemy_count
 mas
@@ -18441,13 +19231,17 @@ maxXAxisAngle
 maxYAxisAngle
 maxn
 mbFile
+mbTerminalCount
 mbType
+mb_location_%02d
 mb_menu_%s
 mb_menu_info_%s
 mb_terminal_count
 mcf
 measureTime
+medalCount
 medal_count
+member
 memberCharacterIds
 memberRouteIds
 members
@@ -18526,8 +19320,10 @@ minXAxisAngle
 minYAxisAngle
 minimumTurningRadius
 minute
+missing '[' after '%%f' in pattern
 mission
 missionBlockSize
+missionId
 missionSetupFile
 missionWeaponBlockCount
 missionWeaponBlockSize
@@ -18559,6 +19355,7 @@ modelRotRange
 modelRotY
 modf
 module
+module '%s' not found:%s
 mog
 monetary
 month
@@ -18674,10 +19471,12 @@ mtar
 mtl
 multiScatteringOrder
 munmap
+must be string \"StopAtFull\" or \"Loop\".
 mz@
 m|@
 m~@
 m~D
+n error
 n&A
 n(A
 n->
@@ -18696,12 +19495,15 @@ nB?
 nG@
 nH>
 nH@
+nPoints
 nY-
 nZ@
 n[@
 n]?iJ
 n`@
 name
+name conflict for module '%s'
+name(
 nameArray
 nameBase
 nameInArchive
@@ -18736,6 +19538,7 @@ needCollisionCheck
 needMembersCount
 needRecoil
 needSearchDistance
+needTag
 needToAddPreprocessDestination
 needToPassThroughGoal
 needTurn
@@ -18750,6 +19553,7 @@ network_reset
 network_unreachable
 neutralPlayerSearchRadius
 neutralSwitchEvent
+neutralizeCount
 neutralize_count
 new
 new-zealand
@@ -18784,6 +19588,8 @@ nextTimeRate
 nextTrigger
 nfills
 nflushes
+nfoTable
+ng too long
 nhbins
 nightSkyAmbientScale
 nightSkyLightScale
@@ -18792,8 +19598,11 @@ nightSwitchEvent
 nil
 nil or table expected
 nio::HttpsSocket
+nio::PollSocket
+nitHandleEntity
 nj@
 nk+
+nknown error
 nl-BE
 nl-NL
 nl-be
@@ -18827,6 +19636,7 @@ no such device or address
 no such file or directory
 no such process
 no value
+noAlertClearCount
 noChase
 noControlHeightWithNoMotion
 noDamage
@@ -18834,6 +19644,8 @@ noDamageMode
 noDamageTime
 noHitSkinMesh
 noJob
+noKillClearCount
+noKillNoAlertClearTime
 noPauseMode
 noReaction
 no_alert_clear_count
@@ -18861,6 +19673,7 @@ noiseSeType
 noiseTagName
 noiseType
 nonact
+none
 normal
 normalFloorTexPath
 normalOffset
@@ -18888,6 +19701,8 @@ noticeSubType
 noticeThreatPos
 noticeType
 noticeUsingSearchLight
+nown error
+npId
 npid
 npurge
 nr@
@@ -18901,6 +19716,7 @@ nt=l
 nta
 ntdll.dll
 nthreads
+ntrol
 nuS
 null
 num
@@ -18912,6 +19728,7 @@ numBreakedModelLimit
 numDirections
 numDiv
 numDynamicGimmick
+numHistory
 numLightProbes
 numObjects
 numPlugins
@@ -18971,6 +19788,7 @@ obrbFile
 observer
 observerTag
 occluderArrayFile
+odicActor
 oe@
 off
 offLights
@@ -19037,6 +19855,8 @@ offsetType
 offsetX
 offsetY
 offsets
+offsetx
+offsetz
 oldName
 oldSklMatrixFootBL
 oldSklMatrixFootBR
@@ -19055,13 +19875,18 @@ oneWayRadioFlow
 onesideWheelDriveTime
 oneside_wheel_drive_time
 onlyOnce
+ontrolElement
+ontrolParam
+ontroller
 oo?
 oo@
 opRadio
 opReinforceLimit
 opReinforceUnit
 open
+openDoorTime
 open_door_time
+openingClosingTime
 operation canceled
 operation in progress
 operation not permitted
@@ -19074,6 +19899,30 @@ operator
 opponentId
 ops
 opt
+opt.abort
+opt.dss
+opt.junk
+opt.lg_chunk
+opt.lg_dirty_mult
+opt.lg_prof_interval
+opt.lg_prof_sample
+opt.lg_tcache_max
+opt.narenas
+opt.prof
+opt.prof_accum
+opt.prof_active
+opt.prof_final
+opt.prof_gdump
+opt.prof_leak
+opt.prof_prefix
+opt.quarantine
+opt.redzone
+opt.stats_print
+opt.tcache
+opt.utrace
+opt.valgrind
+opt.xmalloc
+opt.zero
 optionTags
 oq@
 or@
@@ -19104,6 +19953,7 @@ outputPropertyNames
 outputPropertyTypes
 override
 owG
+own error
 owner
 owner dead
 ownerChara
@@ -19142,6 +19992,7 @@ p.)A
 p.B@
 p/?
 p/G@
+p/set<T> too long
 p0?
 p0B@
 p0z@
@@ -19267,6 +20118,7 @@ paraCrawlMoveRLWalkSpeed
 paraMoveMaxRate
 paraMoveMinRate
 param
+param1
 param2
 paramComponent
 paramContainer
@@ -19320,6 +20172,7 @@ pathFixedPackPath
 pathIdArray
 pathUpdateDist
 pathfindOptionEnableFlags
+pathid_list_ps4.bin
 pathid_list_win64_stm.bin
 patrolRoute
 patrolRouteId
@@ -19337,6 +20190,7 @@ pcall
 pd>
 pdirty
 pd~@
+penetrationDecayCurve
 penumbraAngle
 percept
 perchesOnEdges
@@ -19380,6 +20234,7 @@ physicsFile
 pi9@
 pickUpWeaponPos
 pickup
+pickupWeaponCount
 pickup_weapon_count
 pidSpeedDt
 pidSpeedEta
@@ -19397,6 +20252,7 @@ pivotPoint
 pivotTransform
 pivotTranslation
 pixSampleNum
+pixel/poly org:%.1f lod:%.1f (%.1f)\n
 piz@
 pjL@
 pj^@
@@ -19416,6 +20272,7 @@ planValueCount
 planeMatrices
 platform
 platforminfo
+playCount
 playEvent
 playRange
 playSpeedRate
@@ -19428,7 +20285,13 @@ playerHeadPos
 playerId
 playerLocator
 playerName
+player_id
+player_list
+player_name
+player_num
 playingRoot
+playstation4
+playtime
 plgBody
 plgBodyHandle
 plgBodyName
@@ -19469,6 +20332,9 @@ positionInterpRate
 positionL
 positionLocator
 positionValidity
+positionX
+positionY
+positionZ
 position_x
 position_y
 position_z
@@ -19551,9 +20417,16 @@ proto
 protocol error
 protocol not supported
 protocol_not_supported
+ps_alpha
+ps_format
+ps_htileField
+ps_layout
+ps_offset
+ps_tiles
 pseudoAbsorption
 pseudoDiffusion
 pseudoshade
+psn:s2s
 pt-BR
 pt-PT
 pt-br
@@ -19616,6 +20489,7 @@ quest_lp
 questionRadioId
 question_%d
 quickFlag
+quietStaticModel
 quizId
 quz-BO
 quz-EC
@@ -19640,6 +20514,7 @@ rC?
 rQ@
 rR@
 rSwizzle
+rTable
 rU<
 rU@
 rValue
@@ -19650,6 +20525,7 @@ radialShift
 radialSlope
 radioCharacterId
 radioClearHearingRange
+radioCount
 radioDialog
 radioFlow
 radioGroupName
@@ -19681,11 +20557,14 @@ radio_weather_management
 radius
 radius2
 radiusLevel
+radiusMax
+radiusMin
 rainColor
 rainEffect
 rainFilter
 rainRate
 rainRtpc
+rameterTable
 random
 randomAgainstWind
 randomColorMax
@@ -19706,6 +20585,7 @@ rangePosZ
 rangeRotX
 rangeRotY
 rangeRotZ
+rankSClearCount
 rank_a
 rank_b
 rank_c
@@ -19714,6 +20594,7 @@ rank_s
 rank_s_clear_count
 rate
 rateArray
+ravityControl
 rawFile
 rawFiles
 rawequal
@@ -19727,6 +20608,7 @@ rbs
 rbuttons
 rdb
 rdf
+reaInterferencePost
 reachPoint
 reactionAreaBoxShapes
 reactionPointIndexes
@@ -19774,6 +20656,7 @@ reflectionCubeMapTexPath
 reflectionTexturePath
 reflectionTexturePathForGoOut
 reflexScore
+region
 registerName
 rejectFarRangeShadowCast
 relatedBlockGroups
@@ -19810,6 +20693,7 @@ requests
 requirdTime
 require
 requires
+rescueHostage
 rescuePazTime
 rescue_hostage
 reserveDisableActionList
@@ -19878,12 +20762,20 @@ ridevehiclebase
 ridevehicledeck
 rig
 rigFilePath
+right 
 rightHandName
 rightstick
 righttrigger
+ring too long
 risk
+rivalId
+rivalNpid
+rivalXuid
+rival_id
 rival_list
+rival_npid
 rival_num
+rival_xuid
 ro-RO
 ro-ro
 roadNoiseNormalLeft
@@ -19960,8 +20852,10 @@ routePointNo
 routeSet
 routeSets
 routeSleepTimeRest
+rpRate
 rqg
 rqid
+rrogationTable
 rt@
 rtmRouteConditionScript
 rtpcName
@@ -19978,6 +20872,7 @@ running
 runtime error 
 rus
 rustle
+rved
 s)A
 s,@
 s4?
@@ -19994,6 +20889,19 @@ sQ@
 sT>
 sY>
 s_?
+s_destUints
+s_destination
+s_downsampleRate
+s_dstHtileHiS
+s_dstHtileLinear
+s_dstHtilePitchInBytes
+s_dstHtileZCompBase
+s_source
+s_srcHtileHiS
+s_srcHtileLinear
+s_srcHtilePitchInBytes
+s_srcHtileZCompBase
+s_srcUints
 sa-IN
 sa-in
 sab
@@ -20025,6 +20933,8 @@ sceneId
 sceneName
 schedulePriority
 scopeParameterTable
+scoreList
+scoreNum
 score_list
 score_num
 screenMarginX
@@ -20093,6 +21003,8 @@ sequencesInvalidateFromPref
 serializedGraphNodes
 serverIp
 serverPort
+service_level
+session
 sessionComment
 sessionId
 sessionIsHost
@@ -20102,6 +21014,7 @@ sessionStateName
 session_crypto
 session_key
 set
+setBaseAddress
 setMarker
 setModelName
 setfenv
@@ -20226,7 +21139,9 @@ shit
 shk_cam_dashmove
 shk_cam_default
 sholderStrength
+shooter
 short_src
+shotCount
 shot_count
 showBaseLUT
 showFilterLUT
@@ -20251,6 +21166,7 @@ simplificationThreshold
 sin
 singleSquadExec
 sinh
+sion
 situationEvent
 size
 sizeMax
@@ -20260,6 +21176,7 @@ sizeScaleMax
 sizeScaleMin
 sizeX
 sizeZ
+sizes
 sk-SK
 sk-sk
 skelList
@@ -20282,6 +21199,7 @@ skyLocator
 sl-SI
 sl-si
 sleepAngularVelocityTh
+sleepCount
 sleepDamage
 sleepDamageCount
 sleepDamageTime
@@ -20313,6 +21231,7 @@ sma-SE
 sma-no
 sma-se
 small
+smart_device_id
 smj-NO
 smj-SE
 smj-no
@@ -20344,6 +21263,7 @@ snipeAreaRadius
 snipePoints
 sniperRange
 sob_lp
+soldierCount
 soldier_count
 sootRadiusExplosion
 sort
@@ -20411,6 +21331,7 @@ speedToRendezvousPoint
 speedTurbulentCycle
 speedTurbulentRate
 sphereCheckSize
+sphereSimulation
 spotLightLifeMax
 spotLightLifeMin
 spotLightLumen
@@ -20442,6 +21363,7 @@ squatMoveSubjectFocalLength
 squatSmokeDamageProbability
 squatSubjectFocalInterpRate
 squatSubjectFocalLength
+squatTime
 squat_time
 sr-BA-Cyrl
 sr-BA-Latn
@@ -20451,9 +21373,13 @@ sr-ba-cyrl
 sr-ba-latn
 sr-sp-cyrl
 sr-sp-latn
+srcHtileSurface
 srcNodeNames
 srm
 srmTexture
+ssociation
+ssociationUnitElement
+ssociationUnitParam
 st@
 stabilizeLimit
 stabilizePower
@@ -20512,6 +21438,7 @@ startSlope
 startTag
 startTranslation
 startingState
+state
 state not recoverable
 stateActionPassenger
 stateAimPickUpWeapon
@@ -20682,6 +21609,15 @@ stateUpperHoldToNull
 staticModelArray
 staticProperties
 stats
+stats.active
+stats.allocated
+stats.chunks.current
+stats.chunks.high
+stats.chunks.total
+stats.huge.allocated
+stats.huge.ndalloc
+stats.huge.nmalloc
+stats.mapped
 stats_print
 status
 statusBitFlag
@@ -20689,6 +21625,8 @@ statusName
 stderr
 stdin
 stdout
+stealthClearCount
+stealthClearTime
 stealth_clear_count
 stealth_clear_time
 steam_api64.dll
@@ -20729,12 +21667,14 @@ stopTwist
 stopTwistFlag
 stoppingDamage
 stoppingPower
+stoppingPowerDecayCurve
 storage
 storm_lp
 storyFlagDataMap
 storyFlags
 str
 strArrCategoryPath
+straightRange
 stream end
 stream error
 stream timeout
@@ -20742,6 +21682,7 @@ streamAnimation
 streamBufferSizeInKbytes
 streamPath
 strength
+strengthDecayCurve
 stride
 string
 string length overflow
@@ -20754,6 +21695,7 @@ strykerAroundDistance
 strykerAroundFocalLength
 strykerAroundOffset
 strykerPlugin
+stunCount
 stunHeadshotDistance
 stun_count
 stun_headshot_distance
@@ -20843,6 +21785,8 @@ t9G
 t;C
 t;N
 t?S$G?S$G?
+tArray
+tProbe_DebugMode
 tQ@
 tW@
 tZ:
@@ -20855,6 +21799,7 @@ t`@
 ta-IN
 ta-in
 table
+table index is NaN
 table index is nil
 table or number
 table overflow
@@ -20869,6 +21814,7 @@ tags
 tail
 tail return
 tanh
+tapeFlag
 tape_flag
 target
 target1
@@ -20876,6 +21822,7 @@ target2
 target3
 target4
 targetArray
+targetBoneName
 targetChara
 targetCharacterIds
 targetCharacters
@@ -20920,6 +21867,7 @@ tcache_max
 tcvp
 te-IN
 te-in
+teLoginPrint
 technique
 techniqueName
 temperature
@@ -20942,6 +21890,7 @@ text
 text file busy
 textSpace
 texture
+texture.qar
 textureColorHandling
 textureLUT
 textureMappingRange
@@ -20960,6 +21909,8 @@ then
 thickness
 thinkOutRate
 thread
+thread.allocated
+thread.deallocated
 threatDownTime
 threatIndicatorCheckInterval
 threatIndicatorCheckLength
@@ -20992,6 +21943,7 @@ timeCigaretteStopInterval
 timeCigaretteStopTime
 timeEndPeriod
 timeGetTime
+timeParadoxCount
 timeRateInterpTimeAtEnd
 timeRateInterpTimeAtStart
 timeSpeed
@@ -21021,8 +21973,11 @@ timesToStayNode2
 timesToStayNode3
 timesToStayNode4
 timestamp
+tion
+tion or level expected
 tls
 tlsf_create: Pool size must be at least %d bytes.
+tlsf_create: Pool size must be at least %d bytes.\n
 tlsp
 tm@
 tmp/
@@ -21062,6 +22017,8 @@ too many results to resume
 too many results to unpack
 too many symbolic link levels
 too_many_files_open
+top   
+tor4
 torqueDistributions
 torqueMax
 tostring
@@ -21177,12 +22134,15 @@ tpp Vehicle Plugin
 tpp Vehicle System
 tppPhaseController
 tpp_net_MissionManager_MissionState
+tpp_tmp_announce_param%d
 tppef_rainy
 tr-TR
 tr-tr
 traceback
 trackIndex
 trackNum
+trait
+traits
 transform
 transforms
 translate
@@ -21288,6 +22248,8 @@ uWin64
 uXD
 u[@
 u`-!A
+uder
+uderArray
 ue@
 ufff
 ufff?ff&?
@@ -21318,6 +22280,7 @@ uk-UA
 uk-ua
 ull
 ulower
+ultTable
 umbraAngle
 unable to dump given function
 unable to generate a unique filename
@@ -21352,6 +22315,7 @@ unrealMoveSpeeds
 unrealizeRange
 unrecognized type.
 until
+unusedWeaponClearTime
 unused_weapon_clear_time
 uo@
 upL
@@ -21361,6 +22325,8 @@ updateJobCount
 updateModelFlags
 updateSeconds
 updated
+updater/%llx%s.update
+updater\\compatibility\\versions.xml
 uppCloudCover
 uppCloudRepeats
 uppCloudRotation
@@ -21374,6 +22340,8 @@ upvalue
 upvalues
 ur-PK
 ur-pk
+url_list
+url_num
 us@
 usa
 useAnimControlJobs
@@ -21405,14 +22373,19 @@ useStartOperation
 useStopOperation
 useTarget
 useTwoStepAnim
+useWeapon
 use_weapon
+used
 userData
 userHandlers
 userId
 userName
+userProfile
 userRandomSeed
 userSubId
 userTags
+user_id
+user_name
 userdata
 uservice_level
 usingCharacters
@@ -21446,6 +22419,7 @@ valgrind
 validMatrix
 validation
 value
+value \"%s\" cannot be converted to enum \"%s\".
 value expected
 value too large
 value(%s) cannot convert to an enum Value
@@ -21568,6 +22542,7 @@ vw8
 vw;
 v~??5~?
 v~?R
+w = %.2f, 
 w A
 w f
 w!A
@@ -21644,6 +22619,7 @@ wideCheckRange
 width
 willLock
 win64
+winTMSFwinTWPFwinTLSPwinTMSUwin
 windActiveDistance
 windAmplitude
 windCoefficient
@@ -21664,7 +22640,9 @@ window_uig_mb_mission_info
 wireframe
 wl@
 wm@
+wn error
 wn>Jj
+wobbling
 wobblingAdjustCrawlIdle
 wobblingAdjustCrawlMove
 wobblingAdjustSquatIdle
@@ -21683,6 +22661,7 @@ wps
 wrap
 write
 wrong number of arguments
+wrong number of arguments to 'insert'
 wrong protocol type
 wrong_protocol_type
 wss2
