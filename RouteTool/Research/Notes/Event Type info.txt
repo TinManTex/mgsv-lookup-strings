@@ -4,8 +4,6 @@ Edge events:
 Unknown:
 1875147223: 16 - 4 files, afgh free, couple of missions, 1 quest - mostly used in caution routes, but not always, also in some walker routes
 41204288: 288 - vehicle related
-4125130163: 896 - params: none - fob, uav
-728879063: 3483 - edge - free, missions, fob - heli apr,drp, and a heap of unknown routenames, often paired with DropPoint event for most routes but never for fob (which doesn use DropPoint). Possibly force snake to door?
 
 Common or possibly generally usable:
 : 168 - Params: none, 4 files - possibly used as dummy node where there was edge but no event nodes, either that or a editor bug or user error (though seems too consistant for latter)
@@ -22,8 +20,10 @@ Move: 32646 - Params: can be all 0, Param7: 0 50 100 200 300 400 500 600 700 800
 MoveFast: 144944 - fob only - soldier, uav
 MoveNormal: 34288 - Params Can be all 0
 MoveSlow: 3496 - fob - soldier, uav
+MoveVeryFast: 896 - params: none - fob, uav
 None: 51488 - Params: none - 71 files - free, quest, mission
 Normal: 61290 - Params: can be all 0, mission, fob, quest - soldier, heli, animal
+PermitGettingOff: 3483 - edge - free, missions, fob - heli apr,drp, and a heap of unknown routenames, often paired with DropPoint event for most routes but never for fob (which doesn use DropPoint). Possibly force snake to door?
 RelaxedRun: 2439 - Params: none- 18 files
 RelaxedStandWalk: 449 - Params: none 
 RelaxedStandWalkAct: 45825 - Params can be all 0 - 227 files 
@@ -77,8 +77,6 @@ Node events:
 Unknown:
 2343446301: 22 - mafr_common, unknown routes - include vanish and opendoor, so a heli route?
 2358641809: 1 - s10081_area - rts_spy_alert
-2481191805: 6 - seems to have params similar to SendMessage? a typo version, or alternate?
-2617377844: 1 - s10120_area.frt - rts_s10120_d_TppLiquid2
 2674482002: 27 - s10260_area - A Quiet Exit - vehicle
 2795470991: 1 - s10150_area02 - rts_skull_walk_afterEV - skull face
 3589755714: 1 - mafr_common - unknown route
@@ -111,6 +109,7 @@ StandIdle: 535 -
 StandSearch: 714
 SwitchRoute: 2484 - 1, 1013711027, 0, 0, 0, 0, [route]"rt_villageEast_d_0000_no_watchtower_sub", (condition)"IsGimmickBroken", 2496863726, 0, 
 SyncRoute: 23 - missions
+TakeHostageOutOfVehicle: 6 - seems to have params similar to SendMessage? a typo version, or alternate?
 UseFlashLight: 2956 - missions, quests, free, fob - soldier, heli,
 UseSearchLight: 1075 - soldier, heli
 
@@ -132,6 +131,7 @@ Caution: 39 - Params: unk1: always 1, unk2 ? may values - frts s10030_area only 
 CurtainIn: 3 - prologue
 CurtainOut: 4 - prologue
 Demo: 5
+SitInChair: 1 - s10120_area.frt - rts_s10120_d_TppLiquid2
 
 Fire: 1 - frts s10010_l01
 
