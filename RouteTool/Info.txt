@@ -1,17 +1,15 @@
-RouteTool
-route_name_dictionary.txt
-StrCode32 of route names
+frt
 
-route_event_parameter_dictionary.txt
-StrCode32 of event params, likely to contain false collision matches/not completely validated.
+Hashes gathered from game files using FoxLibDumper: https://github.com/TinManTex/FoxLibDumper
 
-route_event_name_dictionary.txt
-StrCode32 of route event names
+Hashes in file format:
+RouteNames - StrCode32
+RouteEventNames - StrCode32
+RouteEventParameters - StrCode32
 
-
-route_dictionary_HashStringMatches.txt - useful for figuring out what the discovered string was when you have only the hash (you have a file/note from older dictionary).
-
-RouteTool? outputs hashes
+Further notes for hash wrangling:
+RouteEventParameters - Odd duck, Collection of 10 parameters per node, some of which may or may not be hashes depending on the type of RouteEvent. 
+Currently all the parameters were dumped as if they were hashes.
 
 Currently TPP only.
 
