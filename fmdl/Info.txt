@@ -1,0 +1,26 @@
+FmdlTool / Fmdl Studio
+fmdl_dictionary.txt - Default dictionary
+Tpp format fmdls have two hash tables
+nameHashes - StrCode64
+textureHashes - PathCode64
+
+Hashes output from FmdlTool fork https://github.com/TinManTex/FmdlTool using -OutputHashes option
+
+Default fmdl_dictionary is combined Tpp/Mgo
+qar_dictionary can be used for texture dictionary, though I have gathered hashes and compiled dictionaries for analysis sake named texture_dictionary
+
+fmdl_dictionary_HashStringMatches.txt - useful for figuring out what the discovered string was when you have only the hash (you have a file from older dictionary).
+
+FmdlTool\Hashes\StrCode64\Tpp\
+\All folder The full nameHash table dumps of fmdls.
+All_unique.txt - the combined/sorted/unqified of All
+bone,materials,meshGroup,texureType,unknown - individual output of specific hashes, though currently they dont tally with all.
+
+FmdlTool\Dictionaries\ 
+bone,materials,meshGroup,texureType,unknown - matches of different sub types, not currently up to date but useful to get an idea of what the strings are.
+
+
+Finding strings:
+Name hashes:
+Theres a lot of object names that can either be derived from parts of paths/file name or parts of fox2 names.
+Should also try object names with MESH_ prefix and SKL_<nnn> prefix (SKL bones are better to run through dictionary attack though with object names as words) 
