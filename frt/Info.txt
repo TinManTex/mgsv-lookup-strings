@@ -2,25 +2,6 @@ frt
 
 Hashes gathered from game files using FoxLibDumper: https://github.com/TinManTex/FoxLibDumper
 
-Hashes in file format:
-RouteNames - StrCode32
-RouteEventNames - StrCode32
-RouteEventParameters - StrCode32
-
 Further notes for hash wrangling:
 RouteEventParameters - Odd duck, Collection of 10 parameters per node, some of which may or may not be hashes depending on the type of RouteEvent. 
 Currently all the parameters were dumped as if they were hashes.
-
-Currently TPP only.
-
-Route event name Stats:
-unmatchedHashes    [ 11/117] - 9.40171%
-matchedHashes      [106/117] - 90.59829%
-
-Route name Stats:
-unmatchedHashes    [ 9906/31879] - 31.07375%
-matchedHashes      [21973/31879] - 68.92625%
-
-Route event param Stats:
-Ignore the total count, since not all params are Str32
-matchedHashes      [   836/104995] - 0.7962283%
