@@ -1,0 +1,10 @@
+FoxKit FormVariation dictionaries
+
+fv2_dictionary - can mostly just use the fmdl_dictionary instead.
+Only (tpp) fv2 match currently found thats not in fmdl is 'neck'
+
+fv2_file_dictionary - should use PathFileName dictionary instead 
+
+MeshGroup hashes are combined hiddenMeshGroup and shownMeshGroup parameters.
+
+Hash dump currently incomplete as it was run with the foxlib fv2 implmentation that doesn't handle all fv2 files.
