@@ -5,14 +5,6 @@ Only (tpp) fv2 match currently found thats not in fmdl is 'neck'
 
 fv2_file_dictionary - should use PathFileName dictionary instead 
 
-Tpp
-unmatchedHashes    [1845/4432] - 41.62906%
-matchedHashes      [2587/4432] - 58.37094%
+MeshGroup hashes are combined hiddenMeshGroup and shownMeshGroup parameters.
 
-Mgo
-unmatchedHashes    [431/890] - 48.42697%
-matchedHashes      [459/890] - 51.57304%
-
-Ssd - there's currently no ssd_file_dictionary to test against
-unmatchedHashes    [1112/1330] - 83.60902%
-matchedHashes      [ 218/1330] - 16.39098%
+Hash dump currently incomplete as it was run with the foxlib fv2 implmentation that doesn't handle all fv2 files.
