@@ -1,2 +1,2 @@
-D:\GitHub\HashWrangler\HashWrangler\bin\Debug\HashWrangler.exe "D:\GitHub\mgsv-lookup-strings\GzsTool\Hashes\ssd" "D:\GitHub\mgsv-lookup-strings\GzsTool\Dictionaries\qar_dictionary-test" -HashFunction PathCode64
+D:\GitHub\HashWrangler\HashWrangler\bin\Debug\HashWrangler.exe "D:\GitHub\mgsv-lookup-strings\GzsTool\Hashes\PathCode64\ssd" "D:\GitHub\mgsv-lookup-strings\GzsTool\Dictionaries\qar_dictionary-test" -HashFunction PathCode64
 pause

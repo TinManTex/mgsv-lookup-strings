@@ -1,2 +1,2 @@
-D:\GitHub\HashWrangler\HashWrangler\bin\Debug\HashWrangler.exe "D:\GitHub\mgsv-lookup-strings\GzsTool\Hashes\tpp_pc_1.0.11.0_unique.txt" "D:\GitHub\mgsv-lookup-strings\GzsTool\Dictionaries\qar_dictionary-test" -HashFunction PathCode64
+D:\GitHub\HashWrangler\HashWrangler\bin\Debug\HashWrangler.exe "D:\GitHub\mgsv-lookup-strings\GzsTool\Hashes\PathCode64\tpp" "D:\GitHub\mgsv-lookup-strings\GzsTool\Dictionaries\qar_dictionary-test" -HashFunction PathCode64
 pause
