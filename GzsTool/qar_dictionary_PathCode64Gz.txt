@@ -1,5 +1,6 @@
 /Assets/fox/effect/gr_pic/base_FILTERLUT
 /Assets/fox/effect/gr_pic/default_reflection
+/Assets/fox/effect/gr_pic/material_params.fmtt
 /Assets/fox/effect/gr_pic/materials_alp_rgba32_nomip
 /Assets/fox/effect/gr_pic/materials_alp_rgba32_nomip_nrt
 /Assets/fox/effect/gr_pic/reflection_planes_nomip_rgba32
@@ -387,6 +388,7 @@
 /Assets/tpp/chara/uss/Pictures/uss0_eqhn0_def_nrm
 /Assets/tpp/chara/uss/Pictures/uss0_eqhn0_def_srm
 /Assets/tpp/chara/uss/Pictures/uss0_eqwp0_def_dtm
+/Assets/tpp/chara/uss/Pictures/uss0_face2_def_bsm
 /Assets/tpp/chara/uss/Pictures/uss0_hand0_def_bsm
 /Assets/tpp/chara/uss/Pictures/uss0_hand0_def_dtm
 /Assets/tpp/chara/uss/Pictures/uss0_hand0_def_nrm
@@ -1091,6 +1093,9 @@
 /Assets/tpp/common_source/fmtr/decal/guantanamo/cm_gntn_dc_grvl001/sourceimages/cm_gntn_dc_grvl001_bsm_alp
 /Assets/tpp/common_source/fmtr/decal/guantanamo/cm_gntn_dc_grvl001/sourceimages/cm_gntn_dc_grvl001_nrm
 /Assets/tpp/common_source/fmtr/decal/guantanamo/cm_gntn_dc_grvl001/sourceimages/cm_gntn_dc_grvl001_srm
+/Assets/tpp/common_source/fmtr/decal/guantanamo/cm_gntn_dc_grvl002/sourceimages/cm_gntn_dc_grvl002_bsm_alp
+/Assets/tpp/common_source/fmtr/decal/guantanamo/cm_gntn_dc_grvl002/sourceimages/cm_gntn_dc_grvl002_nrm
+/Assets/tpp/common_source/fmtr/decal/guantanamo/cm_gntn_dc_grvl002/sourceimages/cm_gntn_dc_grvl002_srm
 /Assets/tpp/common_source/fmtr/decal/guantanamo/cm_gntn_dc_mrkn001/sourceimages/cm_gntn_dc_mrkn001_bsm_alp
 /Assets/tpp/common_source/fmtr/decal/guantanamo/cm_gntn_dc_mrkn001/sourceimages/cm_gntn_dc_mrkn001_nrm
 /Assets/tpp/common_source/fmtr/decal/guantanamo/cm_gntn_dc_mrkn001/sourceimages/cm_gntn_dc_mrkn001_srm
@@ -1326,6 +1331,8 @@
 /Assets/tpp/common_source/ui/common_texture/cm_ui_icon_state_a_blr
 /Assets/tpp/common_source/ui/common_texture/cm_ui_icon_state_b
 /Assets/tpp/common_source/ui/common_texture/cm_ui_icon_state_b_alp
+/Assets/tpp/common_source/ui/common_texture/cm_ui_line_circle_128
+/Assets/tpp/common_source/ui/common_texture/cm_ui_line_circle_256
 /Assets/tpp/common_source/ui/common_texture/cm_ui_msk_circle_128
 /Assets/tpp/common_source/ui/common_texture/cm_ui_msk_circle_128_clp
 /Assets/tpp/common_source/ui/common_texture/cm_ui_msk_circle_blk_128_clp
@@ -1517,6 +1524,7 @@
 /Assets/tpp/effect/vfx_pic/explosion/fx_expanm02_iy_alp_clp
 /Assets/tpp/effect/vfx_pic/explosion/fx_expanm02_ks_alp_clp
 /Assets/tpp/effect/vfx_pic/explosion/fx_expanm06_ks_alp_clp
+/Assets/tpp/effect/vfx_pic/explosion/fx_expanm06_ks_alp_clp.6.ftexs
 /Assets/tpp/effect/vfx_pic/fire/fx_fir01_iy_alp_clp
 /Assets/tpp/effect/vfx_pic/fire/fx_firanm01_iy_alp_clp
 /Assets/tpp/effect/vfx_pic/fire/fx_firanm02_iy_alp_clp
@@ -1631,6 +1639,8 @@
 /Assets/tpp/effect/vfx_pic/splash/fx_splwtr23_ks_alp_clp
 /Assets/tpp/effect/vfx_pic/splash/fx_splwtr24_ks_alp_clp
 /Assets/tpp/effect/vfx_pic/view/fx_viw_dstfrc01n_km
+/Assets/tpp/effect/vfx_pic/view/fx_viwdmgdir01_iy_alp_clp
+/Assets/tpp/effect/vfx_pic/view/fx_viwdmgdir02_iy_alp_clp
 /Assets/tpp/effect/vfx_pic/view/fx_viwdmgdir03_iy_clp
 /Assets/tpp/effect/vfx_pic/view/fx_viwdst01_iy_alp_clp
 /Assets/tpp/effect/vfx_pic/view/fx_viwdst02_iy_alp_clp
@@ -2998,6 +3008,13 @@
 /Assets/tpp/environ/object/old_mother_base/wood_box/ombs_wdbx002/sourceimages/ombs_wdbx002_bsm
 /Assets/tpp/environ/object/old_mother_base/wood_box/ombs_wdbx002/sourceimages/ombs_wdbx002_nrm
 /Assets/tpp/environ/object/old_mother_base/wood_box/ombs_wdbx002/sourceimages/ombs_wdbx002_srm
+/Assets/tpp/font/arabia.ffnt
+/Assets/tpp/font/font_def_jp.ffnt
+/Assets/tpp/font/font_def_ltn.ffnt
+/Assets/tpp/font/font_def_rus.ffnt
+/Assets/tpp/font/KanjiFont.ffnt
+/Assets/tpp/font/LatinFont.ffnt
+/Assets/tpp/font/russian.ffnt
 /Assets/tpp/item/bin/Pictures/bin0_main0_def_c00_bsm
 /Assets/tpp/item/bin/Pictures/bin0_main0_def_mtm
 /Assets/tpp/item/bin/Pictures/bin0_main0_def_nrm
@@ -3120,8 +3137,11 @@
 /Assets/tpp/level/location/gntn/block_common/gntn_common_sequence
 /Assets/tpp/level/location/gntn/block_common/gntn_common_stage
 /Assets/tpp/level/location/gntn/block_common/gntn_common_ter_bsm
+/Assets/tpp/level/location/gntn/block_common/gntn_common_ter_bsm.6.ftexs
 /Assets/tpp/level/location/gntn/block_common/gntn_common_ter_nrm
+/Assets/tpp/level/location/gntn/block_common/gntn_common_ter_nrm.6.ftexs
 /Assets/tpp/level/location/gntn/block_common/gntn_common_ter_srm
+/Assets/tpp/level/location/gntn/block_common/gntn_common_ter_srm.6.ftexs
 /Assets/tpp/level/location/gntn/block_common/gntn_vehicle_block_controller
 /Assets/tpp/level/location/gntn/block_mission/EnemyConversation_gntn
 /Assets/tpp/level/location/gntn/block_mission/gntn_common_packages
@@ -3274,6 +3294,7 @@
 /Assets/tpp/mecha/plv/Pictures/plv0_tire0_def_c00_bsm
 /Assets/tpp/mecha/plv/Pictures/plv0_tire0_def_nrm
 /Assets/tpp/mecha/plv/Pictures/plv0_tire0_def_srm
+/Assets/tpp/mecha/plv/ProgramData/plv.vpc
 /Assets/tpp/mecha/sbh/Pictures/sbh0_cnst0_def_c00_bsm_alp
 /Assets/tpp/mecha/sbh/Pictures/sbh0_glas0_def_c00_bsm_alp
 /Assets/tpp/mecha/sbh/Pictures/sbh0_glss1_def_hgt
@@ -3300,6 +3321,7 @@
 /Assets/tpp/mecha/sbh/Pictures/sbh0_main0_def_nrm
 /Assets/tpp/mecha/sbh/Pictures/sbh0_main0_def_srm
 /Assets/tpp/mecha/sbh/Pictures/sbh0_mark0_def_c00_bsm_alp
+/Assets/tpp/mecha/smt/ProgramData/easternSmt.vpc
 /Assets/tpp/mecha/uth/Pictures/uth0_intr1_def_c00_bsm
 /Assets/tpp/mecha/uth/Pictures/uth0_intr1_def_nrm
 /Assets/tpp/mecha/uth/Pictures/uth0_intr1_def_srm
@@ -3350,6 +3372,7 @@
 /Assets/tpp/mecha/wav/Pictures/wav1_turt0_def_lbm
 /Assets/tpp/mecha/wav/Pictures/wav1_turt0_def_nrm
 /Assets/tpp/mecha/wav/Pictures/wav1_turt0_def_srm
+/Assets/tpp/mecha/wav/ProgramData/wav.vpc
 /Assets/tpp/motherbase/gmpEarnMissions
 /Assets/tpp/pack/collectible/common/col_common
 /Assets/tpp/pack/heli/gntn_heli
@@ -3548,6 +3571,7 @@
 /Assets/tpp/sound/asset/env_gntn_common
 /Assets/tpp/sound/asset/env_gz_title
 /Assets/tpp/sound/asset/gz_endroll
+/Assets/tpp/sound/asset/Init.bnk
 /Assets/tpp/sound/asset/p11_010100
 /Assets/tpp/sound/asset/p11_010110
 /Assets/tpp/sound/asset/p11_010115
@@ -3668,6 +3692,7 @@
 /Assets/tpp/ui/ModelAsset/gz_title/Pictures/UI_gz_title_logo_alp
 /Assets/tpp/ui/ModelAsset/gz_title/Pictures/UI_gz_title_logo_blr_alp
 /Assets/tpp/ui/ModelAsset/gz_title/Pictures/UI_gz_title_msn_icon_a
+/Assets/tpp/ui/ModelAsset/gz_title/Pictures/UI_gz_title_msn_icon_b
 /Assets/tpp/ui/ModelAsset/gz_title/Pictures/UI_gz_title_msn_logo_1
 /Assets/tpp/ui/ModelAsset/gz_title/Pictures/UI_gz_title_msn_logo_1_blr
 /Assets/tpp/ui/ModelAsset/gz_title/Pictures/UI_gz_title_msn_logo_10
@@ -3869,6 +3894,24 @@
 /Assets/tpp/ui/texture/Logo/sys_quiz_logo_ttl_1
 /Assets/tpp/ui/texture/Logo/sys_quiz_logo_ttl_2
 /Assets/tpp/ui/texture/Logo/sys_quiz_logo_ture
+/Assets/tpp/ui/texture/Manual/steam/jp/eng/game_manual01
+/Assets/tpp/ui/texture/Manual/steam/jp/eng/game_manual02
+/Assets/tpp/ui/texture/Manual/steam/jp/eng/game_manual03
+/Assets/tpp/ui/texture/Manual/steam/jp/eng/game_manual04
+/Assets/tpp/ui/texture/Manual/steam/jp/eng/game_manual05
+/Assets/tpp/ui/texture/Manual/steam/jp/eng/game_manual06
+/Assets/tpp/ui/texture/Manual/steam/jp/eng/game_manual07
+/Assets/tpp/ui/texture/Manual/steam/jp/eng/game_manual08
+/Assets/tpp/ui/texture/Manual/steam/jp/eng/game_manual09
+/Assets/tpp/ui/texture/Manual/steam/jp/jpn/game_manual01
+/Assets/tpp/ui/texture/Manual/steam/jp/jpn/game_manual02
+/Assets/tpp/ui/texture/Manual/steam/jp/jpn/game_manual03
+/Assets/tpp/ui/texture/Manual/steam/jp/jpn/game_manual04
+/Assets/tpp/ui/texture/Manual/steam/jp/jpn/game_manual05
+/Assets/tpp/ui/texture/Manual/steam/jp/jpn/game_manual06
+/Assets/tpp/ui/texture/Manual/steam/jp/jpn/game_manual07
+/Assets/tpp/ui/texture/Manual/steam/jp/jpn/game_manual08
+/Assets/tpp/ui/texture/Manual/steam/jp/jpn/game_manual09
 /Assets/tpp/ui/texture/Manual/steam/na/deu/game_manual01
 /Assets/tpp/ui/texture/Manual/steam/na/deu/game_manual02
 /Assets/tpp/ui/texture/Manual/steam/na/deu/game_manual03
@@ -3947,6 +3990,7 @@
 /Assets/tpp/ui/texture/map/gntn_building/gntn_camp_omega_out_alp_clp
 /Assets/tpp/ui/texture/map/gntn_photo_alp_clp
 /Assets/tpp/ui/texture/map/gntn_photo_clp
+/Assets/tpp/ui/texture/map/gntn_photo_clp.6.ftexs
 /Assets/tpp/ui/texture/map/gntn_photo_clp_nmp
 /Assets/tpp/ui/texture/Photo/mb_photo_empty_alp
 /Assets/tpp/ui/texture/screencapture/screencapture_decal_480_alp
@@ -4181,12 +4225,16 @@
 /Fox/Scripts/Language/LanguageInit
 /init
 /shaders/dx11/FxShaders_dx11
+/shaders/dx11/FxShaders_dx11.fsop
 /shaders/dx11/FxShadersNoLnm_dx11
 /shaders/dx11/GrModelShaders_dx11
+/shaders/dx11/GrModelShaders_dx11.fsop
 /shaders/dx11/GrModelShadersNoLnm_dx11
 /shaders/dx11/GrSystemShaders_dx11
+/shaders/dx11/GrSystemShaders_dx11.fsop
 /shaders/dx11/GrSystemShadersNoLnm_dx11
 /shaders/dx11/TppShaders_dx11
+/shaders/dx11/TppShaders_dx11.fsop
 /shaders/dx11/TppShadersNoLnm_dx11
 /Tpp/Scripts/Characters/Actions/ActionTppClimbPath
 /Tpp/Scripts/Characters/Actions/ActionTppDemo
