@@ -1,7 +1,10 @@
 GzsTool
 qar_dictionary.txt - Default dictionary
-PathCode64,PathCode64Gz of qar archive files.
+PathCode64 of qar archive files.
 Default dictionary is combined Tpp,Mgo,Gz,PT dictionary.
+
+gzs_dictionary.txt - ground zeroes dictionary, use with GzsTool 0.2, rename to qar_dictionary.txt
+PathCode64Gz of qar archive files.
 
 qar_dictionary_HashStringMatches.txt - useful for figuring out what the discovered string was when you have only the hash (you have a file from older dictionary).
 
@@ -16,8 +19,8 @@ unmatchedHashes    [ 9027/26579] - 33.9629%
 matchedHashes      [17552/26579] - 66.03709%
 
 Stats GZ:
-unmatchedHashes    [ 346/4697] - 7.366404%
-matchedHashes      [4351/4697] - 92.6336%
+unmatchedHashes    [ 298/4697] - 6.344475%
+matchedHashes      [4399/4697] - 93.65553%
 
 extensions_dictionary.txt
 Hashes output from Gzstool fork: github.com/TinManTex/GzsTool/
