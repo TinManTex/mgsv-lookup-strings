@@ -1,0 +1,863 @@
+
+ [{0}] x {1}
+(максимальный ранг: {0})
+: Выполняем поиск
+: Контрольная точка установлена
+: Объявляем боевую тревогу
+: Переходим в боевое состояние
+: Продолжаем патрулирование
+: Смена караула
+Battle Gear отремонтирован [GMP -{0}]
+Battle Gear тяжело поврежден [героизм -{0}]
+Battle Gear: Покинул зону задания
+Battle Gear: Прибыл в точку выброски
+D-Dog при смерти [героизм -{0}]
+D-Dog: Найден контейнер с материалами
+D-Dog: Найдена мина
+D-Dog: Найдено лекарственное растение
+D-Dog: Найдено оружие
+D-Dog: Найдены необработанные алмазы
+D-Dog: Обнаружен пленник
+D-Dog: Обнаружен противник
+D-Dog: Обнаружено дикое животное
+D-Dog: Покинул зону задания
+D-Dog: Прибыл в точку выброски
+D-Horse при смерти [героизм -{0}]
+D-Horse: Покинул зону задания
+D-Horse: Прибыл в точку выброски
+D-Walker отремонтирован [GMP -{0}]
+D-Walker тяжело поврежден [героизм -{0}]
+D-Walker: Атака завершена
+D-Walker: Включен режим автопоиска
+D-Walker: Включен режим невидимости
+D-Walker: Включен режим перехвата
+D-Walker: Включен режим управления камерой
+D-Walker: Включен режим управления оружием
+D-Walker: Включен стандартный режим
+D-Walker: Обнаружен противник
+D-Walker: Обнаружен противник, атакую
+D-Walker: Покинул зону задания
+D-Walker: Прибыл в точку выброски
+D-Walker: Пускаю сигнальную ракету
+D-Walker: Режим автопоиска отключен
+D-Walker: Режим невидимости отключен
+D-Walker: Режим отключен
+D-Walker: Режим перехвата отключен
+D-Walker: Ставлю дым
+Key
+Text
+Walker Gear [{0}] x {1}
+[{0}] - выполнено:
+[{0}] - отменено
+[{0}]: захват [очки ПБ +{1}]
+[{0}]: ликвидация [очки ПБ +{1}]
+[{0}]: провал
+[{0}]: уничтожение [очки ПБ +{1}]
+[{0}]: уничтожение противником [очки ПБ -{1}]
+[{0}]: успех
+[{0}]: эвакуация [очки ПБ +{1}]
+[{0}]: эвакуация противником [очки ПБ -{1}]
+[Нарушитель] уничтожен [очки ПБ +{0}]
+[Поддерживаемый] игрок вызывает подкрепление
+[Поддерживаемый] игрок предлагает провести учения
+announce_10_nuclear_destruction
+announce_achievement_medal
+announce_achievemnt_award
+announce_add_alt_horse
+announce_add_alt_machine
+announce_add_delivery_point
+announce_alldev_arm
+announce_alldev_assault
+announce_alldev_bgear
+announce_alldev_dd
+announce_alldev_dh
+announce_alldev_dw
+announce_alldev_grenade_launcher
+announce_alldev_handgun
+announce_alldev_heli
+announce_alldev_item
+announce_alldev_machinegun
+announce_alldev_mb
+announce_alldev_missile
+announce_alldev_pri_wp
+announce_alldev_pri_wp_b
+announce_alldev_quiet
+announce_alldev_sec_wp
+announce_alldev_shotgun
+announce_alldev_sniper
+announce_alldev_sprt_wp
+announce_alldev_submachine
+announce_alldev_suit
+announce_alldev_tool
+announce_animal_protection
+announce_approach_border
+announce_approaching_threat
+announce_arm_update
+announce_arrived
+announce_base_dev
+announce_battle_report
+announce_bgear_dying
+announce_bgear_escape
+announce_bgear_lz
+announce_bgear_recovery
+announce_boy_died
+announce_collection_enemy
+announce_collection_hostage
+announce_comm_cutoff
+announce_cross_medal
+announce_ddog_closeness_down
+announce_ddog_closeness_down2
+announce_ddog_dying
+announce_ddog_escape
+announce_ddog_find_animal
+announce_ddog_find_container
+announce_ddog_find_diamond
+announce_ddog_find_enemy
+announce_ddog_find_hostage
+announce_ddog_find_mine
+announce_ddog_find_plant
+announce_ddog_find_weapon
+announce_ddog_lz
+announce_ddog_recovery
+announce_destroy_APC
+announce_destroy_AntiAirCraftGun
+announce_destroy_heli
+announce_destroy_radar
+announce_destroy_radio
+announce_destroy_tower
+announce_destroy_truck
+announce_destroy_vehicle
+announce_destroyed_skull
+announce_destroyed_support_heli
+announce_dev_requirements_met
+announce_develop_complete
+announce_dhorse_escape
+announce_dhorse_lz
+announce_disposal_decoy
+announce_disposal_mine
+announce_disposal_mine2
+announce_disposal_minefield
+announce_doc_add
+announce_dwalker_attack_enemy
+announce_dwalker_attack_stop
+announce_dwalker_camera_start
+announce_dwalker_dying
+announce_dwalker_escape
+announce_dwalker_find_enemy
+announce_dwalker_fire_flare
+announce_dwalker_fire_smoke
+announce_dwalker_intercept_start
+announce_dwalker_intercept_stop
+announce_dwalker_lz
+announce_dwalker_mode_cancel
+announce_dwalker_normal_start
+announce_dwalker_recovery
+announce_dwalker_search_start
+announce_dwalker_search_stop
+announce_dwalker_stealth_start
+announce_dwalker_stealth_stop
+announce_dwalker_weapon_start
+announce_enemyDecrease
+announce_enemyIncrease
+announce_enemyRecovered
+announce_enemyReplacement
+announce_esp_container_fulton_a
+announce_esp_container_fulton_d
+announce_esp_destroy_a
+announce_esp_destroy_d
+announce_esp_fulton_a
+announce_esp_fulton_d
+announce_esp_kill_a
+announce_esp_kill_d
+announce_esp_kill_target_d
+announce_esp_killstaff_a
+announce_esp_killstaff_d
+announce_esp_marking_d
+announce_esp_pf_a
+announce_extention_max_fob1
+announce_extention_max_fob2
+announce_extention_max_fob3
+announce_extention_max_fob4
+announce_extention_max_mb
+announce_extract_4wd
+announce_extract_APC
+announce_extract_animal
+announce_extract_antiair
+announce_extract_boddy
+announce_extract_boy
+announce_extract_corpse
+announce_extract_em_char
+announce_extract_em_string
+announce_extract_gunsheat
+announce_extract_keyitem
+announce_extract_max_rank
+announce_extract_mortar
+announce_extract_plant
+announce_extract_prisoner
+announce_extract_processed_res
+announce_extract_puppy
+announce_extract_resouce
+announce_extract_skull_fog
+announce_extract_soldier
+announce_extract_staff
+announce_extract_tank
+announce_extract_truck
+announce_extract_walker_gear
+announce_extraction_arrived
+announce_extraction_failed
+announce_fame_down
+announce_fame_up
+announce_fin_nuclear_destruction
+announce_fin_nuclear_develop
+announce_find_container
+announce_find_diamond
+announce_find_em_back
+announce_find_em_char
+announce_find_em_front
+announce_find_em_string
+announce_find_keyitem
+announce_find_plant
+announce_find_processed_res
+announce_fob1
+announce_fob2
+announce_fob3
+announce_fob4
+announce_fob_add
+announce_fob_batrayed
+announce_fob_betray
+announce_fob_damage
+announce_fob_def_failed
+announce_fob_def_failed_pra
+announce_fob_def_reward
+announce_fob_def_success
+announce_fob_def_success_pra
+announce_fob_find_intruder
+announce_fob_find_intruder_fob1
+announce_fob_find_intruder_fob2
+announce_fob_find_intruder_fob3
+announce_fob_find_intruder_fob4
+announce_fob_found
+announce_fob_gmp
+announce_fob_helper_arrive
+announce_fob_helper_escape
+announce_fob_intruder_escape
+announce_fob_leave_fob1
+announce_fob_leave_fob2
+announce_fob_leave_fob3
+announce_fob_leave_fob4
+announce_fob_leave_mb
+announce_fob_log_update
+announce_fob_practice_fin
+announce_fob_req_help
+announce_fob_req_practice
+announce_fob_req_support
+announce_fob_sneaking_failed
+announce_fob_support_done
+announce_fob_visit_fob1
+announce_fob_visit_fob2
+announce_fob_visit_fob3
+announce_fob_visit_fob4
+announce_fob_visit_mb
+announce_fob_wormhole_from
+announce_fob_wormhole_to
+announce_func_resume
+announce_func_suspend
+announce_gauge
+announce_get_ammo_type
+announce_get_blueprint
+announce_get_bullet_artillery
+announce_get_bullet_default
+announce_get_bullet_grenade
+announce_get_bullet_stun
+announce_get_bullet_tranq
+announce_get_diamond
+announce_get_film_case
+announce_get_fulton_d
+announce_get_fulton_w
+announce_get_gravure
+announce_get_hero
+announce_get_intel_file
+announce_get_invoice
+announce_get_item
+announce_get_photo
+announce_get_poster
+announce_get_suppressor
+announce_get_tape
+announce_get_weapon
+announce_get_wgear
+announce_get_xof
+announce_gmp_cost_attack
+announce_gmp_cost_fulton
+announce_gmp_cost_heli
+announce_gmp_cost_ops
+announce_gmp_cost_supply
+announce_gmp_in_red
+announce_gmp_reward
+announce_gmp_spent
+announce_guradpost_neutralize
+announce_heli_arrive_LZ
+announce_heli_arrive_RV
+announce_heli_arrive_target
+announce_heli_escape
+announce_heli_seating_target
+announce_honor_award
+announce_honor_medal
+announce_horse_closeness_down
+announce_horse_closeness_down2
+announce_horse_dying
+announce_horse_recovery
+announce_hostage_died
+announce_immigration_angola
+announce_immigration_zaire
+announce_left_hot_zone
+announce_lifesaving
+announce_looting_weapon
+announce_lost_hero
+announce_map_update
+announce_mb
+announce_mbstaff_died
+announce_mbstaff_died_injuries
+announce_mbstaff_died_pestilence
+announce_medical
+announce_mercenary_dispatch
+announce_mission_40_20030_004_from_0_prio_0
+announce_mission_add
+announce_mission_add_emerg
+announce_mission_area_warning
+announce_mission_del_emerg
+announce_mission_goal
+announce_mission_goal_num
+announce_mission_info_update
+announce_mission_list_update
+announce_new_threat
+announce_nuclear_zero
+announce_objective_complete
+announce_objective_complete_num
+announce_online_900_from_0_prio_0
+announce_online_910_from_0_prio_0
+announce_ops_destroy_4wd
+announce_ops_destroy_armerd
+announce_ops_destroy_tank
+announce_ops_destroy_truck
+announce_ops_destroy_wg
+announce_ops_failed
+announce_ops_failed_mission
+announce_ops_get_gmp
+announce_ops_get_item
+announce_ops_get_resource
+announce_ops_log_update
+announce_ops_staff_dead
+announce_ops_staff_proficiency_inc
+announce_ops_success
+announce_ops_success_mission
+announce_ops_volunteer
+announce_outpost_neutralize
+announce_phase_to_alert
+announce_phase_to_caution
+announce_phase_to_evasion
+announce_phase_to_sneak
+announce_platform_add
+announce_platform_add_RD
+announce_platform_add_animal
+announce_platform_add_base_dev
+announce_platform_add_combat
+announce_platform_add_command
+announce_platform_add_intel
+announce_platform_add_medical
+announce_platform_add_multi
+announce_platform_add_nuclear
+announce_platform_add_quarantine
+announce_platform_add_support
+announce_proficiency_inc_l
+announce_proficiency_inc_m
+announce_proficiency_inc_s
+announce_quest_add
+announce_quest_arrive
+announce_quest_complete
+announce_quest_defeat_armor
+announce_quest_defeat_armor_vehicle
+announce_quest_defeat_tunk
+announce_quest_defeat_zombie
+announce_quest_delete
+announce_quest_disposal_mine
+announce_quest_extract_elite
+announce_quest_extract_hostage
+announce_quest_list_update
+announce_quest_name
+announce_quest_target_destroy
+announce_quiet_aim_granade
+announce_quiet_aiming
+announce_quiet_attack
+announce_quiet_attack_stop
+announce_quiet_closeness_down
+announce_quiet_closeness_down2
+announce_quiet_discharge
+announce_quiet_dying
+announce_quiet_escape
+announce_quiet_move_start
+announce_quiet_move_stop
+announce_quiet_no_aiming
+announce_quiet_recovery
+announce_quiet_request
+announce_quiet_sneaking
+announce_quiet_snipe_point
+announce_quiet_spy_to_snipe
+announce_quiet_to_clinic
+announce_realization
+announce_refresh
+announce_res_dev_report
+announce_res_develop
+announce_search_plant
+announce_search_resource
+announce_sec_staff_proficiency_inc_m
+announce_sec_staff_proficiency_inc_s
+announce_staff_dead
+announce_staff_discharge
+announce_staff_dismissed
+announce_staff_dying
+announce_staff_escape
+announce_staff_liberation
+announce_staff_morale_down
+announce_staff_morale_up
+announce_staff_num
+announce_staff_poor_environment
+announce_staff_release
+announce_staff_skill
+announce_staff_to_brig
+announce_staff_to_clinic
+announce_staff_to_isolate
+announce_staff_trouble_happen
+announce_strike_prep_complete
+announce_strike_request_received
+announce_sunrise
+announce_sunset
+announce_supplies_drop
+announce_supply_item
+announce_support_area_warning
+announce_support_boddy_standby
+announce_support_callboddy_received
+announce_support_callheli_received
+announce_support_request_received
+announce_support_request_update
+announce_support_res_luck
+announce_target_destroy
+announce_target_destroy_a
+announce_target_died
+announce_target_dying
+announce_target_eliminate
+announce_target_eliminate_a
+announce_target_eliminate_failed
+announce_target_extract
+announce_target_extract_a
+announce_target_extract_failed
+announce_target_extract_num
+announce_task_complete
+announce_threat_departed
+announce_threat_within_outpost
+announce_tool_update
+announce_trial_add
+announce_trial_cansel
+announce_trial_length
+announce_trial_num
+announce_trial_time
+announce_trial_update
+announce_unit_func_add
+announce_unit_lvdown_RD
+announce_unit_lvdown_base_dev
+announce_unit_lvdown_combat
+announce_unit_lvdown_intel
+announce_unit_lvdown_medical
+announce_unit_lvdown_security
+announce_unit_lvdown_support
+announce_unit_lvmax_RD
+announce_unit_lvmax_base_dev
+announce_unit_lvmax_combat
+announce_unit_lvmax_intel
+announce_unit_lvmax_medical
+announce_unit_lvmax_security
+announce_unit_lvmax_support
+announce_unit_lvup_RD
+announce_unit_lvup_base_dev
+announce_unit_lvup_combat
+announce_unit_lvup_intel
+announce_unit_lvup_medical
+announce_unit_lvup_security
+announce_unit_lvup_support
+announce_unlock_lz
+announce_vehicle_drop
+announce_weaponType_pb
+announce_weaponType_ph
+announce_weaponType_s
+announce_weaponType_sup
+announce_weather_cloudy
+announce_weather_fog
+announce_weather_rain
+announce_weather_sandstorm
+announce_weather_sunny
+{0}
+{0} открывает портал возмездия
+{0} получает крест \
+{0} получает медаль \
+{0} получает медаль Почета
+{0},{1} [м]
+{0}: ваше предательство раскрыто
+{0}: портал возмездия открыт
+{0}: предательство раскрыто
+{0}: цель уничтожена
+{0}:{1}.{2}
+Аванпост захвачен [героизм +{0}]
+Активы [GMP +{0}]
+Боевой дух персонала повысился
+Боевой дух персонала понизился
+Боевой отряд: Боевой доклад
+Бродячая марионетка уничтожена [{0}/{1}]
+Бронемашина уничтожена
+Бронетранспортер [{0}] x {1}
+Вертолет поддержки уничтожен [героизм -{0}]
+Вертолет поддержки: Покинул район задания
+Вертолет поддержки: Прибыл в район цели
+Вертолет поддержки: Прибыл к месту посадки
+Вертолет поддержки: Цель на борту
+Вертолет прибыл в место встречи
+Вклад в сокращение ядерного вооружения [героизм +{0}]
+Внедорожник [{0}] х {1}
+Внедорожник уничтожен
+Внешнее задание [{0}] выполнено:
+Внешнее задание [{0}] провалено: 
+Восстановление физических и душевных сил
+Вспомогательное оружие
+Вы лишились позывного \
+Вы на территории Анголы
+Вы на территории Заира
+Вы получили позывной \
+Вы уничтожены [очки ПБ -{0}]
+Вы эвакуированы [очки ПБ -{0}]
+Выздоровели и покинули лазарет: {0}
+Выздоровели и покинули платформу-изолятор: {0}
+Вызов поддержки ({0})
+Выслан новый D-Horse [GMP -{0}]
+Выслан новый вертолет [GMP -{0}]
+Выход из горячей зоны
+Главная база:
+Главная платформа готова [героизм +{0}]
+Главное оружие (НА БЕДРЕ)
+Главное оружие (НА СПИНЕ)
+Грузовик уничтожен
+Дикое животное [{0}] x {1}
+Дикое животное [детеныш] x {0}
+Добавлен документ
+Добавлена новая миссия
+Добавлена функция подразделения [{0}]
+Доброволец x {0}
+Добытые материалы [{0}] x {1}
+Доставка наемников [GMP +{0}]
+Доставлен генератор портала
+Доставлена система \
+Доставлены предметы
+Достигнут макс. уровень боевого отряда [героизм +{0}]
+Достигнут макс. уровень медицинского отряда [героизм +{0}]
+Достигнут макс. уровень научно-исследовательского отдела [героизм +{0}]
+Достигнут макс. уровень отряда поддержки [героизм +{0}]
+Достигнут макс. уровень отряда разведки [героизм +{0}]
+Достигнут макс. уровень отряда развития базы [героизм +{0}]
+Достигнут макс. уровень сторожевого отряда [героизм +{0}]
+Достигнут предел расширения ПБ 1 [героизм +{0}]
+Достигнут предел расширения ПБ 2 [героизм +{0}]
+Достигнут предел расширения ПБ 3 [героизм +{0}]
+Достигнут предел расширения ПБ 4 [героизм +{0}]
+Достигнут предел расширения главной базы [героизм +{0}]
+Достигнута граница зоны поддержки
+Достигнута цель задания [{0}/{1}]
+Доступно все вооружение Battle Gear [героизм +{0}]
+Доступно все вооружение вертолета поддержки [героизм +{0}]
+Доступно все оборудование D-Dog [героизм +{0}]
+Доступно все оборудование D-Horse [героизм +{0}]
+Доступно новое место посадки
+Доступны все виды вспомогательного оружия [героизм +{0}]
+Доступны все виды оружия Молчуньи [героизм +{0}]
+Доступны все виды оружия базы [героизм +{0}]
+Доступны все виды оружия поддержки [героизм +{0}]
+Доступны все виды основного оружия (бедро) [героизм +{0}]
+Доступны все виды основного оружия (спина) [героизм +{0}]
+Доступны все гранатометы [героизм +{0}]
+Доступны все дробовики [героизм +{0}]
+Доступны все инструменты [героизм +{0}]
+Доступны все пистолеты [героизм +{0}]
+Доступны все пистолеты-пулеметы [героизм +{0}]
+Доступны все предметы [героизм +{0}]
+Доступны все пулеметы [героизм +{0}]
+Доступны все пусковые установки [героизм +{0}]
+Доступны все снайперские винтовки [героизм +{0}]
+Доступны все штурмовые винтовки [героизм +{0}]
+Дружественных Walker Gear уничтожено: {0}
+Дружественных бронемашин уничтожено: {0}
+Дружественных внедорожников уничтожено: {0}
+Дружественных грузовиков уничтожено: {0}
+Дружественных танков уничтожено: {0}
+Жертвы среди персонала
+Животное спасено [героизм +{0}] [GMP +{1}]
+Журнал внешнего задания обновлен:
+Журнал задания ПБ обновлен:
+Задание выполнено
+Задания выполнены
+Задания выполнены [{0}/{1}]
+Задача выполнена [{0}/{1}]
+Закат близок
+Замечен нарушитель [героизм +{0}]
+Захвачен караульный пост [героизм +{0}]
+Захвачен контейнер с материалами [{0}] х {1}
+Захвачен транспорт противника
+Зенитное орудие [{0}] X {1}
+Инструментов обновлено: [{0}]
+Информация на карте обновлена
+Информация о миссии обновлена:
+Испытание отменено:
+КП \
+Квалификация внешнего персонала повышена
+Квалификация немного повышена
+Квалификация повышена
+Квалификация сторожевого отряда немного повышена
+Квалификация сторожевого отряда повышена
+Квалификация существенно повышена
+Клетка-ловушка [{0}] x {1}
+Ключевой предмет [{0}]
+Контейнер с материалами [{0}] х {1}
+Лекарственное растение [{0}] x {1}
+Машина [{0}] x {1}
+Медицинский отряд:
+Мин обезврежено: {0}/{1} [героизм +{2}]
+Мина обезврежена [{0}/{1}]
+Мина обезврежена [героизм +{0}]
+Минное поле обезврежено
+Миномет [{0}] x {1}
+Многоцелевая платформа готова [героизм +{0}]
+Молчунья выздоровела и покинула лазарет
+Молчунья помещена в лазарет
+Молчунья при смерти [героизм -{0}]
+Молчунья: Вступаю в бой
+Молчунья: Выдвигаюсь
+Молчунья: Готова к выстрелу
+Молчунья: Готова к рикошету гранаты
+Молчунья: Жду указаний
+Молчунья: Заняла новую позицию
+Молчунья: Не могу стрелять
+Молчунья: Покинула зону задания
+Молчунья: Прибыла на снайперскую позицию
+Молчунья: Проникаю на аванпост
+Молчунья: Разведка завершена. Заняла снайперскую позицию
+Молчунья: Требуется эвакуация
+На ПБ 1 замечен нарушитель
+На ПБ 2 замечен нарушитель
+На ПБ 3 замечен нарушитель
+На ПБ 4 замечен нарушитель
+Найдена часть эмблемы [слово: {0}]
+Найдено лекарственное растение [{0}] x {1}
+Найдены необработанные алмазы [GMP +{0}]
+Найдены переработанные материалы [{0}] x {1}
+Нападение на ПБ отражено
+Нападение на ПБ отражено (учения)
+Напарник x {0}
+Нарушитель на ПБ
+Научно-исследовательская платформа готова [героизм +{0}]
+Не удалось защитить ПБ
+Не удалось защитить ПБ (учения)
+Не удалось уничтожить цель
+Не удалось эвакуировать цель
+Необработанные алмазы [GMP +{0}]
+Новая точка доставки
+Новое испытание:
+Новое экстренное задание
+Новые побочные задания
+Новый рекорд испытания:
+Обнаружен [нарушитель] [очки ПБ +{0}]
+Обнаружено проникновение
+Обнаружено проникновение [героизм -{0}]
+Обновлен список побочных заданий:
+Оборвите все связи с внешним миром
+Орудие [{0}] x {1}
+Оружие поддержки
+Отметка удалена (прибытие в район цели)
+Отправлены в лазарет: {0}
+Отправлены на гауптвахту: {0}
+Отправлены на платформу-изолятор: {0}
+Отрицательный баланс GMP
+Отрицательный баланс ухудшает рабочую атмосферу
+Отряд поддержки: Запрос на вертолет принят
+Отряд поддержки: Запрос на доставку принят [{0}]
+Отряд поддержки: Запрос на снабжение принят
+Отряд поддержки: Запрос на снабжение принят. Отмена предыдущего запроса.
+Отряд поддержки: Запрос на удар принят
+Отряд поддержки: Наносим удар
+Отряд поддержки: Подготовка к доставке завершена: [{0}]
+Отряд поддержки: Припасы сброшены
+Отряд поддержки: Транспорт сброшен
+Отряд поддержки: Эвакуация провалена
+Отряд разведки: В вашем районе ожидается дождь
+Отряд разведки: В вашем районе ожидается облачность
+Отряд разведки: В вашем районе ожидается песчаная буря
+Отряд разведки: В вашем районе ожидается туман
+Отряд разведки: Замечена новая угроза
+Отряд разведки: Замечена угроза на аванпосте
+Отряд разведки: Замечено приближение угрозы
+Отряд разведки: Обнаружены лекарственные растения
+Отряд разведки: Обнаружены материалы
+Отряд разведки: Погода улучшается
+Отряд разведки: Угроза утратила актуальность
+Отряд развития базы:
+Отряд развития базы: Доклад об обстановке
+ПБ 1:
+ПБ 2:
+ПБ 3:
+ПБ 4:
+ПОБОЧНОЕ ЗАДАНИЕ [{0}]:
+Передовая база готова [героизм +{0}]
+Передовая база повреждена
+Переработанные материалы [{0}] x {1}
+Персонал x {0}
+Плакат [GMP +{0}]
+Платеж [GMP +{0}]
+Платформа боевого отряда готова [героизм +{0}]
+Платформа готова
+Платформа медицинского отряда готова [героизм +{0}]
+Платформа отряда поддержки готова [героизм +{0}]
+Платформа отряда разведки готова [героизм +{0}]
+Платформа отряда развития базы готова [героизм +{0}]
+Платформа содержания животных готова [героизм +{0}]
+Платформа утилизации ядерного оружия готова [героизм +{0}]
+Платформа-изолятор готова [героизм +{0}]
+Пленник x {0}
+Пленник мертв [героизм -{0}]
+Пленный эвакуирован
+Повышен уровень медицинского отряда [УР. {0}]
+Повышен уровень научно-исследовательского отдела [УР. {0}]
+Повышен уровень отряда разведки [УР. {0}]
+Повышен уровень сторожевого отряда [УР. {0}]
+Погибли в бою: {0} [героизм -{1}]
+Поддержка отправлена: 
+Подходит подкрепление противника
+Покинули главную базу: {0} [героизм -{1}]
+Получен боеприпас [{0}]
+Получен глушитель
+Получен ключевой предмет [{0}]
+Получен контейнер с пленкой
+Получен памятный снимок: [{0}]
+Получен плакат [{0}] [GMP +{1}]
+Получен предмет [{0}]
+Получен сотрудник с новым навыком
+Получена аудиокассета: [{0}]
+Получена медаль \
+Получена медаль Почета
+Получена награда за внешнее задание
+Получена награда за оборону ПБ ({0})
+Получена накладная
+Получена часть эмблемы [задний план: {0}]
+Получена часть эмблемы [передний план: {0}]
+Получена часть эмблемы [слово: {0}]
+Получено оружие [{0}]
+Получены боеприпасы для ракетницы: [{0}]
+Получены боеприпасы с транквилизатором: [{0}]
+Получены боеприпасы типа [{0}]
+Получены излишки припасов
+Получены патроны для гранатомета [{0}]
+Получены пневмоволновые боеприпасы [{0}]
+Получены разведданные
+Получены чертежи: [{0}]
+Понижен уровень медицинского отряда [УР. {0}]
+Понижен уровень научно-исследовательского отдела [УР. {0}]
+Понижен уровень отряда разведки [УР. {0}]
+Понижен уровень сторожевого отряда [УР. {0}]
+Посетитель на ПБ 1
+Посетитель на ПБ 2
+Посетитель на ПБ 3
+Посетитель на ПБ 4
+Посетитель на главной базе
+Посетитель покинул ПБ 1
+Посетитель покинул ПБ 2
+Посетитель покинул ПБ 3
+Посетитель покинул ПБ 4
+Посетитель покинул главную базу
+Потрачено [GMP -{0}]
+Превышена численность персонала. Сотрудников уволено: {0}
+Приближение к границе
+Приближение к границе зоны задания\n
+Прибытие в указанный район
+Приманка уничтожена [героизм +{0}]
+Протез руки улучшен: [{0}]
+Противник больше не нейтрализован
+Противник отступил
+Противник покинул зону миссии
+Противник прибыл
+Радар ПВО уничтожен
+Разработано все оборудование D-Walker [героизм +{0}]
+Разработаны все костюмы [героизм +{0}]
+Разработаны все протезы [героизм +{0}]
+Разработка завершена [{0}]
+Разработка ядерного вооружения завершена [героизм -{0}]
+Раны D-Dog залечены [GMP -{0}]
+Раны D-Horse залечены [GMP -{0}]
+Рассвет близок
+Расходы на вертолет: [GMP -{0}]
+Расходы на воздушные удары: [GMP -{0}]
+Расходы на доставку: [GMP -{0}]
+Ребенок x {0}
+Ребенок мертв
+Связь с D-Dog ослабла
+Связь с D-Dog существенно ослабла
+Связь с D-Horse ослабла
+Связь с D-Horse существенно ослабла
+Связь с Молчуньей ослабла
+Связь с Молчуньей существенно ослабла
+Смерти сотрудников из-за болезней и травм: {0} [героизм: -{1}]
+Смерти сотрудников из-за эпидемии: {0} [героизм: -{1}]
+Смерть персонала
+Снабжение невозможно: недостаточно ресурсов [{0}]
+Собрано нашивок XOF: [{0}/{1}]
+Согласились сотрудничать и покинули гауптвахту: {0}
+Солдат \
+Солдат x {0}
+Солдат эвакуирован
+Сотрудник мертв [героизм -{0}]
+Сотрудники устроили драку
+Сотрудников захвачено противником: {0}
+Спаситель [героизм +{0}]
+Список миссий обновлен:
+Стоимость восстановления очков Фултона: [GMP -{0}]
+Стоимость сброса припасов: [GMP -{0}]
+Сторожевая вышка уничтожена
+Сторожевой отряд: Нарушитель отступил
+Танк [{0}] x {1}
+Тело x {0}
+Тяжелая пехота уничтожена [{0}/{1}]
+Удовлетворены требования к развитию [{0}]
+Уничтожен штурмовой вертолет
+Уничтожено зенитное орудие
+Уничтожено подразделение бронемашин [{0}/{1}]
+Уничтожено подразделение танков [{0}/{1}]
+Уничтожьте оборудование связи:
+Уровень боевого подразделения повышен [УР. {0}]
+Уровень боевого подразделения понижен [УР. {0}]
+Уровень подразделения поддержки повышен [УР. {0}]
+Уровень подразделения поддержки понижен [УР. {0}]
+Уровень подразделения развития базы повышен [ур. {0}]
+Уровень подразделения развития базы понижен [УР. {0}]
+Уровень славы повышен [героизм +{0}]
+Уровень славы понижен [героизм -{0}]
+Учения с [поддерживаемым] игроком завершены
+Функция отряда недоступна [{0}] 
+Функция отряда снова доступна [{0}] 
+Цель {0} уничтожена
+Цель {0} эвакуирована
+Цель мертва
+Цель под контролем
+Цель под контролем [{0}/{1}]
+Цель при смерти [героизм -{0}]
+Цель уничтожена [{0}/{1}]
+Цель уничтожена\n
+Цель устранена
+Часть эмблемы [слово: {0}]
+Череп нейтрализован [героизм +{0}]
+Эвакуационный рейс прибыл на главную базу:
+Эвакуирован опытный боец [{0}/{1}]
+Эвакуирован пленник [{0}/{1}]
+Экстренное задание отменено
+Ядерное разоружение завершено [героизм +{0}]
