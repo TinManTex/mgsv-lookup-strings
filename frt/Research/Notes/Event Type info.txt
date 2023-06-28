@@ -3,7 +3,6 @@ TODO: some of the notes about what they were included in was on older bre bugfix
 Edge events:
 Unknown:
 1875147223: 16 - 4 files, afgh free, couple of missions, 1 quest - mostly used in caution routes, but not always, also in some walker routes
-41204288: 288 - vehicle related
 
 Common or possibly generally usable:
 : 168 - Params: none, 4 files - possibly used as dummy node where there was edge but no event nodes, either that or a editor bug or user error (though seems too consistant for latter)
@@ -40,6 +39,7 @@ VehicleBackSlow: 214 -
 VehicleMoveFast: 27637 - missions, freeroam - soldier?, heli, vehicle, rats?
 VehicleMoveNormal: 19633
 VehicleMoveSlow: 3954 - missions, freeroam, quests - soldier?, heli, vehicle, rats?
+VehicleDir: 288 - vehicle related (rail movement) (possible collision)
 
 
 WalkerGearCautionDash: 346
@@ -77,7 +77,6 @@ Node events:
 Unknown:
 2343446301: 22 - mafr_common, unknown routes - include vanish and opendoor, so a heli route?
 2358641809: 1 - s10081_area - rts_spy_alert
-2674482002: 27 - s10260_area - A Quiet Exit - vehicle
 2795470991: 1 - s10150_area02 - rts_skull_walk_afterEV - skull face
 3589755714: 1 - mafr_common - unknown route
 3696614179: 1 - s10120_area.frt - rts_s10120_s_TppLiquid2 - Eli sleep?
@@ -142,6 +141,8 @@ SupineSnipe: 16 - s10050_area - bossquiet
 
 PickUpHoneyBee: 1 - s10040_area - rts_GetHoneyBee_1002
 PutDownHoneyBee: 1 - s10040_area.frt - rts_GetHoneyBee_1003
+
+VehicleAntiPlayerFire: 27 - s10260_area - A Quiet Exit - vehicle
 
 Sally:
 OnBaseRoute: 634 - s10070_area03, sally routes, but also support heli routes? - sally - theres a command SetBaseRoute

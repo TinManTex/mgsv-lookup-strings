@@ -1,7 +1,5 @@
 Edge events
 ===
-41204288
-4125130163
 728879063
 All
 CarryHoneyBee
@@ -22,6 +20,7 @@ Move
 MoveFast
 MoveNormal
 MoveSlow
+MoveVeryFast
 None
 Normal
 RelaxedRun
@@ -37,6 +36,7 @@ StairsDown
 VehicleBackFast
 VehicleBackNormal
 VehicleBackSlow
+VehicleDir
 VehicleMoveFast
 VehicleMoveNormal
 VehicleMoveSlow
@@ -58,11 +58,8 @@ Node events
 2343446301
 2358641809
 2440322811
-2481191805
 2617377844
-2674482002
 2795470991
-2829631605
 3589755714
 3696614179
 3711909737
@@ -94,6 +91,7 @@ OnBaseRoute
 OnTheHill
 OpenDoor
 PileBunker
+PutHostageInVehicle
 Recovery
 RelaxedIdleAct
 RelaxedStandIdle
@@ -109,8 +107,10 @@ StandSearch
 SupineSnipe
 SwitchRoute
 SyncRoute
+TakeHostageOutOfVehicle
 UseSearchLight
 Vanish
+VehicleAntiPlayerFire
 VehicleFire
 VehicleGetIn
 VehicleGetOff
